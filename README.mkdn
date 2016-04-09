@@ -1,0 +1,18 @@
+# HalogenOS
+
+## Getting Started
+
+To get started with HalogenOS, you'll need to get familiar with Git and Repo.
+
+To initialize your local repository using the HalogenOS trees, use a command like this:
+
+```bash
+repo init -u git://github.com/HalogenOS/platform_manifest.git -b XOS-6.0
+```
+
+Then to sync up:
+```bash
+repo sync
+```
+
+For more information on this Github Organization and how it is structured, please read the wiki article
