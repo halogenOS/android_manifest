@@ -5,7 +5,8 @@
 <!-- Begin Remotes -->
 
   <remote 	name="XOS"
-			fetch="https://github.com/HalogenOS/"/>
+			fetch="https://github.com/HalogenOS/"
+			revision="XOS-6.0"/>
 
   <remote	name="caf" 
 			fetch="git://codeaurora.org/" 
