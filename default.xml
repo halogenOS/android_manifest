@@ -45,8 +45,6 @@
   <project groups="device" name="device/google/accessory/arduino"/>
   <project groups="pdk" name="device/google/accessory/demokit"/>
   <project groups="device,fugu,pdk-fs" name="device/google/atv"/>
-  <project groups="device,hammerhead,pdk-fs" name="device/lge/hammerhead"/>
-  <project groups="device,hammerhead,pdk-fs" name="device/lge/hammerhead-kernel"/>
   <project name="device/qcom/common">
     <copyfile dest="build.sh" src="build.sh"/>
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
@@ -467,8 +465,6 @@
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools"/>
   <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="vendor/qcom/opensource/wlan/qcacld-2.0"/>
-  <project name="platform/vendor/qcom/msm8992" path="device/qcom/msm8992"/>
-  <project name="platform/vendor/qcom/plutonium" path="device/qcom/msm8994"/>
 
 <!-- End Code Aurora Forum (CAF) -->
 
