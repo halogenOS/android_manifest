@@ -1,3 +1,5 @@
+<img src="https://raw.github.com/halogenOS/platform_manifest/XOS-6.0/halogenos-logo.png">
+
 # HalogenOS
 
 ## Getting Started
