@@ -4,16 +4,17 @@
 
 <!-- Begin Remotes -->
 
-  <remote 	name="XOS"
-			fetch="https://github.com/HalogenOS/"/>
+  <remote name="XOS"
+	  fetch="https://github.com/HalogenOS/"  
+ 	  revision="XOS-6.0" />
 
-  <remote	name="caf" 
-			fetch="git://codeaurora.org/" 
-			review="codeaurora.org"/>
+  <remote name="caf" 
+	  fetch="git://codeaurora.org/"
+	  revision="LA.BF64.1.2.2_rb4.32" 
+	  review="codeaurora.org" />
 
-  <default 	remote="caf" 
-			revision="LA.BF64.1.2.2_rb4.32"
-			sync-j="4" />
+  <default remote="caf" 
+	   sync-j="4" />
 
 <!-- End Remotes -->
 
