@@ -53,7 +53,6 @@
   <project name="device/qcom/sepolicy"/>
   <project groups="pdk" name="device/sample"/>
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
-  <project name="kernel/msm-3.10" path="kernel"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
   <project groups="pdk" name="platform/art" path="art"/>
   <project groups="pdk" name="platform/bionic" path="bionic"/>
