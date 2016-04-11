@@ -52,7 +52,7 @@
     <copyfile dest="build.sh" src="build.sh"/>
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
-  <project name="device/qcom/sepolicy"/>
+  <project name="device/qcom/sepolicy" path="device/qcom/sepolicy"/>
   <project groups="pdk" name="device/sample"/>
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
