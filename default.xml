@@ -14,7 +14,7 @@
 	  review="codeaurora.org" />
 
   <remote name="github"
-	  fetch="https://github.com/" />
+	  fetch=".." />
 
   <default remote="caf" 
 	   sync-j="4" />
