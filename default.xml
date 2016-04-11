@@ -24,7 +24,7 @@
 <!-- Begin HalogenOS (XOS) -->
 
   <!-- Platform-->
-  <project groups="pdk" name="platform/build" path="build" remote="XOS" >
+  <project groups="pdk" name="android_build" path="build" remote="XOS" >
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
 
