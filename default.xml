@@ -13,6 +13,9 @@
 	  revision="LA.BF64.1.2.2_rb4.32" 
 	  review="codeaurora.org" />
 
+  <remote name="github"
+	  fetch="https://github.com/" />
+
   <default remote="caf" 
 	   sync-j="4" />
 
