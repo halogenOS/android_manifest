@@ -24,9 +24,7 @@
 <!-- Begin HalogenOS (XOS) -->
 
   <!-- Platform-->
-  <project groups="pdk" name="android_build" path="build" remote="XOS" >
-    <copyfile dest="Makefile" src="core/root.mk"/>
-  </project>
+
 
   <!-- Packages -->
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
@@ -37,6 +35,9 @@
 
 <!-- Begin Code Aurora Forum (CAF) -->
 
+  <project groups="pdk" name="platform/build" path="build">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
   <project groups="pdk-cw-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
