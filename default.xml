@@ -37,7 +37,10 @@
 
   <!-- Device -->
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS">
+    <copyfile dest="build.sh" src="build.sh"/>
+    <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
+  </project>
 
 <!-- End HalogenOS (XOS) -->
 
@@ -61,10 +64,6 @@
   <project groups="device" name="device/google/accessory/arduino"/>
   <project groups="pdk" name="device/google/accessory/demokit"/>
   <project groups="device,fugu,pdk-fs" name="device/google/atv"/>
-  <project name="device/qcom/common">
-    <copyfile dest="build.sh" src="build.sh"/>
-    <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
-  </project>
   <project groups="pdk" name="device/sample"/>
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
