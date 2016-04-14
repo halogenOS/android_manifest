@@ -10,7 +10,7 @@
 
   <remote name="caf" 
 	  fetch="git://codeaurora.org/"
-	  revision="LA.BF64.1.2.2_rb4.32" 
+	  revision="LA.BF64.1.2.2_rb4.33" 
 	  review="codeaurora.org" />
 
   <remote name="github"
