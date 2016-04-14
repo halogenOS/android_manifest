@@ -41,6 +41,9 @@
     <copyfile dest="build.sh" src="build.sh"/>
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
+  
+  <!-- External -->
+  <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
 
 <!-- End HalogenOS (XOS) -->
 
@@ -260,7 +263,6 @@
   <project groups="pdk" name="platform/external/safe-iop" path="external/safe-iop"/>
   <project groups="pdk" name="platform/external/scrypt" path="external/scrypt"/>
   <project name="platform/external/selinux" path="external/selinux"/>
-  <project groups="pdk" name="platform/external/sepolicy" path="external/sepolicy"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/skia" path="external/skia"/>
   <project name="platform/external/slf4j" path="external/slf4j"/>
