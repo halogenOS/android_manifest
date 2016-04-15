@@ -44,6 +44,7 @@
   
   <!-- External -->
   <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
+  <project groups="pdk,qcom_msm8x26" name="android_external_skia" path="external/skia" remote="XOS" />
 
 <!-- End HalogenOS (XOS) -->
 
@@ -264,7 +265,6 @@
   <project groups="pdk" name="platform/external/scrypt" path="external/scrypt"/>
   <project name="platform/external/selinux" path="external/selinux"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly"/>
-  <project groups="pdk,qcom_msm8x26" name="platform/external/skia" path="external/skia"/>
   <project name="platform/external/slf4j" path="external/slf4j"/>
   <project groups="pdk-cw-fs" name="platform/external/smali" path="external/smali"/>
   <project groups="pdk" name="platform/external/sonic" path="external/sonic"/>
