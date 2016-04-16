@@ -23,13 +23,15 @@
 
 <!-- Begin HalogenOS (XOS) -->
 
-  <!-- Platform -->
+  <!-- Platform Root -->
   <project groups="pdk" name="android_build" path="build" remote="XOS">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
+  <project groups="pdk" name="android_art" path="art" remote="XOS" />
   
   <!-- Frameworks -->
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
+  <project groups="pdk-cw-fs" name="android_frameworks_base" path="frameworks/base" remote="XOS" />
   
   <!-- Packages -->
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
@@ -71,7 +73,6 @@
   <project groups="pdk" name="device/sample"/>
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
-  <project groups="pdk" name="platform/art" path="art"/>
   <project groups="pdk" name="platform/bionic" path="bionic"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts"/>
@@ -298,7 +299,6 @@
   <project groups="pdk-cw-fs" name="platform/external/zopfli" path="external/zopfli"/>
   <project groups="pdk-cw-fs" name="platform/external/zxing" path="external/zxing"/>
   <project groups="pdk" name="platform/frameworks/av" path="frameworks/av"/>
-  <project groups="pdk-cw-fs" name="platform/frameworks/base" path="frameworks/base"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang"/>
