@@ -28,6 +28,7 @@
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project groups="pdk" name="android_art" path="art" remote="XOS" />
+  <project groups="pdk" name="android_bionic" path="bionic" remote="XOS" />
   
   <!-- Frameworks -->
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
@@ -81,7 +82,6 @@
   <project groups="pdk" name="device/sample"/>
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
-  <project groups="pdk" name="platform/bionic" path="bionic"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts"/>
   <project groups="pdk-cw-fs" name="platform/dalvik" path="dalvik"/>
