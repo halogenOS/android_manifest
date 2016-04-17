@@ -48,6 +48,7 @@
   <!-- External -->
   <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
   <project groups="pdk,qcom_msm8x26" name="android_external_skia" path="external/skia" remote="XOS" />
+  <project groups="pdk" name="android_external_iproute2" path="external/iproute2" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
 
@@ -164,7 +165,6 @@
   <project groups="pdk-cw-fs,qcom_msm8x26" name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng"/>
   <project name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns"/>
   <project groups="pdk" name="platform/external/icu" path="external/icu"/>
-  <project groups="pdk" name="platform/external/iproute2" path="external/iproute2"/>
   <project groups="pdk-cw-fs" name="platform/external/ipsec-tools" path="external/ipsec-tools"/>
   <project groups="pdk-cw-fs" name="platform/external/iptables" path="external/iptables"/>
   <project groups="pdk-cw-fs" name="platform/external/iputils" path="external/iputils"/>
