@@ -52,6 +52,9 @@
 
   <!-- Hardware -->
   <project groups="qcom" name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="XOS" />
+  
+  <!-- Vendor -->
+  <project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" />
 
 <!-- End HalogenOS (XOS) -->
 
