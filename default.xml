@@ -57,6 +57,9 @@
   
   <!-- Vendor -->
   <project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" />
+  
+  <!-- System -->
+  <project groups="pdk" name="android_system_vold" path="system/vold" remote="XOS" />
 
 <!-- End HalogenOS (XOS) -->
 
@@ -470,7 +473,6 @@
   <project groups="pdk" name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/qcom" path="vendor/qcom/opensource/softap"/>
   <project groups="pdk" name="platform/system/security" path="system/security"/>
-  <project groups="pdk" name="platform/system/vold" path="system/vold"/>
   <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"/>
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices"/>
