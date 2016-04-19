@@ -70,6 +70,7 @@
   <!-- Hardware -->
   <project groups="qcom" name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="XOS" />
   <project groups="qcom" name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="XOS" />
+  <project groups="pdk" name="android_hardware_ril" path="hardware/ril" remote="XOS" />
   
   <!-- Vendor -->
   <project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" />
@@ -356,7 +357,6 @@
   <project groups="qcom,qcom_gps" name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project groups="qcom" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
-  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
   <project groups="pdk" name="platform/libcore" path="libcore"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="pdk" name="platform/ndk" path="ndk"/>
