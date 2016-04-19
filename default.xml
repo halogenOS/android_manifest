@@ -55,6 +55,7 @@
   <project groups="pdk" name="android_external_tinyalsa" path="external/tinyalsa" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
+  <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
 
   <!-- Hardware -->
   <project groups="qcom" name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="XOS" />
@@ -107,7 +108,6 @@
   <project groups="pdk-cw-fs" name="platform/external/android-mock" path="external/android-mock"/>
   <project groups="pdk-cw-fs" name="platform/external/androidplot" path="external/androidplot"/>
   <project groups="pdk-cw-fs" name="platform/external/ant-glob" path="external/ant-glob"/>
-  <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native"/>
   <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service"/>
   <project groups="pdk-cw-fs" name="platform/external/antlr" path="external/antlr"/>
   <project groups="pdk-cw-fs" name="platform/external/apache-commons-math" path="external/apache-commons-math"/>
