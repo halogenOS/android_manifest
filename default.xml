@@ -47,6 +47,7 @@
   </project>
   
   <!-- External -->
+  <project groups="pdk-cw-fs" name="android_external_fsck_msdos" path="external/fsck_msdos" remote="XOS" />
   <project groups="pdk,qcom_msm8x26" name="android_external_skia" path="external/skia" remote="XOS" />
   <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
   <project groups="pdk" name="android_external_iproute2" path="external/iproute2" remote="XOS" />
@@ -161,7 +162,6 @@
   <project groups="pdk" name="platform/external/flac" path="external/flac"/>
   <project name="platform/external/fonttools" path="external/fonttools"/>
   <project groups="pdk" name="platform/external/freetype" path="external/freetype"/>
-  <project groups="pdk-cw-fs" name="platform/external/fsck_msdos" path="external/fsck_msdos"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/giflib" path="external/giflib"/>
   <project name="platform/external/glide" path="external/glide"/>
   <project groups="dragon" name="platform/external/google-breakpad" path="external/google-breakpad"/>
