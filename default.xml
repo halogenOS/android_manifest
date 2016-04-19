@@ -65,6 +65,7 @@
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
+  <project name="android_external_mm-dash" path="external/mm-dash" remote="XOS" />  
 
   <!-- Hardware -->
   <project groups="qcom" name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="XOS" />
@@ -247,7 +248,6 @@
   <project groups="pdk" name="platform/external/mdnsresponder" path="external/mdnsresponder"/>
   <project groups="pdk-cw-fs" name="platform/external/mesa3d" path="external/mesa3d"/>
   <project groups="pdk-cw-fs" name="platform/external/messageformat" path="external/messageformat"/>
-  <project name="platform/external/mm-dash" path="external/mm-dash"/>
   <project groups="pdk-cw-fs" name="platform/external/mobicore" path="external/mobicore"/>
   <project name="platform/external/mockftpserver" path="external/mockftpserver"/>
   <project groups="pdk-cw-fs" name="platform/external/mockito" path="external/mockito"/>
