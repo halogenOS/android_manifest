@@ -45,10 +45,11 @@
   </project>
   
   <!-- External -->
-  <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
   <project groups="pdk,qcom_msm8x26" name="android_external_skia" path="external/skia" remote="XOS" />
+  <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
   <project groups="pdk" name="android_external_iproute2" path="external/iproute2" remote="XOS" />
   <project groups="pdk" name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
+  <project groups="pdk" name="android_external_tinycompress" path="external/tinycompress" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
 
@@ -291,7 +292,6 @@
   <project groups="pdk,pdk-cw-fs" name="platform/external/tcpdump" path="external/tcpdump"/>
   <project groups="pdk-cw-fs" name="platform/external/timezonepicker-support" path="external/timezonepicker-support"/>
   <project groups="pdk" name="platform/external/tinyalsa" path="external/tinyalsa"/>
-  <project groups="pdk" name="platform/external/tinycompress" path="external/tinycompress"/>
   <project groups="pdk" name="platform/external/tinyxml" path="external/tinyxml"/>
   <project groups="pdk" name="platform/external/tinyxml2" path="external/tinyxml2"/>
   <project groups="pdk" name="platform/external/toybox" path="external/toybox"/>
