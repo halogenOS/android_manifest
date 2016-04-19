@@ -55,6 +55,8 @@
   <project groups="pdk" name="android_external_tinyalsa" path="external/tinyalsa" remote="XOS" />
   <project groups="pdk" name="android_external_apache-http" path="external/apache-http" remote="XOS" />
   <project groups="pdk" name="android_external_elfutils" path="external/elfutils" remote="XOS" />
+  <project groups="pdk" name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" />
+  <project groups="pdk" name="android_external_jpeg" path="external/jpeg" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
@@ -142,7 +144,6 @@
   <project groups="drm_gralloc" name="platform/external/drm_gralloc" path="external/drm_gralloc"/>
   <project groups="drm_hwcomposer" name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer"/>
   <project groups="pdk-cw-fs" name="platform/external/droiddriver" path="external/droiddriver"/>
-  <project groups="pdk" name="platform/external/e2fsprogs" path="external/e2fsprogs"/>
   <project groups="pdk-cw-fs" name="platform/external/easymock" path="external/easymock"/>
   <project name="platform/external/ebtables" path="external/ebtables"/>
   <project groups="pdk-cw-fs" name="platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder"/>
@@ -188,7 +189,6 @@
   <project groups="pdk" name="platform/external/jhead" path="external/jhead"/>
   <project groups="pdk-cw-fs" name="platform/external/jmdns" path="external/jmdns"/>
   <project groups="pdk-cw-fs" name="platform/external/jmonkeyengine" path="external/jmonkeyengine"/>
-  <project groups="pdk" name="platform/external/jpeg" path="external/jpeg"/>
   <project groups="pdk-cw-fs" name="platform/external/jsilver" path="external/jsilver"/>
   <project groups="pdk" name="platform/external/jsmn" path="external/jsmn"/>
   <project groups="pdk-cw-fs" name="platform/external/jsoncpp" path="external/jsoncpp"/>
