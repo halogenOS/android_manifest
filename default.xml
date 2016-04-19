@@ -24,6 +24,7 @@
 <!-- Begin HalogenOS (XOS) -->
 
   <!-- Platform Root -->
+  <project groups="pdk-cw-fs" name="android_development" path="development" remote="XOS" />
   <project groups="pdk" name="android_build" path="build" remote="XOS">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
@@ -114,7 +115,6 @@
   <project name="platform/developers/demos" path="developers/demos"/>
   <project groups="pdk-cw-fs" name="platform/developers/docs" path="developers/docs"/>
   <project groups="pdk-cw-fs" name="platform/developers/samples/android" path="developers/samples/android"/>
-  <project groups="pdk-cw-fs" name="platform/development" path="development"/>
   <project groups="pdk-cw-fs" name="platform/docs/source.android.com" path="docs/source.android.com"/>
   <project groups="pdk" name="platform/external/aac" path="external/aac"/>
   <project groups="pdk-cw-fs" name="platform/external/android-clat" path="external/android-clat"/>
