@@ -73,6 +73,7 @@
 
   <!-- Hardware -->
   <project groups="qcom_wlan" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="XOS" />
+  <project groups="qcom_wlan" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="XOS" revision="XOS-6.0-caf" />
   <project groups="qcom" name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="XOS" />
   <project groups="qcom" name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="XOS" />
   <project groups="qcom" name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="XOS" />
