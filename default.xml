@@ -59,6 +59,7 @@
   <project groups="pdk" name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" />
   <project groups="pdk" name="android_external_jpeg" path="external/jpeg" remote="XOS" />
   <project groups="pdk" name="android_external_f2fs-tools" path="external/f2fs-tools" remote="XOS" />
+  <project groups="pdk" name="platform_external_mksh" path="external/mksh" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
@@ -244,7 +245,6 @@
   <project groups="pdk" name="platform/external/mdnsresponder" path="external/mdnsresponder"/>
   <project groups="pdk-cw-fs" name="platform/external/mesa3d" path="external/mesa3d"/>
   <project groups="pdk-cw-fs" name="platform/external/messageformat" path="external/messageformat"/>
-  <project groups="pdk" name="platform/external/mksh" path="external/mksh"/>
   <project name="platform/external/mm-dash" path="external/mm-dash"/>
   <project groups="pdk-cw-fs" name="platform/external/mobicore" path="external/mobicore"/>
   <project name="platform/external/mockftpserver" path="external/mockftpserver"/>
