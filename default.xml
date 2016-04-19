@@ -42,7 +42,6 @@
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS">
     <copyfile dest="build.sh" src="build.sh"/>
-    <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
   
   <!-- External -->
