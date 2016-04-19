@@ -33,6 +33,7 @@
   
   <!-- Frameworks -->
   <project groups="pdk-cw-fs" name="android_frameworks_base" path="frameworks/base" remote="XOS" />
+  <project groups="pdk" name="android_frameworks_av" path="frameworks/av" remote="XOS" />
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
   <project groups="pdk" name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="XOS" />
   
@@ -75,8 +76,10 @@
   <project groups="qcom" name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="XOS" />
   <project groups="qcom" name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="XOS" />
   <project groups="pdk" name="android_hardware_ril" path="hardware/ril" remote="XOS" />
+  <project groups="pdk" name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" />
   
   <!-- Vendor -->
+  <project name="android_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="XOS" />
   <project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" />
   <project name="android_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="XOS" />
   <project name="android_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="XOS" />
@@ -85,6 +88,7 @@
   <project groups="pdk" name="android_system_media" path="system/media" remote="XOS" />
   <project groups="pdk" name="android_system_vold" path="system/vold" remote="XOS" />
   <project groups="pdk" name="android_system_extras" path="system/extras" remote="XOS" />
+  <project groups="pdk" name="android_system_core" path="system/core" remote="XOS" />
   <project name="android_system_qcom" path="system/qcom" remote="XOS" />
 
 <!-- End HalogenOS (XOS) -->
@@ -319,7 +323,6 @@
   <project groups="pdk-cw-fs" name="platform/external/xmp_toolkit" path="external/xmp_toolkit"/>
   <project groups="pdk-cw-fs" name="platform/external/zopfli" path="external/zopfli"/>
   <project groups="pdk-cw-fs" name="platform/external/zxing" path="external/zxing"/>
-  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang"/>
@@ -354,7 +357,6 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/webview" path="frameworks/webview"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
   <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt"/>
-  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project groups="qcom,qcom_audio" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
   <project groups="qcom" name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
@@ -470,14 +472,12 @@
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project groups="pdk-cw-fs" name="platform/sdk" path="sdk"/>
   <project groups="pdk" name="platform/system/bt" path="system/bt"/>
-  <project groups="pdk" name="platform/system/core" path="system/core"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
   <project groups="pdk" name="platform/system/netd" path="system/netd"/>
   <project groups="pdk" name="platform/system/security" path="system/security"/>
   <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"/>
-  <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm"/>
   <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests"/>
   <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location"/>
   <project name="platform/vendor/qcom-opensource/mmc-utils" path="vendor/qcom/opensource/mmc-utils"/>
