@@ -57,6 +57,7 @@
   <project groups="pdk" name="android_external_elfutils" path="external/elfutils" remote="XOS" />
   <project groups="pdk" name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" />
   <project groups="pdk" name="android_external_jpeg" path="external/jpeg" remote="XOS" />
+  <project groups="pdk" name="android_external_f2fs-tools" path="external/f2fs-tools" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
@@ -155,7 +156,6 @@
   <project groups="pdk-cw-fs" name="platform/external/esd" path="external/esd"/>
   <project groups="pdk" name="platform/external/expat" path="external/expat"/>
   <project groups="pdk-cw-fs" name="platform/external/eyes-free" path="external/eyes-free"/>
-  <project groups="pdk" name="platform/external/f2fs-tools" path="external/f2fs-tools"/>
   <project groups="pdk" name="platform/external/fdlibm" path="external/fdlibm"/>
   <project name="platform/external/fio" path="external/fio"/>
   <project groups="pdk" name="platform/external/flac" path="external/flac"/>
