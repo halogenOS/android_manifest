@@ -38,6 +38,7 @@
   <!-- Packages -->
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
   <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="XOS" />
+  <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="XOS" />  
 
   <!-- Device -->
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
@@ -423,7 +424,6 @@
   <project name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView"/>
   <project name="platform/packages/services/Mms" path="packages/services/Mms"/>
   <project name="platform/packages/services/Telecomm" path="packages/services/Telecomm"/>
-  <project name="platform/packages/services/Telephony" path="packages/services/Telephony"/>
   <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic"/>
   <project name="platform/packages/wallpapers/Galaxy4" path="packages/wallpapers/Galaxy4"/>
   <project name="platform/packages/wallpapers/HoloSpiral" path="packages/wallpapers/HoloSpiral"/>
