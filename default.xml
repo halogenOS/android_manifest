@@ -65,6 +65,7 @@
   
   <!-- System -->
   <project groups="pdk" name="android_system_vold" path="system/vold" remote="XOS" />
+  <project groups="pdk" name="platform_system_extras" path="system/extras" remote="XOS />
 
 <!-- End HalogenOS (XOS) -->
 
@@ -466,7 +467,6 @@
   <project groups="pdk-cw-fs" name="platform/sdk" path="sdk"/>
   <project groups="pdk" name="platform/system/bt" path="system/bt"/>
   <project groups="pdk" name="platform/system/core" path="system/core"/>
-  <project groups="pdk" name="platform/system/extras" path="system/extras"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
   <project groups="pdk" name="platform/system/media" path="system/media"/>
