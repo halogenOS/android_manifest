@@ -6,7 +6,7 @@
 
   <remote name="XOS"
 	  fetch="https://github.com/HalogenOS/"  
- 	  revision="XOS-6.0" />
+ 	  revision="refs/heads/XOS-6.0" />
 
   <remote name="caf" 
 	  fetch="git://codeaurora.org/"
@@ -76,6 +76,7 @@
   <project groups="qcom" name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="XOS" />
   <project groups="qcom" name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="XOS" />
   <project groups="pdk" name="android_hardware_ril" path="hardware/ril" remote="XOS" />
+  <project groups="pdk" name="android_hardware_ril" path="hardware/ril-caf" remote="XOS" revision="XOS-6.0-caf" />
   <project groups="pdk" name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" />
   
   <!-- Vendor -->
