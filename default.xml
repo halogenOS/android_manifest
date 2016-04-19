@@ -82,8 +82,9 @@
   <project name="android_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="XOS" />
   
   <!-- System -->
+  <project groups="pdk" name="android_system_media" path="system/media" remote="XOS" />
   <project groups="pdk" name="android_system_vold" path="system/vold" remote="XOS" />
-  <project groups="pdk" name="platform_system_extras" path="system/extras" remote="XOS" />
+  <project groups="pdk" name="android_system_extras" path="system/extras" remote="XOS" />
   <project name="android_system_qcom" path="system/qcom" remote="XOS" />
 
 <!-- End HalogenOS (XOS) -->
@@ -472,7 +473,6 @@
   <project groups="pdk" name="platform/system/core" path="system/core"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
-  <project groups="pdk" name="platform/system/media" path="system/media"/>
   <project groups="pdk" name="platform/system/netd" path="system/netd"/>
   <project groups="pdk" name="platform/system/security" path="system/security"/>
   <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
