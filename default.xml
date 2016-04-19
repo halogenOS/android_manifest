@@ -47,8 +47,9 @@
   </project>
   
   <!-- External -->
-  <project groups="pdk-cw-fs" name="android_external_fsck_msdos" path="external/fsck_msdos" remote="XOS" />
   <project groups="pdk,qcom_msm8x26" name="android_external_skia" path="external/skia" remote="XOS" />
+  <project groups="pdk-cw-fs" name="android_external_fsck_msdos" path="external/fsck_msdos" remote="XOS" />
+  <project groups="pdk-cw-fs" name="android_external_okhttp" path="external/okhttp" remote="XOS" />
   <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
   <project groups="pdk" name="android_external_iproute2" path="external/iproute2" remote="XOS" />
   <project groups="pdk" name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
@@ -265,7 +266,6 @@
   <project groups="pdk" name="platform/external/noto-fonts" path="external/noto-fonts"/>
   <project groups="pdk-cw-fs" name="platform/external/oauth" path="external/oauth"/>
   <project groups="pdk-cw-fs" name="platform/external/objenesis" path="external/objenesis"/>
-  <project groups="pdk-cw-fs" name="platform/external/okhttp" path="external/okhttp"/>
   <project groups="pdk-cw-fs" name="platform/external/opencv" path="external/opencv"/>
   <project groups="pdk-cw-fs" name="platform/external/openfst" path="external/openfst"/>
   <project groups="pdk-cw-fs" name="platform/external/openssh" path="external/openssh"/>
