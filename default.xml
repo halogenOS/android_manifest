@@ -49,7 +49,7 @@
   <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
   <project groups="pdk,qcom_msm8x26" name="android_external_skia" path="external/skia" remote="XOS" />
   <project groups="pdk" name="android_external_iproute2" path="external/iproute2" remote="XOS" />
-  <project groups="pdk" name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8 remote="XOS" />
+  <project groups="pdk" name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
 
