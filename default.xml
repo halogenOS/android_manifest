@@ -54,6 +54,7 @@
   <project groups="pdk" name="android_external_tinycompress" path="external/tinycompress" remote="XOS" />
   <project groups="pdk" name="android_external_tinyalsa" path="external/tinyalsa" remote="XOS" />
   <project groups="pdk" name="android_external_apache-http" path="external/apache-http" remote="XOS" />
+  <project groups="pdk" name="android_external_elfutils" path="external/elfutils" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
@@ -147,7 +148,6 @@
   <project groups="pdk-cw-fs" name="platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder"/>
   <project groups="pdk-cw-fs" name="platform/external/eclipse-windowbuilder" path="external/eclipse-windowbuilder"/>
   <project groups="pdk" name="platform/external/eigen" path="external/eigen"/>
-  <project groups="pdk" name="platform/external/elfutils" path="external/elfutils"/>
   <project groups="pdk-cw-fs" name="platform/external/embunit" path="external/embunit"/>
   <project groups="pdk-cw-fs" name="platform/external/emma" path="external/emma"/>
   <project groups="pdk-cw-fs" name="platform/external/esd" path="external/esd"/>
