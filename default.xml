@@ -38,6 +38,7 @@
   
   <!-- Packages -->
   <project groups="pdk-cw-fs" name="android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="XOS" />
+  <project groups="pdk-cw-fs" name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="XOS" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
   <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="XOS" />
   <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="XOS" />  
@@ -363,7 +364,6 @@
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="pdk" name="platform/ndk" path="ndk"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
-  <project groups="pdk-cw-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth"/>
   <project name="platform/packages/apps/Browser" path="packages/apps/Browser"/>
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator"/>
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
