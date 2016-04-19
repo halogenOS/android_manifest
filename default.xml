@@ -72,7 +72,7 @@
   
   <!-- System -->
   <project groups="pdk" name="android_system_vold" path="system/vold" remote="XOS" />
-  <project groups="pdk" name="platform_system_extras" path="system/extras" remote="XOS />
+  <project groups="pdk" name="platform_system_extras" path="system/extras" remote="XOS" />
 
 <!-- End HalogenOS (XOS) -->
 
