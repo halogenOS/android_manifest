@@ -46,9 +46,7 @@
 
   <!-- Device -->
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS">
-    <copyfile dest="build.sh" src="build.sh"/>
-  </project>
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS" />
   
   <!-- External -->
   <project groups="pdk,qcom_msm8x26" name="android_external_skia" path="external/skia" remote="XOS" />
