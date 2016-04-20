@@ -99,15 +99,52 @@
 
 <!-- Begin CyanogenMod -->
 
-  <!-- Hardware -->
-  <project groups="qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="cm-13.0" />  
-  <project groups="qcom,qcom_gps" name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="cm-13.0" />
-  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="github" revision="cm-13.0" />
-  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="github" revision="cm-13.0" />
-  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media/default" remote="github" revision="cm-13.0" />
-  
+<!-- 
+
+Note: (In Short)
+Why do we need CyanogenMod stuff when we are a CAF based ROM? 
+A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run on other boards. Hence, we take HALs from CM to ensure compatiblity.
+
+-->
+
   <!-- External -->
-  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="github" revision="cm-13.0" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="github" />
+ 
+  <!-- Hardware -->
+
+  <!-- audio -->
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio/default" revision="cm-13.0" remote="github" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" revision="cm-13.0-caf-8916" remote="github" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" revision="cm-13.0-caf-8952" remote="github" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" revision="cm-13.0-caf-8960" remote="github" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" revision="cm-13.0-caf-8974" remote="github" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" revision="cm-13.0-caf-8994" remote="github" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" revision="cm-13.0-caf-8996" remote="github" />
+
+  <!-- camera -->
+  <project name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="github" />
+ 
+  <!-- display -->
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" revision="cm-13.0-caf-8916" remote="github" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" revision="cm-13.0-caf-8952" remote="github" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" revision="cm-13.0-caf-8960" remote="github" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" revision="cm-13.0-caf-8974" remote="github" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8994" revision="cm-13.0-caf-8994" remote="github" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" revision="cm-13.0-caf-8996" remote="github" />
+
+  <!-- gps -->
+  <project name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" />
+
+  <!-- media -->
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media/default" remote="github" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" revision="cm-13.0-caf-8916" remote="github" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" revision="cm-13.0-caf-8952" remote="github" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" revision="cm-13.0-caf-8960" remote="github" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" revision="cm-13.0-caf-8974" remote="github" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" revision="cm-13.0-caf-8994" remote="github" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" revision="cm-13.0-caf-8996" remote="github" />
+
   
 <!-- End CyanogenMod -->
 
