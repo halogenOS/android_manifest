@@ -99,11 +99,14 @@
 
 <!-- Begin CyanogenMod -->
 
+  <!-- Hardware -->
   <project groups="qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="cm-13.0" />  
   <project groups="qcom,qcom_gps" name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="cm-13.0" />
   <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="github" revision="cm-13.0" />
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="github" revision="cm-13.0" />
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media/default" remote="github" revision="cm-13.0" />
+  
+  <!-- External -->
   <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="github" revision="cm-13.0" />
   
 <!-- End CyanogenMod -->
@@ -111,6 +114,7 @@
 
 <!-- Begin Code Aurora Forum (CAF) -->
 
+  <!-- Device -->
   <project groups="pdk-cw-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
@@ -129,16 +133,30 @@
   <project groups="pdk" name="device/google/accessory/demokit"/>
   <project groups="device,fugu,pdk-fs" name="device/google/atv"/>
   <project groups="pdk" name="device/sample"/>
+  
+  <!-- Bootable -->
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>  
+  
+  <!-- Abi -->
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
-  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
+  
+  <!-- Cts -->
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts"/>
+  
+  <!-- Dalvik -->
   <project groups="pdk-cw-fs" name="platform/dalvik" path="dalvik"/>
+  
+  <!-- Developers -->
   <project name="platform/developers/build" path="developers/build"/>
   <project name="platform/developers/demos" path="developers/demos"/>
   <project groups="pdk-cw-fs" name="platform/developers/docs" path="developers/docs"/>
   <project groups="pdk-cw-fs" name="platform/developers/samples/android" path="developers/samples/android"/>
+  
+  <!-- Docs -->
   <project groups="pdk-cw-fs" name="platform/docs/source.android.com" path="docs/source.android.com"/>
+  
+  <!-- External -->
   <project groups="pdk" name="platform/external/aac" path="external/aac"/>
   <project groups="pdk-cw-fs" name="platform/external/android-clat" path="external/android-clat"/>
   <project groups="pdk-cw-fs" name="platform/external/android-mock" path="external/android-mock"/>
@@ -338,6 +356,8 @@
   <project groups="pdk-cw-fs" name="platform/external/xmp_toolkit" path="external/xmp_toolkit"/>
   <project groups="pdk-cw-fs" name="platform/external/zopfli" path="external/zopfli"/>
   <project groups="pdk-cw-fs" name="platform/external/zxing" path="external/zxing"/>
+  
+  <!-- Frameworks -->
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang"/>
@@ -371,11 +391,21 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/volley" path="frameworks/volley"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/webview" path="frameworks/webview"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
+  
+  <!-- Hardware -->
   <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
+  
+  <!-- Libcore -->
   <project groups="pdk" name="platform/libcore" path="libcore"/>
+  
+  <!-- Libnativehelper -->
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
+  
+  <!-- Ndk -->
   <project groups="pdk" name="platform/ndk" path="ndk"/>
+  
+  <!-- Packages -->
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
   <project name="platform/packages/apps/Browser" path="packages/apps/Browser"/>
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator"/>
@@ -448,8 +478,14 @@
   <project name="platform/packages/wallpapers/MagicSmoke" path="packages/wallpapers/MagicSmoke"/>
   <project name="platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField"/>
   <project name="platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam"/>
+  
+  <!-- Pdk -->
   <project groups="pdk" name="platform/pdk" path="pdk"/>
+  
+  <!-- Platform_testing -->
   <project name="platform/platform_testing" path="platform_testing"/>
+  
+  <!-- Prebuilts -->
   <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator"/>
   <project groups="pdk,darwin" name="platform/prebuilts/clang/darwin-x86/host/3.6" path="prebuilts/clang/darwin-x86/host/3.6"/>
   <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6"/>
@@ -480,12 +516,18 @@
   <project groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
   <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools"/>
+  
+  <!-- Sdk -->
   <project groups="pdk-cw-fs" name="platform/sdk" path="sdk"/>
+  
+  <!-- System -->
   <project groups="pdk" name="platform/system/bt" path="system/bt"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
   <project groups="pdk" name="platform/system/netd" path="system/netd"/>
   <project groups="pdk" name="platform/system/security" path="system/security"/>
+  
+  <!-- Vendor -->
   <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"/>
   <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests"/>
