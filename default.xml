@@ -108,7 +108,7 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
 -->
 
   <!-- External -->
-  <project path="external/libncurses" name="android_external_libncurses" revision="cm-13.0" remote="github" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="cm-13.0" remote="github" />
  
   <!-- Hardware -->
 
