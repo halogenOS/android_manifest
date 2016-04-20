@@ -74,7 +74,6 @@
   <!-- Hardware -->
   <project groups="qcom_wlan" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="XOS" />
   <project groups="qcom_wlan" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="XOS" revision="XOS-6.0-caf" />
-  <project groups="qcom" name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="XOS" />
   <project groups="qcom" name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="XOS" />
   <project groups="qcom" name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="XOS" />
   <project groups="qcom" name="android_hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="XOS" revision="XOS-6.0-caf" />
@@ -96,6 +95,18 @@
   <project name="android_system_qcom" path="system/qcom" remote="XOS" />
 
 <!-- End HalogenOS (XOS) -->
+
+
+<!-- Begin CyanogenMod -->
+
+  <project groups="qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="cm-13.0" />  
+  <project groups="qcom,qcom_gps" name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="cm-13.0" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="github" revision="cm-13.0" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="github" revision="cm-13.0" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media/default" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="github" revision="cm-13.0" />
+  
+<!-- End CyanogenMod -->
 
 
 <!-- Begin Code Aurora Forum (CAF) -->
@@ -362,10 +373,6 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
   <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project groups="qcom,qcom_audio" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
-  <project groups="qcom,qcom_display" name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
-  <project groups="qcom,qcom_gps" name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
-  <project groups="qcom" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="pdk" name="platform/libcore" path="libcore"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="pdk" name="platform/ndk" path="ndk"/>
