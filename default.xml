@@ -122,10 +122,10 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" revision="cm-13.0-caf-8996" remote="github" />
 
   <!-- camera -->
-  <project name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="github" />
+  <project name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera" revision="cm-13.0" remote="github" />
  
   <!-- display -->
-  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" revision="cm-13.0" remote="github" />
   <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" revision="cm-13.0-caf-8916" remote="github" />
   <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" revision="cm-13.0-caf-8952" remote="github" />
   <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" revision="cm-13.0-caf-8960" remote="github" />
@@ -134,10 +134,10 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" revision="cm-13.0-caf-8996" remote="github" />
 
   <!-- gps -->
-  <project name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" />
+  <project name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" revision="cm-13.0" remote="github" />
 
   <!-- media -->
-  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media/default" remote="github" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media/default" revision="cm-13.0" remote="github" />
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" revision="cm-13.0-caf-8916" remote="github" />
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" revision="cm-13.0-caf-8952" remote="github" />
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" revision="cm-13.0-caf-8960" remote="github" />
