@@ -68,6 +68,8 @@
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
   <project name="android_external_mm-dash" path="external/mm-dash" remote="XOS" />  
+  <project name="android_external_stagefright-plugins" path="external/stagefright-plugins" remote="XOS" />
+  <project name="android_external_ffmpeg" path="external/ffmpeg" remote="XOS" />
 
   <!-- Hardware -->
   <project groups="qcom_wlan" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="XOS" />
