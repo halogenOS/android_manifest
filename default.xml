@@ -82,8 +82,8 @@
   <project groups="pdk" name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" />
   
   <!-- Vendor -->
+  <project name="android_vendor_xos" path="vendor/xos" remote="XOS" />  
   <project name="android_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="XOS" />
-  <project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" />
   <project name="android_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="XOS" />
   <project name="android_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="XOS" />
   
