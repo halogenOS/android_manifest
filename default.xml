@@ -33,6 +33,7 @@
   
   <!-- Frameworks -->
   <project groups="pdk-cw-fs" name="android_frameworks_base" path="frameworks/base" remote="XOS" />
+  <project groups="pdk-cw-fs" name="android_frameworks_support" path="frameworks/support" remote="XOS" />
   <project groups="pdk" name="android_frameworks_av" path="frameworks/av" remote="XOS" />
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
   <project groups="pdk" name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="XOS" />
@@ -425,7 +426,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/widget" path="frameworks/opt/widget"/>
   <project groups="pdk" name="platform/frameworks/rs" path="frameworks/rs"/>
-  <project groups="pdk-cw-fs" name="platform/frameworks/support" path="frameworks/support"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/volley" path="frameworks/volley"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/webview" path="frameworks/webview"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
