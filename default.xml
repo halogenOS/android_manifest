@@ -2,7 +2,7 @@
 <manifest>
 
 
-<!-- TEST Begin Remotes -->
+<!-- TEST1 Begin Remotes -->
 
   <remote name="XOS"
 	  fetch="https://github.com/HalogenOS/"  
