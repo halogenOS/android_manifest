@@ -42,6 +42,7 @@
   <project groups="pdk-cw-fs" name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="XOS" />
   <project groups="pdk-cw-fs" name="android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="XOS" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
+  <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="XOS" />
   <project name="android_packages_apps_Eleven" path="packages/apps/Eleven" remote="XOS" />
   <project name="android_packages_apps_ThemeChooser" path="packages/apps/ThemeChooser" remote="XOS" />
   <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="XOS" />
@@ -486,7 +487,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService"/>
   <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera"/>
-  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts"/>
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder"/>
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk"/>
