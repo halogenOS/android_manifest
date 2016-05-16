@@ -505,7 +505,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic"/>
   <project name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView"/>
   <project name="platform/packages/services/Mms" path="packages/services/Mms"/>
-  <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic"/>
   
   <!-- Pdk -->
   <project groups="pdk" name="platform/pdk" path="pdk"/>
