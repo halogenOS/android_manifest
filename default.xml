@@ -16,7 +16,9 @@
   <remote name="github"
 	  fetch=".." />
 
-  <default remote="caf" />
+  <default remote="caf"
+           sync-c="true" 
+           sync-j="16" />
 
 <!-- End Remotes -->
 
