@@ -8,6 +8,9 @@
 	  fetch="https://github.com/halogenOS/"  
  	  revision="refs/heads/XOS-6.0" />
 
+  <remote name="TeamHalogen"
+  	fetch="https://github.com/TeamHalogen/" />
+
   <remote name="caf" 
 	  fetch="http://source.codeaurora.org/"
 	  revision="LA.BF64.1.2.2_rb4.38" 
