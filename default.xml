@@ -9,7 +9,7 @@
  	  revision="refs/heads/XOS-6.0" />
 
   <remote name="TeamHalogen"
-  	fetch="https://github.com/TeamHalogen/" />
+  	  fetch="https://github.com/TeamHalogen/" />
 
   <remote name="caf" 
 	  fetch="http://source.codeaurora.org/"
