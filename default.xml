@@ -58,32 +58,16 @@
 
   <!-- Device -->
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS" />
   
   <!-- External -->
-  <project groups="pdk,qcom_msm8x26" name="android_external_skia" path="external/skia" remote="XOS" />
   <project groups="pdk-cw-fs" name="android_external_fsck_msdos" path="external/fsck_msdos" remote="XOS" />
-  <project groups="pdk-cw-fs" name="android_external_okhttp" path="external/okhttp" remote="XOS" />
   <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
   <project groups="pdk" name="android_external_iproute2" path="external/iproute2" remote="XOS" />
-  <project groups="pdk" name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
-  <project groups="pdk" name="android_external_tinycompress" path="external/tinycompress" remote="XOS" />
-  <project groups="pdk" name="android_external_tinyalsa" path="external/tinyalsa" remote="XOS" />
   <project groups="pdk" name="android_external_apache-http" path="external/apache-http" remote="XOS" />
   <project groups="pdk" name="android_external_elfutils" path="external/elfutils" remote="XOS" />
   <project groups="pdk" name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" />
-  <project groups="pdk" name="android_external_jpeg" path="external/jpeg" remote="XOS" />
-  <project groups="pdk" name="android_external_f2fs-tools" path="external/f2fs-tools" remote="XOS" />
-  <project groups="pdk" name="android_external_mksh" path="external/mksh" remote="XOS" />
-  <project groups="pdk" name="android_external_zlib" path="external/zlib" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
-  <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
-  <project name="android_external_mm-dash" path="external/mm-dash" remote="XOS" />  
-  <project name="android_external_stagefright-plugins" path="external/stagefright-plugins" remote="XOS" />
-  <project name="android_external_ffmpeg" path="external/ffmpeg" remote="XOS" />
-  <project name="android_external_busybox" path="external/busybox" remote="XOS" />
-  <project name="android_external_android-visualizer" path="external/android-visualizer" remote="XOS" />
   <project name="xdevs23/android_external_xdjlib" path="external/xdjlib" remote="github" revision="v1" />
 
   <!-- Hardware -->
@@ -105,7 +89,6 @@
   <!-- System -->
   <project groups="pdk" name="android_system_media" path="system/media" remote="XOS" />
   <project groups="pdk" name="android_system_vold" path="system/vold" remote="XOS" />
-  <project groups="pdk" name="android_system_extras" path="system/extras" remote="XOS" />
   <project groups="pdk" name="android_system_core" path="system/core" remote="XOS" />
   <project name="android_system_qcom" path="system/qcom" remote="XOS" />
 
@@ -118,12 +101,33 @@
 
 Note: (In Short)
 Why do we need CyanogenMod stuff when we are a CAF based ROM? 
-A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run on other boards. Hence, we take HALs from CM to ensure compatiblity.
+A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run on other boards. Hence, we take HALs from CM to ensure compatiblity. Also, we need some stuff from CM because we want to be up to date always.
 
 -->
 
+  <!-- Device -->
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-13.0" remote="github" />
+
   <!-- External -->
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="cm-13.0" remote="github" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" revision="cm-13.0" remote="github" />
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" revision="cm-13.0" remote="github" />
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" revision="cm-13.0" remote="github" />
+  <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" revision="cm-13.0" remote="github" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" revision="cm-13.0" remote="github" />
+  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" revision="cm-13.0" remote="github" />
+  <project path="external/mksh" name="CyanogenMod/android_external_mksh" revision="cm-13.0" remote="github" />
+  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" revision="cm-13.0" remote="github" />
+  <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" revision="cm-13.0" remote="github" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" revision="cm-13.0" remote="github" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" revision="cm-13.0" remote="github" />
+  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" revision="cm-13.0" remote="github" />
+  <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" revision="cm-13.0" remote="github" />
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" revision="cm-13.0" remote="github" />
+  <project path="external/zlib" name="CyanogenMod/android_external_zlib" revision="cm-13.0" remote="github" />
+
+  <!-- System -->
+  <project path="system/extras" name="CyanogenMod/android_system_extras" revision="cm-13.0" remote="github" />
  
   <!-- Hardware -->
 
