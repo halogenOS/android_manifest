@@ -72,12 +72,12 @@
 
   <!-- Hardware -->
   <project groups="qcom_wlan" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="XOS" />
-  <project groups="qcom_wlan" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="XOS" revision="XOS-6.0-caf" />
+  <project groups="qcom_wlan" name="android_hardware_qcom_wlan-caf" path="hardware/qcom/wlan-caf" remote="XOS" />
   <project groups="qcom" name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="XOS" />
   <project groups="qcom" name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="XOS" />
-  <project groups="qcom" name="android_hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="XOS" revision="XOS-6.0-caf" />
+  <project groups="qcom" name="android_hardware_qcom_bt-caf" path="hardware/qcom/bt-caf" remote="XOS" />
   <project groups="pdk" name="android_hardware_ril" path="hardware/ril" remote="XOS" />
-  <project groups="pdk" name="android_hardware_ril" path="hardware/ril-caf" remote="XOS" revision="XOS-6.0-caf" />
+  <project groups="pdk" name="android_hardware_ril-caf" path="hardware/ril-caf" remote="XOS" />
   <project groups="pdk" name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" />
   
   <!-- Vendor -->
