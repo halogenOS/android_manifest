@@ -38,7 +38,6 @@
   
   <!-- Frameworks -->
   <project groups="pdk-cw-fs" name="android_frameworks_base" path="frameworks/base" remote="XOS" />
-  <project groups="pdk-cw-fs" name="android_frameworks_support" path="frameworks/support" remote="XOS" />
   <project groups="pdk" name="android_frameworks_av" path="frameworks/av" remote="XOS" />
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
   <project groups="pdk" name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="XOS" />
@@ -410,6 +409,7 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk-cw-fs" name="platform/external/zxing" path="external/zxing"/>
   
   <!-- Frameworks -->
+  <project groups="pdk-cw-fs" name="platform/frameworks/support" path="frameworks/support" />
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang"/>
