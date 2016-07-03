@@ -1,15 +1,15 @@
 <img src="https://raw.github.com/halogenOS/platform_manifest/XOS-6.0/halogenos-logo.png">
 
-# HalogenOS
+# halogenOS
 
 ## Getting Started
 
-To get started with HalogenOS, you'll need to get familiar with Git and Repo.
+To get started with halogenOS, you'll need to get familiar with Git and Repo.
 
-To initialize your local repository using the HalogenOS trees, use a command like this:
+To initialize your local repository using the halogenOS trees, use a command like this:
 
 ```bash
-repo init -u git://github.com/HalogenOS/android_manifest.git -b XOS-6.0
+repo init -u git://github.com/halogenOS/android_manifest.git -b XOS-6.0
 ```
 
 Then to sync up:
@@ -18,3 +18,5 @@ repo sync
 ```
 
 For more information on this Github Organization and how it is structured, please read the wiki article
+
+Changelog is here: https://github.com/halogenOS/android_vendor_xos/blob/XOS-6.0/Changelog.md
