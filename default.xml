@@ -53,6 +53,7 @@
 
   <!-- Device -->
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS" />
   
   <!-- External -->
   <project groups="pdk-cw-fs" name="android_external_fsck_msdos" path="external/fsck_msdos" remote="XOS" />
@@ -99,9 +100,6 @@ Why do we need CyanogenMod stuff when we are a CAF based ROM?
 A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run on other boards. Hence, we take HALs from CM to ensure compatiblity. Also, we need some stuff from CM because we want to be up to date always.
 
 -->
-
-  <!-- Device -->
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-13.0" remote="github" />
 
   <!-- External -->
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="cm-13.0" remote="github" />
