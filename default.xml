@@ -13,7 +13,7 @@
 
   <remote name="caf" 
 	  fetch="http://source.codeaurora.org/"
-	  revision="LA.BF64.1.2.2_rb4.42" 
+	  revision="LA.BF64.1.2.2_rb4.42"
 	  review="codeaurora.org" />
 
   <remote name="github"
@@ -35,6 +35,9 @@
   </project>
   <project groups="pdk" name="android_art" path="art" remote="XOS" />
   <project groups="pdk" name="android_bionic" path="bionic" remote="XOS" />
+  
+  <!-- Abi -->
+  <project groups="pdk" name="android_abi_cpp" path="abi/cpp" remote="XOS" />
   
   <!-- Frameworks -->
   <project groups="pdk-cw-fs" name="android_frameworks_base" path="frameworks/base" remote="XOS" />
@@ -186,9 +189,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <!-- Bootable -->
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>  
-  
-  <!-- Abi -->
-  <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
   
   <!-- Cts -->
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts"/>
