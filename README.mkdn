@@ -17,6 +17,11 @@ Then to sync up:
 repo sync
 ```
 
-For more information on this Github Organization and how it is structured, please read the wiki article
+Or, to do it faster:
+```bash
+repo sync build
+. build/envsetup.sh
+reposync fast
+```
 
 Changelog is here: https://github.com/halogenOS/android_vendor_xos/blob/XOS-6.0/Changelog.md
