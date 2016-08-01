@@ -62,6 +62,7 @@
   <project groups="pdk-cw-fs" name="android_external_fsck_msdos" path="external/fsck_msdos" remote="XOS" />
   <project groups="pdk-cw-fs" name="android_external_conscrypt" path="external/conscrypt" remote="XOS" />
   <project groups="pdk" name="android_external_aac" path="external/aac" remote="XOS" />
+  <project groups="pdk" name="android_external_flac" path="external/flac" remote="XOS" />
   <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
   <project groups="pdk" name="android_external_iproute2" path="external/iproute2" remote="XOS" />
   <project groups="pdk" name="android_external_apache-http" path="external/apache-http" remote="XOS" />
@@ -256,7 +257,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk-cw-fs" name="platform/external/eyes-free" path="external/eyes-free"/>
   <project groups="pdk" name="platform/external/fdlibm" path="external/fdlibm"/>
   <project name="platform/external/fio" path="external/fio"/>
-  <project groups="pdk" name="platform/external/flac" path="external/flac"/>
   <project name="platform/external/fonttools" path="external/fonttools"/>
   <project groups="pdk" name="platform/external/freetype" path="external/freetype"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/giflib" path="external/giflib"/>
