@@ -60,6 +60,8 @@
   
   <!-- External -->
   <project groups="pdk-cw-fs" name="android_external_fsck_msdos" path="external/fsck_msdos" remote="XOS" />
+  <project groups="pdk-cw-fs" name="android_external_conscrypt" path="external/conscrypt" remote="XOS" />
+  <project groups="pdk" name="android_external_aac" path="external/aac" remote="XOS" />
   <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
   <project groups="pdk" name="android_external_iproute2" path="external/iproute2" remote="XOS" />
   <project groups="pdk" name="android_external_apache-http" path="external/apache-http" remote="XOS" />
@@ -206,7 +208,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk-cw-fs" name="platform/docs/source.android.com" path="docs/source.android.com"/>
   
   <!-- External -->
-  <project groups="pdk" name="platform/external/aac" path="external/aac"/>
   <project groups="pdk-cw-fs" name="platform/external/android-clat" path="external/android-clat"/>
   <project groups="pdk-cw-fs" name="platform/external/android-mock" path="external/android-mock"/>
   <project groups="pdk-cw-fs" name="platform/external/androidplot" path="external/androidplot"/>
@@ -231,7 +232,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk" name="platform/external/clang" path="external/clang"/>
   <project name="platform/external/cmockery" path="external/cmockery"/>
   <project groups="pdk" name="platform/external/compiler-rt" path="external/compiler-rt"/>
-  <project groups="pdk-cw-fs" name="platform/external/conscrypt" path="external/conscrypt"/>
   <project name="platform/external/crcalc" path="external/crcalc"/>
   <project groups="pdk" name="platform/external/curl" path="external/curl"/>
   <project name="platform/external/deqp" path="external/deqp"/>
