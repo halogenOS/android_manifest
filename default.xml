@@ -88,6 +88,7 @@
   <project name="android_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="XOS" />
   
   <!-- System -->
+  <project groups="pdk" name="android_system_bt" path="system/bt" remote="XOS" />
   <project groups="pdk" name="android_system_media" path="system/media" remote="XOS" />
   <project groups="pdk" name="android_system_vold" path="system/vold" remote="XOS" />
   <project groups="pdk" name="android_system_core" path="system/core" remote="XOS" />
@@ -555,7 +556,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk-cw-fs" name="platform/sdk" path="sdk" clone-depth="1"/>
   
   <!-- System -->
-  <project groups="pdk" name="platform/system/bt" path="system/bt"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
   <project groups="pdk" name="platform/system/netd" path="system/netd"/>
