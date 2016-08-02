@@ -26,7 +26,7 @@
 <!-- End Remotes -->
 
 
-<!-- Begin HalogenOS (XOS) -->
+<!-- Begin halogenOS (XOS) -->
 
   <!-- Platform Root -->
   <project groups="pdk-cw-fs" name="android_development" path="development" remote="XOS" />
@@ -42,35 +42,50 @@
   <!-- Frameworks -->
   <project groups="pdk-cw-fs" name="android_frameworks_base" path="frameworks/base" remote="XOS" />
   <project groups="pdk" name="android_frameworks_av" path="frameworks/av" remote="XOS" />
+  <project groups="pdk-cw-fs" name="android_frameworks_minikin" path="frameworks/minikin" remote="XOS" />
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
   <project groups="pdk" name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="XOS" />
   
   <!-- Packages -->
   <project groups="pdk-cw-fs" name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="XOS" />
-  <project groups="pdk-cw-fs" name="android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="XOS" />
+  <project name="android_packages_apps_Browser" path="packages/apps/Browser" remote="XOS" />
+  <project groups="pdk-cw-fs" name="android_packages_apps_CertInstaller" path="packages/apps/CertInstaller" remote="XOS" />
+  <project name="android_packages_apps_Email" path="packages/apps/Email" remote="XOS" />
+  <project name="android_packages_apps_Exchange" path="packages/apps/Exchange" remote="XOS" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
+  <project name="android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" remote="XOS" />
   <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="XOS" />
+  <project groups="pdk-cw-fs" name="android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="XOS" />
   <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="XOS" />
   <project name="android_packages_services_Telecomm" path="packages/services/Telecomm" remote="XOS" />
-  <project name="android_packages_apps_Browser" path="packages/apps/Browser" remote="XOS" />
-
+  
   <!-- Device -->
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS" />
   
   <!-- External -->
-  <project groups="pdk-cw-fs" name="android_external_fsck_msdos" path="external/fsck_msdos" remote="XOS" />
-  <project groups="pdk-cw-fs" name="android_external_conscrypt" path="external/conscrypt" remote="XOS" />
   <project groups="pdk" name="android_external_aac" path="external/aac" remote="XOS" />
-  <project groups="pdk" name="android_external_flac" path="external/flac" remote="XOS" />
-  <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
-  <project groups="pdk" name="android_external_iproute2" path="external/iproute2" remote="XOS" />
-  <project groups="pdk" name="android_external_apache-http" path="external/apache-http" remote="XOS" />
-  <project groups="pdk" name="android_external_elfutils" path="external/elfutils" remote="XOS" />
-  <project groups="pdk" name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
+  <project groups="pdk" name="android_external_apache-http" path="external/apache-http" remote="XOS" />
+  <project groups="pdk" name="android_external_boringssl" path="external/boringssl" remote="XOS" />
+  <project groups="pdk" name="android_external_bouncycastle" path="external/bouncycastle" remote="XOS" />
+  <project groups="pdk-cw-fs" name="android_external_conscrypt" path="external/conscrypt" remote="XOS" />
+  <project groups="pdk-cw-fs" name="android_external_dhcpcd" path="external/dhcpcd" remote="XOS" />
+  <project groups="pdk" name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" />
+  <project groups="pdk" name="android_external_elfutils" path="external/elfutils" remote="XOS" />
+  <project groups="pdk" name="android_external_flac" path="external/flac" remote="XOS" />
+  <project groups="pdk-cw-fs" name="android_external_fsck_msdos" path="external/fsck_msdos" remote="XOS" />
+  <project groups="pdk" name="android_external_iproute2" path="external/iproute2" remote="XOS" />
+  <project groups="pdk" name="android_external_libavc" path="external/libavc" remote="XOS" />
+  <project groups="pdk" name="android_external_libmpeg2" path="external/libmpeg2" remote="XOS" />
+  <project groups="pdk" name="android_external_libvpx" path="external/libvpx" remote="XOS" />
+  <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
+  <project groups="pdk" name="android_external_sonivox" path="external/sonivox" remote="XOS" />
   <project name="xdevs23/android_external_xdjlib" path="external/xdjlib" remote="github" revision="v1" />
+  
+  <!-- Libcore -->
+  <project groups="pdk" name="android_libcore" path="libcore" remote="XOS" />
 
   <!-- Hardware -->
   <project groups="qcom_wlan" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="XOS" />
@@ -221,8 +236,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk" name="platform/external/apache-xml" path="external/apache-xml"/>
   <project groups="pdk" name="platform/external/bison" path="external/bison"/>
   <project groups="pdk-cw-fs" name="platform/external/blktrace" path="external/blktrace"/>
-  <project groups="pdk" name="platform/external/boringssl" path="external/boringssl"/>
-  <project groups="pdk" name="platform/external/bouncycastle" path="external/bouncycastle"/>
   <project name="platform/external/brctl" path="external/brctl"/>
   <project groups="pdk" name="platform/external/bsdiff" path="external/bsdiff"/>
   <project groups="pdk" name="platform/external/bzip2" path="external/bzip2"/>
@@ -238,7 +251,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk" name="platform/external/curl" path="external/curl"/>
   <project name="platform/external/deqp" path="external/deqp"/>
   <project groups="pdk-cw-fs" name="platform/external/dexmaker" path="external/dexmaker"/>
-  <project groups="pdk-cw-fs" name="platform/external/dhcpcd" path="external/dhcpcd"/>
   <project groups="pdk" name="platform/external/dnsmasq" path="external/dnsmasq"/>
   <project groups="pdk-cw-fs" name="platform/external/doclava" path="external/doclava"/>
   <project name="platform/external/donuts" path="external/donuts"/>
@@ -294,7 +306,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk-cw-fs" name="platform/external/junit" path="external/junit"/>
   <project groups="pdk-cw-fs" name="platform/external/kernel-headers" path="external/kernel-headers"/>
   <project groups="pdk-cw-fs" name="platform/external/ksoap2" path="external/ksoap2"/>
-  <project groups="pdk" name="platform/external/libavc" path="external/libavc"/>
   <project groups="pdk-cw-fs" name="platform/external/libcap-ng" path="external/libcap-ng"/>
   <project groups="pdk" name="platform/external/libcxx" path="external/libcxx"/>
   <project groups="pdk" name="platform/external/libcxxabi" path="external/libcxxabi"/>
@@ -304,7 +315,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk" name="platform/external/libgsm" path="external/libgsm"/>
   <project name="platform/external/libhevc" path="external/libhevc"/>
   <project groups="pdk" name="platform/external/liblzf" path="external/liblzf"/>
-  <project groups="pdk" name="platform/external/libmpeg2" path="external/libmpeg2"/>
   <project groups="pdk-cw-fs" name="platform/external/libmtp" path="external/libmtp"/>
   <project groups="pdk" name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
   <project groups="pdk" name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
@@ -324,7 +334,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk-cw-fs" name="platform/external/libutf" path="external/libutf"/>
   <project groups="pdk-cw-fs" name="platform/external/libvncserver" path="external/libvncserver"/>
   <project groups="pdk-cw-fs" name="platform/external/libvorbis" path="external/libvorbis"/>
-  <project groups="pdk" name="platform/external/libvpx" path="external/libvpx"/>
   <project groups="pdk-cw-fs" name="platform/external/libvterm" path="external/libvterm"/>
   <project groups="pdk-cw-fs" name="platform/external/libxml2" path="external/libxml2"/>
   <project groups="libyuv,pdk-cw-fs" name="platform/external/libyuv" path="external/libyuv"/>
@@ -381,7 +390,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project name="platform/external/slf4j" path="external/slf4j"/>
   <project groups="pdk-cw-fs" name="platform/external/smali" path="external/smali"/>
   <project groups="pdk" name="platform/external/sonic" path="external/sonic"/>
-  <project groups="pdk" name="platform/external/sonivox" path="external/sonivox"/>
   <project groups="pdk" name="platform/external/speex" path="external/speex"/>
   <project groups="pdk" name="platform/external/sqlite" path="external/sqlite"/>
   <project groups="pdk" name="platform/external/squashfs-tools" path="external/squashfs-tools"/>
@@ -415,7 +423,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/data-binding" path="frameworks/data-binding"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/ex" path="frameworks/ex"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/mff" path="frameworks/mff"/>
-  <project groups="pdk-cw-fs" name="platform/frameworks/minikin" path="frameworks/minikin"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/ml" path="frameworks/ml"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/multidex" path="frameworks/multidex"/>
   <project name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap"/>
@@ -446,9 +453,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   
-  <!-- Libcore -->
-  <project groups="pdk" name="platform/libcore" path="libcore"/>
-  
   <!-- Libnativehelper -->
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   
@@ -461,14 +465,11 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2"/>
   <project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig"/>
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
-  <project groups="pdk-cw-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
   <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts"/>
   <project name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon"/>
   <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock"/>
   <project name="platform/packages/apps/Dialer" path="packages/apps/Dialer"/>
-  <project name="platform/packages/apps/Email" path="packages/apps/Email"/>
   <project name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator"/>
-  <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange"/>
   <project name="platform/packages/apps/FMRadio" path="packages/apps/FMRadio"/>
   <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
@@ -496,7 +497,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project name="platform/packages/apps/Terminal" path="packages/apps/Terminal"/>
   <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings"/>
-  <project name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail"/>
   <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>
   <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
