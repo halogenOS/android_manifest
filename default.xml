@@ -78,6 +78,7 @@
   <project groups="pdk-cw-fs" name="android_external_fsck_msdos" path="external/fsck_msdos" remote="XOS" />
   <project groups="pdk" name="android_external_iproute2" path="external/iproute2" remote="XOS" />
   <project groups="pdk" name="android_external_libavc" path="external/libavc" remote="XOS" />
+  <project name="android_external_libhevc" path="external/libhevc" remote="XOS" />
   <project groups="pdk" name="android_external_libmpeg2" path="external/libmpeg2" remote="XOS" />
   <project groups="pdk" name="android_external_libvpx" path="external/libvpx" remote="XOS" />
   <project groups="pdk" name="android_external_sepolicy" path="external/sepolicy" remote="XOS" />
@@ -313,7 +314,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project name="platform/external/libedit" path="external/libedit"/>
   <project groups="pdk-cw-fs" name="platform/external/libexif" path="external/libexif"/>
   <project groups="pdk" name="platform/external/libgsm" path="external/libgsm"/>
-  <project name="platform/external/libhevc" path="external/libhevc"/>
   <project groups="pdk" name="platform/external/liblzf" path="external/liblzf"/>
   <project groups="pdk-cw-fs" name="platform/external/libmtp" path="external/libmtp"/>
   <project groups="pdk" name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
