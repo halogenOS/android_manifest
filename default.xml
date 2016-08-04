@@ -81,6 +81,7 @@
   <project groups="pdk" name="android_external_flac" path="external/flac" remote="XOS" />
   <project groups="pdk-cw-fs" name="android_external_fsck_msdos" path="external/fsck_msdos" remote="XOS" />
   <project groups="pdk" name="android_external_iproute2" path="external/iproute2" remote="XOS" />
+  <project groups="pdk" name="android_external_jhead" path="external/jhead" remote="XOS" />
   <project groups="pdk" name="android_external_libavc" path="external/libavc" remote="XOS" />
   <project name="android_external_libhevc" path="external/libhevc" remote="XOS" />
   <project groups="pdk" name="android_external_libmpeg2" path="external/libmpeg2" remote="XOS" />
@@ -300,7 +301,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk-cw-fs" name="platform/external/jdiff" path="external/jdiff"/>
   <project groups="pdk" name="platform/external/jemalloc" path="external/jemalloc"/>
   <project name="platform/external/jetty" path="external/jetty"/>
-  <project groups="pdk" name="platform/external/jhead" path="external/jhead"/>
   <project groups="pdk-cw-fs" name="platform/external/jmdns" path="external/jmdns"/>
   <project groups="pdk-cw-fs" name="platform/external/jmonkeyengine" path="external/jmonkeyengine"/>
   <project groups="pdk-cw-fs" name="platform/external/jsilver" path="external/jsilver"/>
