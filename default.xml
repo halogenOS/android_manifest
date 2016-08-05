@@ -74,7 +74,7 @@
   <project groups="pdk" name="android_external_apache-http" path="external/apache-http" remote="XOS" />
   <project groups="pdk" name="android_external_boringssl" path="external/boringssl" remote="XOS" />
   <project groups="pdk" name="android_external_bouncycastle" path="external/bouncycastle" remote="XOS" />
-  <project name="android_external_busybox" path="external/busybox"  remote="XOS" />
+  <project name="android_external_busybox" path="external/busybox" remote="XOS" />
   <project groups="pdk-cw-fs" name="android_external_conscrypt" path="external/conscrypt" remote="XOS" />
   <project groups="pdk-cw-fs" name="android_external_dhcpcd" path="external/dhcpcd" remote="XOS" />
   <project groups="pdk" name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" />
