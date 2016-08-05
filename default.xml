@@ -74,6 +74,7 @@
   <project groups="pdk" name="android_external_apache-http" path="external/apache-http" remote="XOS" />
   <project groups="pdk" name="android_external_boringssl" path="external/boringssl" remote="XOS" />
   <project groups="pdk" name="android_external_bouncycastle" path="external/bouncycastle" remote="XOS" />
+  <project name="android_external_busybox" path="external/busybox"  remote="XOS" />
   <project groups="pdk-cw-fs" name="android_external_conscrypt" path="external/conscrypt" remote="XOS" />
   <project groups="pdk-cw-fs" name="android_external_dhcpcd" path="external/dhcpcd" remote="XOS" />
   <project groups="pdk" name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" />
@@ -133,7 +134,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
 
   <!-- External -->
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="cm-13.0" remote="github" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" revision="cm-13.0" remote="github" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" revision="cm-13.0" remote="github" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" revision="cm-13.0" remote="github" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" revision="cm-13.0" remote="github" />
