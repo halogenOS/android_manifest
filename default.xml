@@ -214,7 +214,7 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk" name="device/sample"/>
   
   <!-- Bootable -->
-  <project name="external/gigabyte/kernel/lk" path="bootable/bootloader/lk"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>  
   
   <!-- Cts -->
