@@ -109,6 +109,7 @@
   <!-- Vendor -->
   <project name="android_vendor_xos" path="vendor/xos" remote="XOS" />  
   <project name="android_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="XOS" />
+  <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="XOS" />
   <project name="android_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="XOS" />
   <project name="android_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="XOS" />
   
@@ -563,7 +564,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   
   <!-- Vendor -->
   <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
-  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"/>
   <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location"/>
   <project name="platform/vendor/qcom-opensource/mmc-utils" path="vendor/qcom/opensource/mmc-utils"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
