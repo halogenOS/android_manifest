@@ -25,6 +25,7 @@
 
   <default remote="caf"
            sync-c="true" 
+           sync-f="true"
            sync-j="16" />
 
 <!-- End Remotes -->
