@@ -1,0 +1,29 @@
+<img src="https://raw.githubusercontent.com/halogenOS/android_manifest/XOS-7.0/halogenos-logo.png">
+
+# halogenOS 7
+
+## Getting Started
+
+To get started with halogenOS, you'll need to get familiar with Git and Repo.
+
+To initialize your local repository using the halogenOS trees, use a command like this:
+
+```bash
+repo init -u https://github.com/halogenOS/android_manifest.git -b XOS-7.0
+```
+
+Then to sync up:
+```bash
+repo sync
+```
+
+Or, to do it faster:
+```bash
+repo sync build
+. build/envsetup.sh
+reposync fast
+```
+
+Changelog is here: https://github.com/halogenOS/android_vendor_xos/blob/XOS-7.0/Changelog.md
+
+### Under development. Do not just do a "sync&build" now.
