@@ -8,12 +8,8 @@
 	  fetch="https://github.com/halogenOS/"  
  	  revision="refs/heads/XOS-7.0" />
 
-  <remote name="XOS-github"
-	  fetch="https://github.com/halogenOS/"  
- 	  revision="refs/heads/XOS-7.0" />
-
   <remote name="caf" 
-	  fetch="http://source.codeaurora.org/"
+	  fetch="git://codeaurora.org/quic/la/"
 	  revision="LA.BF64.1.2.3_rb1.3"
 	  review="codeaurora.org" />
 
@@ -24,8 +20,7 @@
 	  fetch="https://gitlab.com/" />
 
   <default remote="caf"
-           sync-c="true" 
-           sync-f="true"
+           sync-c="true"
            sync-j="16" />
 
 <!-- End Remotes -->
