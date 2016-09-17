@@ -25,6 +25,12 @@
 
 <!-- End Remotes -->
 
+<!-- Begin halogenOS (XOS) -->
+
+  <!-- Build -->
+  <project groups="pdk" name="android_build" path="build" remote="XOS" >
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
 
 <!-- Begin Code Aurora Forum (CAF) -->
 
@@ -38,9 +44,6 @@
   <project groups="pdk" name="platform/bionic" path="bionic" />
 
   <!-- Build -->
-  <project groups="pdk" name="platform/build" path="build" >
-    <copyfile dest="Makefile" src="core/root.mk"/>
-  </project>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" />
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" />
   <project groups="pdk,tradefed" name="platform/build/soong" path="build/soong" >
