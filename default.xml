@@ -38,6 +38,9 @@
   
   <!-- Libutils -->
   <project groups="pdk" name="android_libcore" path="libcore" remote="XOS" />
+  
+  <!-- Skia -->
+  <project groups="pdk,qcom_msm8x26" name="android_external_skia" path="external/skia" remote="XOS" />
 
 <!-- Begin Code Aurora Forum (CAF) -->
 
@@ -312,7 +315,6 @@
   <project groups="pdk" name="platform/external/selinux" path="external/selinux" />
   <project groups="pdk,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly" />
   <project groups="pdk" name="platform/external/shflags" path="external/shflags" />
-  <project groups="pdk,qcom_msm8x26" name="platform/external/skia" path="external/skia" />
   <project groups="pdk" name="platform/external/sl4a" path="external/sl4a" />
   <project groups="pdk" name="platform/external/slf4j" path="external/slf4j" />
   <project groups="pdk" name="platform/external/smali" path="external/smali" />
