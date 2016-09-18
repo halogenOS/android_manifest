@@ -35,6 +35,9 @@
   
   <!-- Frameworks -->
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
+  
+  <!-- Libutils -->
+  <project groups="pdk" name="android_libcore" path="libcore" remote="XOS" />
 
 <!-- Begin Code Aurora Forum (CAF) -->
 
@@ -405,9 +408,6 @@
 
   <!-- Libnativehelper -->
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" />
-  
-  <!-- Libutils -->
-  <project groups="pdk" name="platform/libcore" path="libcore" />
 
   <!-- Ndk -->
   <project groups="generic_fs" name="platform/ndk" path="ndk" />
