@@ -31,6 +31,9 @@
   <project groups="pdk" name="android_build" path="build" remote="XOS" >
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
+  
+  <!-- Frameworks -->
+  <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
 
 <!-- Begin Code Aurora Forum (CAF) -->
 
@@ -359,7 +362,6 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/minikin" path="frameworks/minikin" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/ml" path="frameworks/ml" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/multidex" path="frameworks/multidex" />
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" />
   <project groups="pdk-fs" name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" />
