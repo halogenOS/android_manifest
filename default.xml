@@ -31,6 +31,7 @@
   <project groups="pdk" name="android_build" path="build" remote="XOS" >
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
+  <project groups="pdk,tradefed" name="android_build_kati" path="build/kati" remote="XOS" />
   
   <!-- Frameworks -->
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
@@ -48,7 +49,6 @@
 
   <!-- Build -->
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" />
-  <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" />
   <project groups="pdk,tradefed" name="platform/build/soong" path="build/soong" >
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
