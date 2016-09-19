@@ -33,6 +33,9 @@
   </project>
   <project groups="pdk,tradefed" name="android_build_kati" path="build/kati" remote="XOS" />
   
+  <!-- Device -->
+  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
+  
   <!-- External -->
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
@@ -102,7 +105,6 @@
   <project groups="device,fugu,broadcom_pdk,generic_fs,pdk" name="device/google/atv" />
   <project groups="device,marlin" name="device/google/contexthub" />
   <project name="device/qcom/common" />
-  <project name="device/qcom/sepolicy" />
   <project groups="pdk" name="device/sample" />
   <project name="platform/vendor/qcom/msm8992" path="device/qcom/msm8992" />
   <project name="platform/vendor/qcom/plutonium" path="device/qcom/msm8994" />
