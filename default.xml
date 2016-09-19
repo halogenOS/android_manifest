@@ -36,6 +36,7 @@
   <!-- External -->
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
+  <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
   
   <!-- Frameworks -->
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
@@ -238,7 +239,6 @@
   <project groups="pdk" name="platform/external/libmicrohttpd" path="external/libmicrohttpd" />
   <project groups="pdk" name="platform/external/libmpeg2" path="external/libmpeg2" />
   <project groups="pdk" name="platform/external/libmtp" path="external/libmtp" />
-  <project name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack" />
   <project groups="pdk" name="platform/external/libnfc-nci" path="external/libnfc-nci" />
   <project groups="pdk" name="platform/external/libnfc-nxp" path="external/libnfc-nxp" />
   <project name="platform/external/libnfnetlink" path="external/libnfnetlink" />
