@@ -38,10 +38,10 @@
   <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS" />
   
   <!-- External -->
+  <project groups="pdk" name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
-  <project groups="pdk" name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
   
   <!-- Frameworks -->
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
@@ -51,6 +51,12 @@
   
   <!-- Skia -->
   <project groups="pdk,qcom_msm8x26" name="android_external_skia" path="external/skia" remote="XOS" />
+  
+  <!-- Vendor -->
+  <project name="android_vendor_xos" path="vendor/xos" remote="XOS" />
+
+
+<!-- End halogenOS (XOS) -->
 
 <!-- Begin Code Aurora Forum (CAF) -->
 
@@ -71,8 +77,8 @@
   </project>  
   
   <!-- Bootable -->
-  <project name="kernel/lk" path="bootable/bootloader/lk" />
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" />
+  <project name="kernel/lk" path="bootable/bootloader/lk" />
 
   <!-- Cts -->
   <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" />
