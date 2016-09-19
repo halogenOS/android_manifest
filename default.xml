@@ -49,6 +49,9 @@
   <!-- Libutils -->
   <project groups="pdk" name="android_libcore" path="libcore" remote="XOS" />
   
+  <!-- Packages -->
+  <project groups="pdk-fs" name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="XOS" />
+  
   <!-- Skia -->
   <project groups="pdk,qcom_msm8x26" name="android_external_skia" path="external/skia" remote="XOS" />
   
@@ -438,7 +441,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" />
   <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" />
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" />
-  <project groups="pdk-fs" name="platform/packages/apps/FMRadio" path="packages/apps/FMRadio" />
   <project groups="pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" />
   <project groups="pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" />
   <project groups="pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" />
