@@ -9,7 +9,7 @@
  	  revision="refs/heads/XOS-7.0" />
 
   <remote name="caf" 
-	  fetch="git://codeaurora.org/quic/la/"
+	  fetch="https://source.codeaurora.org/quic/la/"
 	  revision="LA.BF64.1.2.3_rb1.3"
 	  review="codeaurora.org" />
 
