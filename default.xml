@@ -44,6 +44,7 @@
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
   
   <!-- Frameworks -->
+  <project groups="pdk-cw-fs,pdk-fs" name="android_frameworks_base" path="frameworks/base" remote="XOS" />
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
   
   <!-- Libutils -->
@@ -372,7 +373,6 @@
   
   <!-- Frameworks -->
   <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" />
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" />
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" />
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" />
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" />
