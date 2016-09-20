@@ -47,6 +47,9 @@
   <project groups="pdk-cw-fs,pdk-fs" name="android_frameworks_base" path="frameworks/base" remote="XOS" />
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
   
+  <!-- Hardware -->
+  <project groups="pdk" name="android_hardware_ril-caf" path="hardware/ril-caf" remote="XOS" />
+  
   <!-- Libutils -->
   <project groups="pdk" name="android_libcore" path="libcore" remote="XOS" />
   
