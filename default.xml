@@ -61,6 +61,7 @@
   
   <!-- System -->
   <project groups="pdk" name="android_system_core" path="system/core" remote="XOS" />
+  <project groups="pdk" name="android_system_extras" path="system/extras" remote="XOS" />
   
   <!-- Vendor -->
   <project name="android_vendor_xos" path="vendor/xos" remote="XOS" />
@@ -548,7 +549,6 @@
   <project name="platform/system/connectivity/apmanager" path="system/connectivity/apmanager" />
   <project name="platform/system/connectivity/dhcp_client" path="system/connectivity/dhcp_client" />
   <project name="platform/system/connectivity/shill" path="system/connectivity/shill" />
-  <project groups="pdk" name="platform/system/extras" path="system/extras" />
   <project name="platform/system/firewalld" path="system/firewalld" />
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" />
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" />
