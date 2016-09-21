@@ -47,6 +47,9 @@
   <project groups="pdk-cw-fs,pdk-fs" name="android_frameworks_base" path="frameworks/base" remote="XOS" />
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
   
+  <!-- Hardware -->
+  <project groups="pdk" name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" />
+  
   <!-- Libutils -->
   <project groups="pdk" name="android_libcore" path="libcore" remote="XOS" />
   
@@ -411,7 +414,6 @@
   <project groups="pdk,broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
   <project groups="pdk" name="platform/hardware/google/apf" path="hardware/google/apf" />
   <project groups="nvensense,pdk" name="platform/hardware/invensense" path="hardware/invensense" />
-  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" />
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
 
   <!-- Libnativehelper -->
