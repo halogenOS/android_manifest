@@ -59,6 +59,9 @@
   <!-- Skia -->
   <project groups="pdk,qcom_msm8x26" name="android_external_skia" path="external/skia" remote="XOS" />
   
+  <!-- System -->
+  <project groups="pdk" name="android_system_core" path="system/core" remote="XOS" />
+  
   <!-- Vendor -->
   <project name="android_vendor_xos" path="vendor/xos" remote="XOS" />
 
@@ -545,7 +548,6 @@
   <project name="platform/system/connectivity/apmanager" path="system/connectivity/apmanager" />
   <project name="platform/system/connectivity/dhcp_client" path="system/connectivity/dhcp_client" />
   <project name="platform/system/connectivity/shill" path="system/connectivity/shill" />
-  <project groups="pdk" name="platform/system/core" path="system/core" />
   <project groups="pdk" name="platform/system/extras" path="system/extras" />
   <project name="platform/system/firewalld" path="system/firewalld" />
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" />
