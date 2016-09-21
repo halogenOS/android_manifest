@@ -39,6 +39,7 @@
   
   <!-- External -->
   <project groups="pdk" name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
+  <project groups="pdk" name="android_external_boringssl" path="external/boringssl" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
@@ -145,7 +146,6 @@
   <project groups="pdk" name="platform/external/avahi" path="external/avahi" />
   <project groups="pdk" name="platform/external/bison" path="external/bison" />
   <project groups="pdk" name="platform/external/blktrace" path="external/blktrace" />
-  <project groups="pdk" name="platform/external/boringssl" path="external/boringssl" />
   <project groups="pdk" name="platform/external/bouncycastle" path="external/bouncycastle" />
   <project name="platform/external/brctl" path="external/brctl" />
   <project groups="pdk" name="platform/external/bsdiff" path="external/bsdiff" />
