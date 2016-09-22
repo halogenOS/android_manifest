@@ -27,6 +27,9 @@
 
 <!-- Begin halogenOS (XOS) -->
 
+  <!-- Bionic -->
+  <project groups="pdk" name="android_bionic" path="bionic" remote="XOS" />
+
   <!-- Build -->
   <project groups="pdk" name="android_build" path="build" remote="XOS" >
     <copyfile dest="Makefile" src="core/root.mk"/>
@@ -77,9 +80,6 @@
 
   <!-- Art -->
   <project groups="pdk" name="platform/art" path="art" />
-
-  <!-- Bionic -->
-  <project groups="pdk" name="platform/bionic" path="bionic" />
 
   <!-- Build -->
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" />
