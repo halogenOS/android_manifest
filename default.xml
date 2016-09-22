@@ -52,6 +52,7 @@
   <!-- Frameworks -->
   <project groups="pdk-cw-fs,pdk-fs" name="android_frameworks_base" path="frameworks/base" remote="XOS" />
   <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
+  <project groups="pdk" name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="XOS" />
   
   <!-- Hardware -->
   <project groups="pdk" name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" />
@@ -404,7 +405,6 @@
   <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" />
-  <project groups="pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" />
   <project groups="pdk" name="platform/frameworks/rs" path="frameworks/rs" />
