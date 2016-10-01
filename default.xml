@@ -42,6 +42,7 @@
   
   <!-- External -->
   <project groups="pdk" name="android_external_boringssl" path="external/boringssl" remote="XOS" />
+  <project              name="android_external_busybox" path="external/busybox" remote="XOS" />
   <project groups="pdk" name="android_external_f2fs-tools" path="external/f2fs-tools" remote="XOS" />
   <project groups="pdk" name="android_external_okhttp" path="external/okhttp" remote="XOS" />
   <project groups="pdk" name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
