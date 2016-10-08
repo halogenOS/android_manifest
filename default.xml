@@ -45,6 +45,7 @@
   <project              name="android_external_busybox" path="external/busybox" remote="XOS" />
   <project groups="pdk" name="android_external_f2fs-tools" path="external/f2fs-tools" remote="XOS" />
   <project groups="pdk" name="android_external_okhttp" path="external/okhttp" remote="XOS" />
+  <project              name="android_external_mm-dash" path="external/mm-dash" remote="XOS" />
   <project groups="pdk" name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
@@ -301,7 +302,6 @@
   <project groups="pdk" name="platform/external/messageformat" path="external/messageformat" />
   <project groups="pdk" name="platform/external/minijail" path="external/minijail" />
   <project groups="pdk" name="platform/external/mksh" path="external/mksh" />
-  <project name="platform/external/mm-dash" path="external/mm-dash" />
   <project groups="pdk" name="platform/external/mmc-utils" path="external/mmc-utils" />
   <project groups="pdk-cw-fs" name="platform/external/mobicore" path="external/mobicore" />
   <project groups="pdk" name="platform/external/mockftpserver" path="external/mockftpserver" />
