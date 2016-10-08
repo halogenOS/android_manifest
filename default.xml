@@ -77,6 +77,7 @@
   <!-- System -->
   <project groups="pdk" name="android_system_core" path="system/core" remote="XOS" />
   <project groups="pdk" name="android_system_extras" path="system/extras" remote="XOS" />
+  <project groups="pdk" name="android_system_media" path="system/media" remote="XOS" />
   <project groups="pdk" name="android_system_vold" path="system/vold" remote="XOS" />
   
   <!-- Vendor -->
@@ -566,7 +567,6 @@
   <project name="platform/system/firewalld" path="system/firewalld" />
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" />
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" />
-  <project groups="pdk" name="platform/system/media" path="system/media" />
   <project name="platform/system/nativepower" path="system/nativepower" />
   <project groups="pdk" name="platform/system/netd" path="system/netd" />
   <project name="platform/system/nvram" path="system/nvram" />
