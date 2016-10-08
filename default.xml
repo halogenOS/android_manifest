@@ -67,6 +67,8 @@
   <project groups="pdk-fs" name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" />
   <project groups="pdk-fs" name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="XOS" />
   <project groups="pdk-fs" name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
+  <!-- Snap camera taken from CM -->
+  <project                 name="android_packages_apps_Snap" path="packages/apps/Snap" remote="XOS" />
   <project groups="pdk-cw-fs,pdk-fs" name="android_packages_services_Telephony" path="packages/services/Telephony" remote="XOS" />
   
   <!-- Skia -->
@@ -472,7 +474,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" />
   <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" />
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" />
-  <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" />
   <project name="platform/packages/apps/SnapdragonGallery" path="packages/apps/SnapdragonGallery" />
   <project name="platform/packages/apps/SnapdragonLauncher" path="packages/apps/SnapdragonLauncher" />
   <project name="platform/packages/apps/SnapdragonMusic" path="packages/apps/SnapdragonMusic" />
