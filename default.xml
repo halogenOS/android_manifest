@@ -65,8 +65,11 @@
   
   <!-- Packages -->
   <project                 name="android_packages_apps_Browser" path="packages/apps/Browser" remote="XOS" />
+  <project groups="pdk-fs" name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="XOS" />
+  <project groups="pdk-fs" name="android_packages_apps_ContactsCommon" path="packages/apps/Contacts" remote="XOS" />
   <project groups="pdk-fs" name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" />
   <project groups="pdk-fs" name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="XOS" />
+  <project groups="pdk-fs" name="android_packages_apps_PhoneCommon" path="packages/apps/Contacts" remote="XOS" />
   <project groups="pdk-fs" name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
   <!-- Snap camera taken from CM -->
   <project                 name="android_packages_apps_Snap" path="packages/apps/Snap" remote="XOS" />
@@ -464,8 +467,6 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" />
-  <project groups="pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" />
-  <project groups="pdk-fs" name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon" />
   <project groups="pdk-fs" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" />
   <project name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" />
   <project groups="pdk-fs" name="platform/packages/apps/Email" path="packages/apps/Email" />
@@ -489,7 +490,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" />
   <project groups="pdk-fs" name="platform/packages/apps/Phone" path="packages/apps/Phone" />
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" />
   <project groups="pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips" />
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" />
   <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" />
