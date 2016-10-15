@@ -482,6 +482,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" />
   <project groups="pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" />
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms" />
+  <project name="TeamSubstratum/masquerade"  path="packages/apps/masquerade" remote="github" revision="master" />
   <project groups="pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" />
   <project groups="pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" />
   <project groups="apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" />
