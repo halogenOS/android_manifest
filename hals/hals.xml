@@ -43,6 +43,7 @@
   <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.0-caf" remote="cm" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" remote="cm" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-14.0-caf" remote="cm" />
+  <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" revision="cm-14.0" remote="cm" />
   <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" remote="cm" />
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="cm" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" remote="cm" />
