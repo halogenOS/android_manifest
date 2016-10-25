@@ -42,10 +42,10 @@
   
   <!-- External -->
   <project groups="pdk" name="android_external_boringssl" path="external/boringssl" remote="XOS" />
-  <project              name="android_external_busybox" path="external/busybox" remote="XOS" />
+  <project name="android_external_busybox" path="external/busybox" remote="XOS" />
   <project groups="pdk" name="android_external_f2fs-tools" path="external/f2fs-tools" remote="XOS" />
   <project groups="pdk" name="android_external_okhttp" path="external/okhttp" remote="XOS" />
-  <project              name="android_external_mm-dash" path="external/mm-dash" remote="XOS" />
+  <project name="android_external_mm-dash" path="external/mm-dash" remote="XOS" />
   <project groups="pdk" name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
@@ -64,15 +64,14 @@
   <project groups="pdk" name="android_libcore" path="libcore" remote="XOS" />
   
   <!-- Packages -->
-  <project                 name="android_packages_apps_Browser" path="packages/apps/Browser" remote="XOS" />
+  <project name="android_packages_apps_Browser" path="packages/apps/Browser" remote="XOS" />
   <project groups="pdk-fs" name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="XOS" />
   <project groups="pdk-fs" name="android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="XOS" />
   <project groups="pdk-fs" name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" />
   <project groups="pdk-fs" name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="XOS" />
+  <project groups="pdk-fs" name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="XOS" />
   <project groups="pdk-fs" name="android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="XOS" />
   <project groups="pdk-fs" name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
-  <!-- Snap camera taken from CM -->
-  <project                 name="android_packages_apps_Snap" path="packages/apps/Snap" remote="XOS" />
   <project groups="pdk-cw-fs,pdk-fs" name="android_packages_services_Telecomm" path="packages/services/Telecomm" remote="XOS" />
   <project groups="pdk-cw-fs,pdk-fs" name="android_packages_services_Telephony" path="packages/services/Telephony" remote="XOS" />
   
@@ -483,7 +482,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" />
   <project groups="pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" />
   <project groups="pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" />
-  <project groups="pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" />
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms" />
   <project name="TeamSubstratum/masquerade"  path="packages/apps/masquerade" remote="github" revision="master" />
   <project groups="pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" />
