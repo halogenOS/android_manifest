@@ -500,7 +500,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" />
   <project groups="pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" />
   <project groups="pdk-fs" name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" />
-  <project groups="apps_stk,pdk-fs" name="platform/packages/apps/Stk" path="packages/apps/Stk" />
+  <project groups="apps_stk,pdk-fs" name="android_packages_apps_Stk" path="packages/apps/Stk" remote="XOS"/>
   <project name="platform/packages/apps/TV" path="packages/apps/TV" />
   <project groups="pdk-fs" name="platform/packages/apps/Tag" path="packages/apps/Tag" />
   <project groups="pdk-fs" name="platform/packages/apps/Terminal" path="packages/apps/Terminal" />
