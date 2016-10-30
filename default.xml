@@ -110,6 +110,12 @@
 
 <!-- End CyanogenMod -->
 
+<!-- Begin AOSPA -->
+
+  <project groups="pdk-fs" name="AOSPA/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="marshmallow" remote="github" />
+
+<!-- End AOSPA -->
+
 <!-- Begin Code Aurora Forum (CAF) -->
 
   <!-- Abi -->
@@ -475,8 +481,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" />
   <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" />
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" />
-  <project groups="pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" />
-  <project groups="pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" />
   <project groups="pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" />
   <project groups="pdk-fs" name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" />
   <project groups="pdk-fs" name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" />
