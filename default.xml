@@ -36,6 +36,9 @@
   </project>
   <project groups="pdk,tradefed" name="android_build_kati" path="build/kati" remote="XOS" />
   
+  <!-- Development -->
+  <project groups="pdk-cw-fs,pdk-fs" name="android_development" path="development" remote="XOS" />
+  
   <!-- Device -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS" />
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
@@ -140,9 +143,6 @@
   <project name="platform/developers/build" path="developers/build" />
   <project name="platform/developers/demos" path="developers/demos" />
   <project name="platform/developers/samples/android" path="developers/samples/android" />
-  
-  <!-- Development -->
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/development" path="development" />
   
   <!-- Device -->
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" />
