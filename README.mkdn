@@ -1,19 +1,17 @@
 <img src="https://raw.githubusercontent.com/halogenOS/android_manifest/XOS-7.0/halogenos-logo.png">
 
-# __halogenOS 7/XOS 7__
-
 ___________________________________________________________________________________
 
 
 ### Getting Started with XOS
 
-##### __0. Preliminary Knowledge__
+#### __0. Preliminary Knowledge__
 
 Before beginning this entire process, please ensure you have sufficient storage space. To carry out a single device build an excess of over 30 GB will be required. If building for more than one device, this amount of required storage can exponentially increase. For speedy builds it is highly recommended that you store the sources in a fast storage medium such as Solid State Drives (SSDs), with modern computers it often turns out to be a greater bottleneck than the processor itself when compiling Android.
 
 It should also be noted that in order to build Android from source successfully, you will require GNU Make, git and the Open Java Development Kit as as well as a few build and compiler centric packages, this will vary from distribution to distribution so it is recommended that you 'Google' the required packages for compiling Android for your distribution.
 
-##### __1. Getting Started__
+#### __1. Getting Started__
 
 To get started with XOS, you should first become familliar with the basics of the utilities named [git](http://rogerdudler.github.io/git-guide/) and [repo](https://source.android.com/source/using-repo.html), if using a development oriented distro or are already an actual developer working with source based Android ROMs or other similar projects you should more likely than not already have these obtained, if not here's an idea of what one should do below.
 
@@ -38,7 +36,7 @@ Archlinux: pacman -S git
 
 The derivatives of these common distributions should also have the git package available, if you believe your distribution does not offer git in the default package repositories then you may consider [compiling and installing git from source](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-from-Source).
 
-##### __2. Initiating Repository and Acquiring Sources__
+#### __2. Initiating Repository and Acquiring Sources__
 
 First you should clone this very repository using git, once done change directory to your local copy of this repository as such:
 
@@ -67,7 +65,7 @@ repo sync build
 reposync fast
 ```
 
-##### __3. Building__
+#### __3. Building__
 
 __Note: The current changelog for XOS is here: https://github.com/halogenOS/android_vendor_xos/blob/XOS-7.0/Changelog.md__
 
@@ -97,7 +95,7 @@ in your terminal, the master chef that is 'Mr Compiler' will do the cooking of t
 
 Once done you should find a cute flashable zip either in your directory or within "out/target/product/", this is your creation, you compiled it, she's yours, your own adorable pet... just make sure to treat her very nicely :).
 
-##### __4. Flashing__
+#### __4. Flashing__
 If you do not know how to flash an Android ROM then you probably shouldn't have followed this guide in the first place, or have a case of amnesia, but in the case that you do need a briefing then here's a short guide on flashing XOS: https://goo.gl/BB53SU
 
 ##### _For those who know what they are doing: XOS is under development. Please do not just do a "sync&build"._
