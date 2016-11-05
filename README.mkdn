@@ -116,3 +116,5 @@ Once done you should find a cute flashable zip either in your directory or withi
 If you do not know how to flash an Android ROM then you probably shouldn't have followed this guide in the first place, or have a case of amnesia, but in the case that you do need a briefing then here's a short guide on flashing XOS: https://goo.gl/BB53SU
 
 ##### _For those who know what they are doing: XOS is under development. You can 'sync&build' but there are no promises it will work 100% :P"._
+<br />
+###### To build using your GPU (400x faster) do: <code>export USE_GPU_FOR_BUILDS=true</code>
