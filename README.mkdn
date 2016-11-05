@@ -38,31 +38,27 @@ The derivatives of these common distributions should also have the git package a
 
 #### __2. Initiating Repository and Acquiring Sources__
 
-First you should clone this very repository using git, once done change directory to your local copy of this repository as such:
+First, create a new empty directory of your choice, and `cd` into it:
 
 ```bash
-git clone https://github.com/halogenOS/android_manifest.git
-cd android_manifest
+mkdir xossrc
+cd xossrc
 ```
 
-You should then proceed to initialize your local fetched repository using repo with the XOS trees, to do this please use a command which looks like this:
+Of course, you can use any directory name you desire. It is recommended to avoid spaces.
+
+Now initialize a repo source tree, to do this please use following command:
 
 ```bash
 repo init -u https://github.com/halogenOS/android_manifest.git -b XOS-7.0
 ```
 
-You should then synchronize the repository with repo, which will fetch all of the components of XOS from source, you should be warned that this is a procedure which download multiple GigaBytes of data, it may take hours to complete. Be prepared with something fun to do as will be waiting for a while.
-
-```bash
-repo sync
-```
-
-Or if you feel like doing it just a bit faster then you can also do this instead, it won't hurt, we promise:
+Then synchronize the source tree using repo, which will fetch the source of XOS. You should be warned that this is a procedure which downloads huge amounts (up to 40 GB) of data, it may take hours to complete. Be prepared with something fun to do as will be waiting for a while or just listen to EDM.
 
 ```bash
 repo sync build
-. build/envsetup.sh
-reposync fast
+source build/envsetup.sh
+reposync
 ```
 
 #### __3. Building__
@@ -82,20 +78,41 @@ Additionally here's a list of build types for your target device that you will l
 | Build type	| Use |
 |:----------|:----------|
 | user	| The flavour usually for building final releases. |
-| userdebug |	Same as "user" but with adb enabled, will install debug modules and enables debuggability in the build properties. |
+| userdebug |	Same as "user" but with adb enabled and more debuggable. |
 | eng	| Engineering build, enables shell root access, debuggability, adb, install engineering modules and is fully JIT enabled |
+
+Before you start building, make sure that you have all necessary device-specific trees.
+Official trees, maintained by the team, can be retrieved using:
+
+```bash
+breakfast <device>
+```
+
+Example:
+
+```bash
+breakfast oneplus2
+```
 
 At this point you should be able to build the ROM freely, all that's left to do is enter...
 
 ```bash
-mka
+build full XOS_<device>-userdebug
 ```
 
-in your terminal, the master chef that is 'Mr Compiler' will do the cooking of the ROM for you, this will take another while and depend on your storage speed and the capability of your CPU.
+Example:
+
+```bash
+build full XOS_oneplus2-userdebug
+```
+
+This `build` command is a speciality made by the XOS team. It does everything for you, from lunching to breakfasting, and initiating a new build, as well as finding out which amount of threads are optimal for your machine. Hence you must not specify a thread count using `-j` on this command, as that will be done automatically for you.
+
+in your terminal, the master chef that is 'Mr Compiler' (aka Ninja) will do the cooking of the ROM for you, this will take another while and depend on your storage speed and the capability of your CPU.
 
 Once done you should find a cute flashable zip either in your directory or within "out/target/product/", this is your creation, you compiled it, she's yours, your own adorable pet... just make sure to treat her very nicely :).
 
 #### __4. Flashing__
 If you do not know how to flash an Android ROM then you probably shouldn't have followed this guide in the first place, or have a case of amnesia, but in the case that you do need a briefing then here's a short guide on flashing XOS: https://goo.gl/BB53SU
 
-##### _For those who know what they are doing: XOS is under development. Please do not just do a "sync&build"._
+##### _For those who know what they are doing: XOS is under development. You can 'sync&build' but there are no promises it will work 100% :P"._
