@@ -6,6 +6,7 @@
 
   <remote name="XOS"
 	  fetch="https://github.com/halogenOS/"  
+	  review="http://review.halogenos.org/"
  	  revision="refs/heads/XOS-7.0" />
 
   <remote name="caf" 
