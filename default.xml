@@ -11,7 +11,7 @@
 
   <remote name="caf" 
 	  fetch="https://source.codeaurora.org/quic/la/"
-	  revision="LA.BF64.1.2.3_rb1.5"
+	  revision="LA.BF64.1.2.3_rb1.6"
 	  review="codeaurora.org" />
 
   <remote name="github"
@@ -87,7 +87,9 @@
   <!-- System -->
   <project groups="pdk" name="android_system_core" path="system/core" remote="XOS" />
   <project groups="pdk" name="android_system_extras" path="system/extras" remote="XOS" />
+  <project groups="pdk" name="android_system_keymaster" path="system/keymaster" remote="XOS" />
   <project groups="pdk" name="android_system_media" path="system/media" remote="XOS" />
+  <project groups="pdk" name="android_system_security" path="system/security" remote="XOS" />
   <project groups="pdk" name="android_system_sepolicy" path="system/sepolicy" remote="XOS" />
   <project groups="pdk" name="android_system_vold" path="system/vold" remote="XOS" />
   
@@ -571,11 +573,9 @@
   <project name="platform/system/connectivity/shill" path="system/connectivity/shill" />
   <project name="platform/system/firewalld" path="system/firewalld" />
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" />
-  <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" />
   <project name="platform/system/nativepower" path="system/nativepower" />
   <project groups="pdk" name="platform/system/netd" path="system/netd" />
   <project name="platform/system/nvram" path="system/nvram" />
-  <project groups="pdk" name="platform/system/security" path="system/security" />
   <project groups="pdk" name="platform/system/tools/aidl" path="system/tools/aidl" />
   <project name="platform/system/tpm" path="system/tpm" />
   <project groups="pdk" name="platform/system/update_engine" path="system/update_engine" />
