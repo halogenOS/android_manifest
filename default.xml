@@ -106,13 +106,28 @@
      Some libraries and other stuff are maintained by CM and necessary for us.
      Since they work pretty well and corporate with the existing components of
      XOS, no further modification is necessary, so we just include them here. -->
-  
+
+  <project  name="CyanogenMod/android_external_bash" path="external/bash"
+            remote="github" revision="cm-14.1" />
+
   <project  name="CyanogenMod/android_external_connectivity" path="external/connectivity"
             remote="github" revision="cm-14.0" />
-  
+
   <project  name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" 
             remote="github" revision="cm-14.0" />
-  
+
+  <project  name="CyanogenMod/android_external_libncurses" path="external/libncurses" 
+            remote="github" revision="cm-14.1" />
+
+  <project  name="CyanogenMod/android_external_libtruezip" path="external/libtruezip" 
+            remote="github" revision="cm-14.1" />
+
+  <project  name="CyanogenMod/android_external_nano" path="external/nano"
+            remote="github" revision="cm-14.1" />
+
+  <project  name="CyanogenMod/android_external_openssh" path="external/openssh"
+            remote="github" revision="cm-14.1" />
+
   <project  name="CyanogenMod/android_external_stagefright-plugins" path="external/stagefright-plugins"
             remote="github" revision="cm-14.0" />
 
