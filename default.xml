@@ -28,6 +28,9 @@
 
 <!-- Begin halogenOS (XOS) -->
 
+  <!-- Art -->
+  <project groups="pdk" name="android_art" path="art" remote="XOS" />
+
   <!-- Bionic -->
   <project groups="pdk" name="android_bionic" path="bionic" remote="XOS" />
 
@@ -137,9 +140,6 @@
 
   <!-- Abi -->
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" />
-
-  <!-- Art -->
-  <project groups="pdk" name="platform/art" path="art" />
 
   <!-- Build -->
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" />
