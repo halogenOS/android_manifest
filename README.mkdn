@@ -1,5 +1,6 @@
 <img src="https://raw.githubusercontent.com/halogenOS/android_manifest/XOS-7.0/halogenos-logo.png">
 
+[![Build Status](http://jenkins.xdevs23.me/buildStatus/icon?job=halogenOS_BWTSW)](http://jenkins.xdevs23.me/job/halogenOS_BWTSW/)
 ___________________________________________________________________________________
 
 
