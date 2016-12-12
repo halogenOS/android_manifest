@@ -6,7 +6,7 @@
 
 - jalebi [![Build Status](http://jenkins.msfjarvis.me/buildStatus/icon?job=halogenOS)](http://jenkins.msfjarvis.me/job/halogenOS/)
 
-For __testers__ and __experienced/advanced users__ **ONLY**, click on the badge below to download test builds<br />
+For _testers_ and _experienced/advanced users_ **ONLY**, click on the badge below to download test builds<br />
 [![Download halogenOS builds](https://img.shields.io/sourceforge/dw/halogenos-builds.svg)](https://sourceforge.net/projects/halogenos-builds/files/test_builds)
 ___________________________________________________________________________________
 
