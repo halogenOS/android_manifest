@@ -1,6 +1,10 @@
 <img src="https://raw.githubusercontent.com/halogenOS/android_manifest/XOS-7.0/halogenos-logo.png">
 
-[![Build Status](http://jenkins.xdevs23.me/buildStatus/icon?job=halogenOS)](http://jenkins.xdevs23.me/job/halogenOS/)
+### Build Status
+
+- oneplus2 [![Build Status](http://jenkins.xdevs23.me/buildStatus/icon?job=halogenOS)](http://jenkins.xdevs23.me/job/halogenOS/)
+
+- jalebi [![Build Status](http://jenkins.msfjarvis.me/buildStatus/icon?job=halogenOS)](http://jenkins.msfjarvis.me/job/halogenOS/)
 ___________________________________________________________________________________
 
 
