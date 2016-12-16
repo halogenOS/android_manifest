@@ -33,9 +33,6 @@
   <!-- Bionic -->
   <project groups="pdk" name="android_bionic" path="bionic" remote="XOS" revision="XOS-7.0" />
 
-  <!-- Bootable -->
-  <project groups="pdk" name="android_bootable_recovery" path="bootable/recovery" remote="XOS" />
-
   <!-- Build -->
   <project groups="pdk" name="android_build" path="build" remote="XOS" revision="XOS-7.0" >
     <copyfile dest="Makefile" src="core/root.mk" />
@@ -157,6 +154,7 @@
   </project>  
   
   <!-- Bootable -->
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" />
   <project name="kernel/lk" path="bootable/bootloader/lk" />
 
   <!-- Cts -->
