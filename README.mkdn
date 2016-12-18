@@ -19,6 +19,8 @@ Before beginning this entire process, please ensure you have sufficient storage 
 
 It should also be noted that in order to build Android from source successfully, you will require GNU Make, git and the Open Java Development Kit as as well as a few build and compiler centric packages, this will vary from distribution to distribution so it is recommended that you 'Google' the required packages for compiling Android for your distribution.
 
+Before you continue, make sure you follow the [Setting up a Linux build environment](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment) guide.
+
 #### __1. Getting Started__
 
 To get started with XOS, you should first become familliar with the basics of the utilities named [git](http://rogerdudler.github.io/git-guide/) and [repo](https://source.android.com/source/using-repo.html), if using a development oriented distro or are already an actual developer working with source based Android ROMs or other similar projects you should more likely than not already have these obtained, if not here's an idea of what one should do below.
