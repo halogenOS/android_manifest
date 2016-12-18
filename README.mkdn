@@ -64,7 +64,9 @@ Now initialize a repo source tree, to do this please use following command:
 repo init -u https://github.com/halogenOS/android_manifest.git -b XOS-7.0
 ```
 
-Then synchronize the source tree using repo, which will fetch the source of XOS. You should be warned that this is a procedure which downloads huge amounts (up to 40 GB) of data, it may take hours to complete. Be prepared with something fun to do as will be waiting for a while or just listen to EDM.
+Then synchronize the source tree using repo, which will fetch the source of XOS. You should be warned that this is a procedure which downloads huge amounts (about 20 GB in total) of data, it may take hours to complete. Be prepared with something fun to do as will be waiting for a while or just listen to EDM.
+Note, that you will need more than just 20 GB of storage. The **download** amount of data is <20 GB, the final amount of storage needed, will be around 30-40 GB, and for building XOS, you will need at least additional 35 GB.
+To clarify: __Downloaded__ will be only 20 GB, and altogether (including the downloaded data) you will need about 90 GB of storage on your hard drive.
 
 ```bash
 repo sync build
