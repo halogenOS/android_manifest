@@ -1,13 +1,15 @@
 <img src="https://raw.githubusercontent.com/halogenOS/android_manifest/XOS-7.0/halogenos-logo.png">
 
-### Build Status
+### Build Status and Test Builds
 
-- oneplus2 [![Build Status](http://jenkins.xdevs23.me/buildStatus/icon?job=halogenOS)](http://jenkins.xdevs23.me/job/halogenOS/)
+| Device | Build Status | Test Builds  |
+|---|---|---|
+*oneplus2* | [![Build Status](http://jenkins.xdevs23.me/buildStatus/icon?job=halogenOS)](http://jenkins.xdevs23.me/job/halogenOS/) | [![Download halogenOS builds for oneplus2](https://img.shields.io/sourceforge/dw/halogenos-builds.svg)](https://sourceforge.net/projects/halogenos-builds/files/test_builds) |
+*jalebi*   | [![Build Status](http://jenkins.msfjarvis.me/buildStatus/icon?job=halogenOS)](http://jenkins.msfjarvis.me/job/halogenOS/) | [![Download halogenOS builds for jalebi](https://img.shields.io/sourceforge/dw/xos-for-jalebi.svg)](https://sourceforge.net/projects/xos-for-jalebi/files) |
 
-- jalebi [![Build Status](http://jenkins.msfjarvis.me/buildStatus/icon?job=halogenOS)](http://jenkins.msfjarvis.me/job/halogenOS/)
 
-For _testers_ and _experienced/advanced users_ **ONLY**, click on the badge below to download test builds<br />
-[![Download halogenOS builds](https://img.shields.io/sourceforge/dw/halogenos-builds.svg)](https://sourceforge.net/projects/halogenos-builds/files/test_builds)
+_NOTE : Test builds are generally stable, but can break at any time. You get to keep all pieces though ;)_
+
 ___________________________________________________________________________________
 
 
