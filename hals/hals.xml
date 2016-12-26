@@ -5,6 +5,11 @@
           revision="cm-14.0"
           review="review.cyanogenmod.org" />
 
+  <remote name="ln"
+          fetch="https://github.com/LineageOS/"
+          revision="cm-14.0"
+          review="review.lineageos.org" />
+
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.0-caf-8084" remote="cm" />
   <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.0-caf-8916" remote="cm" />
