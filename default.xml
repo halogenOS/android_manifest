@@ -87,7 +87,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="XOS"  />
   <project groups="pdk-fs" name="android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="XOS"  />
   <project groups="pdk-fs" name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS"  />
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
+  <project groups="pdk-fs" name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
   <project groups="pdk-fs" name="android_packages_apps_Terminal" path="packages/apps/Terminal" remote="XOS"  />
   <project groups="apps_stk,pdk-fs" name="android_packages_apps_Stk" path="packages/apps/Stk" remote="XOS"  />
   <project groups="pdk-fs" name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="XOS"  />
@@ -114,37 +114,37 @@
 
 <!-- End halogenOS (XOS) -->
 
-<!-- Begin CyanogenMod 
-     Why CyanogenMod?
-     Some libraries and other stuff are maintained by CM and necessary for us.
+<!-- Begin LineageOS 
+     Why LineageOS?
+     Some libraries and other stuff are maintained by LN and necessary for us.
      Since they work pretty well and corporate with the existing components of
      XOS, no further modification is necessary, so we just include them here. -->
 
-  <project  name="CyanogenMod/android_external_bash" path="external/bash"
+  <project  name="LineageOS/android_external_bash" path="external/bash"
             remote="github" revision="cm-14.1" />
 
-  <project  name="CyanogenMod/android_external_connectivity" path="external/connectivity"
+  <project  name="LineageOS/android_external_connectivity" path="external/connectivity"
             remote="github" revision="cm-14.0" />
 
-  <project  name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" 
+  <project  name="LineageOS/android_external_ffmpeg" path="external/ffmpeg" 
             remote="github" revision="cm-14.0" />
 
-  <project  name="CyanogenMod/android_external_libncurses" path="external/libncurses" 
+  <project  name="LineageOS/android_external_libncurses" path="external/libncurses" 
             remote="github" revision="cm-14.1" />
 
-  <project  name="CyanogenMod/android_external_libtruezip" path="external/libtruezip" 
+  <project  name="LineageOS/android_external_libtruezip" path="external/libtruezip" 
             remote="github" revision="cm-14.1" />
 
-  <project  name="CyanogenMod/android_external_nano" path="external/nano"
+  <project  name="LineageOS/android_external_nano" path="external/nano"
             remote="github" revision="cm-14.1" />
 
-  <project  name="CyanogenMod/android_external_openssh" path="external/openssh"
+  <project  name="LineageOS/android_external_openssh" path="external/openssh"
             remote="github" revision="cm-14.1" />
 
-  <project  name="CyanogenMod/android_external_stagefright-plugins" path="external/stagefright-plugins"
+  <project  name="LineageOS/android_external_stagefright-plugins" path="external/stagefright-plugins"
             remote="github" revision="cm-14.0" />
 
-<!-- End CyanogenMod -->
+<!-- End LineageOS -->
 
 <!-- Begin Code Aurora Forum (CAF) -->
 
