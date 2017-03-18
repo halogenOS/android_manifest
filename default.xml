@@ -33,83 +33,85 @@
   <!-- halogenOS -->
 
   <!-- Art -->
-  <project groups="pdk" name="android_art" path="art" remote="XOS" />
+  <project name="android_art" path="art" remote="XOS" />
 
   <!-- Bionic -->
-  <project groups="pdk" name="android_bionic" path="bionic" remote="XOS" />
+  <project name="android_bionic" path="bionic" remote="XOS" />
 
   <!-- Bootable -->
-  <project groups="pdk" name="android_bootable_recovery" path="bootable/recovery" remote="XOS" />
+  <project name="android_bootable_recovery" path="bootable/recovery" remote="XOS" />
 
   <!-- Build system -->
-  <project groups="pdk" name="android_build" path="build" remote="XOS">
+  <project name="android_build" path="build" remote="XOS">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project groups="pdk,tradefed" name="android_build_kati" path="build/kati" remote="XOS" />
+  <project name="android_build_kati" path="build/kati" remote="XOS" />
 
   <!-- Device -->
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
 
   <!-- External -->
-  <project groups="pdk" name="android_external_boringssl" path="external/boringssl" remote="XOS" />
+  <project name="android_external_boringssl" path="external/boringssl" remote="XOS" />
   <project name="android_external_busybox" path="external/busybox" remote="XOS" />
   <project name="android_external_mm-dash" path="external/mm-dash" remote="XOS" />
-  <project groups="pdk" name="android_external_okhttp" path="external/okhttp" remote="XOS" />
+  <project name="android_external_okhttp" path="external/okhttp" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
-  <project groups="pdk" name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
+  <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
 
   <!-- Extras -->
-  <project groups="pdk-fw-cs" name="android_extras_ota" path="extras/ota" remote="XOS" />
+  <project name="android_extras_ota" path="extras/ota" remote="XOS" />
 
   <!-- Frameworks -->
-  <project groups="pdk" name="android_frameworks_av" path="frameworks/av" remote="XOS" />
-  <project groups="pdk-cw-fs,pdk-fs" name="android_frameworks_base" path="frameworks/base" remote="XOS" />
-  <project groups="pdk" name="android_frameworks_native" path="frameworks/native" remote="XOS" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="XOS" />
-  <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="XOS" />
-  <project groups="pdk" name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="XOS" />
-  <project path="packages/providers/CallLogProvider" name="android_packages_providers_CallLogProvider" groups="pdk-fs" remote="XOS" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="XOS" />
+  <project name="android_frameworks_av" path="frameworks/av" remote="XOS" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="XOS" />
+  <project name="android_frameworks_native" path="frameworks/native" remote="XOS" />
+  <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="XOS" />
+  <project name="android_frameworks_opt_bluetooth" path="frameworks/opt/bluetooth" remote="XOS" />
+  <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="XOS" />
+  <project name="android_frameworks_rs" path="frameworks/rs" remote="XOS" />
+  <project name="android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" remote="XOS" />
 
   <!-- libcore -->
-  <project groups="pdk" name="android_libcore" path="libcore" remote="XOS" />
+  <project name="android_libcore" path="libcore" remote="XOS" />
 
   <!-- Packages -->
   <project name="android_packages_apps_Browser" path="packages/apps/Browser" remote="XOS" />
-  <project groups="pdk-cw-fs,pdk-fs" name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="XOS" />
-  <project groups="pdk-fs" name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="XOS" />
-  <project groups="pdk-fs" name="android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="XOS" />
-  <project groups="pdk-fs" name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" />
-  <project groups="pdk-fs" name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="XOS" />
-  <project groups="pdk-fs" name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="XOS" />
-  <project groups="pdk-cw-fs,pdk-fs" name="android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="XOS" />
-  <project groups="pdk-fs" name="android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="XOS" />
-  <project groups="apps_stk,pdk-fs" name="android_packages_apps_Stk" path="packages/apps/Stk" remote="XOS" />
-  <project groups="pdk-fs" name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="XOS" />
-  <project groups="pdk-fs" name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
-  <project groups="pdk-fs" name="android_packages_apps_Terminal" path="packages/apps/Terminal" remote="XOS" />
-  <project groups="pdk-fs" name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="XOS" />
-  <project groups="pdk-cw-fs,pdk-fs" name="android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="XOS" />
-  <project groups="pdk-cw-fs,pdk-fs" name="android_packages_services_Telecomm" path="packages/services/Telecomm" remote="XOS" />
-  <project groups="pdk-cw-fs,pdk-fs" name="android_packages_services_Telephony" path="packages/services/Telephony" remote="XOS" />
-  <project groups="pdk-cw-fs,pdk-fs" name="android_packages_apps_OTAUpdates" path="packages/apps/OTAUpdates" remote="XOS" />
+  <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="XOS" />
+  <project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="XOS" />
+  <project name="android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="XOS" />
+  <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" />
+  <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="XOS" />
+  <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="XOS" />
+  <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="XOS" />
+  <project name="android_packages_apps_OTAUpdates" path="packages/apps/OTAUpdates" remote="XOS" />
+  <project name="android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="XOS" />
+  <project name="android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="XOS" />
+  <project name="android_packages_apps_Stk" path="packages/apps/Stk" remote="XOS" />
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
+  <project name="android_packages_apps_Terminal" path="packages/apps/Terminal" remote="XOS" />
+  <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="XOS" />
+  <project name="android_packages_providers_CallLogProvider" path="packages/providers/CallLogProvider" remote="XOS" />
+  <project name="android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" remote="XOS" />
+  <project name="android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="XOS" />
+  <project name="android_packages_services_Telecomm" path="packages/services/Telecomm" remote="XOS" />
+  <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="XOS" />
 
   <!-- Prebuilts -->
-  <project groups="linux,pdk,tradefed" name="android_prebuilts_ninja_linux-x86" path="prebuilts/ninja/linux-x86" remote="XOS" clone-depth="1" />
+  <project name="android_prebuilts_ninja_linux-x86" path="prebuilts/ninja/linux-x86" remote="XOS" clone-depth="1" />
 
   <!-- Skia -->
-  <project groups="pdk,qcom_msm8x26" name="android_external_skia" path="external/skia" remote="XOS" />
+  <project name="android_external_skia" path="external/skia" remote="XOS" />
 
   <!-- System -->
-  <project groups="pdk" name="android_system_bt" path="system/bt" remote="XOS" />
-  <project groups="pdk" name="android_system_core" path="system/core" remote="XOS" />
-  <project groups="pdk" name="android_system_media" path="system/media" remote="XOS" />
-  <project groups="pdk" name="android_system_keymaster" path="system/keymaster" remote="XOS" />
-  <project groups="pdk" name="android_system_security" path="system/security" remote="XOS" />
-  <project groups="pdk" name="android_system_sepolicy" path="system/sepolicy" remote="XOS" />
-  <project groups="pdk" name="android_system_vold" path="system/vold" remote="XOS" />
+  <project name="android_system_bt" path="system/bt" remote="XOS" />
+  <project name="android_system_core" path="system/core" remote="XOS" />
+  <project name="android_system_media" path="system/media" remote="XOS" />
+  <project name="android_system_keymaster" path="system/keymaster" remote="XOS" />
+  <project name="android_system_security" path="system/security" remote="XOS" />
+  <project name="android_system_sepolicy" path="system/sepolicy" remote="XOS" />
+  <project name="android_system_vold" path="system/vold" remote="XOS" />
 
   <!-- Vendor -->
   <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="XOS" />
@@ -124,19 +126,19 @@
   <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS" />
 
   <!-- External -->
-  <project groups="pdk" name="android_external_f2fs-tools" path="external/f2fs-tools" remote="XOS" />
+  <project name="android_external_f2fs-tools" path="external/f2fs-tools" remote="XOS" />
 
   <!-- Hardware -->
   <include name="hals/hals.xml" />
-  <project groups="pdk" name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" />
+  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy"
-           groups="pdk" remote="github" revision="cm-14.1" />
+           remote="github" revision="cm-14.1" />
 
   <!-- Packages -->
-  <project groups="pdk-fs" name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
 
   <!-- System -->
-  <project groups="pdk" name="android_system_extras" path="system/extras" remote="XOS" />
+  <project name="android_system_extras" path="system/extras" remote="XOS" />
 
 <!-- LineageOS
      Why LineageOS?
@@ -175,7 +177,8 @@
             remote="github" revision="cm-14.1" />
 
   <!-- Other -->
-  <project groups="pdk-cw-fs,pdk-fs" name="DirtyUnicorns/android_frameworks_support" path="frameworks/support" remote="github" revision="n7x" />
+  <project name="DirtyUnicorns/android_frameworks_support" path="frameworks/support" remote="github" revision="n7x" />
+  <project name="Flash-ROM/prebuilts_build-tools" path="prebuilts/build-tools" remote="github" revision="n7.1.1" />
 
   <!-- Android Open Source Project -->
 
@@ -435,7 +438,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
@@ -457,7 +459,6 @@
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
