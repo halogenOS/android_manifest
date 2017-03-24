@@ -149,9 +149,6 @@
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy"
            remote="github" revision="cm-14.1" />
 
-  <!-- Packages -->
-  <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
-
   <!-- System -->
   <project name="android_system_extras" path="system/extras" remote="XOS" />
 
@@ -194,6 +191,8 @@
   <!-- Other -->
   <project name="DirtyUnicorns/android_frameworks_support" path="frameworks/support" remote="github" revision="n7x" />
   <project name="Flash-ROM/prebuilts_build-tools" path="prebuilts/build-tools" remote="github" revision="n7.1.1" />
+  <project name="omnirom/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="android-7.1" />
+
 
   <!-- Android Open Source Project -->
 
