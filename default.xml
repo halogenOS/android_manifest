@@ -118,7 +118,7 @@
   <project name="android_vendor_xos" path="vendor/xos" remote="XOS" />
 
   <!-- Substratum -->
-  <project name="substratum/interfacer" path="packages/apps/masquerade" remote="github" revision="n-rootless" />
+  <project name="substratum/interfacer" path="packages/apps/interfacer" remote="github" revision="n-rootless" />
 
   <!-- Various repositories maintained by LineageOS -->
 
