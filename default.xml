@@ -70,8 +70,6 @@
   <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="XOS" />
   <project name="android_frameworks_opt_bluetooth" path="frameworks/opt/bluetooth" remote="XOS" />
   <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="XOS" />
-  <project name="android_frameworks_rs" path="frameworks/rs" remote="XOS" />
-  <project name="android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" remote="XOS" />
 
   <!-- libcore -->
   <project name="android_libcore" path="libcore" remote="XOS" />
@@ -438,6 +436,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
@@ -459,6 +458,7 @@
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
