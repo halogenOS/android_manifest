@@ -167,6 +167,9 @@
   <project  name="LineageOS/android_external_connectivity" path="external/connectivity"
             remote="github" revision="cm-14.1" />
 
+  <project  name="LineageOS/android_external_elfutils" path="external/elfutils"
+            remote="github" revision="cm-14.1" />
+
   <project  name="LineageOS/android_external_ffmpeg" path="external/ffmpeg"
             remote="github" revision="cm-14.1" />
 
@@ -262,7 +265,6 @@
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" />
-  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
