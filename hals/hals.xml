@@ -42,4 +42,5 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom-opensource_dataservices" remote="XOS" revision="cm-14.1" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom-opensource_dpm" remote="XOS" revision="cm-14.1" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom-opensource_time-services" remote="XOS" revision="cm-14.1" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
 </manifest>
