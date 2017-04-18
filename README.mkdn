@@ -5,7 +5,6 @@
 | Device | Build Status | Test Builds  |
 |---|---|---|
 *oneplus2* | [![Build Status](http://jenkins.xdevs23.me/buildStatus/icon?job=halogenOS)](http://jenkins.xdevs23.me/job/halogenOS/) | [![Download halogenOS builds for oneplus2](https://img.shields.io/sourceforge/dw/halogenos-builds.svg)](https://sourceforge.net/projects/halogenos-builds/files/test_builds) |
-*jalebi*   | [![Build Status](http://jenkins.msfjarvis.me/buildStatus/icon?job=halogenOS)](http://jenkins.msfjarvis.me/job/halogenOS/) | [![Download halogenOS builds for jalebi](https://img.shields.io/sourceforge/dw/xos-for-jalebi.svg)](https://sourceforge.net/projects/xos-for-jalebi/files) |
 
 
 _NOTE : Test builds are generally stable, but can break at any time. You get to keep all pieces though ;)_
