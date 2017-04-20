@@ -99,6 +99,7 @@
   <project name="android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="XOS" />
   <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="XOS" />
   <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" />
+  <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="XOS" />
   <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="XOS" />
   <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="XOS" />
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="XOS" />
@@ -518,7 +519,6 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
-  <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
