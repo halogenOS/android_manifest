@@ -195,6 +195,7 @@
             remote="github" revision="cm-14.1" />
 
   <!-- Other -->
+  <project name="Flash-ROM/external_sqlite" path="external/sqlite" remote="github" revision="n7.1.2" />
   <project name="DirtyUnicorns/android_frameworks_support" path="frameworks/support" remote="github" revision="n7x" />
   <project name="Flash-ROM/prebuilts_build-tools" path="prebuilts/build-tools" remote="github" revision="n7.1.2" clone-depth="1" />
   <project name="omnirom/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="android-7.1" />
@@ -425,7 +426,6 @@
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
