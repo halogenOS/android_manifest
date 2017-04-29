@@ -24,12 +24,12 @@
           review="codeaurora.org" />
 
   <remote name="caf64"
-          revision="refs/tags/LA.BF64.1.2.3-02210-8x94.0"
+          revision="refs/tags/LA.BF64.1.2.3-02410-8x94.0"
           fetch="https://source.codeaurora.org/"
           review="codeaurora.org" />
 
   <remote name="caf64-stable"
-          revision="LA.BF64.1.2.3_rb1.11"
+          revision="LA.BF64.1.2.3_rb1.12"
           fetch="https://source.codeaurora.org/"
           review="codeaurora.org" />
 
