@@ -39,6 +39,9 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
+  <remote name="bitbucket"
+          fetch="https://bitbucket.org/" />
+
   <default remote="aosp"
            sync-c="true"
            sync-j="16" />
