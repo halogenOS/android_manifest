@@ -9,7 +9,7 @@
           review="http://review.halogenos.org/" />
 
   <remote name="aosp"
-          revision="refs/tags/android-7.1.2_r8"
+          revision="refs/tags/android-7.1.2_r17"
           fetch="https://android.googlesource.com/"
           review="https://android.googlesource.com/" />
 
