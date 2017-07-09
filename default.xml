@@ -209,6 +209,7 @@
 
   <!-- Other -->
   <project name="Flash-ROM/external_sqlite" path="external/sqlite" remote="github" revision="n7.1.2" />
+  <project name="TeslaRom-N/external_json-c" path="external/json-c" remote="github" revision="n7.1.2" />
   <project name="DirtyUnicorns/android_frameworks_support" path="frameworks/support" remote="github" revision="n7x" />
   <project name="Flash-ROM/prebuilts_build-tools" path="prebuilts/build-tools" remote="github" revision="n7.1.2" clone-depth="1" />
   <project name="Flash-ROM/prebuilts_misc" path="prebuilts/misc" remote="github" revision="n7.1.2" clone-depth="1" />
