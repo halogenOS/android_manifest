@@ -24,7 +24,7 @@
           review="codeaurora.org" />
 
   <remote name="caf64"
-          revision="refs/tags/LA.BF64.1.2.3-02610-8x94.0"
+          revision="refs/tags/LA.BF64.1.2.3-02710-8x94.0"
           fetch="https://source.codeaurora.org/"
           review="codeaurora.org" />
 
