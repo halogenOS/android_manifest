@@ -6,7 +6,7 @@
   <remote name="XOS"
           revision="XOS-7.1"
           fetch="https://github.com/halogenOS/"
-          review="http://review.halogenos.org/" />
+          review="https://review.halogenos.org/" />
 
   <remote name="aosp"
           revision="refs/tags/android-7.1.2_r24"
