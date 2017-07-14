@@ -33,6 +33,11 @@
           fetch="https://source.codeaurora.org/"
           review="codeaurora.org" />
 
+  <remote name="caf8998"
+          revision="refs/tags/LA.UM.5.8.r1-02200-8x98.0"
+          fetch="https://source.codeaurora.org/"
+          review="codeaurora.org" />
+
   <remote name="github"
           fetch="https://github.com/" />
 
@@ -599,11 +604,11 @@
 
   <!-- CodeAurora Forums -->
 
-  <project path="external/clang" name="platform/external/clang" groups="pdk" remote="caf" />
+  <project path="external/clang" name="platform/external/clang" groups="pdk" remote="caf8998" />
   <project name="platform/external/libnfnetlink" path="external/libnfnetlink" remote="caf" />
-  <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" clone-depth="1" remote="caf" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="caf" />
-  <project path="prebuilts/gdb/linux-x86" name="platform/prebuilts/gdb/linux-x86" groups="linux" clone-depth="1" remote="caf" />
+  <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" clone-depth="1" remote="caf8998" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="caf8998" />
+  <project path="prebuilts/gdb/linux-x86" name="platform/prebuilts/gdb/linux-x86" groups="linux" clone-depth="1" remote="caf8998" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="caf64" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="caf" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="caf" />
