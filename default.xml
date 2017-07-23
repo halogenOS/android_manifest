@@ -8,6 +8,9 @@
           fetch="https://github.com/halogenOS/"
           review="https://review.halogenos.org/" />
 
+  <remote name="XOSgerrit"
+          fetch="https://review.halogenos.org/" />
+
   <remote name="aosp"
           revision="refs/tags/android-7.1.2_r24"
           fetch="https://android.googlesource.com/"
