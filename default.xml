@@ -135,6 +135,8 @@
   <!-- Prebuilts -->
   <project name="android_prebuilts_ninja_linux-x86" path="prebuilts/ninja/linux-x86" remote="XOS" clone-depth="1" />
   <project name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="XOS" clone-depth="1" />
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" clone-depth="1" revision="nougat-mr2"/>
+
 
   <!-- Skia -->
   <project name="android_external_skia" path="external/skia" remote="XOS" />
