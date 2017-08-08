@@ -12,7 +12,7 @@
           fetch="https://review.halogenos.org/" />
 
   <remote name="aosp"
-          revision="refs/tags/android-7.1.2_r24"
+          revision="refs/tags/android-7.1.2_r33"
           fetch="https://android.googlesource.com/"
           review="https://android.googlesource.com/" />
 
