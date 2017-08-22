@@ -1,5 +1,8 @@
 <manifest>
 
+  <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" />
 
+  <!-- Vendor -->
+  <project name="android_vendor_xos" path="vendor/xos" remote="XOS" />
 </manifest>
