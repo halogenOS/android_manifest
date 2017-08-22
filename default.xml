@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
 
   <remote  name="XOS"
-           fetch=".."
+           fetch="https://github.com/halogenOS"
            review="https://review.halogenos.org"
            revision="XOS-8.0" />
 
