@@ -1,2 +1,5 @@
 <manifest>
+
+  <project name="android_manifest" path="manifest" remote="XOS" />
+
 </manifest>
