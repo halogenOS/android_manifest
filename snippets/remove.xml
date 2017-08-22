@@ -75,4 +75,8 @@
   <remove-project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
   <remove-project path="test/vts" name="platform/test/vts" groups="vts,pdk" />
   <remove-project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
+
+  <!-- Repos to replace for XOS -->
+  <remove-project path="build/make" name="platform/build" groups="pdk" />
+
 </manifest>
