@@ -76,7 +76,6 @@
   <remove-project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,tradefed" />
   <remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" />
   <remove-project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
-  <remove-project path="test/vts" name="platform/test/vts" groups="vts,pdk" />
   <remove-project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
 
   <!-- Repos to replace for XOS -->
