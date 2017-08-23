@@ -11,6 +11,11 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <!-- Frameworks -->
+  <project name="android_frameworks_av" path="frameworks/av" remote="XOS" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="XOS" />
+  <project name="android_frameworks_native" path="frameworks/native" remote="XOS" />
+
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" />
 
