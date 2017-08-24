@@ -80,6 +80,7 @@
 
   <!-- Repos to replace for XOS -->
   <remove-project path="build/make" name="platform/build" groups="pdk" />
+  <remove-project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
