@@ -15,6 +15,8 @@
   <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS" />
 
   <!-- External -->
+  <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
+  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
 
   <!-- Frameworks -->
