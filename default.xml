@@ -615,4 +615,5 @@
 
   <include name="snippets/XOS.xml" />
   <include name="snippets/hals.xml" />
+  <include name="snippets/caf.xml" />
 </manifest>

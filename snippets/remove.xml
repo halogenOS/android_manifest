@@ -90,4 +90,7 @@
   <remove-project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
   <remove-project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk" />
   <remove-project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
+
+  <!-- CAF -->
+  <remove-project path="external/libnfnetlink" name="platform/external/libnfnetlink" groups="pdk" />
 </manifest>
