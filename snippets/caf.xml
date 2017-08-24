@@ -8,9 +8,6 @@
     <!-- Code Aurora Forums repositories -->
 
     <project name="platform/external/libnfnetlink" path="external/libnfnetlink" remote="caf" />
-    <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt-caf" groups="qcom" remote="caf" />
-    <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" groups="qcom" remote="caf" />
-    <project name="platform/hardware/ril" path="hardware/ril-caf" groups="pdk" remote="caf" />
     <project name="platform/system/qcom" path="system/qcom" groups="qcom" remote="caf" />
     <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/telephony" remote="caf" />
     <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" remote="caf" />
