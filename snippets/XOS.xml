@@ -20,10 +20,10 @@
   <project name="android_manifest" path="manifest" remote="XOS" />
 
   <!-- Packages -->
-  <project name="android_packages_apps_Terminal" path="packages/apps/Terminal" remote="XOS" />
+  <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="XOS" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
   <project name="android_packages_apps_Stk" path="packages/apps/Stk" remote="XOS" />
-  <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="XOS" />
+  <project name="android_packages_apps_Terminal" path="packages/apps/Terminal" remote="XOS" />
 
   <!-- Vendor -->
   <project name="android_vendor_xos" path="vendor/xos" remote="XOS" />
