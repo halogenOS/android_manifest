@@ -83,6 +83,7 @@
   <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
 
   <!-- HALs -->
   <remove-project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />

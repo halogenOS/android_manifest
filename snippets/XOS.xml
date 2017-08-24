@@ -21,6 +21,7 @@
 
   <!-- Packages -->
   <project name="android_packages_apps_Terminal" path="packages/apps/Terminal" remote="XOS" />
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
   <project name="android_packages_apps_Stk" path="packages/apps/Stk" remote="XOS" />
   <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="XOS" />
 
