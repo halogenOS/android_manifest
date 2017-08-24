@@ -84,4 +84,10 @@
   <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
 
+  <!-- HALs -->
+  <remove-project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />
+  <remove-project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
+  <remove-project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
+  <remove-project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk" />
+  <remove-project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
 </manifest>
