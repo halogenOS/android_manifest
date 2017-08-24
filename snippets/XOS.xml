@@ -11,6 +11,9 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <!-- Device -->
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS" />
+
   <!-- External -->
   <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
 
