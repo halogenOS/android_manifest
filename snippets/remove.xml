@@ -25,6 +25,8 @@
   <remove-project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device,pdk" />
   <remove-project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,pdk" />
   <remove-project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" />
+  <remove-project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead,pdk" />
+  <remove-project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead,pdk" clone-depth="1" />
   <remove-project path="device/google/dragon" name="device/google/dragon" groups="device,dragon,pdk" />
   <remove-project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon,pdk" clone-depth="1" />
   <remove-project path="device/google/marlin" name="device/google/marlin" groups="device,marlin" />
