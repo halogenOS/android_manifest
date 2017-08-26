@@ -37,6 +37,10 @@
   <project name="android_packages_apps_Stk" path="packages/apps/Stk" remote="XOS" />
   <project name="android_packages_apps_Terminal" path="packages/apps/Terminal" remote="XOS" />
 
+  <!-- System -->
+  <project name="android_system_core" path="system/core" remote="XOS" />
+
+
   <!-- Vendor -->
   <project name="android_vendor_xos" path="vendor/xos" remote="XOS" />
 </manifest>
