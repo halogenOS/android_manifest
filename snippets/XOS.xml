@@ -10,6 +10,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project name="android_build_soong" path="build/soong" remote="XOS">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 
   <!-- Device -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS" />
