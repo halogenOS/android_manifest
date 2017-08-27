@@ -21,6 +21,7 @@
   <!-- External -->
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
+  <project name="android_external_tinycompress" path="external/tinycompress" groups="pdk" remote="XOS" />
   <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
   <project name="android_external_connectivity" path="external/connectivity" remote="XOS" />
   <project name="android_external_selinux" path="external/selinux" remote="XOS" />
