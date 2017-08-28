@@ -6,27 +6,27 @@
     <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8960" />
     <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8974" />
     <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8994" />
-    <project path="hardware/qcom/audio-caf/msm8996" name="lineage-next/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8996" />
-    <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8998" />
-    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="XOS" />
+    <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8996" />
+    <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8998" />
+    <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" remote="github" revision="lineage-15.0" />
     <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom" remote="github" revision="lineage-15.0-caf" />
-    <project path="hardware/qcom/camera" name="lineage-next/android_hardware_qcom_camera" groups="qcom" remote="github" revision="lineage-15.0_master" />
+    <!--project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom" remote="github" revision="lineage-15.0" /-->
     <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.0" />
     <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.0-caf-8960" />
     <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.0-caf-8974" />
     <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.0-caf-8994" />
-    <project path="hardware/qcom/display-caf/msm8996" name="lineage-next/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.0-caf-8996" />
-    <project path="hardware/qcom/display-caf/msm8998" name="CarbonROM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cr-5.1-caf-8998" />
+    <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.0-caf-8996" />
+    <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.0-caf-8998" />
     <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="github" revision="lineage-15.0" />
     <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="github" revision="lineage-15.0" />
     <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="lineage-15.0" />
     <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="lineage-15.0-caf-8960" />
     <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="lineage-15.0-caf-8974" />
     <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="lineage-15.0-caf-8994" />
-    <project path="hardware/qcom/media-caf/msm8996" name="lineage-next/android_hardware_qcom_media" groups="qcom" remote="github" revision="lineage-15.0-caf-8996" />
-    <project path="hardware/qcom/media-caf/msm8998" name="CarbonROM/android_hardware_qcom_media" groups="qcom" remote="github" revision="cr-5.1-caf-8998" />
-    <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="XOS" revision="staging/XOS-8.0" />
-    <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="XOS" revision="staging/XOS-8.0-caf" />
+    <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="lineage-15.0-caf-8996" />
+    <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="lineage-15.0-caf-8998" />
+    <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="lineage-15.0" />
+    <!-- project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="lineage-15.0-caf" /-->
     <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="lineage-15.0" />
 
 </manifest>
