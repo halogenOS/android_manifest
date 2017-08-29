@@ -20,5 +20,5 @@
     <!-- CAF repos maintained by us or mirrored repos -->
     <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
     <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" groups="pdk" remote="XOS" />
-    <project name="android_vendor_qcom-opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="XOS" revision="cm-14.1" />
+    <project name="android_vendor_qcom-opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="XOS" />
 </manifest>
