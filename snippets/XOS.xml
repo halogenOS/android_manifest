@@ -1,5 +1,8 @@
 <manifest>
 
+  <!-- Bionic -->
+  <project name="android_bionic" path="bionic" remote="XOS" />
+
   <!-- Build -->
   <project name="android_build_make" path="build/make" remote="XOS">
     <copyfile src="core/root.mk" dest="Makefile" />
