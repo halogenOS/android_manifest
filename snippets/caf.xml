@@ -6,6 +6,7 @@
             review="https://source.codeaurora.org/" />
 
     <!-- Code Aurora Forums repositories -->
+    <project name="platform/external/libnfnetlink" path="external/libnfnetlink" remote="caf" revision="refs/tags/LA.UM.5.8.r1-02700-8x98.0" />
     <project name="platform/system/qcom" path="system/qcom" groups="qcom" remote="caf" />
     <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/telephony" remote="caf" />
     <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" remote="caf" />
