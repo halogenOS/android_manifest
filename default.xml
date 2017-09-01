@@ -614,6 +614,7 @@
   <include name="snippets/remove.xml" />
 
   <include name="snippets/XOS.xml" />
+  <include name="snippets/external.xml" />
   <include name="snippets/hals.xml" />
   <include name="snippets/caf.xml" />
 </manifest>

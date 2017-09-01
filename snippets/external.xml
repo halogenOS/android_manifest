@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          review="https://review.lineageos.org"
+          revision="lineage-15.0" />
+
+  <project name="android_external_bash" path="external/bash" remote="lineage" />
+  <project name="android_external_nano" path="external/nano" remote="lineage" />
+</manifest>
