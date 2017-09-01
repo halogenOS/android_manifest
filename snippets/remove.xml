@@ -103,8 +103,8 @@
   <remove-project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
   <remove-project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk" />
   <remove-project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk" />
-  <remove-project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <remove-project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
+  <remove-project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
 
   <!-- CAF -->
   <remove-project path="external/libnetfilter_conntrack" name="platform/external/libnetfilter_conntrack" groups="pdk" />
