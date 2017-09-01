@@ -28,6 +28,5 @@
     <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="lineage-15.0" />
     <!-- project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="lineage-15.0-caf" /-->
     <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="lineage-15.0" />
-    <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="lineage-15.0-caf" />
 
 </manifest>
