@@ -6,5 +6,10 @@
           revision="lineage-15.0" />
 
   <project name="android_external_bash" path="external/bash" remote="lineage" />
+  <project name="android_external_ffmpeg" path="external/ffmpeg" remote="lineage" />
+  <project name="android_external_libncurses" path="external/libncurses" remote="lineage" />
+  <project name="android_external_libtruezip" path="external/libtruezip" remote="lineage" />
   <project name="android_external_nano" path="external/nano" remote="lineage" />
+  <project name="android_external_stagefright-plugins" path="external/stagefright-plugins" remote="lineage" />
+
 </manifest>
