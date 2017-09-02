@@ -7,7 +7,7 @@
     <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8974" />
     <project path="hardware/qcom/audio-caf/msm8994" name="halogenOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8994" />
     <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8996" />
-    <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8998" />
+    <project path="hardware/qcom/audio-caf/msm8998" name="halogenOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8998" />
     <!--project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" remote="github" revision="lineage-15.0" /-->
     <project path="hardware/qcom/bt-caf" name="halogenOS/android_hardware_qcom_bt" groups="qcom" remote="github" revision="lineage-15.0-caf" />
     <!--project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom" remote="github" revision="lineage-15.0" /-->
