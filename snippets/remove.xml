@@ -109,4 +109,7 @@
   <!-- CAF -->
   <remove-project path="external/libnetfilter_conntrack" name="platform/external/libnetfilter_conntrack" groups="pdk" />
   <remove-project path="external/libnfnetlink" name="platform/external/libnfnetlink" groups="pdk" />
+
+  <!-- Prebuilts -->
+  <remove-project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk" clone-depth="1" />
 </manifest>
