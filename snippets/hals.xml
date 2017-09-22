@@ -2,7 +2,7 @@
 <manifest>
     <!-- HAL repositories -->
 
-    <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0" />
+    <project path="hardware/qcom/audio" name="halogenOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="XOS-8.0" />
     <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8960" />
     <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8974" />
     <project path="hardware/qcom/audio-caf/msm8994" name="halogenOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.0-caf-8994" />
