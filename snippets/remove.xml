@@ -95,6 +95,7 @@
   <remove-project path="system/bt" name="platform/system/bt" groups="pdk" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
   <remove-project path="system/media" name="platform/system/media" groups="pdk" />
+  <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
 
   <!-- HALs -->
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
