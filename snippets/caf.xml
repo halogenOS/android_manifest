@@ -6,9 +6,6 @@
             review="https://source.codeaurora.org/" />
 
     <!-- Code Aurora Forums repositories -->
-    <project name="platform/external/libnfnetlink" path="external/libnfnetlink" remote="caf" revision="refs/tags/LA.UM.5.8.r1-02700-8x98.0" />
-    <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/telephony" remote="caf" />
-    <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" remote="caf" />
     <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm" remote="caf" />
     <project name="platform/vendor/qcom-opensource/mmc-utils" path="vendor/qcom/opensource/mmc-utils" remote="caf" />
     <project name="platform/vendor/qcom-opensource/rcs-service" path="vendor/qcom/opensource/rcs-service" remote="caf" />
@@ -17,7 +14,8 @@
     <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut" remote="caf" />
 
     <!-- CAF repos maintained by us or mirrored repos -->
-    <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
-    <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" groups="pdk" remote="XOS" />
     <project name="android_vendor_qcom-opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="XOS" />
+    <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="XOS" />
+    <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="XOS" />
+    <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="XOS" />
 </manifest>

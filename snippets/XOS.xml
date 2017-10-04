@@ -7,6 +7,7 @@
   <project name="android_bootable_recovery" path="bootable/recovery" remote="XOS" />
 
   <!-- Build -->
+  <project name="android_build_kati" path="build/kati" remote="XOS" />
   <project name="android_build_make" path="build/make" remote="XOS">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -23,13 +24,30 @@
 
   <!-- Device -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS" />
+  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
 
   <!-- External -->
-  <project name="android_external_connectivity" path="external/connectivity" remote="XOS" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
+  <project name="android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="XOS" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
+  <project name="android_external_bash" path="external/bash" remote="XOS" />
+  <project name="android_external_brctl" path="external/brctl" remote="XOS" />
+  <project name="android_external_connectivity" path="external/connectivity" remote="XOS" />
+  <project name="android_external_ebtables" path="external/ebtables" remote="XOS" />
+  <project name="android_external_exfat" path="external/exfat" remote="XOS" />
+  <project name="android_external_fuse" path="external/fuse" remote="XOS" />
+  <project name="android_external_htop" path="external/htop" remote="XOS" />
+  <project name="android_external_json-c" path="external/json-c" remote="XOS" />
+  <project name="android_external_libncurses" path="external/libncurses" remote="XOS" />
+  <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
+  <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="XOS" />
+  <project name="android_external_libnfnetlink" path="external/libnfnetlink" remote="XOS" />
+  <project name="android_external_mksh" path="external/mksh" remote="XOS" />
+  <project name="android_external_nano" path="external/nano" remote="XOS" />
+  <project name="android_external_powertop" path="external/powertop" remote="XOS" />
   <project name="android_external_selinux" path="external/selinux" remote="XOS" />
   <project name="android_external_tinycompress" path="external/tinycompress" groups="pdk" remote="XOS" />
+  <project name="android_external_toybox" path="external/toybox" remote="XOS" />
   <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
   <project name="android_external_xos" path="external/xos" remote="XOS" />
 
@@ -37,26 +55,36 @@
   <project name="android_frameworks_av" path="frameworks/av" remote="XOS" />
   <project name="android_frameworks_base" path="frameworks/base" remote="XOS" />
   <project name="android_frameworks_native" path="frameworks/native" remote="XOS" />
+  <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="XOS" />
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" />
+  <project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" />
+  <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="XOS" />
+  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" />
 
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" />
 
   <!-- Packages -->
+  <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="XOS" />
   <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="XOS" />
+  <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="XOS" />
+  <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="XOS" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="XOS" />
   <project name="android_packages_apps_Stk" path="packages/apps/Stk" remote="XOS" />
   <project name="android_packages_apps_Terminal" path="packages/apps/Terminal" remote="XOS" />
   <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="XOS" />
+  <project name="android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="XOS" />
+  <project name="android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="XOS" />
   <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="XOS" />
 
   <!-- System -->
   <project name="android_system_bt" path="system/bt" remote="XOS" />
   <project name="android_system_core" path="system/core" remote="XOS" />
   <project name="android_system_media" path="system/media" remote="XOS" />
+  <project name="android_system_nfc" path="system/nfc" remote="XOS" />
   <project name="android_system_qcom" path="system/qcom" remote="XOS" />
+  <project name="android_system_sepolicy" path="system/sepolicy" remote="XOS" />
   <project name="android_system_vold" path="system/vold" remote="XOS" />
 
   <!-- Vendor -->
