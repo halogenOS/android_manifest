@@ -56,6 +56,7 @@
   <project name="android_frameworks_base" path="frameworks/base" remote="XOS" />
   <project name="android_frameworks_native" path="frameworks/native" remote="XOS" />
   <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="XOS" />
+  <project name="android_frameworks_support" path="frameworks/support" remote="XOS" />
 
   <!-- Hardware -->
   <project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" />
