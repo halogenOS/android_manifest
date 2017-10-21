@@ -43,6 +43,10 @@
   <remove-project path="device/google/wahoo" name="device/google/wahoo" groups="device,wahoo" />
   <remove-project path="device/google/wahoo-kernel" name="device/google/wahoo-kernel" groups="device,wahoo" clone-depth="1" />
   <remove-project path="device/sample" name="device/sample" groups="pdk" />
+  <remove-project groups="pdk-cw-fs,pdk" name="device/common"/>
+  <remove-project groups="pdk" name="device/generic/common"/>
+  <remove-project groups="device,marlin,pdk" name="device/google/contexthub"/>
+  <remove-project clone-depth="1" groups="pdk" name="device/google/vrservices"/>
   <remove-project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
   <remove-project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
