@@ -31,10 +31,17 @@
   <remove-project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon,pdk" clone-depth="1" />
   <remove-project path="device/google/marlin" name="device/google/marlin" groups="device,marlin" />
   <remove-project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
+  <remove-project path="device/google/muskie" name="device/google/muskie" groups="device,muskie" />
+  <remove-project path="device/google/taimen" name="device/google/taimen" groups="device,taimen" />
   <remove-project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk,pdk" />
   <remove-project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk,pdk" clone-depth="1" />
+  <remove-project path="device/linaro/bootloader/arm-trusted-firmware" name="device/linaro/bootloader/arm-trusted-firmware" />
+  <remove-project path="device/linaro/bootloader/edk2" name="device/linaro/bootloader/edk2" />
+  <remove-project path="device/linaro/bootloader/OpenPlatformPkg" name="device/linaro/bootloader/OpenPlatformPkg" />
   <remove-project path="device/linaro/hikey" name="device/linaro/hikey" groups="device,hikey,pdk" />
   <remove-project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" groups="device,hikey,pdk" clone-depth="1" />
+  <remove-project path="device/google/wahoo" name="device/google/wahoo" groups="device,wahoo" />
+  <remove-project path="device/google/wahoo-kernel" name="device/google/wahoo-kernel" groups="device,wahoo" clone-depth="1" />
   <remove-project path="device/sample" name="device/sample" groups="pdk" />
   <remove-project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
