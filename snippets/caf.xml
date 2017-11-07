@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
     <remote name="caf"
-            revision="refs/tags/LA.UM.6.4.r1-03200-8x98.0"
+            revision="refs/tags/LA.UM.6.4.r1-04300-8x98.0"
             fetch="https://source.codeaurora.org/"
             review="https://source.codeaurora.org/" />
 
