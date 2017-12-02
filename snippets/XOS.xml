@@ -49,6 +49,9 @@
   <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" />
   <project name="android_external_xos" path="external/xos" remote="XOS" />
 
+  <!-- Extras -->
+  <project name="android_extras_ota" path="extras/ota" remote="XOS" />
+
   <!-- Frameworks -->
   <project name="android_frameworks_av" path="frameworks/av" remote="XOS" />
   <project name="android_frameworks_base" path="frameworks/base" remote="XOS" />
