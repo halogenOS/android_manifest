@@ -27,9 +27,6 @@
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
 
   <!-- External -->
-  <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" />
-  <project name="android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="XOS" />
-  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" />
   <project name="android_external_brctl" path="external/brctl" remote="XOS" />
   <project name="android_external_connectivity" path="external/connectivity" remote="XOS" />
   <project name="android_external_ebtables" path="external/ebtables" remote="XOS" />
