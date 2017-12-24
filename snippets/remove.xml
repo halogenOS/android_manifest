@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Unused projects -->
-  <remove-project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <remove-project path="developers/demos" name="platform/developers/demos" />
   <remove-project path="developers/samples/android" name="platform/developers/samples/android" />
   <remove-project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk,pdk" />
