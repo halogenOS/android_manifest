@@ -14,7 +14,7 @@
   <remote  name="XOS"
            fetch="https://github.com/halogenOS"
            review="https://review.halogenos.org"
-           revision="XOS-8.0" />
+           revision="XOS-8.1" />
 
   <default revision="refs/tags/android-8.1.0_r2"
            remote="aosp"
