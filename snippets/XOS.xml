@@ -3,6 +3,9 @@
   <!-- Bionic -->
   <project name="android_bionic" path="bionic" remote="XOS" />
 
+  <!-- Bootable -->
+  <project name="android_bootable_recovery" path="bootable/recovery" remote="XOS" />
+
   <!-- Build -->
   <project name="android_build_kati" path="build/kati" remote="XOS" />
   <project name="android_build_make" path="build/make" remote="XOS">
