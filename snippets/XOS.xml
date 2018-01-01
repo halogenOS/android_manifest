@@ -28,6 +28,7 @@
 
   <!-- External -->
   <project name="android_external_brctl" path="external/brctl" remote="XOS" />
+  <project name="android_external_busybox" path="external/busybox" remote="XOS" />
   <project name="android_external_connectivity" path="external/connectivity" remote="XOS" />
   <project name="android_external_ebtables" path="external/ebtables" remote="XOS" />
   <project name="android_external_exfat" path="external/exfat" remote="XOS" />
