@@ -16,7 +16,7 @@
            review="https://review.halogenos.org"
            revision="XOS-8.1" />
 
-  <default revision="refs/tags/android-8.1.0_r2"
+  <default revision="refs/tags/android-8.1.0_r5"
            remote="aosp"
            sync-j="4" />
 
