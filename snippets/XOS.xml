@@ -82,6 +82,9 @@
   <project name="android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="XOS" />
   <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="XOS" />
 
+  <!-- Prebuilts -->
+  <project name="android_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" clone-depth="1" remote="XOS" />
+
   <!-- System -->
   <project name="android_system_bt" path="system/bt" remote="XOS" />
   <project name="android_system_core" path="system/core" remote="XOS" />
