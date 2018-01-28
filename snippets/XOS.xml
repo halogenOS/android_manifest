@@ -62,7 +62,6 @@
   <project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" />
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="XOS" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" />
-  <project name="android_hardware_qcom_data_ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" remote="XOS" />
   <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="XOS" />
 
   <!-- Manifest -->
