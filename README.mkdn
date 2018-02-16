@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/halogenOS/android_manifest/XOS-8.1/halogenos-logo.png">
 
 ___________________________________________________________________________________
-
+I am harsh and i am a dickhead
 
 ### Getting Started with XOS
 
@@ -24,6 +24,7 @@ __Installing repo__
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
+
 
 __Installing git__
 
