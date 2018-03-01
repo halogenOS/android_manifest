@@ -64,6 +64,7 @@
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" />
   <project name="android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="XOS" />
   <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="XOS" />
+  <project name="android_hardware_qcom_power" path="hardware/qcom/power" remote="XOS" />
 
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" />
