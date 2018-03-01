@@ -61,7 +61,7 @@ Note, that you will need more than just 20 GB of storage. The **download** amoun
 To clarify: __Downloaded__ will be only 20 GB, and altogether (including the downloaded data) you will need about 90 GB of storage on your hard drive.
 
 ```bash
-repo sync -c --no-tags build/make vendor/xos
+repo sync -c --no-tags build/make external/xos
 source build/envsetup.sh
 reposync
 ```
