@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org/" />
+
+  <remote  name="XOS"
+           fetch="https://github.com/halogenOS"
+           review="https://review.halogenos.org"
+           revision="XOS-8.1" />
+
   <!-- Bionic -->
   <project name="android_bionic" path="bionic" remote="XOS" />
 
