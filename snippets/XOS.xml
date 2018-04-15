@@ -84,6 +84,7 @@
   <!-- Packages -->
   <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="XOS" />
   <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="XOS" />
+  <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" />
   <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="XOS" />
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="XOS" />
   <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="XOS" />
