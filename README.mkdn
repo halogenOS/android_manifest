@@ -26,6 +26,12 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
 
+Now run following line as well and add it to your `~/.bashrc` file:
+
+```bash
+export PATH="$HOME/bin:$PATH"
+```
+
 __Installing git__
 
 Git would more likely than not probably be already installed in your distribution, if it is not then you should try one of the following terminal commands depending on your distribution:
