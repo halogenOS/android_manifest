@@ -21,6 +21,7 @@ To get started with XOS, you should first become familliar with the basics of th
 __Installing repo__
 
 ```bash
+mkdir -p ~/bin
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
