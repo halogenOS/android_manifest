@@ -8,8 +8,8 @@
            fetch="https://bitbucket.org/" />
 
   <remote  name="XOS"
-           fetch="https://github.com/halogenOS"
-           review="https://review.halogenos.org"
+           fetch="https://git.halogen.site/halogenOS"
+           review="https://gerrit.halogen.site"
            revision="XOS-8.1" />
 
   <!-- Bionic -->
