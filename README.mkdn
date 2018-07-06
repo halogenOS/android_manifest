@@ -60,7 +60,7 @@ Of course, you can use any directory name you desire. It is recommended to avoid
 Now initialize a repo source tree, to do this please use following command:
 
 ```bash
-repo init -u git://github.com/halogenOS/android_manifest.git -b XOS-8.1
+repo init -u https://git.halogenos.org/halogenOS/android_manifest.git -b XOS-8.1
 ```
 
 Then synchronize the source tree using repo, which will fetch the source of XOS. You should be warned that this is a procedure which downloads huge amounts (about 20 GB in total) of data, it may take hours to complete. Be prepared with something fun to do as will be waiting for a while or just listen to EDM.
@@ -68,7 +68,7 @@ Note, that you will need more than just 20 GB of storage. The **download** amoun
 To clarify: __Downloaded__ will be only 20 GB, and altogether (including the downloaded data) you will need about 90 GB of storage on your hard drive.
 
 ```bash
-repo sync -c --no-tags build/make external/xos
+repo sync -c --no-tags --no-clone-bundle -f build/make external/xos
 source build/envsetup.sh
 reposync
 ```
