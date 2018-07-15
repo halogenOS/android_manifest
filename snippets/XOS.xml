@@ -35,6 +35,7 @@
   </project>
 
   <!-- Device -->
+  <project name="devices" remote="XOS" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="XOS" />
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" />
 
