@@ -12,7 +12,19 @@ Before beginning this entire process, please ensure you have sufficient storage 
 It should also be noted that in order to build Android from source successfully, you will require GNU Make, git and the Open Java Development Kit as well as a few build and compiler centric packages, this will vary from distribution to distribution so it is recommended that you 'Google' the required packages for compiling Android for your distribution.
 
 Before you continue, make sure you follow the [Setting up a Linux build environment](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment) guide.
-We also recommend you to use CCache for faster builds: [Optimizing a build environment](https://source.android.com/source/initializing.html#optimizing-a-build-environment)
+We also recommend you to use CCache for faster builds:
+
+In your environment (e. g. .bashrc):
+```
+CCACHE_DIR="/path/to/ccache"
+USE_CCACHE=1
+```
+
+Run following command to set the size limit (minimum 80G recommended):
+```
+ccache -M 80G
+```
+
 
 #### __1. Getting Started__
 
