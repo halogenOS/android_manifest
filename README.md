@@ -38,7 +38,7 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
 
-Now run following line as well and add it to your `~/.bashrc` file:
+Now add the directory to your PATH variable in your environment (e. g. by appending it to your `~/.bashrc`)
 
 ```bash
 export PATH="$HOME/bin:$PATH"
@@ -53,7 +53,7 @@ Ubuntu, Debian (apt): apt-get install git
 OpenSUSE: zypper install git
 Fedora: yum install git-all
 Gentoo: emerge --ask --verbose dev-vcs/git
-Archlinux: pacman -S git
+Arch Linux: pacman -S git
 ```
 
 The derivatives of these common distributions should also have the git package available, if you believe your distribution does not offer git in the default package repositories then you may consider [compiling and installing git from source](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-from-Source).
@@ -75,9 +75,8 @@ Now initialize a repo source tree, to do this please use following command:
 repo init -u https://git.halogenos.org/halogenOS/android_manifest.git -b XOS-8.1
 ```
 
-Then synchronize the source tree using repo, which will fetch the source of XOS. You should be warned that this is a procedure which downloads huge amounts (about 20 GB in total) of data, it may take hours to complete. Be prepared with something fun to do as will be waiting for a while or just listen to EDM.
-Note, that you will need more than just 20 GB of storage. The **download** amount of data is <20 GB, the final amount of storage needed, will be around 30-40 GB, and for building XOS, you will need at least additional 35 GB.
-To clarify: __Downloaded__ will be only 20 GB, and altogether (including the downloaded data) you will need about 90 GB of storage on your hard drive.
+Then synchronize the source tree using repo, which will fetch the source of XOS. You should be warned that this is a procedure which downloads huge amounts (about 20-30 GB in total) of 
+data, it may take hours to complete. Be prepared with something fun to do as will be waiting for a while or just listen to EDM.
 
 ```bash
 repo sync -c --no-tags --no-clone-bundle -f build/make external/xos
@@ -87,13 +86,20 @@ reposync
 
 #### __3. Building__
 
-__Note: The current changelog for XOS is here: https://github.com/halogenOS/android_vendor_xos/blob/XOS-8.1/Changelog.md__
-
-First, in order to build XOS you should execute the envsetup.sh script in your terminal/shell, this will set up and import all of the available device configurations for the ROM as well as giving you some fancy "macro" commands for your build enviroment. As such, in order to do this, run the command:
+First, in order to build XOS you should source the envsetup.sh script in your terminal/shell, this will set up and import all of the available device configurations for the ROM as well as giving you some fancy "macro" commands for 
+your build enviroment. As such, in order to do this, run the command:
 
 ```bash
 source build/envsetup.sh
 ```
+
+By running
+
+```bash
+breakfast <device>
+```
+
+you can fetch the device tree and its dependencies of devices hosted by us.
 
 Now, you should select and configure the build target by using the *lunch* command. Type 'lunch', and a list of the available devices and build targets will be offered, give it a whirl, it won't bite.
 
@@ -101,9 +107,9 @@ Additionally here's a list of build types for your target device that you will l
 
 | Build type	| Use |
 |:----------|:----------|
-| user	| The flavour usually for building final releases. |
-| userdebug |	Same as "user" but with adb enabled and more debuggable. |
-| eng	| Engineering build, enables shell root access, debuggability, adb, install engineering modules and is fully JIT enabled |
+| user	| The flavour usually for building final releases. We don't use this (at least not yet) because custom ROMs don't play very well with it. |
+| userdebug |	Same as "user" but with adb enabled and more debuggable. This is the default. Don't be scared by the `debug` part. |
+| eng	| Engineering build, enables shell root access, debuggability, adb, install engineering modules and is fully JIT enabled. Only use this for initial bringup and extensive debugging. |
 
 Before you start building, make sure that you have all necessary device-specific trees.
 Official trees, maintained by the team, can be retrieved using:
@@ -141,6 +147,4 @@ _Additional build notes : If you're bringing up a new device, our [wiki](https:/
 #### __4. Flashing__
 If you do not know how to flash an Android ROM then you probably shouldn't have followed this guide in the first place, or have a case of amnesia, but in the case that you do need a briefing then here's a short guide on flashing XOS: https://goo.gl/BB53SU
 
-##### _For those who know what they are doing: XOS is under development. You can 'sync&build' but there are no promises it will work 100% :P"._
 <br />
-###### To build using your GPU (400x faster) do: <code>export USE_GPU_FOR_BUILDS=true</code>
