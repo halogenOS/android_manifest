@@ -9,7 +9,7 @@ ________________________________________________________________________________
 
 Before beginning this entire process, please ensure you have sufficient storage space. To carry out a single device build an excess of over 30 GB will be required. If building for more than one device, this amount of required storage can exponentially increase. For speedy builds it is highly recommended that you store the sources in a fast storage medium such as Solid State Drives (SSDs), with modern computers it often turns out to be a greater bottleneck than the processor itself when compiling Android.
 
-It should also be noted that in order to build Android from source successfully, you will require GNU Make, git and the Open Java Development Kit as as well as a few build and compiler centric packages, this will vary from distribution to distribution so it is recommended that you 'Google' the required packages for compiling Android for your distribution.
+It should also be noted that in order to build Android from source successfully, you will require GNU Make, git and the Open Java Development Kit as well as a few build and compiler centric packages, this will vary from distribution to distribution so it is recommended that you 'Google' the required packages for compiling Android for your distribution.
 
 Before you continue, make sure you follow the [Setting up a Linux build environment](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment) guide.
 We also recommend you to use CCache for faster builds: [Optimizing a build environment](https://source.android.com/source/initializing.html#optimizing-a-build-environment)
