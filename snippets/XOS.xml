@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="XOS"
+           fetch="https://git.halogenos.org/halogenOS"
+           review="https://review.halogenos.org/"
+           revision="XOS-9.0" />
+
+  <!-- Manifest -->
+  <project name="android_manifest" path="manifest" remote="XOS" />
+
+</manifest>
