@@ -5,7 +5,6 @@
   <remove-project path="developers/demos" name="platform/developers/demos" />
   <remove-project path="developers/samples/android" name="platform/developers/samples/android" />
   <remove-project path="device/generic/car" name="device/generic/car" groups="pdk" />
-  <remove-project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
   <remove-project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" />
   <remove-project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <remove-project path="device/generic/mips64" name="device/generic/mips64" groups="pdk" />
