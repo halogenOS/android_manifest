@@ -48,9 +48,7 @@
   <project name="android_external_fuse" path="external/fuse" remote="XOS" />
   <project name="android_external_htop" path="external/htop" remote="XOS" />
   <project name="android_external_libncurses" path="external/libncurses" remote="XOS" />
-  <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="XOS" />
   <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="XOS" />
-  <project name="android_external_libnfnetlink" path="external/libnfnetlink" remote="XOS" />
   <project name="android_external_mksh" path="external/mksh" remote="XOS" />
   <project name="android_external_nano" path="external/nano" remote="XOS" />
   <project name="android_external_powertop" path="external/powertop" remote="XOS" />
