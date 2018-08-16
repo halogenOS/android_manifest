@@ -6,6 +6,21 @@
            review="https://review.halogenos.org/"
            revision="XOS-9.0" />
 
+  <!-- Build -->
+  <project name="android_build_make" path="build/make" groups="pdk">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project name="android_build_soong" path="build/soong" groups="pdk,tradefed">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
   <!-- External -->
   <project name="android_external_flex" path="external/flex" remote="XOS" />
 
