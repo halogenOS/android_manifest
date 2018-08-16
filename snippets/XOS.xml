@@ -6,6 +6,9 @@
            review="https://review.halogenos.org/"
            revision="XOS-9.0" />
 
+  <!-- External -->
+  <project name="android_external_flex" path="external/flex" remote="XOS" />
+
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" />
 
