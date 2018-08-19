@@ -6,6 +6,9 @@
            review="https://review.halogenos.org/"
            revision="XOS-9.0" />
 
+  <!-- Bionic -->
+  <project name="android_bionic" path="bionic" groups="pdk" />
+
   <!-- Build -->
   <project name="android_build_make" path="build/make" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
