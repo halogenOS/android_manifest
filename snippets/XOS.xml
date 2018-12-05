@@ -10,7 +10,7 @@
   <project name="android_bionic" path="bionic" groups="pdk" remote="XOS" />
 
   <!-- Build -->
-  <project name="android_build_make" path="build/make" groups="pdk">
+  <project name="android_build_make" path="build/make" groups="pdk" remote="XOS">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
