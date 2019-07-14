@@ -3,4 +3,6 @@
 
   <remove-project path="manifest" name="manifest" remote="pixel" />
 
+  <remove-project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
+
 </manifest>

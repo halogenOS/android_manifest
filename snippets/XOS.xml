@@ -31,6 +31,9 @@
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" />
 
+  <!-- Vendor -->
+  <project path="vendor/aosp" name="android_vendor_aosp" remote="XOS" />
+
   <!-- Official devices -->
   <project name="android_vendor_xos_officialdevices" path="vendor/xos/officialdevices" remote="XOS" />
 
