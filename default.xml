@@ -735,4 +735,7 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <!-- Add all XOS repos -->
+  <include name="snippets/XOS.xml" />
+
 </manifest>

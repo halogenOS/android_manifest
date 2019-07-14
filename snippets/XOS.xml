@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="XOS"
+           fetch="https://git.halogenos.org/halogenOS/"
+           review="https://review.halogenos.org/"
+           revision="XOS-9.0" />
+
+  <!-- Bionic -->
+  <project name="android_bionic" path="bionic" groups="pdk" remote="XOS" />
+
+  <!-- Build -->
+  <project name="android_build_make" path="build/make" groups="pdk" remote="XOS">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project name="android_build_soong" path="build/soong" groups="pdk,tradefed" remote="XOS">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- External -->
+  <project name="android_external_flex" path="external/flex" remote="XOS" />
+  <project name="android_external_xos" path="external/xos" remote="XOS" />
+
+  <!-- Manifest -->
+  <project name="android_manifest" path="manifest" remote="XOS" />
+
+</manifest>
