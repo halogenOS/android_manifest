@@ -735,6 +735,9 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <!-- Remove forked PixelExperience repos -->
+  <include name="snippets/pixel-remove.xml" />
+
   <!-- Add all XOS repos -->
   <include name="snippets/XOS.xml" />
 
