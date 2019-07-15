@@ -28,6 +28,9 @@
   <!--project name="android_external_flex" path="external/flex" remote="XOS" /-->
   <project name="android_external_xos" path="external/xos" remote="XOS" />
 
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" />
+
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" />
 

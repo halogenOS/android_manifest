@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project path="frameworks/base" name="frameworks_base" remote="pixel" />
+
   <remove-project path="manifest" name="manifest" remote="pixel" />
 
   <remove-project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
