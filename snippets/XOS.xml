@@ -39,6 +39,7 @@
 
   <!-- Vendor -->
   <project path="vendor/aosp" name="android_vendor_aosp" remote="XOS" />
+  <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="XOS" />
 
   <!-- Official devices -->
   <project name="android_vendor_xos_officialdevices" path="vendor/xos/officialdevices" remote="XOS" />
