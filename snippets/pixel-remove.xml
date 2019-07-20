@@ -3,6 +3,7 @@
 
   <remove-project path="build/make" name="build" remote="pixel" />
 
+  <remove-project path="frameworks/av" name="frameworks_av" remote="pixel" />
   <remove-project path="frameworks/base" name="frameworks_base" remote="pixel" />
 
   <remove-project path="manifest" name="manifest" remote="pixel" />
