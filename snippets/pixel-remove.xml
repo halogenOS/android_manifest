@@ -8,6 +8,7 @@
   <remove-project path="system/core" name="system_core" remote="pixel" />
 
   <remove-project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
+  <remove-project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <remove-project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel-gitlab" />
 
 </manifest>
