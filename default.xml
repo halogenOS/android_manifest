@@ -738,7 +738,11 @@
   <!-- Remove forked PixelExperience repos -->
   <include name="snippets/pixel-remove.xml" />
 
+  <!-- Remove forked LineageOS repos -->
+  <include name="snippets/lineage-remove.xml" />
+
   <!-- Add all XOS repos -->
   <include name="snippets/XOS.xml" />
+  <include name="snippets/XOS-hardware.xml" />
 
 </manifest>

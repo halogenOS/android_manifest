@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" revision="XOS-9.0-caf-8916" remote="XOS" />
+
+</manifest>
