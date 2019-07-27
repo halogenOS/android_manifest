@@ -4,7 +4,7 @@
   <remote  name="XOS"
            fetch="https://git.halogenos.org/halogenOS/"
            review="https://review.halogenos.org/"
-           revision="XOS-9.0" />
+           revision="refs/heads/XOS-9.0" />
 
   <!-- Bionic -->
   <!-- project name="android_bionic" path="bionic" groups="pdk" remote="XOS" /-->
