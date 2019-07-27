@@ -745,4 +745,7 @@
   <include name="snippets/XOS.xml" />
   <include name="snippets/XOS-hardware.xml" />
 
+  <!-- Add lent (foreign) repos from other projects -->
+  <include name="snippets/lent.xml" />
+
 </manifest>
