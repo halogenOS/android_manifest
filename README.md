@@ -159,6 +159,7 @@ In your terminal, the master chef that is 'Mr Compiler' (aka Ninja) will do the 
 Once done you should find a cute flashable zip either in your directory or within `out/target/product/`, this is your creation, you compiled it, she's yours, your own adorable pet... just make sure to treat her very nicely :).
 
 _Additional build notes : If you're bringing up a new device, our [wiki](https://github.com/halogenOS/android_manifest/wiki) has some important info_
+
 _XOS 9.0 is in beta and not finished yet. Please do request features or complain about missing functionality as we are still working on it_
 
 #### __4. Flashing__
