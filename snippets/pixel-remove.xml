@@ -8,6 +8,8 @@
 
   <remove-project path="manifest" name="manifest" remote="pixel" />
 
+  <remove-project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
+
   <remove-project path="system/core" name="system_core" remote="pixel" />
 
   <remove-project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
