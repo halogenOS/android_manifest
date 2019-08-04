@@ -108,6 +108,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="lineage" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lineage" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="lineage" clone-depth="1" />
