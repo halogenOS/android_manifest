@@ -7,7 +7,7 @@
            revision="refs/heads/XOS-9.0" />
 
   <!-- Bionic -->
-  <!-- project name="android_bionic" path="bionic" groups="pdk" remote="XOS" /-->
+  <project name="android_bionic" path="bionic" remote="XOS" upstream="https://github.com/PixelExperience/bionic" />
 
   <!-- Build -->
   <project path="build/make" name="android_build_make" remote="XOS">
@@ -19,32 +19,85 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <!--project name="android_build_soong" path="build/soong" groups="pdk,tradefed" remote="XOS">
+  <project path="build/soong" name="android_build_soong" remote="XOS">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project-->
+  </project>
+
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="XOS" />
+
+  <!-- CodeAurora additions -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="XOS" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="XOS" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="XOS" />
+  <project path="hardware/qcom/audio-caf/sm8150" name="android_hardware_qcom_audio" revision="XOS-9.0-caf-sm8150" remote="XOS" />
+  <project path="hardware/qcom/display-caf/headers" name="android_hardware_qcom_display" remote="XOS" revision="XOS-9.0-caf-headers" />
+  <project path="hardware/qcom/display-caf/sm8150" name="android_hardware_qcom_display" revision="XOS-9.0-caf-sm8150" remote="XOS" />
+  <project path="hardware/qcom/media-caf/sm8150" name="android_hardware_qcom_media" revision="XOS-9.0-caf-sm8150" remote="XOS" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="XOS" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="XOS" />
+
+  <!-- Device -->
+  <project path="device/custom/sepolicy" name="android_device_custom_sepolicy" remote="XOS" />
 
   <!-- External -->
   <!--project name="android_external_flex" path="external/flex" remote="XOS" /-->
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" />
   <project name="android_external_xos" path="external/xos" remote="XOS" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="XOS" />
   <project path="frameworks/base" name="android_frameworks_base" remote="XOS" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="XOS" />
+  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="XOS" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="XOS" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="XOS" />
+
+  <!-- Hardware -->
+  <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="XOS" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="XOS" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="XOS" />
 
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" />
 
   <!-- Packages -->
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="XOS" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="XOS" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="XOS" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="XOS" />
+  <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="XOS" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="XOS" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="XOS" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" />
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="XOS" />
+  <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="XOS" />
+  <project path="packages/providers/AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="XOS" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="XOS" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="XOS" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="XOS" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="XOS" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="XOS" clone-depth="1" />
 
   <!-- System -->
+  <project path="system/bt" name="android_system_bt" remote="XOS" />
   <project path="system/core" name="android_system_core" remote="XOS" />
+  <project path="system/extras" name="android_system_extras" remote="XOS" />
+  <project path="system/netd" name="android_system_netd" remote="XOS" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" />
+  <project path="system/vold" name="android_system_vold" remote="XOS" />
 
   <!-- Vendor -->
   <project path="vendor/aosp" name="android_vendor_aosp" remote="XOS" />
   <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="XOS" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="XOS" />
 
   <!-- Official devices -->
   <project name="android_vendor_xos_officialdevices" path="vendor/xos/officialdevices" remote="XOS" />

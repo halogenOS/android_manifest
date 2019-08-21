@@ -1,19 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project path="build/make" name="build" remote="pixel" />
+  <!-- CodeAurora additions -->
+  <remove-project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
+  <remove-project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pixel" />
+  <remove-project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="pixel" />
+  <remove-project path="hardware/qcom/audio-caf/sm8150" name="hardware_qcom_audio-caf_sm8150" revision="pie-caf" remote="pixel" />
+  <remove-project path="hardware/qcom/display-caf/headers" name="hardware_qcom_display-caf_headers" remote="pixel" />
+  <remove-project path="hardware/qcom/display-caf/sm8150" name="hardware_qcom_display-caf_sm8150" revision="pie-caf" remote="pixel" />
+  <remove-project path="hardware/qcom/media-caf/sm8150" name="hardware_qcom_media-caf_sm8150" revision="pie-caf" remote="pixel" />
+  <remove-project path="hardware/qcom/power" name="hardware_qcom_power" remote="pixel" />
+  <remove-project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixel" />
 
+  <!-- External repos -->
+  <remove-project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
+  <remove-project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
+
+  <!-- Framework repos -->
   <remove-project path="frameworks/av" name="frameworks_av" remote="pixel" />
   <remove-project path="frameworks/base" name="frameworks_base" remote="pixel" />
+  <remove-project path="frameworks/native" name="frameworks_native" remote="pixel" />
+  <remove-project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="pixel" />
+  <remove-project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
+  <remove-project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
 
+  <!-- General repos -->
+  <remove-project path="bionic" name="bionic" remote="pixel" />
+  <remove-project path="build/make" name="build" remote="pixel" />
+  <remove-project path="build/soong" name="build_soong" remote="pixel" />
+  <remove-project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
+  <remove-project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
   <remove-project path="manifest" name="manifest" remote="pixel" />
-
-  <remove-project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
-
-  <remove-project path="system/core" name="system_core" remote="pixel" />
-
   <remove-project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
   <remove-project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <remove-project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel-gitlab" />
+  <remove-project path="vendor/themes" name="vendor_themes" remote="pixel" />
+
+  <!-- Hardware repos -->
+  <remove-project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
+  <remove-project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
+  <remove-project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
+  <remove-project path="hardware/ril" name="hardware_ril" remote="pixel" />
+  <remove-project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
+
+  <!-- Packages repos -->
+  <remove-project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="pixel" />
+  <remove-project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
+  <remove-project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
+  <remove-project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel" />
+  <remove-project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="pixel" />
+  <remove-project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
+  <remove-project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
+  <remove-project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixel" />
+  <remove-project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" />
+  <remove-project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
+  <remove-project path="packages/providers/AmbientPlayHistoryProvider" name="packages_providers_AmbientPlayHistoryProvider" remote="pixel" />
+  <remove-project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
+  <remove-project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
+  <remove-project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
+  <remove-project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
+
+  <!-- Prebuilts -->
+  <remove-project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixel" clone-depth="1" />
+
+  <!-- System Repos -->
+  <remove-project path="system/bt" name="system_bt" remote="pixel" />
+  <remove-project path="system/core" name="system_core" remote="pixel" />
+  <remove-project path="system/extras" name="system_extras" remote="pixel" />
+  <remove-project path="system/netd" name="system_netd" remote="pixel" />
+  <remove-project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
+  <remove-project path="system/vold" name="system_vold" remote="pixel" />
+
 
 </manifest>
