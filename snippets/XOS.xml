@@ -7,99 +7,99 @@
            revision="refs/heads/XOS-9.0" />
 
   <!-- Bionic -->
-  <project name="android_bionic" path="bionic" remote="XOS" upstream="https://github.com/PixelExperience/bionic" />
+  <project name="android_bionic" path="bionic" remote="XOS" upstream="https://github.com/PixelExperience/bionic" upstream-rev="pie"/>
 
   <!-- Build -->
-  <project path="build/make" name="android_build_make" remote="XOS">
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
+  <project path="build/make" name="android_build_make" remote="XOS" upstream="https://github.com/PixelExperience/build" upstream-rev="pie">
+    <copyfile src="core/root.mk" dest="Makefile"/>
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+    <linkfile src="core" dest="build/core"/>
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+    <linkfile src="target" dest="build/target"/>
+    <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project path="build/soong" name="android_build_soong" remote="XOS">
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  <project path="build/soong" name="android_build_soong" remote="XOS" upstream="https://github.com/PixelExperience/build_soong" upstream-rev="pie">
+    <linkfile src="root.bp" dest="Android.bp"/>
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
 
   <!-- Bootable -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="XOS" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="XOS" upstream="https://github.com/PixelExperience/bootable_recovery" upstream-rev="pie"/>
 
   <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="XOS" />
-  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="XOS" />
-  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="XOS" />
-  <project path="hardware/qcom/audio-caf/sm8150" name="android_hardware_qcom_audio" revision="XOS-9.0-caf-sm8150" remote="XOS" />
-  <project path="hardware/qcom/display-caf/headers" name="android_hardware_qcom_display" remote="XOS" revision="XOS-9.0-caf-headers" />
-  <project path="hardware/qcom/display-caf/sm8150" name="android_hardware_qcom_display" revision="XOS-9.0-caf-sm8150" remote="XOS" />
-  <project path="hardware/qcom/media-caf/sm8150" name="android_hardware_qcom_media" revision="XOS-9.0-caf-sm8150" remote="XOS" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="XOS" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="XOS" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="XOS" upstream="https://github.com/PixelExperience/device_qcom_sepolicy" upstream-rev="pie"/>
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="XOS" upstream="https://github.com/PixelExperience/device_qcom_sepolicy-legacy" upstream-rev="pie"/>
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom_fm" upstream-rev="pie"/>
+  <project path="hardware/qcom/audio-caf/sm8150" name="android_hardware_qcom_audio" revision="XOS-9.0-caf-sm8150" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom_audio-caf_sm8150" upstream-rev="pie-caf"/>
+  <project path="hardware/qcom/display-caf/headers" name="android_hardware_qcom_display" remote="XOS" revision="XOS-9.0-caf-headers" upstream="https://github.com/PixelExperience/hardware_qcom_display-caf_headers" upstream-rev="pie"/>
+  <project path="hardware/qcom/display-caf/sm8150" name="android_hardware_qcom_display" revision="XOS-9.0-caf-sm8150" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom_display-caf_sm8150" upstream-rev="pie-caf"/>
+  <project path="hardware/qcom/media-caf/sm8150" name="android_hardware_qcom_media" revision="XOS-9.0-caf-sm8150" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom_media-caf_sm8150" upstream-rev="pie-caf"/>
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom_power" upstream-rev="pie"/>
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="XOS" upstream="https://github.com/PixelExperience/vendor_qcom_opensource_cryptfs_hw" upstream-rev="pie"/>
 
   <!-- Device -->
-  <project path="device/custom/sepolicy" name="android_device_custom_sepolicy" remote="XOS" />
+  <project path="device/custom/sepolicy" name="android_device_custom_sepolicy" remote="XOS" upstream="https://github.com/PixelExperience/device_custom_sepolicy" upstream-rev="pie"/>
 
   <!-- External -->
   <!--project name="android_external_flex" path="external/flex" remote="XOS" /-->
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" />
-  <project name="android_external_xos" path="external/xos" remote="XOS" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" upstream="https://github.com/PixelExperience/external_e2fsprogs" upstream-rev="pie"/>
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" upstream="https://github.com/PixelExperience/external_tinycompress" upstream-rev="pie"/>
+  <project name="android_external_xos" path="external/xos" remote="XOS"/>
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="XOS" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="XOS" />
-  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="XOS" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="XOS" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="XOS" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_av" upstream-rev="pie"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_base" upstream-rev="pie"/>
+  <project path="frameworks/native" name="android_frameworks_native" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_native" upstream-rev="pie"/>
+  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_opt_net_voip" upstream-rev="pie"/>
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_opt_net_wifi" upstream-rev="pie"/>
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_opt_telephony" upstream-rev="pie"/>
 
   <!-- Hardware -->
-  <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="XOS" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="XOS" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="XOS" />
+  <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="XOS" upstream="https://github.com/PixelExperience/hardware_custom_interfaces" upstream-rev="pie"/>
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" upstream="https://github.com/PixelExperience/hardware_interfaces" upstream-rev="pie"/>
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" upstream="https://github.com/PixelExperience/hardware_libhardware" upstream-rev="pie"/>
+  <project path="hardware/ril" name="android_hardware_ril" remote="XOS" upstream="https://github.com/PixelExperience/hardware_ril" upstream-rev="pie"/>
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="XOS" upstream="https://github.com/PixelExperience/hardware_nxp_nfc" upstream-rev="pie"/>
 
   <!-- Manifest -->
-  <project name="android_manifest" path="manifest" remote="XOS" />
+  <project name="android_manifest" path="manifest" remote="XOS" upstream="https://github.com/PixelExperience/manifest" upstream-rev="pie"/>
 
   <!-- Packages -->
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="XOS" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="XOS" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="XOS" />
-  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="XOS" />
-  <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="XOS" />
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="XOS" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="XOS" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" />
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" />
-  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="XOS" />
-  <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="XOS" />
-  <project path="packages/providers/AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="XOS" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="XOS" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="XOS" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="XOS" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="XOS" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="XOS"/>
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Bluetooth" upstream-rev="pie"/>
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Camera2" upstream-rev="pie"/>
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_DocumentsUI" upstream-rev="pie"/>
+  <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_EmergencyInfo" upstream-rev="pie"/>
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_FMRadio" upstream-rev="pie"/>
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_PackageInstaller" upstream-rev="pie"/>
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Settings" upstream-rev="pie"/>
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_SettingsIntelligence" upstream-rev="pie"/>
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Snap" upstream-rev="pie"/>
+  <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Updates" upstream-rev="pie"/>
+  <project path="packages/providers/AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="XOS" upstream="https://github.com/PixelExperience/packages_providers_AmbientPlayHistoryProvider" upstream-rev="pie"/>
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="XOS" upstream="https://github.com/PixelExperience/packages_providers_DownloadProvider" upstream-rev="pie"/>
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="XOS" upstream="https://github.com/PixelExperience/packages_providers_MediaProvider" upstream-rev="pie"/>
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="XOS" upstream="https://github.com/PixelExperience/packages_services_Telecomm" upstream-rev="pie"/>
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="XOS" upstream="https://github.com/PixelExperience/packages_services_Telephony" upstream-rev="pie"/>
 
   <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="XOS" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="XOS" clone-depth="1" upstream="https://github.com/PixelExperience/prebuilts_clang_host_linux-x86" upstream-rev="pie"/>
 
   <!-- System -->
-  <project path="system/bt" name="android_system_bt" remote="XOS" />
-  <project path="system/core" name="android_system_core" remote="XOS" />
-  <project path="system/extras" name="android_system_extras" remote="XOS" />
-  <project path="system/netd" name="android_system_netd" remote="XOS" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" />
-  <project path="system/vold" name="android_system_vold" remote="XOS" />
+  <project path="system/bt" name="android_system_bt" remote="XOS" upstream="https://github.com/PixelExperience/system_bt" upstream-rev="pie"/>
+  <project path="system/core" name="android_system_core" remote="XOS" upstream="https://github.com/PixelExperience/system_core" upstream-rev="pie"/>
+  <project path="system/extras" name="android_system_extras" remote="XOS" upstream="https://github.com/PixelExperience/system_extras" upstream-rev="pie"/>
+  <project path="system/netd" name="android_system_netd" remote="XOS" upstream="https://github.com/PixelExperience/system_netd" upstream-rev="pie"/>
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" upstream="https://github.com/PixelExperience/system_sepolicy" upstream-rev="pie"/>
+  <project path="system/vold" name="android_system_vold" remote="XOS" upstream="https://github.com/PixelExperience/system_vold" upstream-rev="pie"/>
 
   <!-- Vendor -->
-  <project path="vendor/aosp" name="android_vendor_aosp" remote="XOS" />
-  <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="XOS" />
-  <project path="vendor/themes" name="android_vendor_themes" remote="XOS" />
+  <project path="vendor/aosp" name="android_vendor_aosp" remote="XOS" upstream="https://github.com/PixelExperience/vendor_aosp" upstream-rev="pie"/>
+  <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="XOS" upstream="https://gitlab.com/PixelExperience/vendor_pixelstyle" upstream-rev="pie"/>
+  <project path="vendor/themes" name="android_vendor_themes" remote="XOS" upstream="https://github.com/PixelExperience/vendor_themes" upstream-rev="pie"/>
 
   <!-- Official devices -->
-  <project name="android_vendor_xos_officialdevices" path="vendor/xos/officialdevices" remote="XOS" />
+  <project name="android_vendor_xos_officialdevices" path="vendor/xos/officialdevices" remote="XOS"/>
 
 </manifest>
