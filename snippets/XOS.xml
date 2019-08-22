@@ -7,10 +7,10 @@
            revision="refs/heads/XOS-9.0" />
 
   <!-- Bionic -->
-  <project name="android_bionic" path="bionic" remote="XOS" upstream="https://github.com/PixelExperience/bionic|pie"/>
+  <project name="android_bionic" path="bionic" remote="XOS" upstream="https://github.com/PixelExperience/bionic|pie" merge-aosp="true" />
 
   <!-- Build -->
-  <project path="build/make" name="android_build_make" remote="XOS" upstream="https://github.com/PixelExperience/build|pie">
+  <project path="build/make" name="android_build_make" remote="XOS" upstream="https://github.com/PixelExperience/build|pie" merge-aosp="true">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -19,13 +19,13 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project path="build/soong" name="android_build_soong" remote="XOS" upstream="https://github.com/PixelExperience/build_soong|pie">
+  <project path="build/soong" name="android_build_soong" remote="XOS" upstream="https://github.com/PixelExperience/build_soong|pie" merge-aosp="true">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
 
   <!-- Bootable -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="XOS" upstream="https://github.com/PixelExperience/bootable_recovery|pie"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="XOS" upstream="https://github.com/PixelExperience/bootable_recovery|pie" merge-aosp="true" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="XOS" upstream="https://github.com/PixelExperience/device_qcom_sepolicy|pie"/>
@@ -43,56 +43,56 @@
 
   <!-- External -->
   <!--project name="android_external_flex" path="external/flex" remote="XOS" /-->
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" upstream="https://github.com/PixelExperience/external_e2fsprogs|pie"/>
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" upstream="https://github.com/PixelExperience/external_tinycompress|pie"/>
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" upstream="https://github.com/PixelExperience/external_e2fsprogs|pie" merge-aosp="true"/>
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" upstream="https://github.com/PixelExperience/external_tinycompress|pie" merge-aosp="true"/>
   <project name="android_external_xos" path="external/xos" remote="XOS"/>
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_av|pie"/>
-  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_base|pie"/>
-  <project path="frameworks/native" name="android_frameworks_native" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_native|pie"/>
-  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_opt_net_voip|pie"/>
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_opt_net_wifi|pie"/>
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_opt_telephony|pie"/>
+  <project path="frameworks/av" name="android_frameworks_av" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_av|pie" merge-aosp="true"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_base|pie" merge-aosp="true"/>
+  <project path="frameworks/native" name="android_frameworks_native" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_native|pie" merge-aosp="true"/>
+  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_opt_net_voip|pie" merge-aosp="true"/>
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_opt_net_wifi|pie" merge-aosp="true"/>
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_opt_telephony|pie" merge-aosp="true"/>
 
   <!-- Hardware -->
   <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="XOS" upstream="https://github.com/PixelExperience/hardware_custom_interfaces|pie"/>
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" upstream="https://github.com/PixelExperience/hardware_interfaces|pie"/>
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" upstream="https://github.com/PixelExperience/hardware_libhardware|pie"/>
-  <project path="hardware/ril" name="android_hardware_ril" remote="XOS" upstream="https://github.com/PixelExperience/hardware_ril|pie"/>
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="XOS" upstream="https://github.com/PixelExperience/hardware_nxp_nfc|pie"/>
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" upstream="https://github.com/PixelExperience/hardware_interfaces|pie" merge-aosp="true"/>
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" upstream="https://github.com/PixelExperience/hardware_libhardware|pie" merge-aosp="true"/>
+  <project path="hardware/ril" name="android_hardware_ril" remote="XOS" upstream="https://github.com/PixelExperience/hardware_ril|pie" merge-aosp="true"/>
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="XOS" upstream="https://github.com/PixelExperience/hardware_nxp_nfc|pie" merge-aosp="true"/>
 
   <!-- Manifest -->
-  <project name="android_manifest" path="manifest" remote="XOS" upstream="https://github.com/PixelExperience/manifest|pie"/>
+  <project name="android_manifest" path="manifest" remote="XOS" upstream="https://github.com/PixelExperience/manifest|pie" merge-aosp="true"/>
 
   <!-- Packages -->
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="XOS"/>
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Bluetooth|pie"/>
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Camera2|pie"/>
-  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_DocumentsUI|pie"/>
-  <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_EmergencyInfo|pie"/>
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="XOS" merge-aosp="true"/>
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Bluetooth|pie" merge-aosp="true"/>
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Camera2|pie" merge-aosp="true"/>
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_DocumentsUI|pie" merge-aosp="true"/>
+  <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_EmergencyInfo|pie" merge-aosp="true"/>
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_FMRadio|pie"/>
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_PackageInstaller|pie"/>
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Settings|pie"/>
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_SettingsIntelligence|pie"/>
-  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Snap|pie"/>
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_PackageInstaller|pie" merge-aosp="true"/>
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Settings|pie" merge-aosp="true"/>
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_SettingsIntelligence|pie" merge-aosp="true"/>
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Snap|pie" />
   <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Updates|pie"/>
   <project path="packages/providers/AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="XOS" upstream="https://github.com/PixelExperience/packages_providers_AmbientPlayHistoryProvider|pie"/>
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="XOS" upstream="https://github.com/PixelExperience/packages_providers_DownloadProvider|pie"/>
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="XOS" upstream="https://github.com/PixelExperience/packages_providers_MediaProvider|pie"/>
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="XOS" upstream="https://github.com/PixelExperience/packages_services_Telecomm|pie"/>
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="XOS" upstream="https://github.com/PixelExperience/packages_services_Telephony|pie"/>
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="XOS" upstream="https://github.com/PixelExperience/packages_providers_DownloadProvider|pie" merge-aosp="true"/>
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="XOS" upstream="https://github.com/PixelExperience/packages_providers_MediaProvider|pie" merge-aosp="true"/>
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="XOS" upstream="https://github.com/PixelExperience/packages_services_Telecomm|pie" merge-aosp="true"/>
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="XOS" upstream="https://github.com/PixelExperience/packages_services_Telephony|pie" merge-aosp="true"/>
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="XOS" clone-depth="1" upstream="https://github.com/PixelExperience/prebuilts_clang_host_linux-x86|pie"/>
 
   <!-- System -->
-  <project path="system/bt" name="android_system_bt" remote="XOS" upstream="https://github.com/PixelExperience/system_bt|pie"/>
-  <project path="system/core" name="android_system_core" remote="XOS" upstream="https://github.com/PixelExperience/system_core|pie"/>
-  <project path="system/extras" name="android_system_extras" remote="XOS" upstream="https://github.com/PixelExperience/system_extras|pie"/>
-  <project path="system/netd" name="android_system_netd" remote="XOS" upstream="https://github.com/PixelExperience/system_netd|pie"/>
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" upstream="https://github.com/PixelExperience/system_sepolicy|pie"/>
-  <project path="system/vold" name="android_system_vold" remote="XOS" upstream="https://github.com/PixelExperience/system_vold|pie"/>
+  <project path="system/bt" name="android_system_bt" remote="XOS" upstream="https://github.com/PixelExperience/system_bt|pie" merge-aosp="true"/>
+  <project path="system/core" name="android_system_core" remote="XOS" upstream="https://github.com/PixelExperience/system_core|pie" merge-aosp="true"/>
+  <project path="system/extras" name="android_system_extras" remote="XOS" upstream="https://github.com/PixelExperience/system_extras|pie" mereg-aosp/>
+  <project path="system/netd" name="android_system_netd" remote="XOS" upstream="https://github.com/PixelExperience/system_netd|pie" merge-aosp="true"/>
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" upstream="https://github.com/PixelExperience/system_sepolicy|pie" merge-aosp="true"/>
+  <project path="system/vold" name="android_system_vold" remote="XOS" upstream="https://github.com/PixelExperience/system_vold|pie" merge-aosp="true"/>
 
   <!-- Vendor -->
   <project path="vendor/aosp" name="android_vendor_aosp" remote="XOS" upstream="https://github.com/PixelExperience/vendor_aosp|pie"/>
