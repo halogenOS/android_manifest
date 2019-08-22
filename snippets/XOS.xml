@@ -89,7 +89,7 @@
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="XOS" upstream="https://github.com/PixelExperience/system_bt|pie" merge-aosp="true"/>
   <project path="system/core" name="android_system_core" remote="XOS" upstream="https://github.com/PixelExperience/system_core|pie" merge-aosp="true"/>
-  <project path="system/extras" name="android_system_extras" remote="XOS" upstream="https://github.com/PixelExperience/system_extras|pie" mereg-aosp/>
+  <project path="system/extras" name="android_system_extras" remote="XOS" upstream="https://github.com/PixelExperience/system_extras|pie" merge-aosp="true"/>
   <project path="system/netd" name="android_system_netd" remote="XOS" upstream="https://github.com/PixelExperience/system_netd|pie" merge-aosp="true"/>
   <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" upstream="https://github.com/PixelExperience/system_sepolicy|pie" merge-aosp="true"/>
   <project path="system/vold" name="android_system_vold" remote="XOS" upstream="https://github.com/PixelExperience/system_vold|pie" merge-aosp="true"/>
