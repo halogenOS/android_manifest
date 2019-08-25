@@ -49,7 +49,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_av|pie" merge-aosp="true"/>
-  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_base|pie" merge-aosp="true"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true"/>
   <project path="frameworks/native" name="android_frameworks_native" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_native|pie" merge-aosp="true"/>
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_opt_net_voip|pie" merge-aosp="true"/>
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="XOS" upstream="https://github.com/PixelExperience/frameworks_opt_net_wifi|pie" merge-aosp="true"/>
