@@ -4,7 +4,7 @@
   <remote  name="XOS"
            fetch="https://git.halogenos.org/halogenOS"
            review="https://review.halogenos.org/"
-           revision="XOS-10.0" />
+           revision="refs/heads/XOS-10.0" />
 
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" />
