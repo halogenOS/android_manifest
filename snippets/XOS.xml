@@ -6,6 +6,9 @@
            review="https://review.halogenos.org/"
            revision="refs/heads/XOS-10.0" />
 
+  <!-- External -->
+  <project name="android_external_xos" path="external/xos" remote="XOS"/>
+
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" />
 
