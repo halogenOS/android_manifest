@@ -15,4 +15,7 @@
   <!-- Vendor -->
   <project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" />
 
+  <!-- Official devices -->
+  <project name="android_vendor_xos_officialdevices" path="vendor/xos/officialdevices" remote="XOS"/>
+
 </manifest>
