@@ -17,6 +17,12 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <project name="android_build_soong" path="build/soong" remote="XOS">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+
   <!-- External -->
   <project name="android_external_xos" path="external/xos" remote="XOS"/>
 
