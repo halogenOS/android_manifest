@@ -7,7 +7,7 @@
            revision="refs/heads/XOS-10.0" />
 
   <!-- Build -->
-  <project name="android_build_make" path="build/make" remote="XOS">
+  <project name="android_build_make" path="build/make" remote="XOS" merge-aosp="true">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -17,7 +17,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project name="android_build_soong" path="build/soong" remote="XOS">
+  <project name="android_build_soong" path="build/soong" remote="XOS" merge-aosp="true">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -27,10 +27,10 @@
   <project name="android_external_xos" path="external/xos" remote="XOS"/>
 
   <!-- Manifest -->
-  <project name="android_manifest" path="manifest" remote="XOS" />
+  <project name="android_manifest" path="manifest" remote="XOS" merge-aosp="true" />
 
   <!-- Prebuilts -->
-  <project name="android_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="XOS" />
+  <project name="android_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage|lineage-17.0" />
 
   <!-- Vendor -->
   <project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" />
