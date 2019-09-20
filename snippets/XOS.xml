@@ -29,6 +29,9 @@
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" />
 
+  <!-- Prebuilts -->
+  <project name="android_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="XOS" />
+
   <!-- Vendor -->
   <project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" />
 
