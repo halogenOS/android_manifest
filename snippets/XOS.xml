@@ -39,6 +39,12 @@
   <project name="android_frameworks_av" path="frameworks/av" remote="XOS" merge-aosp="true" />
   <project name="android_frameworks_base" path="frameworks/base" remote="XOS" merge-aosp="true" />
 
+  <!-- Hardware -->
+  <project name="android_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="XOS" upstream="https://github.com/AOSiP/platform_hardware_aosip_interfaces" />
+  <project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" merge-aosp="true" />
+  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" merge-aosp="true" />
+  <project name="android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="XOS" merge-aosp="true" />
+
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" merge-aosp="true" />
 
