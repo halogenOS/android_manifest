@@ -6,6 +6,9 @@
            review="https://review.halogenos.org/"
            revision="refs/heads/XOS-10.0" />
 
+  <!-- Bootable -->
+  <project name="android_bootable_recovery" path="bootable/recovery" remote="XOS" merge-aosp="true" />
+
   <!-- Build -->
   <project name="android_build_make" path="build/make" remote="XOS" merge-aosp="true">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -22,8 +25,14 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <project name="android_device_aosip_sepolicy" path="device/aosip/sepolicy" remote="XOS" upstream="https://github.com/AOSiP/device_aosip_sepolicy|ten" />
+  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" upstream="https://github.com/AOSiP/device_qcom_sepolicy|ten" />
 
   <!-- External -->
+  <project name="android_external_json-c" path="external/json-c" remote="XOS" merge-aosp="true" />
+  <project name="android_external_selinux" path="external/selinux" remote="XOS" merge-aosp="true" upstream="https://github.com/AOSiP/platform_external_selinux" />
+  <project name="android_external_tinycompress" path="external/tinycompress" remote="XOS" merge-aosp="true" />
   <project name="android_external_xos" path="external/xos" remote="XOS"/>
 
   <!-- Manifest -->
