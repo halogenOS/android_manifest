@@ -63,6 +63,11 @@
   <!-- Prebuilts -->
   <project name="android_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage|lineage-17.0" />
 
+  <!-- System -->
+  <project name="android_system_bt" path="system/bt" remote="XOS" merge-aosp="true" />
+  <project name="android_system_core" path="system/core" remote="XOS" merge-aosp="true" />
+  <project name="android_system_update_engine" path="system/update_engine" remote="XOS" merge-aosp="true" />
+
   <!-- Vendor -->
   <project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" />
 
