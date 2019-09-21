@@ -35,6 +35,10 @@
   <project name="android_external_tinycompress" path="external/tinycompress" remote="XOS" merge-aosp="true" />
   <project name="android_external_xos" path="external/xos" remote="XOS"/>
 
+  <!-- Frameworks -->
+  <project name="android_frameworks_av" path="frameworks/av" remote="XOS" merge-aosp="true" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="XOS" merge-aosp="true" />
+
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" merge-aosp="true" />
 

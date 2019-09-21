@@ -5,4 +5,6 @@
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed"/>
   <remove-project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
+  <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
 </manifest>
