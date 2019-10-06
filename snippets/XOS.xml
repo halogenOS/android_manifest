@@ -71,6 +71,25 @@
   <!-- Vendor -->
   <project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" />
 
+  <!-- CAF vendor -->
+  <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_codeaurora_telephony|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_dataservices|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_thermal-engine|lineage-17.0" />
+
+  <!-- NXP vendor -->
+  <project name="android_vendor_nxp_opensource_interfaces_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_interfaces_opensource_nfc|lineage-17.0" />
+  <project name="android_vendor_nxp_opensource_commonsys_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_external_libnfc-nci|lineage-17.0" />
+  <project name="android_vendor_nxp_opensource_commonsys_frameworks" path="vendor/nxp/opensource/commonsys/frameworks" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_frameworks|lineage-17.0" />
+  <project name="android_vendor_nxp_opensource_commonsys_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc|lineage-17.0" />
+  <project name="android_vendor_nxp_opensource_pn5xx_halimpl" path="vendor/nxp/opensource/pn5xx/halimpl" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_halimpl|lineage-17.0-pn5xx" />
+  <project name="android_vendor_nxp_opensource_pn5xx_hidlimpl" path="vendor/nxp/opensource/pn5xx/hidlimpl" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_hidlimpl|lineage-17.0-pn5xx" />
+  <project name="android_vendor_nxp_opensource_sn100x_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_halimpl|lineage-17.0-sn100x" />
+  <project name="android_vendor_nxp_opensource_sn100x_hidlimpl" path="vendor/nxp/opensource/sn100x/hidlimpl" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_hidlimpl|lineage-17.0-sn100x" />
+
   <!-- Official devices -->
   <project name="android_vendor_xos_officialdevices" path="vendor/xos/officialdevices" remote="XOS"/>
 
