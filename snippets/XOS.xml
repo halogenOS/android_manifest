@@ -72,15 +72,6 @@
   <!-- Vendor -->
   <project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" />
 
-  <!-- CAF vendor -->
-  <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_codeaurora_telephony|lineage-17.0" />
-  <project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio|lineage-17.0" />
-  <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys|lineage-17.0" />
-  <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr|lineage-17.0" />
-  <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_dataservices|lineage-17.0" />
-  <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces|lineage-17.0" />
-  <project name="android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_thermal-engine|lineage-17.0" />
-
   <!-- NXP vendor -->
   <project name="android_vendor_nxp_opensource_interfaces_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_interfaces_opensource_nfc|lineage-17.0" />
   <project name="android_vendor_nxp_opensource_commonsys_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_external_libnfc-nci|lineage-17.0" />
@@ -93,5 +84,23 @@
 
   <!-- Official devices -->
   <project name="android_vendor_xos_officialdevices" path="vendor/xos/officialdevices" remote="XOS"/>
+
+  <!--===========================================================
+      Codeaurora additions
+
+      Separate section for CAF so that we can clearly see
+      what is CAF and what isn't. Please do not move this section
+      to a separate file to make sure that helper functions relying
+      on this file don't break.
+      ===========================================================-->
+
+  <!-- Vendor -->
+  <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_codeaurora_telephony|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_dataservices|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_thermal-engine|lineage-17.0" />
 
 </manifest>
