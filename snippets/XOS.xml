@@ -40,7 +40,6 @@
   <project name="android_frameworks_base" path="frameworks/base" remote="XOS" merge-aosp="true" />
 
   <!-- Hardware -->
-  <project name="android_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="XOS" upstream="https://github.com/AOSiP/platform_hardware_aosip_interfaces|ten" />
   <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces|lineage-17.0" />
   <project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" merge-aosp="true" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" merge-aosp="true" />
