@@ -27,7 +27,7 @@
 
   <!-- Device -->
   <project name="android_device_aosip_sepolicy" path="device/aosip/sepolicy" remote="XOS" upstream="https://github.com/AOSiP/device_aosip_sepolicy|ten" />
-  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" upstream="https://github.com/AOSiP/device_qcom_sepolicy|ten" />
+  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/device_qcom_sepolicy|lineage-17.0" />
 
   <!-- External -->
   <project name="android_external_json-c" path="external/json-c" remote="XOS" />
