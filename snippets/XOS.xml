@@ -30,7 +30,7 @@
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" upstream="https://github.com/AOSiP/device_qcom_sepolicy|ten" />
 
   <!-- External -->
-  <project name="android_external_json-c" path="external/json-c" remote="XOS" merge-aosp="true" />
+  <project name="android_external_json-c" path="external/json-c" remote="XOS" />
   <project name="android_external_selinux" path="external/selinux" remote="XOS" merge-aosp="true" upstream="https://github.com/AOSiP/platform_external_selinux|ten" />
   <project name="android_external_tinycompress" path="external/tinycompress" remote="XOS" merge-aosp="true" />
   <project name="android_external_xos" path="external/xos" remote="XOS"/>
