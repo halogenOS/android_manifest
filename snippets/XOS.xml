@@ -6,6 +6,9 @@
            review="https://review.halogenos.org/"
            revision="refs/heads/XOS-10.0" />
 
+  <!-- Bionic -->
+  <project name="android_bionic" path="bionic" remote="XOS" merge-aosp="true" />
+
   <!-- Bootable -->
   <project name="android_bootable_recovery" path="bootable/recovery" remote="XOS" merge-aosp="true" />
 
