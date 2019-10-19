@@ -101,6 +101,7 @@
       on this file don't break.
       ===========================================================-->
 
+  <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-17.0-legacy-um" />
   <project name="android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom-caf_common|lineage-17.0" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
