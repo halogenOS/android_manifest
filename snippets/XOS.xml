@@ -29,7 +29,7 @@
   </project>
 
   <!-- Device -->
-  <project name="android_device_aosip_sepolicy" path="device/aosip/sepolicy" remote="XOS" upstream="https://github.com/AOSiP/device_aosip_sepolicy|ten" />
+  <project name="android_device_custom_sepolicy" path="device/custom/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-17.0" />
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-17.0" />
 
   <!-- External -->
