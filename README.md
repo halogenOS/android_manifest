@@ -17,13 +17,18 @@ Before you continue, make sure you follow the [Setting up a Linux build environm
 
 You can also build on Arch Linux and derivatives. If that is the case, follow [this guide](https://wiki.archlinux.org/index.php/Android#Building)
 
-We recommend running following command for Arch Linux to ensure you have all the tools you need:
+For Arch Linux users:
+
+There are quite a few things that need to be installed before starting.
+Enable the multilib repo in `/etc/pacman.conf` and do a `pacman -Syu` to make sure everything is up-to-date
+
+We recommend running following command to ensure you have all the tools you need:
 
 ```
 # Instead of yay you can use your preferred AUR helper
 yay -S \
-  base-devel flex xml2 lzop pngcrush imagemagick \
-  bash git jdk8-openjdk brotli sdat2img \
+  base-devel multilib-devel aosp-devel \
+  lzop pngcrush imagemagick bash git brotli sdat2img \
   android-sdk-platform-tools android-udev
 ```
 
