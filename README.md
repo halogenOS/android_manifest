@@ -27,7 +27,7 @@ We recommend running following command to ensure you have all the tools you need
 ```
 # Instead of yay you can use your preferred AUR helper
 yay -S \
-  base-devel multilib-devel aosp-devel \
+  base-devel multilib-devel aosp-devel noto-fonts \
   lzop pngcrush imagemagick bash git brotli sdat2img \
   android-sdk-platform-tools android-udev
 ```
