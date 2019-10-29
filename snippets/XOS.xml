@@ -49,6 +49,7 @@
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_libhardware_legacy|lineage-17.0" />
   <project name="android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="XOS" merge-aosp="true" />
   <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="XOS" merge-aosp="true" />
+  <project name="android_hardware_ril" path="hardware/ril" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_ril|lineage-17.0" />
 
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" merge-aosp="true" />
