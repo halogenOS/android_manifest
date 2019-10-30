@@ -132,6 +132,9 @@
   <project name="android_hardware_qcom-caf_msm8916_audio" path="hardware/qcom-caf/msm8916/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-17.0-caf-msm8916" />
   <project name="android_hardware_qcom-caf_msm8916_display" path="hardware/qcom-caf/msm8916/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-17.0-caf-msm8916" />
   <project name="android_hardware_qcom-caf_msm8916_media" path="hardware/qcom-caf/msm8916/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-17.0-caf-msm8916" />
+  <project name="android_hardware_qcom-caf_msm8952_audio" path="hardware/qcom-caf/msm8952/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-17.0-caf-msm8952" />
+  <project name="android_hardware_qcom-caf_msm8952_display" path="hardware/qcom-caf/msm8952/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-17.0-caf-msm8952" />
+  <project name="android_hardware_qcom-caf_msm8952_media" path="hardware/qcom-caf/msm8952/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-17.0-caf-msm8952" />
   <project name="android_hardware_qcom-caf_msm8974_audio" path="hardware/qcom-caf/msm8974/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-17.0-caf-msm8974" />
   <project name="android_hardware_qcom-caf_msm8974_display" path="hardware/qcom-caf/msm8974/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-17.0-caf-msm8974" />
   <project name="android_hardware_qcom-caf_msm8974_media" path="hardware/qcom-caf/msm8974/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-17.0-caf-msm8974" />
@@ -147,6 +150,9 @@
   <project name="android_hardware_qcom-caf_sdm845_audio" path="hardware/qcom-caf/sdm845/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-17.0-caf-sdm845" />
   <project name="android_hardware_qcom-caf_sdm845_display" path="hardware/qcom-caf/sdm845/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-17.0-caf-sdm845" />
   <project name="android_hardware_qcom-caf_sdm845_media" path="hardware/qcom-caf/sdm845/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-17.0-caf-sdm845" />
+  <project name="android_hardware_qcom-caf_sm8150_audio" path="hardware/qcom-caf/sm8150/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-17.0-caf-sm8150" />
+  <project name="android_hardware_qcom-caf_sm8150_display" path="hardware/qcom-caf/sm8150/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-17.0-caf-sm8150" />
+  <project name="android_hardware_qcom-caf_sm8150_media" path="hardware/qcom-caf/sm8150/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-17.0-caf-sm8150" />
   <project name="android_hardware_qcom-caf_thermal" path="hardware/qcom-caf/thermal" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_thermal|lineage-17.0" />
   <project name="android_hardware_qcom-caf_vr" path="hardware/qcom-caf/vr" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_vr|lineage-17.0" />
   <project name="android_hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_wlan|lineage-17.0-caf" />
