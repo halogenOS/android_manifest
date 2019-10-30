@@ -8,6 +8,7 @@
   <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <remove-project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
