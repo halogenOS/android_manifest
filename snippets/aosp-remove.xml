@@ -55,6 +55,7 @@
   <remove-project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" />
   <remove-project path="kernel/build" name="kernel/build" />
   <remove-project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
+  <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
   <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <remove-project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
