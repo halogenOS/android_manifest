@@ -30,7 +30,6 @@
 
   <!-- Device -->
   <project name="android_device_custom_sepolicy" path="device/custom/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-17.0" />
-  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-17.0" />
 
   <!-- External -->
   <project name="android_external_json-c" path="external/json-c" remote="XOS" />
@@ -105,7 +104,16 @@
       on this file don't break.
       ===========================================================-->
 
+  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-17.0" />
+  <project name="android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy-legacy|lineage-17.0" />
   <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-17.0-legacy-um" />
+
+  <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_native|lineage-17.0" />
+  <project name="android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_service|lineage-17.0" />
+  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_antradio-library|lineage-17.0" />
+  <project name="android_external_connectivity" path="external/connectivity" remote="XOS" upstream="https://github.com/LineageOS/android_external_connectivity|lineage-17.0" />
+  <project name="android_external_json-c" path="external/json-c" remote="XOS" upstream="https://github.com/LineageOS/android_external_json-c|lineage-17.0" />
+
   <project name="android_hardware_qcom-caf_apq8084_audio" path="hardware/qcom-caf/apq8084/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-17.0-caf-apq8084" />
   <project name="android_hardware_qcom-caf_apq8084_display" path="hardware/qcom-caf/apq8084/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-17.0-caf-apq8084" />
   <project name="android_hardware_qcom-caf_apq8084_media" path="hardware/qcom-caf/apq8084/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-17.0-caf-apq8084" />
@@ -166,10 +174,12 @@
   <!-- Vendor -->
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_codeaurora_telephony|lineage-17.0" />
   <project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_cryptfs_hw|lineage-17.0" />
   <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys|lineage-17.0" />
   <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr|lineage-17.0" />
   <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_dataservices|lineage-17.0" />
   <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces|lineage-17.0" />
+  <project name="android_vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_libfmjni|lineage-17.0" /> 
   <project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_power|lineage-17.0" />
   <project name="android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_thermal-engine|lineage-17.0" />
 
