@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="XOS"
-           fetch="https://git.halogenos.org/halogenOS"
+           fetch="https://git.halogenos.org/halogenOS/"
            review="https://review.halogenos.org/"
            revision="refs/heads/XOS-10.0" />
 
