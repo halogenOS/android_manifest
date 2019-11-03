@@ -13,6 +13,7 @@
   <project name="android_bootable_recovery" path="bootable/recovery" remote="XOS" merge-aosp="true" />
 
   <!-- Build -->
+  <project name="android_build_blueprint" path="build/blueprint" merge-aosp="true" upstream="https://github.com/LineageOS/android_build_blueprint|lineage-17.0" />
   <project name="android_build_make" path="build/make" remote="XOS" merge-aosp="true">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
