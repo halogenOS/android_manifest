@@ -82,6 +82,7 @@
 
   <!-- Vendor -->
   <project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" />
+  <project name="android_vendor_pixelstyle" path="vendor/pixelstyle" remote="XOS" />
 
   <!-- NXP vendor -->
   <project name="android_vendor_nxp_opensource_interfaces_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_interfaces_opensource_nfc|lineage-17.0" />
