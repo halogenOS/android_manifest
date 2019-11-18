@@ -17,6 +17,8 @@ Before you continue, make sure you follow the [Setting up a Linux build environm
 
 You can also build on Arch Linux and derivatives. If that is the case, follow [this guide](https://wiki.archlinux.org/index.php/Android#Building)
 
+You need to install a few tools for everything to work properly, including `xmlstarlet`, `git` and more.
+
 For Arch Linux users:
 
 There are quite a few things that need to be installed before starting.
@@ -29,7 +31,7 @@ We recommend running following command to ensure you have all the tools you need
 yay -S \
   base-devel multilib-devel aosp-devel noto-fonts \
   lzop pngcrush imagemagick bash git brotli sdat2img \
-  android-sdk-platform-tools android-udev
+  android-sdk-platform-tools android-udev xmlstarlet
 ```
 
 We also recommend you to use CCache for faster builds (if you don't know what CCache is, do some research about it or skip this step):
