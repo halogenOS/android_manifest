@@ -43,7 +43,7 @@
   <project name="android_frameworks_base" path="frameworks/base" remote="XOS" merge-aosp="true" />
   <project name="android_frameworks_native" path="frameworks/native" remote="XOS" merge-aosp="true" />
   <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="XOS" merge-aosp="true" />
-  <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_frameworks_opt_net_wifi|lineage-17.0" />
+  <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="XOS" merge-aosp="true" />
 
   <!-- Hardware -->
   <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces|lineage-17.0" />
