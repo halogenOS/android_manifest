@@ -32,6 +32,7 @@
   <remove-project path="prebuilts/r8" name="platform/prebuilts/r8" groups="pdk" clone-depth="1" />
   <remove-project path="system/bt" name="platform/system/bt" groups="pdk" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
+  <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <remove-project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
   <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
 </manifest>

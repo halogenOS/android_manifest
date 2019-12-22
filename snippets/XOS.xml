@@ -78,6 +78,7 @@
   <!-- System -->
   <project name="android_system_bt" path="system/bt" remote="XOS" merge-aosp="true" />
   <project name="android_system_core" path="system/core" remote="XOS" merge-aosp="true" />
+  <project name="android_system_sepolicy" path="system/sepolicy" remote="XOS" merge-aosp="true" />
   <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="XOS" upstream="https://github.com/LineageOS/android_system_tools_dtbtool|lineage-17.0" />
   <project name="android_system_update_engine" path="system/update_engine" remote="XOS" />
   <project name="android_system_vold" path="system/vold" remote="XOS" merge-aosp="true" />
