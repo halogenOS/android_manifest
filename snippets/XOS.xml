@@ -6,6 +6,9 @@
            review="https://review.halogenos.org/"
            revision="refs/heads/XOS-10.0" />
 
+  <!-- ART -->
+  <project name="android_art" path="art" remote="XOS" merge-aosp="true" />
+
   <!-- Bionic -->
   <project name="android_bionic" path="bionic" remote="XOS" merge-aosp="true" />
 
