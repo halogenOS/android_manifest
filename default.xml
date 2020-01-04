@@ -785,6 +785,7 @@
 
   <include name="snippets/aosp-remove.xml" />
 
+  <include name="snippets/additional-remotes.xml" />
   <include name="snippets/remove.xml" />
   <include name="snippets/XOS.xml" />
 
