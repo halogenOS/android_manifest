@@ -38,6 +38,7 @@
   <!-- External -->
   <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="XOS" upstream="https://github.com/LineageOS/android_external_libnfc-nxp|lineage-17.0" />
   <project name="android_external_selinux" path="external/selinux" remote="XOS" merge-aosp="true" upstream="https://github.com/AOSiP/platform_external_selinux|ten" />
+  <project name="android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="XOS" upstream="https://github.com/LineageOS/android_external_sony_boringssl-compat|lineage-17.1" />
   <project name="android_external_tinycompress" path="external/tinycompress" remote="XOS" merge-aosp="true" />
   <project name="android_external_xos" path="external/xos" remote="XOS"/>
 
