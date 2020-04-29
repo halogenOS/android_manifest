@@ -7,32 +7,36 @@ ________________________________________________________________________________
 
 #### __0. Preliminary Knowledge__
 
-Before beginning this entire process, please ensure you have sufficient storage space. To carry out a single device build an excess of over 30 GB will be required. If building for more than one device, this amount of required storage can exponentially increase. For speedy builds it is highly recommended that you store the sources in a fast storage medium such as Solid State Drives (SSDs), with modern computers it often turns out to be a greater bottleneck than the processor itself when compiling Android. If you decide to build on a SSD, make sure that you use MLC or SLC SSDs only as
-the lifetime of TLC and QLC SSDs will be impacted as you build the OS. You can also build on a HDD but keep in mind that doing so
+Before beginning this entire process, please ensure you have sufficient storage space. To carry out a single device build an excess of over 40 GB will be required. If building for more than one device, this amount of required storage increases. For speedy builds it is highly recommended that you store the sources in a fast storage medium such as Solid State Drives (SSDs), with modern computers it often turns out to be a greater bottleneck than the processor itself when compiling Android. If you decide to build on a SSD, make sure that you use MLC or SLC SSDs only as the lifetime of TLC and QLC SSDs will be impacted as you build the OS. You can also build on a HDD but keep in mind that doing so
 without a read/write cache will harm build speed as random access to storage is inherently slow on HDDs compared to SSDs.
 
-It should also be noted that in order to build Android from source successfully, you will require GNU Make, Git and OpenJDK as well as a few build and compiler centric packages, this will vary from distribution to distribution so it is recommended that you 'Google' the required packages for compiling Android for your distribution.
+It should also be noted that in order to build Android from source successfully, you will require GNU Make and Git as well as a few build and compiler centric packages, this will vary from distribution to distribution. If you read on, you'll find more information as to what is necessary. Note that the tools needed depend on quite a few factors, some being out of our control, so please make sure you look the necessary packages up in case any is missing before contacting us about issues with the build.
 
-Before you continue, make sure you follow the [Setting up a Linux build environment](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment) guide.
+Before you continue, make sure you follow the [Setting up a Linux build environment](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment) guide as it contains a lot of useful and important information regarding building AOSP.
 
-You can also build on Arch Linux and derivatives. If that is the case, follow [this guide](https://wiki.archlinux.org/index.php/Android#Building)
+While most builders will probably use a Ubuntu-based distribution, you can also build on other distributions including Arch Linux and derivatives. In case you use Arch Linux you could follow [this guide](https://wiki.archlinux.org/index.php/Android#Building) for more information. Below we have outlined which packages will be necessary.
 
-You need to install a few tools for everything to work properly, including `xmlstarlet`, `git` and more.
+You need to install a few tools for everything to work properly, these are our recommended set of tools to use:
+`clang`, `bc`, `bison`, `ccache`, `curl`, `flex`, `python`, `repo`, `unzip`, `zip`, `imagemagick`, `bash`, `git`, `xmlstarlet`, `make`
 
-For Arch Linux users:
+Depending on your distro of choice, you may need to specify a package name other than the ones outlined above.
+
+**For Arch Linux users:**
 
 There are quite a few things that need to be installed before starting.
-Enable the multilib repo in `/etc/pacman.conf` and do a `pacman -Syu` to make sure everything is up-to-date
 
 We recommend running following command to ensure you have all the tools you need:
 
 ```
-# Instead of yay you can use your preferred AUR helper
+# Instead of yay you can use your preferred AUR helper or just pacman
 yay -S \
-  base-devel multilib-devel aosp-devel noto-fonts \
-  lzop pngcrush imagemagick bash git brotli sdat2img \
-  android-sdk-platform-tools android-udev xmlstarlet
+  base-devel multilib-devel bc bison ccache curl flex \
+  gnupg gperf libxslt ncurses perl-switch python2-virtualenv \
+  noto-fonts repo rsync schedtool sdl squashfs-tools unzip \
+  vim zip zlib lzop pngcrush imagemagick bash git brotli xmlstarlet
 ```
+
+#### CCache
 
 We also recommend you to use CCache for faster builds (if you don't know what CCache is, do some research about it or skip this step):
 
@@ -76,7 +80,7 @@ Ubuntu, Debian (apt): apt-get install git
 OpenSUSE: zypper install git
 Fedora: yum install git-all
 Gentoo: emerge --ask --verbose dev-vcs/git
-Arch Linux: pacman -S git
+Arch Linux: pacman -S git # this was listed above already, you can skip it
 ```
 
 The derivatives of these common distributions should also have the git package available, if you believe your distribution does not offer git in the default package repositories then you may consider [compiling and installing git from source](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-from-Source).
@@ -159,7 +163,7 @@ Example:
 build full aosp_cheeseburger-userdebug
 ```
 
-This `build` command is a specialty made by the XOS team. It does everything for you, from lunching to breakfasting, and initiating a new build, as well as finding out which amount of threads are optimal for your machine. Hence you must not specify a thread count using `-j` on this command, as that will be done automatically for you.
+This `build` command is a specialty made by the XOS team. It does everything for you, from lunching to breakfasting, and initiating a new build, as well as finding out which amount of threads are optimal for your machine. Hence you must not specify a thread count using `-j` on this command, as that will be done automatically for you. **If you want to do a dirty build (i. e. skip `make clean`), simply add `noclean` to the end of your command like this:** `build full aosp_<device>-userdebug noclean`
 
 In your terminal, the master chef that is 'Mr Compiler' (aka Ninja) will do the cooking of the ROM for you, this will take another while and depend on your storage speed and the capability of your CPU.
 
@@ -167,9 +171,5 @@ Once done you should find a cute flashable zip either in your directory or withi
 
 _Additional build notes : If you're bringing up a new device, our [wiki](https://github.com/halogenOS/android_manifest/wiki) has some important info_
 
-_XOS 10.0 is in beta and not finished yet. Please do request features or complain about missing functionality as we are still working on it_
-
 #### __4. Flashing__
 If you do not know how to flash an Android ROM then you probably shouldn't have followed this guide in the first place, or have a case of amnesia, but in the case that you do need a briefing then here's a short guide on flashing XOS: https://goo.gl/BB53SU
-
-<br />
