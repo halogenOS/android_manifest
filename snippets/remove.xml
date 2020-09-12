@@ -1,39 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project path="art" name="platform/art" groups="pdk" />
-  <remove-project path="bionic" name="platform/bionic" groups="pdk" />
-  <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  <remove-project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <remove-project path="build/make" name="platform/build" groups="pdk"/>
-  <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed"/>
-  <remove-project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
-  <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
-  <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
-  <remove-project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
-  <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
-  <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
-  <remove-project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <remove-project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" />
-  <remove-project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
-  <remove-project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
-  <remove-project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
-  <remove-project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
-  <remove-project path="packages/apps/ThemePicker" name="platform/packages/apps/ThemePicker" groups="pdk-fs" />
-  <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
-  <remove-project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" groups="pdk-fs" />
-  <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
-  <remove-project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" />
-  <remove-project path="prebuilts/r8" name="platform/prebuilts/r8" groups="pdk" clone-depth="1" />
-  <remove-project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <remove-project path="system/core" name="platform/system/core" groups="pdk" />
-  <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
-  <remove-project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
-  <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
+
 </manifest>

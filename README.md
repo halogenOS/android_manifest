@@ -1,4 +1,6 @@
-<img src="https://git.halogenos.org/halogenOS/android_manifest/raw/branch/XOS-10.0/halogenos-logo.png">
+<img src="https://git.halogenos.org/halogenOS/android_manifest/raw/branch/XOS-11.0/halogenos-logo.png">
+
+## Important: the XOS-11.0 branch is currently in development and may or may not build and boot. If you want to contribute, please open a PR with the changes you want to contribute.
 
 ___________________________________________________________________________________
 
@@ -99,7 +101,7 @@ Of course, you can use any directory name you desire. It is recommended to avoid
 Now initialize a repo source tree, to do this please use following command:
 
 ```bash
-repo init -u https://git.halogenos.org/halogenOS/android_manifest.git -b XOS-10.0
+repo init -u https://git.halogenos.org/halogenOS/android_manifest.git -b XOS-11.0
 ```
 
 Then synchronize the source tree using repo, which will fetch the source of XOS. You should be warned that this is a procedure which downloads huge amounts (about 25-40 GB in total) of
