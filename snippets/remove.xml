@@ -2,4 +2,5 @@
 <manifest>
     <remove-project path="build/make" name="platform/build" groups="pdk" />
     <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+    <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
 </manifest>
