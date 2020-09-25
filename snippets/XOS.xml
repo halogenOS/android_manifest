@@ -77,7 +77,7 @@
   <!-- Prebuilts -->
   <!--project name="android_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="XOS" clone-depth="1" /-->
   <!--project name="android_prebuilts_r8" path="prebuilts/r8" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_r8|lineage-17.1" /-->
-  <!--project name="android_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage|lineage-17.1" /-->
+  <project name="android_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage|lineage-18.0" />
 
   <!-- System -->
   <!--project name="android_system_bt" path="system/bt" remote="XOS" merge-aosp="true" /-->
