@@ -32,7 +32,7 @@
   </project>
 
   <!-- Device -->
-  <!--project name="android_device_custom_sepolicy" path="device/custom/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-17.1" /-->
+  <project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-18.0" />
 
   <!-- External -->
   <!--project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="XOS" upstream="https://github.com/LineageOS/android_external_libnfc-nxp|lineage-17.1" /-->
@@ -49,7 +49,7 @@
   <!--project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="XOS" merge-aosp="true" /-->
 
   <!-- Hardware -->
-  <!--project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces|lineage-17.1" /-->
+  <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces|lineage-18.0" />
   <!--project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_libhardware_legacy|lineage-17.1" /-->
@@ -113,15 +113,16 @@
       on this file don't break.
       ===========================================================-->
 
-  <!--project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-17.1" /-->
-  <!--project name="android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-17.1-legacy" /-->
-  <!--project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-17.1-legacy-um" /-->
+  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-18.0" />
+  <!--project name="android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-18.0-legacy" /-->
+  <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-18.0-legacy-um" />
+  <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr|lineage-18.0" />
 
-  <!--project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_native|lineage-17.1" /-->
-  <!--project name="android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_service|lineage-17.1" /-->
-  <!--project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_antradio-library|lineage-17.1" /-->
+  <-project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_native|lineage-18.0" />
+  <project name="android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_service|lineage-18.0" />
+  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_antradio-library|lineage-18.0" />
   <!--project name="android_external_connectivity" path="external/connectivity" remote="XOS" upstream="https://github.com/LineageOS/android_external_connectivity|lineage-17.1" /-->
-  <!--project name="android_external_json-c" path="external/json-c" remote="XOS" upstream="https://github.com/LineageOS/android_external_json-c|lineage-17.1" /-->
+  <project name="android_external_json-c" path="external/json-c" remote="XOS" upstream="https://github.com/LineageOS/android_external_json-c|lineage-18.0" />
 
   <!--project name="android_hardware_qcom-caf_apq8084_audio" path="hardware/qcom-caf/apq8084/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-17.1-caf-apq8084" /-->
   <!--project name="android_hardware_qcom-caf_apq8084_display" path="hardware/qcom-caf/apq8084/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-17.1-caf-apq8084" /-->
@@ -181,7 +182,7 @@
   <!--project name="android_hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_wlan|lineage-17.1-caf" /-->
 
   <!-- Vendor -->
-  <!--project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_codeaurora_telephony|lineage-17.1" /-->
+  <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_codeaurora_telephony|lineage-18.0" />
   <!--project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio|lineage-17.1" /-->
   <!--project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_cryptfs_hw|lineage-17.1" /-->
   <!--project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys|lineage-17.1" /-->
