@@ -118,7 +118,7 @@
   <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-18.0-legacy-um" />
   <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr|lineage-18.0" />
 
-  <project name="android_external_ant-wireless_ant_client" name="external/ant-wireless/ant_client" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_client|lineage-18.0" />
+  <project name="android_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_client|lineage-18.0" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_native|lineage-18.0" />
   <project name="android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_service|lineage-18.0" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_antradio-library|lineage-18.0" />
