@@ -43,7 +43,7 @@
 
   <!-- Frameworks -->
   <project name="android_frameworks_av" path="frameworks/av" remote="XOS" merge-aosp="true" />
-  <!--project name="android_frameworks_base" path="frameworks/base" remote="XOS" merge-aosp="true" /-->
+  <project name="android_frameworks_base" path="frameworks/base" remote="XOS" merge-aosp="true" />
   <project name="android_frameworks_native" path="frameworks/native" remote="XOS" merge-aosp="true" />
   <!--project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="XOS" merge-aosp="true" /-->
@@ -81,7 +81,7 @@
 
   <!-- System -->
   <!--project name="android_system_bt" path="system/bt" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_system_core" path="system/core" remote="XOS" merge-aosp="true" /-->
+  <project name="android_system_core" path="system/core" remote="XOS" merge-aosp="true" />
   <!--project name="android_system_sepolicy" path="system/sepolicy" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="XOS" upstream="https://github.com/LineageOS/android_system_tools_dtbtool|lineage-17.1" /-->
   <!--project name="android_system_update_engine" path="system/update_engine" remote="XOS" /-->
