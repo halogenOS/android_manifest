@@ -227,6 +227,7 @@
   <project name="android_vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_libfmjni|lineage-18.1" />
   <project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_power|lineage-18.1" />
   <project name="android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_thermal-engine|lineage-18.1" />
+  <project name="android_vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_usb|lineage-18.1" />
   <project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator|lineage-18.1" />
 
 </manifest>
