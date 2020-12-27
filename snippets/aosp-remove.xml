@@ -68,7 +68,6 @@ dragonboard,pdk" clone-depth="1" />
   <remove-project path="device/ti/beagle_x15-kernel" name="device/ti/beagle-x15-kernel" groups="device,beagle_x15,pdk" clone-depth="1" />
   <remove-project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
   <remove-project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" />
-  <remove-project path="kernel/build" name="kernel/build" />
   <remove-project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth=
 "1" />
   <remove-project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
