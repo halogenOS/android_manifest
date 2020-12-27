@@ -39,7 +39,6 @@ neric_fs" />
   <remove-project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" groups="device,pdk" clone-depth="1" />
   <remove-project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" />
   <remove-project path="device/google/fuchsia" name="device/google/fuchsia" groups="device" />
-  <remove-project path="device/google/muskie" name="device/google/muskie" groups="device,generic_fs,muskie" />
   <remove-project path="device/google/taimen" name="device/google/taimen" groups="device,taimen" />
   <remove-project path="device/google/trout" name="device/google/trout" groups="device,trout,gull" />
   <remove-project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" />
