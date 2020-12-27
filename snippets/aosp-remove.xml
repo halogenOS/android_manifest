@@ -26,12 +26,21 @@
   <remove-project path="device/google/bonito" name="device/google/bonito" groups="device,bonito" />
   <remove-project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" />
   <remove-project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" />
+  <remove-project path="device/google/bramble" name="device/google/bramble" groups="device,bramble" />
+  <remove-project path="device/google/bramble-kernel" name="device/google/bramble-kernel" groups="device,bramble" clone-depth="1" />
+  <remove-project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
   <remove-project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <remove-project path="device/google/coral" name="device/google/coral" groups="device,coral,generic_fs" />
-  <remove-project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral,generi
-c_fs" clone-depth="1" />
-  <remove-project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,ge
-neric_fs" />
+  <remove-project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" />
+  <remove-project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
+  <remove-project path="device/google/redbull" name="device/google/redbull" groups="device,redbull" />
+  <remove-project path="device/google/redbull-sepolicy" name="device/google/redbull-sepolicy" groups="device,redbull" />
+  <remove-project path="device/google/redfin" name="device/google/redfin" groups="device,redfin" />
+  <remove-project path="device/google/redfin-kernel" name="device/google/redfin-kernel" groups="device,redfin" clone-depth="1" />
+  <remove-project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" />
+  <remove-project path="device/google/sunfish" name="device/google/sunfish" groups="device,sunfish" />
+  <remove-project path="device/google/sunfish-kernel" name="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" />
+  <remove-project path="device/google/sunfish-sepolicy" name="device/google/sunfish-sepolicy" groups="device,sunfish" />
   <remove-project path="device/google/crosshatch" name="device/google/crosshatch" groups="device,crosshatch,generic_fs" />
   <remove-project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" />
   <remove-project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" />
@@ -39,11 +48,9 @@ neric_fs" />
   <remove-project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" groups="device,pdk" clone-depth="1" />
   <remove-project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" />
   <remove-project path="device/google/fuchsia" name="device/google/fuchsia" groups="device" />
-  <remove-project path="device/google/taimen" name="device/google/taimen" groups="device,taimen" />
   <remove-project path="device/google/trout" name="device/google/trout" groups="device,trout,gull" />
   <remove-project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" />
-  <remove-project path="device/google/wahoo" name="device/google/wahoo" groups="device,generic_fs,wahoo" />
-  <remove-project path="device/google/wahoo-kernel" name="device/google/wahoo-kernel" groups="device,generic_fs,wahoo" clone-depth="1" />
+  <remove-project path="device/google_car" name="device/google_car" groups="pdk" />
   <remove-project path="device/linaro/bootloader/arm-trusted-firmware" name="device/linaro/bootloader/arm-trusted-firmware" />
   <remove-project path="device/linaro/bootloader/edk2" name="device/linaro/bootloader/edk2" />
   <remove-project path="device/linaro/bootloader/OpenPlatformPkg" name="device/linaro/bootloader/OpenPlatformPkg" />
