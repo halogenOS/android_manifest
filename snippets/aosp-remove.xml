@@ -79,7 +79,6 @@ dragonboard,pdk" clone-depth="1" />
   <remove-project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" />
   <remove-project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <remove-project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" />
-  <remove-project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" groups="pdk-fs" />
   <remove-project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="pdk-fs" />
   <remove-project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" />
   <remove-project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" />
