@@ -55,8 +55,8 @@
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_libhardware_legacy|lineage-18.1" />
   <project name="android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_nxp_nfc|lineage-18.1" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1" />
-  <project name="android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bootctrl|lineage-18.1" />
-  <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bt|lineage-18.1" />
+  <!--project name="android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bootctrl|lineage-18.1" /-->
+  <!--project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bt|lineage-18.1" /-->
   <project name="android_hardware_qcom_data_ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_data_ipacfg-mgr|lineage-18.1" />
   <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-18.1" />
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_gps|lineage-18.1" />
@@ -66,8 +66,8 @@
   <project name="android_hardware_qcom_sm8150_data_ipacfg-mgr" path="hardware/qcom/sm8150/data/ipacfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_data_ipacfg-mgr|lineage-18.1">
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
   </project>
-  <project name="android_hardware_qcom_sm8150_display" path="hardware/qcom/sm8150/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_display|lineage-18.1" />
-  <project name="android_hardware_qcom_sm8150_media" path="hardware/qcom/sm8150/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_media|lineage-18.1" />
+  <!--project name="android_hardware_qcom_sm8150_display" path="hardware/qcom/sm8150/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_display|lineage-18.1" /-->
+  <!--project name="android_hardware_qcom_sm8150_media" path="hardware/qcom/sm8150/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_media|lineage-18.1" /-->
   <project name="android_hardware_ril" path="hardware/ril" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_ril|lineage-18.1" />
 
   <!-- Manifest -->
