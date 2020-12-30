@@ -6,6 +6,7 @@
     <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
     <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
     <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+    <remove-project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" />
     <remove-project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" />
     <remove-project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
     <remove-project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" />

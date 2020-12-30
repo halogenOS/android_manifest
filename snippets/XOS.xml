@@ -53,7 +53,7 @@
   <!--project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_libhardware_legacy|lineage-18.1" /-->
-  <!--project name="android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="XOS" merge-aosp="true" /-->
+  <project name="android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="XOS" upstream="https://github.com/android_hardware_nxp_nfc|lineage-18.1" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1" />
   <project name="android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bootctrl|lineage-18.1" />
   <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bt|lineage-18.1" />
