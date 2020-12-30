@@ -6,5 +6,7 @@
     <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
     <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
     <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+    <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+    <remove-project path="system/bt" name="platform/system/bt" groups="pdk" />
     <remove-project path="system/core" name="platform/system/core" groups="pdk" />
 </manifest>
