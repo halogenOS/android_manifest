@@ -8,6 +8,7 @@
     <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
     <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
     <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+    <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
     <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
     <remove-project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
     <remove-project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" />
@@ -26,6 +27,9 @@
     <remove-project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
     <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
     <remove-project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
+    <remove-project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
+    <remove-project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
+    <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
     <remove-project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" />
     <remove-project path="system/bt" name="platform/system/bt" groups="pdk" />
     <remove-project path="system/core" name="platform/system/core" groups="pdk" />
