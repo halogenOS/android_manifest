@@ -36,4 +36,5 @@
     <remove-project path="system/core" name="platform/system/core" groups="pdk" />
     <remove-project path="system/netd" name="platform/system/netd" groups="pdk" />
     <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
+    <remove-project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="pdk" />
 </manifest>
