@@ -136,7 +136,7 @@
       ===========================================================-->
 
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-18.1" />
-  <!--project name="android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-18.1-legacy" /-->
+  <project name="android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-18.1-legacy" />
   <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-18.1-legacy-um" />
   <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr|lineage-18.1" />
 
