@@ -161,6 +161,8 @@
   <project name="android_external_connectivity" path="external/connectivity" remote="XOS" upstream="https://github.com/LineageOS/android_external_connectivity|lineage-18.1" />
   <project name="android_external_json-c" path="external/json-c" remote="XOS" upstream="https://github.com/LineageOS/android_external_json-c|lineage-18.1" />
 
+  <project name="android_hardware_qcom_sm8150_display" path="hardware/qcom/sm8150/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_display|lineage-18.1" />
+  <project name="android_hardware_qcom_sm8150_media" path="hardware/qcom/sm8150/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_media|lineage-18.1" />
   <project name="android_hardware_qcom-caf_apq8084_audio" path="hardware/qcom-caf/apq8084/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1-caf-apq8084" />
   <project name="android_hardware_qcom-caf_apq8084_display" path="hardware/qcom-caf/apq8084/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-18.1-caf-apq8084" />
   <project name="android_hardware_qcom-caf_apq8084_media" path="hardware/qcom-caf/apq8084/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-18.1-caf-apq8084" />
