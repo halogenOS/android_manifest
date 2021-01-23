@@ -231,5 +231,6 @@
   <project name="android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_thermal-engine|lineage-18.1" />
   <project name="android_vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_usb|lineage-18.1" />
   <project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator|lineage-18.1" />
+  <project name="android_vendor_qcom_opensource_wfd-commonsys" path="vendor/qcom/opensource/wfd-commonsys" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_wfd-commonsys|lineage-18.1" />
 
 </manifest>
