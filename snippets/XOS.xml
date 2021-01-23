@@ -6,7 +6,7 @@
            revision="refs/heads/XOS-11.0" />
 
   <!-- ART -->
-  <!--project name="android_art" path="art" remote="XOS" merge-aosp="true" /-->
+  <project name="android_art" path="art" remote="XOS" merge-aosp="true" />
 
   <!-- Bionic -->
   <project name="android_bionic" path="bionic" remote="XOS" merge-aosp="true" />

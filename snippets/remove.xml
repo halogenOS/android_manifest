@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remove-project path="art" name="platform/art" groups="pdk" />
     <remove-project path="bionic" name="platform/bionic" groups="pdk" />
     <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
     <remove-project path="build/make" name="platform/build" groups="pdk" />
