@@ -164,7 +164,7 @@
     <!--linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /-->
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
-    <!--linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" /-->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
@@ -193,9 +193,9 @@
   <project name="android_hardware_qcom-caf_msm8974_audio" path="hardware/qcom-caf/msm8974/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1-caf-msm8974" />
   <project name="android_hardware_qcom-caf_msm8974_display" path="hardware/qcom-caf/msm8974/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-18.1-caf-msm8974" />
   <project name="android_hardware_qcom-caf_msm8974_media" path="hardware/qcom-caf/msm8974/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-18.1-caf-msm8974" />
-  <!--project name="android_hardware_qcom-caf_msm8994_audio" path="hardware/qcom-caf/msm8994/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1-caf-msm8994" /-->
-  <!--project name="android_hardware_qcom-caf_msm8994_display" path="hardware/qcom-caf/msm8994/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-18.1-caf-msm8994" /-->
-  <!--project name="android_hardware_qcom-caf_msm8994_media" path="hardware/qcom-caf/msm8994/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-18.1-caf-msm8994" /-->
+  <project name="android_hardware_qcom-caf_msm8994_audio" path="hardware/qcom-caf/msm8994/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1-caf-msm8994" />
+  <project name="android_hardware_qcom-caf_msm8994_display" path="hardware/qcom-caf/msm8994/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-18.1-caf-msm8994" />
+  <project name="android_hardware_qcom-caf_msm8994_media" path="hardware/qcom-caf/msm8994/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-18.1-caf-msm8994" />
   <project name="android_hardware_qcom-caf_msm8996_audio" path="hardware/qcom-caf/msm8996/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1-caf-msm8996" />
   <project name="android_hardware_qcom-caf_msm8996_display" path="hardware/qcom-caf/msm8996/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-18.1-caf-msm8996" />
   <project name="android_hardware_qcom-caf_msm8996_media" path="hardware/qcom-caf/msm8996/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-18.1-caf-msm8996" />
