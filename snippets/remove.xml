@@ -34,6 +34,7 @@
     <remove-project path="packages/apps/PermissionController" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
     <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
     <remove-project path="packages/apps/ThemePicker" name="platform/packages/apps/ThemePicker" groups="pdk-fs" />
+    <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
     <remove-project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
     <remove-project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
     <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
