@@ -44,6 +44,7 @@
     <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" />
     <remove-project path="system/bt" name="platform/system/bt" groups="pdk" />
     <remove-project path="system/core" name="platform/system/core" groups="pdk" />
+    <remove-project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
     <remove-project path="system/netd" name="platform/system/netd" groups="pdk" />
     <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
     <remove-project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="pdk" />
