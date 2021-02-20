@@ -36,7 +36,7 @@
   <project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-18.1" />
 
   <!-- External -->
-  <project name="android_external_arm-optimized-routines" remote="XOS" upstream="https://github.com/AOSPA/android_external_arm-optimized-routines|ruby" />
+  <project name="android_external_arm-optimized-routines" path="external/arm-optimized-routines" remote="XOS" upstream="https://github.com/AOSPA/android_external_arm-optimized-routines|ruby" />
   <project name="android_external_bash" path="external/bash" remote="XOS" upstream="https://github.com/LineageOS/android_external_bash|lineage-18.1" />
   <project name="android_external_boringssl" path="external/boringssl" remote="XOS" upstream="https://github.com/LineageOS/android_external_boringssl|lineage-18.1" />
   <project name="android_external_chromium-webview" path="external/chromium-webview" remote="XOS" upstream="https://github.com/LineageOS/android_external_chromium-webview|master" />
