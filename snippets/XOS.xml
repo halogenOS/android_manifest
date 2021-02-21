@@ -86,6 +86,9 @@
   <!--project name="android_hardware_qcom_sm8150_media" path="hardware/qcom/sm8150/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_media|lineage-18.1" /-->
   <project name="android_hardware_ril" path="hardware/ril" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_ril|lineage-18.1" />
 
+  <!-- Libcore -->
+  <project name="platform/libcore" path="libcore" remote="XOS" merge-aosp="true" />
+
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" merge-aosp="true" />
 

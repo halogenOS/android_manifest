@@ -31,6 +31,7 @@
     <remove-project path="hardware/qcom/sm8150/display" name="platform/hardware/qcom/sm8150/display" groups="qcom_sm8150" />
     <remove-project path="hardware/qcom/sm8150/media" name="platform/hardware/qcom/sm8150/media" groups="qcom_sm8150" />
     <remove-project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+    <remove-project path="libcore" name="platform/libcore" groups="pdk" />
     <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
     <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
     <remove-project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
