@@ -87,7 +87,7 @@
   <project name="android_hardware_ril" path="hardware/ril" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_ril|lineage-18.1" />
 
   <!-- Libcore -->
-  <project name="platform/libcore" path="libcore" remote="XOS" merge-aosp="true" />
+  <project name="android_libcore" path="libcore" remote="XOS" merge-aosp="true" />
 
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" merge-aosp="true" />
