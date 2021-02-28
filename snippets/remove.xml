@@ -13,6 +13,7 @@
     <remove-project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
     <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
     <remove-project path="external/toybox" name="platform/external/toybox" groups="pdk" />
+    <remove-project path="external/vixl" name="platform/external/vixl" groups="pdk" />
     <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
     <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
     <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
