@@ -1,10 +1,5 @@
 <img src="https://git.halogenos.org/halogenOS/android_manifest/raw/branch/XOS-11.0/halogenos-logo.png">
 
-## Important: the XOS-11.0 branch is currently in development and may or may not build and boot. If you want to contribute, please open a PR with the changes you want to contribute.
-
-___________________________________________________________________________________
-
-
 ### Getting Started with XOS
 
 #### __0. Preliminary Knowledge__
