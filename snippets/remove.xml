@@ -21,6 +21,7 @@
     <remove-project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
     <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
     <remove-project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" />
+    <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
     <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
     <remove-project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" />
     <remove-project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" />

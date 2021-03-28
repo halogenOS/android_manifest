@@ -71,7 +71,7 @@
   <!-- Hardware -->
   <project name="android_hardware_google_pixel" path="hardware/google/pixel" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_google_pixel|lineage-18.1" />
   <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces|lineage-18.1" />
-  <!--project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" merge-aosp="true" /-->
+  <project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" merge-aosp="true" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" merge-aosp="true" />
   <project name="android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_nxp_nfc|lineage-18.1" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1" />
