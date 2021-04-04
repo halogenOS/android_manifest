@@ -100,6 +100,8 @@
   <!-- Packages -->
   <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="XOS" merge-aosp="true" />
   <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" merge-aosp="true" />
+  <!-- Upstream: https://gitlab.com/CalyxOS/platform_packages_apps_Etar|android11-qpr1 -->
+  <project name="android_packages_apps_Etar" path="packages/apps/Etar" remote="XOS" />
   <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="XOS" />
   <project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|lineage-18.1" />
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="XOS" upstream="https://github.com/AOSiP/platform_packages_apps_Launcher3|eleven" />

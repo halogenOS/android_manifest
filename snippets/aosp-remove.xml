@@ -71,6 +71,7 @@ dragonboard,pdk" clone-depth="1" />
 "1" />
   <remove-project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
   <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
+  <remove-project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <remove-project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <remove-project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <remove-project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
