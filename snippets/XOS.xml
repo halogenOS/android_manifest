@@ -46,6 +46,7 @@
   <project name="android_external_htop"  path="external/htop" remote="XOS" upstream="https://github.com/LineageOS/android_external_htop|lineage-18.1" />
   <project name="android_external_libncurses" path="external/libncurses" remote="XOS" upstream="https://github.com/LineageOS/android_external_libncurses|lineage-18.1" />
   <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="XOS" upstream="https://github.com/LineageOS/android_external_libnfc-nxp|lineage-18.1" />
+  <project name="android_external_mimalloc" path="external/mimalloc" remote="XOS" upstream="https://github.com/ProtonAOSP/android_external_mimalloc|rvc" />
   <project name="android_external_nano" path="external/nano" remote="XOS" upstream="https://github.com/LineageOS/android_external_nano|lineage-18.1" />
   <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="XOS" upstream="https://github.com/LineageOS/android_external_ntfs-3g|lineage-18.1" />
   <project name="android_external_p7zip" path="external/p7zip" remote="XOS" upstream="https://github.com/LineageOS/android_external_p7zip|lineage-18.1" />
