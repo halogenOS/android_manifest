@@ -145,6 +145,9 @@
   <!--project name="android_system_update_engine" path="system/update_engine" remote="XOS" /-->
   <project name="android_system_vold" path="system/vold" remote="XOS" merge-aosp="true" />
 
+  <!-- Tools -->
+  <project name="android_tools_metalava" path="tools/metalava" remote="XOS" merge-aosp="true" />
+
   <!-- Vendor -->
   <project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" />
   <project name="android_vendor_pixelstyle" path="vendor/pixelstyle" remote="XOS" />
