@@ -12,6 +12,7 @@
     <remove-project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
     <remove-project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" />
     <remove-project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+    <remove-project path="external/honggfuzz" name="platform/external/honggfuzz" groups="pdk" />
     <remove-project path="external/selinux" name="platform/external/selinux" groups="pdk" />
     <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
     <remove-project path="external/toybox" name="platform/external/toybox" groups="pdk" />
