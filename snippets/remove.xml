@@ -6,6 +6,7 @@
     <remove-project path="build/make" name="platform/build" groups="pdk" />
     <remove-project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
     <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
+    <remove-project path="external/OpenCSD" name="platform/external/OpenCSD" groups="pdk" />
     <remove-project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" />
     <remove-project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
     <remove-project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
