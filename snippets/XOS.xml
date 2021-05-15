@@ -40,6 +40,7 @@
   <project name="android_external_bash" path="external/bash" remote="XOS" upstream="https://github.com/LineageOS/android_external_bash|lineage-18.1" />
   <project name="android_external_boringssl" path="external/boringssl" remote="XOS" upstream="https://github.com/LineageOS/android_external_boringssl|lineage-18.1" />
   <project name="android_external_chromium-webview" path="external/chromium-webview" remote="XOS" upstream="https://github.com/LineageOS/android_external_chromium-webview|master" />
+  <project name="android_external_compiler-rt" path="external/compiler-rt" remote="XOS" upstream="https://github.com/AOSPA/androi_external_compiler-rt|ruby" />
   <project name="android_external_cpu_features" path="external/cpu_features" remote="XOS" upstream="https://github.com/crdroidandroid/android_external_cpu_features|11.0" />
   <project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" upstream="https://github.com/LineageOS/android_external_e2fsprogs|lineage-18.1" />
   <project name="android_external_exfatprogs" path="external/exfatprogs" remote="XOS" upstream="https://github.com/LineageOS/android_external_exfatprogs|lineage-18.1" />

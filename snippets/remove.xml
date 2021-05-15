@@ -9,6 +9,7 @@
     <remove-project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" />
     <remove-project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
     <remove-project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
+    <remove-project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
     <remove-project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" />
     <remove-project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
     <remove-project path="external/selinux" name="platform/external/selinux" groups="pdk" />
