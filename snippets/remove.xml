@@ -6,22 +6,17 @@
     <remove-project path="build/make" name="platform/build" groups="pdk" />
     <remove-project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
     <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
-    <remove-project path="external/OpenCSD" name="platform/external/OpenCSD" groups="pdk" />
     <remove-project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" />
     <remove-project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
     <remove-project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
-    <remove-project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
     <remove-project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" />
-    <remove-project path="external/dtc" name="platform/external/dtc" groups="pdk"/>
     <remove-project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
-    <remove-project path="external/honggfuzz" name="platform/external/honggfuzz" groups="pdk" />
     <remove-project path="external/selinux" name="platform/external/selinux" groups="pdk" />
     <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
     <remove-project path="external/toybox" name="platform/external/toybox" groups="pdk" />
     <remove-project path="external/vixl" name="platform/external/vixl" groups="pdk" />
     <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
     <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
-    <remove-project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
     <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
     <remove-project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
     <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
@@ -66,7 +61,6 @@
     <remove-project path="system/bt" name="platform/system/bt" groups="pdk" />
     <remove-project path="system/core" name="platform/system/core" groups="pdk" />
     <remove-project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
-    <remove-project path="system/memory/libion" name="platform/system/memory/libion" groups="pdk" />
     <remove-project path="system/netd" name="platform/system/netd" groups="pdk" />
     <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
     <remove-project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="pdk" />

@@ -36,17 +36,13 @@
   <project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-18.1" />
 
   <!-- External -->
-  <project name="android_external_OpenCSD" path="external/OpenCSD" remote="XOS" merge-aosp="true" />
   <project name="android_external_arm-optimized-routines" path="external/arm-optimized-routines" remote="XOS" upstream="https://github.com/AOSPA/android_external_arm-optimized-routines|ruby" />
   <project name="android_external_bash" path="external/bash" remote="XOS" upstream="https://github.com/LineageOS/android_external_bash|lineage-18.1" />
   <project name="android_external_boringssl" path="external/boringssl" remote="XOS" upstream="https://github.com/LineageOS/android_external_boringssl|lineage-18.1" />
   <project name="android_external_chromium-webview" path="external/chromium-webview" remote="XOS" upstream="https://github.com/LineageOS/android_external_chromium-webview|master" />
-  <project name="android_external_compiler-rt" path="external/compiler-rt" remote="XOS" upstream="https://github.com/AOSPA/androi_external_compiler-rt|ruby" />
   <project name="android_external_cpu_features" path="external/cpu_features" remote="XOS" upstream="https://github.com/crdroidandroid/android_external_cpu_features|11.0" />
-  <project name="android_external_dtc" path="external/dtc" remote="XOS" merge-aosp="true" />
   <project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" upstream="https://github.com/LineageOS/android_external_e2fsprogs|lineage-18.1" />
   <project name="android_external_exfatprogs" path="external/exfatprogs" remote="XOS" upstream="https://github.com/LineageOS/android_external_exfatprogs|lineage-18.1" />
-  <project name="android_external_honggfuzz" path="external/honggfuzz" remote="XOS" merge-aosp="true" />
   <project name="android_external_htop"  path="external/htop" remote="XOS" upstream="https://github.com/LineageOS/android_external_htop|lineage-18.1" />
   <project name="android_external_libncurses" path="external/libncurses" remote="XOS" upstream="https://github.com/LineageOS/android_external_libncurses|lineage-18.1" />
   <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="XOS" upstream="https://github.com/LineageOS/android_external_libnfc-nxp|lineage-18.1" />
@@ -69,7 +65,6 @@
   <!-- Frameworks -->
   <project name="android_frameworks_av" path="frameworks/av" remote="XOS" merge-aosp="true" />
   <project name="android_frameworks_base" path="frameworks/base" remote="XOS" merge-aosp="true" />
-  <project name="android_frameworks_compile_mclinker" path="frameworks/mclinker" remote="XOS" merge-aosp="true" />
   <project name="android_frameworks_native" path="frameworks/native" remote="XOS" merge-aosp="true" />
   <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="XOS" merge-aosp="true" />
   <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="XOS" merge-aosp="true" />
@@ -143,7 +138,6 @@
   <project name="android_system_core" path="system/core" remote="XOS" merge-aosp="true" />
   <project name="android_system_libufdt" path="system/libufdt" remote="XOS" merge-aosp="true" />
   <project name="android_system_sepolicy" path="system/sepolicy" remote="XOS" merge-aosp="true" />
-  <project name="android_system_memory_libion" path="system/memory/libion" remote="XOS" merge-aosp="true" />
   <project name="android_system_netd" path="system/netd" remote="XOS" merge-aosp="true" />
   <project name="android_system_qcom" path="system/qcom" remote="XOS" upstream="https://github.com/LineageOS/android_system_qcom|lineage-18.1" />
   <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="XOS" upstream="https://github.com/LineageOS/android_system_tools_dtbtool|lineage-18.1" />

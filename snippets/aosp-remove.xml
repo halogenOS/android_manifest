@@ -65,7 +65,6 @@ dragonboard,pdk" clone-depth="1" />
   <remove-project path="device/sample" name="device/sample" groups="pdk" />
   <remove-project path="device/ti/beagle_x15" name="device/ti/beagle-x15" groups="device,beagle_x15,pdk" />
   <remove-project path="device/ti/beagle_x15-kernel" name="device/ti/beagle-x15-kernel" groups="device,beagle_x15,pdk" clone-depth="1" />
-  <remove-project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <remove-project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
   <remove-project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" />
   <remove-project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth=
