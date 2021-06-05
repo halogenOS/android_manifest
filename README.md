@@ -12,7 +12,7 @@ It should also be noted that in order to build Android from source successfully,
 
 Before you continue, make sure you follow the [Setting up a Linux build environment](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment) guide as it contains a lot of useful and important information regarding building AOSP.
 
-While most builders will probably use a Ubuntu-based distribution, you can also build on other distributions including Arch Linux and derivatives. In case you use Arch Linux you could follow [this guide](https://wiki.archlinux.org/index.php/Android#Building) for more information. Below we have outlined which packages will be necessary.
+While most builders will probably use a Ubuntu-based distribution, you can also build on other distributions including Arch Linux and derivatives. In case you use Arch Linux you can follow [this guide](https://wiki.archlinux.org/index.php/Android#Building).
 
 #### CCache
 
