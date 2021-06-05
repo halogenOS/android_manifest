@@ -4,7 +4,8 @@
 
 #### __0. Preliminary Knowledge__
 
-Before beginning this entire process, please ensure you have sufficient storage space. To carry out a single device build an excess of over 40 GB will be required. If building for more than one device, this amount of required storage increases. For speedy builds it is highly recommended that you store the sources in a fast storage medium such as Solid State Drives (SSDs), with modern computers it often turns out to be a greater bottleneck than the processor itself when compiling Android. If you decide to build on a SSD, make sure that you use MLC or SLC SSDs only as the lifetime of TLC and QLC SSDs will be impacted as you build the OS. You can also build on a HDD but keep in mind that doing so
+
+Before beginning this entire process, please ensure you have sufficient storage space. To carry out a single device build an excess of over 60 GB will be required. If building for more than one device, this amount of required storage increases. For speedy builds it is highly recommended that you store the sources in a fast storage medium such as Solid State Drives (SSDs), with modern computers it often turns out to be a greater bottleneck than the processor itself when compiling Android. If you decide to build on a SSD with lower capacity (less than 500 GB), make sure that you use MLC or SLC SSDs only as the lifetime of TLC and QLC SSDs will be impacted as you build the OS. You can also build on a HDD but keep in mind that doing so
 without a read/write cache will harm build speed as random access to storage is inherently slow on HDDs compared to SSDs.
 
 It should also be noted that in order to build Android from source successfully, you will require GNU Make and Git as well as a few build and compiler centric packages, this will vary from distribution to distribution. If you read on, you'll find more information as to what is necessary. Note that the tools needed depend on quite a few factors, some being out of our control, so please make sure you look the necessary packages up in case any is missing before contacting us about issues with the build.
@@ -13,31 +14,11 @@ Before you continue, make sure you follow the [Setting up a Linux build environm
 
 While most builders will probably use a Ubuntu-based distribution, you can also build on other distributions including Arch Linux and derivatives. In case you use Arch Linux you could follow [this guide](https://wiki.archlinux.org/index.php/Android#Building) for more information. Below we have outlined which packages will be necessary.
 
-You need to install a few tools for everything to work properly, these are our recommended set of tools to use:
-`clang`, `bc`, `bison`, `ccache`, `curl`, `flex`, `python`, `repo`, `unzip`, `zip`, `imagemagick`, `bash`, `git`, `xmlstarlet`, `make`
-
-Depending on your distro of choice, you may need to specify a package name other than the ones outlined above.
-
-**For Arch Linux users:**
-
-There are quite a few things that need to be installed before starting.
-
-We recommend running following command to ensure you have all the tools you need:
-
-```
-# Instead of yay you can use your preferred AUR helper or just pacman
-yay -S \
-  base-devel multilib-devel bc bison ccache curl flex \
-  gnupg gperf libxslt ncurses perl-switch python2-virtualenv \
-  noto-fonts repo rsync schedtool sdl squashfs-tools unzip \
-  vim zip zlib lzop pngcrush imagemagick bash git brotli xmlstarlet
-```
-
 #### CCache
 
 We also recommend you to use CCache for faster builds (if you don't know what CCache is, do some research about it or skip this step):
 
-In your environment (e. g. `.bashrc` and make sure you copy&paste the two lines into your terminal):
+In your environment (e. g. `.bashrc` and make sure you copy&paste the two lines into your terminal, adjusting the ccache directory appropriately. Seperate drive recommended.):
 ```
 CCACHE_DIR="/path/to/ccache"
 USE_CCACHE=1
