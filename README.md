@@ -101,7 +101,7 @@ source build/envsetup.sh
 By running
 
 ```bash
-breakfast <device>
+lunch aosp_<device>-userdebug
 ```
 
 you can fetch the device tree and its dependencies of devices hosted by us.
@@ -120,13 +120,13 @@ Before you start building, make sure that you have all necessary device-specific
 Official trees, maintained by the team, can be retrieved using:
 
 ```bash
-breakfast <device>
+lunch aosp_<device>-userdebug
 ```
 
 Example:
 
 ```bash
-breakfast cheeseburger
+lunch aosp_cheeseburger-userdebug
 ```
 
 At this point you should be able to build the ROM freely, all that's left to do is enter...
