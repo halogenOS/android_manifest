@@ -17,15 +17,15 @@
 
   <!-- Build -->
   <!--project name="android_build_blueprint" path="build/blueprint" merge-aosp="true" remote="XOS" /-->
-  <!--project name="android_build_make" path="build/make" remote="XOS" merge-aosp="true-->">
-    <!--copyfile src="core/root.mk" dest="Makefile" /-->
-    <!--linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" /-->
-    <!--linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" /-->
-    <!--linkfile src="core" dest="build/core" /-->
-    <!--linkfile src="envsetup.sh" dest="build/envsetup.sh" /-->
-    <!--linkfile src="target" dest="build/target" /-->
-    <!--linkfile src="tools" dest="build/tools" /-->
-  <!--/project-->
+  <project name="android_build_make" path="build/make" remote="XOS" merge-aosp="true">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
 
   <!--project name="android_build_soong" path="build/soong" remote="XOS" merge-aosp="true-->">
     <!--linkfile src="root.bp" dest="Android.bp" /-->
