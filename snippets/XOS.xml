@@ -6,6 +6,9 @@
            pushurl="git@git.halogenos.org:halogenOS"
            revision="refs/heads/XOS-12.0" />
 
+  <include name="aosp-remove.xml" />
+  <include name="remove.xml" />
+
   <!-- ART -->
   <!--project name="android_art" path="art" remote="XOS" merge-aosp="true" /-->
 
