@@ -27,7 +27,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <!--project name="android_build_soong" path="build/soong" remote="XOS" merge-aosp="true-->">
+  <!--project name="android_build_soong" path="build/soong" remote="XOS" merge-aosp="true"-->
     <!--linkfile src="root.bp" dest="Android.bp" /-->
     <!--linkfile src="bootstrap.bash" dest="bootstrap.bash" /-->
   <!--/project-->
@@ -84,7 +84,7 @@
   <!--project name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_keymaster|lineage-18.1" /-->
   <!--project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-18.1" /-->
   <!--project name="android_hardware_qcom_sdm845_display" path="hardware/qcom/sdm845/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sdm845_display|lineage-18.1" /-->
-  <!--project name="android_hardware_qcom_sm8150_data_ipacfg-mgr" path="hardware/qcom/sm8150/data/ipacfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_data_ipacfg-mgr|lineage-18.1-->">
+  <!--project name="android_hardware_qcom_sm8150_data_ipacfg-mgr" path="hardware/qcom/sm8150/data/ipacfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_data_ipacfg-mgr|lineage-18.1"-->
     <!--linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" /-->
     <!--linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" /-->
   <!--/project-->
@@ -194,7 +194,7 @@
   <!--project name="android_hardware_qcom-caf_apq8084_display" path="hardware/qcom-caf/apq8084/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-18.1-caf-apq8084" /-->
   <!--project name="android_hardware_qcom-caf_apq8084_media" path="hardware/qcom-caf/apq8084/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-18.1-caf-apq8084" /-->
   <!--project name="android_hardware_qcom-caf_bootctrl" path="hardware/qcom-caf/bootctrl" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bootctrl|lineage-18.1-caf" /-->
-  <!--project name="android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom-caf_common|lineage-18.1-->">
+  <!--project name="android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom-caf_common|lineage-18.1"-->
     <!-- add guard for AOSP hardware/qcom dir -->
     <!--linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" /-->
     <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
