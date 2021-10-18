@@ -1,4 +1,4 @@
-<img src="https://git.halogenos.org/halogenOS/android_manifest/-/raw/XOS-12.0/halogenos-logo.png?inline=false">
+![](https://git.halogenos.org/halogenOS/android_manifest/-/raw/XOS-12.0/halogenos-logo.png)
 
 ## **XOS 12 IS IN DEVELOPMENT AND NOT READY TO BE BUILT, BOOTED OR USED. PLEASE WAIT UNTIL THIS NOTICE IS REMOVED BEFORE YOU START WORKING WITH IT**
 
@@ -86,7 +86,7 @@ Then synchronize the source tree using repo, which will fetch the source of XOS.
 data, it may take hours to complete. Be prepared with something fun to do as will be waiting for a while or just listen to EDM.
 
 ```bash
-repo sync -c --no-tags --no-clone-bundle -f build/make external/xos vendor/aosp
+repo sync -j4 -c --no-tags --no-clone-bundle -f build/make external/xos vendor/halogenOS
 source build/envsetup.sh
 reposync
 ```
