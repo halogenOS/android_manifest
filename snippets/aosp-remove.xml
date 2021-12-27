@@ -35,6 +35,11 @@
   <remove-project path="device/google/coral" name="device/google/coral" groups="device,coral,generic_fs" />
   <remove-project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" />
   <remove-project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
+  <remove-project path="device/google/gs101" name="device/google/gs101" groups="device,slider" />
+  <remove-project path="device/google/gs101-sepolicy" name="device/google/gs101-sepolicy" groups="device,slider" />
+  <remove-project path="device/google/gs-common" name="device/google/gs-common" groups="device,slider,pdk-gs-arm" />
+  <remove-project path="device/google/raviole" name="device/google/raviole" groups="device,slider" />
+  <remove-project path="device/google/raviole-kernel" name="device/google/raviole-kernel" groups="device,slider" clone-depth="1" />
   <remove-project path="device/google/redbull" name="device/google/redbull" groups="device,redbull" />
   <remove-project path="device/google/redbull-kernel" name="device/google/redbull-kernel" groups="device,bramble,redfin" clone-depth="1" />
   <remove-project path="device/google/redbull-sepolicy" name="device/google/redbull-sepolicy" groups="device,redbull" />
@@ -66,6 +71,9 @@
   <remove-project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" />
   <remove-project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" />
   <remove-project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" />
+  <remove-project path="hardware/google/gchips" name="platform/hardware/google/gchips" groups="pdk-lassen" />
+  <remove-project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" groups="pdk-lassen" />
+  <remove-project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen" />
   <remove-project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" />
   <remove-project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" />
   <remove-project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" />
