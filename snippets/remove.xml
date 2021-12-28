@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project path="build/make" name="platform/build" groups="pdk" />
+  <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
 </manifest>

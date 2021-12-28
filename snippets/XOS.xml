@@ -30,10 +30,10 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <!--project name="android_build_soong" path="build/soong" remote="XOS" merge-aosp="true"-->
-    <!--linkfile src="root.bp" dest="Android.bp" /-->
-    <!--linkfile src="bootstrap.bash" dest="bootstrap.bash" /-->
-  <!--/project-->
+  <project name="android_build_soong" path="build/soong" remote="XOS" merge-aosp="true">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 
   <!-- Device -->
   <!--project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-18.1" /-->
