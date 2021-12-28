@@ -8,12 +8,20 @@
   <remove-project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <remove-project path="device/generic/art" name="device/generic/art" groups="pdk" />
   <remove-project path="device/generic/car" name="device/generic/car" groups="pdk" />
+  <remove-project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <remove-project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
   <remove-project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" />
+  <remove-project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
+  <remove-project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
+  <remove-project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
+  <remove-project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" />
   <remove-project path="device/generic/opengl-transport" name="device/generic/opengl-transport" groups="pdk" />
   <remove-project path="device/generic/qemu" name="device/generic/qemu" groups="pdk" />
   <remove-project path="device/generic/trusty" name="device/generic/trusty" groups="pdk" />
   <remove-project path="device/generic/uml" name="device/generic/uml" groups="device,pdk" />
+  <remove-project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
+  <remove-project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
+  <remove-project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" groups="pdk" />
   <remove-project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <remove-project path="device/google/barbet" name="device/google/barbet" groups="device,barbet" />
   <remove-project path="device/google/barbet-kernel" name="device/google/barbet-kernel" groups="device,barbet" clone-depth="1" />
@@ -59,10 +67,14 @@
   <remove-project path="device/sample" name="device/sample" groups="pdk" />
   <remove-project path="device/ti/beagle_x15" name="device/ti/beagle-x15" groups="device,beagle_x15,pdk" />
   <remove-project path="device/ti/beagle_x15-kernel" name="device/ti/beagle-x15-kernel" groups="device,beagle_x15,pdk" clone-depth="1" />
+  <remove-project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
+  <remove-project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" />
+  <remove-project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" />
   <remove-project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" />
   <remove-project path="hardware/google/gchips" name="platform/hardware/google/gchips" groups="pdk-lassen" />
   <remove-project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" groups="pdk-lassen" />
   <remove-project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen" />
+  <remove-project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" />
   <remove-project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" />
   <remove-project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" />
   <remove-project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
