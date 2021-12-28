@@ -260,7 +260,7 @@
   <!-- Vendor -->
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_codeaurora_telephony|lineage-19.0" />
   <project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="XOS" upstream="https://github.com/ArrowOS/android_vendor_qcom_opensource_audio|arrow-12.0" />
-  <project name="android_vendor_qcom_opensource_audio-hal/st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" remote="XOS" upstream="https://github.com/ArrowOS/android_vendor_qcom_opensource_audio-hal_st-hal|arrow-12.0" />
+  <project name="android_vendor_qcom_opensource_audio-hal_st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" remote="XOS" upstream="https://github.com/ArrowOS/android_vendor_qcom_opensource_audio-hal_st-hal|arrow-12.0" />
   <!--project name="android_vendor_qcom_opensource_commonsys-intf_bluetooth" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf|lineage-18.1" /-->
   <project name="android_vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf|lineage-19.0" />
   <!--project name="android_vendor_qcom_opensource_commonsys_bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_bluetooth_ext|lineage-18.1" /-->
