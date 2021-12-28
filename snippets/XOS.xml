@@ -188,7 +188,7 @@
   <project name="android_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_client|lineage-19.0" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_native|lineage-19.0" />
   <project name="android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_service|lineage-19.0" />
-  <project name="android_external_ant-wireless_hidl" path="external/ant-wireless/hidl" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_hidl|lineage-19.1" />
+  <project name="android_external_ant-wireless_hidl" path="external/ant-wireless/hidl" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_hidl|lineage-19.0" />
   <!--project name="android_external_connectivity" path="external/connectivity" remote="XOS" upstream="https://github.com/LineageOS/android_external_connectivity|lineage-18.1" /-->
   <project name="android_external_json-c" path="external/json-c" remote="XOS" upstream="https://github.com/LineageOS/android_external_json-c|lineage-19.0" />
 
