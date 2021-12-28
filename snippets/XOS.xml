@@ -183,7 +183,7 @@
   <!--project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-18.1" /-->
   <!--project name="android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-18.1-legacy" /-->
   <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy|lineage-19.0-legacy-um" />
-  <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="XOS" upstream="https://github.com/Evolution-X/android_device_qcom_sepolicy_vndr|snow" />
+  <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="XOS" upstream="https://github.com/Evolution-X/device_qcom_sepolicy_vndr|snow" />
 
   <project name="android_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_client|lineage-19.0" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_native|lineage-19.0" />
