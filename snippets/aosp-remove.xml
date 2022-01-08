@@ -37,11 +37,6 @@
   <remove-project path="device/google/crosshatch" name="device/google/crosshatch" groups="device,crosshatch,generic_fs" />
   <remove-project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" />
   <remove-project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" />
-  <remove-project path="device/google/gs101" name="device/google/gs101" groups="device,slider" />
-  <remove-project path="device/google/gs101-sepolicy" name="device/google/gs101-sepolicy" groups="device,slider" />
-  <remove-project path="device/google/gs-common" name="device/google/gs-common" groups="device,slider,pdk-gs-arm" />
-  <remove-project path="device/google/raviole" name="device/google/raviole" groups="device,slider" />
-  <remove-project path="device/google/raviole-kernel" name="device/google/raviole-kernel" groups="device,slider" clone-depth="1" />
   <remove-project path="device/google/redbull" name="device/google/redbull" groups="device,redbull" />
   <remove-project path="device/google/redbull-kernel" name="device/google/redbull-kernel" groups="device,bramble,redfin" clone-depth="1" />
   <remove-project path="device/google/redbull-sepolicy" name="device/google/redbull-sepolicy" groups="device,redbull" />
