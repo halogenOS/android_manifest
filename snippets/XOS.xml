@@ -92,7 +92,7 @@
     <!--linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" /-->
     <!--linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" /-->
   <!--/project-->
-  <!--project name="android_hardware_qcom_sm8150_display" path="hardware/qcom/sm8150/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_display|lineage-18.1" /-->
+  <project name="android_hardware_qcom_sm8150_display" path="hardware/qcom/sm8150/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_display|lineage-19.0" />
   <!--project name="android_hardware_qcom_sm8150_media" path="hardware/qcom/sm8150/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_media|lineage-18.1" /-->
   <!--project name="android_hardware_ril" path="hardware/ril" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_ril|lineage-18.1" /-->
 
