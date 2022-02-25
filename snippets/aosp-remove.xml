@@ -75,4 +75,5 @@
   <remove-project path="prebuilts/gdb/darwin-x86" name="platform/prebuilts/gdb/darwin-x86" groups="darwin,pdk" clone-depth="1" />
   <remove-project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,pdk,tradefed" clone-depth="1" />
   <remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
+  <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
 </manifest>
