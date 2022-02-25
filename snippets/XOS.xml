@@ -38,6 +38,7 @@
   <!-- Device -->
   <!--project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-18.1" /-->
   <project name="android_device_evolution_sepolicy" path="device/evolution/sepolicy" remote="XOS" upstream="https://github.com/Evolution-X/device_evolution_sepolicy|snow" />
+  <project name="android_device_arrow_sepolicy" path="device/arrow/sepolicy" remote="XOS" upstream="https://github.com/ArrowOS/android_device_arrow_sepolicy|arrow-12.0" />
 
   <!-- External -->
   <!--project name="android_external_arm-optimized-routines" path="external/arm-optimized-routines" remote="XOS" upstream="https://github.com/AOSPA/android_external_arm-optimized-routines|ruby" /-->
