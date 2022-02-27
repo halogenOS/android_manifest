@@ -198,7 +198,7 @@
   <!--project name="android_hardware_qcom-caf_apq8084_audio" path="hardware/qcom-caf/apq8084/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1-caf-apq8084" /-->
   <!--project name="android_hardware_qcom-caf_apq8084_display" path="hardware/qcom-caf/apq8084/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-18.1-caf-apq8084" /-->
   <!--project name="android_hardware_qcom-caf_apq8084_media" path="hardware/qcom-caf/apq8084/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-18.1-caf-apq8084" /-->
-  <!--project name="android_hardware_qcom-caf_bootctrl" path="hardware/qcom-caf/bootctrl" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bootctrl|lineage-18.1-caf" /-->
+  <project name="android_hardware_qcom-caf_bootctrl" path="hardware/qcom-caf/bootctrl" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_qcom_bootctrl|arrow-12.0-caf" />
   <project name="android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_qcom-caf_common|arrow-12.0">
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -211,8 +211,8 @@
     <!--linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" /-->
     <!--linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" /-->
     <!--linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" /-->
-    <!--linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" /-->
-    <!--linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" /-->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
@@ -243,9 +243,9 @@
   <!--project name="android_hardware_qcom-caf_msm8996_audio" path="hardware/qcom-caf/msm8996/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1-caf-msm8996" /-->
   <!--project name="android_hardware_qcom-caf_msm8996_display" path="hardware/qcom-caf/msm8996/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-18.1-caf-msm8996" /-->
   <!--project name="android_hardware_qcom-caf_msm8996_media" path="hardware/qcom-caf/msm8996/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-18.1-caf-msm8996" /-->
-  <!--project name="android_hardware_qcom-caf_msm8998_audio" path="hardware/qcom-caf/msm8998/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1-caf-msm8998" /-->
-  <!--project name="android_hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-18.1-caf-msm8998" /-->
-  <!--project name="android_hardware_qcom-caf_msm8998_media" path="hardware/qcom-caf/msm8998/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-18.1-caf-msm8998" /-->
+  <project name="android_hardware_qcom-caf_msm8998_audio" path="hardware/qcom-caf/msm8998/audio" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_qcom_audio|arrow-12.0-caf-msm8998" />
+  <project name="android_hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_qcom_display|arrow-12.0-caf-msm8998" />
+  <project name="android_hardware_qcom-caf_msm8998_media" path="hardware/qcom-caf/msm8998/media" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_qcom_media|arrow-12.0-caf-msm8998" />
   <project name="android_hardware_qcom-caf_sdm845_audio" path="hardware/qcom-caf/sdm845/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-19.0-caf-sdm845" />
   <project name="android_hardware_qcom-caf_sdm845_display" path="hardware/qcom-caf/sdm845/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-19.0-caf-sdm845" />
   <project name="android_hardware_qcom-caf_sdm845_media" path="hardware/qcom-caf/sdm845/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-19.0-caf-sdm845" />
@@ -266,7 +266,7 @@
   <project name="android_vendor_qcom_opensource_commonsys_display" path="vendor/qcom/opensource/commonsys/display" remote="XOS" upstream="https://github.com/ArrowOS/android_vendor_qcom_opensource_display-commonsys|arrow-12.0" />
   <!--project name="android_vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth|lineage-18.1" /-->
   <!--project name="android_vendor_qcom_opensource_commonsys_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_system_bt|lineage-18.1" /-->
-  <!--project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_cryptfs_hw|lineage-18.1" /-->
+  <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="XOS" upstream="https://github.com/ArrowOS/android_vendor_qcom_opensource_cryptfs_hw|arrow-12.0" />
   <project name="android_vendor_qcom_opensource_display" path="vendor/qcom/opensource/display" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display|lineage-19.0" />
   <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="XOS" upstream="https://github.com/ArrowOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr|arrow-12.0" />
   <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="XOS" upstream="https://github.com/ArrowOS/android_vendor_qcom_opensource_dataservices|arrow-12.0" />
