@@ -61,7 +61,6 @@
   <remove-project path="device/ti/beagle_x15-kernel" name="device/ti/beagle-x15-kernel" groups="device,beagle_x15,pdk" clone-depth="1" />
   <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <remove-project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" />
-  <remove-project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" />
   <remove-project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" />
   <remove-project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
   <remove-project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" />
