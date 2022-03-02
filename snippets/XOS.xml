@@ -85,7 +85,7 @@
   <project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" merge-aosp="true" upstream="https://github.com/ArrowOS/android_hardware_interfaces|arrow-12.0" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" merge-aosp="true" upstream="https://github.com/ArrowOS/android_hardware_libhardware|arrow-12.0" />
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" upstream="https://github.com/ArrowOS/android_hardware_libhardware_legacy|arrow-12.0" />
-  <!--project name="android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_nxp_nfc|lineage-18.1" /-->
+  <project name="android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_nxp_nfc|lineage-19.0" />
   <!--project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1" /-->
   <project name="android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_qcom_bootctrl|arrow-12.0" />
   <!--project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bt|lineage-18.1" /-->
@@ -226,6 +226,7 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     <!--linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" /-->
     <!--linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" /-->
+    <linkfile src="os_pickup.bp" dest="hardware/nxp/Android.bp" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
