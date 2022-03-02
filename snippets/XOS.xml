@@ -62,7 +62,7 @@
   <!--project name="android_external_p7zip" path="external/p7zip" remote="XOS" upstream="https://github.com/LineageOS/android_external_p7zip|lineage-18.1" /-->
   <!--project name="android_external_pigz" path="external/pigz" remote="XOS" upstream="https://github.com/LineageOS/android_external_pigz|lineage-18.1" /-->
   <!--project name="android_external_rsync" path="external/rsync" remote="XOS" upstream="https://github.com/LineageOS/android_external_rsync|lineage-18.1" /-->
-  <!--project name="android_external_selinux" path="external/selinux" remote="XOS" merge-aosp="true" /-->
+  <project name="android_external_selinux" path="external/selinux" remote="XOS" merge-aosp="true" upstream="https://github.com/ArrowOS/android_external_selinux|arrow-12.0" />
   <!--project name="android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="XOS" upstream="https://github.com/LineageOS/android_external_sony_boringssl-compat|lineage-18.1" /-->
   <project name="android_external_tinycompress" path="external/tinycompress" remote="XOS" upstream="https://github.com/ArrowOS/android_external_tinycompress|arrow-12.0" />
   <!--project name="android_external_toybox" path="external/toybox" remote="XOS" upstream="https://github.com/LineageOS/android_external_toybox|lineage-18.1" /-->
@@ -86,7 +86,7 @@
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_libhardware|arrow-12.0" />
   <!--project name="android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_nxp_nfc|lineage-18.1" /-->
   <!--project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1" /-->
-<!--project name="android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bootctrl|lineage-18.1" /-->
+  <project name="android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_qcom_bootctrl|arrow-12.0" />
   <!--project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bt|lineage-18.1" /-->
   <!--project name="android_hardware_qcom_data_ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_data_ipacfg-mgr|lineage-18.1" /-->
   <!--project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-18.1" /-->

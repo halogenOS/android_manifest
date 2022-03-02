@@ -7,7 +7,9 @@
   <remove-project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <remove-project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
   <remove-project path="external/mksh" name="platform/external/mksh" groups="pdk" />
+  <remove-project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <remove-project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" />
+  <remove-project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
   <remove-project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" groups="generic_fs,qcom_sdm845" />
   <remove-project path="hardware/qcom/sm8150/display" name="platform/hardware/qcom/sm8150/display" groups="qcom_sm8150" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
