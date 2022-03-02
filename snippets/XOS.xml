@@ -82,7 +82,7 @@
   <!-- Hardware -->
   <project name="android_hardware_google_pixel" path="hardware/google/pixel" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_google_pixel|lineage-19.0" />
   <!--project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces|lineage-18.1" /-->
-  <project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" merge-aosp="true"upstream="https://github.com/ArrowOS/android_hardware_interfaces|arrow-12.0" />
+  <project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" merge-aosp="true" upstream="https://github.com/ArrowOS/android_hardware_interfaces|arrow-12.0" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" merge-aosp="true" upstream="https://github.com/ArrowOS/android_hardware_libhardware|arrow-12.0" />
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" upstream="https://github.com/ArrowOS/android_hardware_libhardware_legacy|arrow-12.0" />
   <!--project name="android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_nxp_nfc|lineage-18.1" /-->
