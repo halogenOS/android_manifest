@@ -49,13 +49,14 @@
   <!--project name="android_external_boringssl" path="external/boringssl" remote="XOS" upstream="https://github.com/LineageOS/android_external_boringssl|lineage-18.1" /-->
   <!--project name="android_external_chromium-webview" path="external/chromium-webview" remote="XOS" upstream="https://github.com/LineageOS/android_external_chromium-webview|master" /-->
   <!--project name="android_external_cpu_features" path="external/cpu_features" remote="XOS" upstream="https://github.com/crdroidandroid/android_external_cpu_features|11.0" /-->
-  <!--project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" upstream="https://github.com/LineageOS/android_external_e2fsprogs|lineage-18.1" /-->
-  <!--project name="android_external_exfatprogs" path="external/exfatprogs" remote="XOS" upstream="https://github.com/LineageOS/android_external_exfatprogs|lineage-18.1" /-->
+  <project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" upstream="https://github.com/ArrowOS/android_external_e2fsprogs|arrow-12.0" />
+  <project name="android_external_exfatprogs" path="external/exfatprogs" remote="XOS" upstream="https://github.com/ArrowOS/android_external_exfatprogs|arrow-12.0" />
   <project name="android_external_gptfdisk" path="external/gptfdisk" remote="XOS" upstream="https://github.com/ArrowOS/android_external_gptfdisk|arrow-12.0" />
   <!--project name="android_external_htop"  path="external/htop" remote="XOS" upstream="https://github.com/LineageOS/android_external_htop|lineage-18.1" /-->
   <!--project name="android_external_libncurses" path="external/libncurses" remote="XOS" upstream="https://github.com/LineageOS/android_external_libncurses|lineage-18.1" /-->
   <!--project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="XOS" upstream="https://github.com/LineageOS/android_external_libnfc-nxp|lineage-18.1" /-->
   <!--project name="android_external_mimalloc" path="external/mimalloc" remote="XOS" upstream="https://github.com/ProtonAOSP/android_external_mimalloc|rvc" /-->
+  <project name="android_external_mksh" path="external/mksh" remote="XOS" upstream="https://github.com/ArrowOS/android_external_mksh|arrow-12.0" />
   <!--project name="android_external_nano" path="external/nano" remote="XOS" upstream="https://github.com/LineageOS/android_external_nano|lineage-18.1" /-->
   <!--project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="XOS" upstream="https://github.com/LineageOS/android_external_ntfs-3g|lineage-18.1" /-->
   <!--project name="android_external_p7zip" path="external/p7zip" remote="XOS" upstream="https://github.com/LineageOS/android_external_p7zip|lineage-18.1" /-->
