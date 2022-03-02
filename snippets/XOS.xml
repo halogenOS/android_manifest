@@ -168,14 +168,14 @@
   <!--project name="android_vendor_xos_themes" path="vendor/xos/themes" remote="XOS" /-->
 
   <!-- NXP vendor -->
-  <!--project name="android_vendor_nxp_opensource_interfaces_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_interfaces_opensource_nfc|lineage-18.1" /-->
-  <!--project name="android_vendor_nxp_opensource_commonsys_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_external_libnfc-nci|lineage-18.1" /-->
-  <!--project name="android_vendor_nxp_opensource_commonsys_frameworks" path="vendor/nxp/opensource/commonsys/frameworks" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_frameworks|lineage-18.1" /-->
-  <!--project name="android_vendor_nxp_opensource_commonsys_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc|lineage-18.1" /-->
-  <!--project name="android_vendor_nxp_opensource_pn5xx_halimpl" path="vendor/nxp/opensource/pn5xx/halimpl" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_halimpl|lineage-18.1-pn5xx" /-->
-  <!--project name="android_vendor_nxp_opensource_pn5xx_hidlimpl" path="vendor/nxp/opensource/pn5xx/hidlimpl" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_hidlimpl|lineage-18.1-pn5xx" /-->
-  <!--project name="android_vendor_nxp_opensource_sn100x_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_halimpl|lineage-18.1-sn100x" /-->
-  <!--project name="android_vendor_nxp_opensource_sn100x_hidlimpl" path="vendor/nxp/opensource/sn100x/hidlimpl" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_hidlimpl|lineage-18.1-sn100x" /-->
+  <project name="android_vendor_nxp_opensource_interfaces_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_interfaces_opensource_nfc|lineage-19.0" />
+  <project name="android_vendor_nxp_opensource_commonsys_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_external_libnfc-nci|lineage-19.0" />
+  <project name="android_vendor_nxp_opensource_commonsys_frameworks" path="vendor/nxp/opensource/commonsys/frameworks" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_frameworks|lineage-19.0" />
+  <project name="android_vendor_nxp_opensource_commonsys_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc|lineage-19.0" />
+  <project name="android_vendor_nxp_opensource_pn5xx_halimpl" path="vendor/nxp/opensource/pn5xx/halimpl" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_halimpl|lineage-19.0-pn5xx" />
+  <project name="android_vendor_nxp_opensource_pn5xx_hidlimpl" path="vendor/nxp/opensource/pn5xx/hidlimpl" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_hidlimpl|lineage-19.0-pn5xx" />
+  <project name="android_vendor_nxp_opensource_sn100x_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_halimpl|lineage-19.0-sn100x" />
+  <project name="android_vendor_nxp_opensource_sn100x_hidlimpl" path="vendor/nxp/opensource/sn100x/hidlimpl" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_nxp_opensource_hidlimpl|lineage-19.0-sn100x" />
 
   <!-- Official devices -->
   <!--project name="android_vendor_xos_officialdevices" path="vendor/xos/officialdevices" remote="XOS"/-->
