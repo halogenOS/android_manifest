@@ -9,9 +9,14 @@
   <remove-project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <remove-project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <remove-project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" />
+  <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
+  <remove-project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
+  <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
   <remove-project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
   <remove-project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" groups="generic_fs,qcom_sdm845" />
   <remove-project path="hardware/qcom/sm8150/display" name="platform/hardware/qcom/sm8150/display" groups="qcom_sm8150" />
+  <remove-project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
+  <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
 </manifest>
