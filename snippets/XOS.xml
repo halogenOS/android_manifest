@@ -226,10 +226,10 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     <!--linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" /-->
     <!--linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" /-->
-    <!--linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" /-->
-    <!--linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" /-->
-    <!--linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" /-->
-    <!--linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" /-->
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
   <!--project name="android_hardware_qcom-caf_bt" path="hardware/qcom-caf/bt" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bt|lineage-18.1-caf" /-->
   <!--project name="android_hardware_qcom-caf_msm8916_audio" path="hardware/qcom-caf/msm8916/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-18.1-caf-msm8916" /-->
