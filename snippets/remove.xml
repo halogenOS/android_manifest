@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <remove-project path="build/make" name="platform/build" groups="pdk" />
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
   <remove-project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" />
