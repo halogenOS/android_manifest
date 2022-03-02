@@ -145,7 +145,7 @@
 
   <!-- System -->
   <!--project name="android_system_bt" path="system/bt" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_system_core" path="system/core" remote="XOS" merge-aosp="true" /-->
+  <project name="android_system_core" path="system/core" remote="XOS" merge-aosp="true" upstream="https://github.com/ArrowOS/android_system_core|arrow-12.0" />
   <!--project name="android_system_libufdt" path="system/libufdt" remote="XOS" merge-aosp="true" /-->
   <project name="android_system_sepolicy" path="system/sepolicy" remote="XOS" upstream="https://github.com/ArrowOS/android_system_sepolicy|arrow-12.0" />
   <!--project name="android_system_netd" path="system/netd" remote="XOS" merge-aosp="true" /-->
@@ -153,7 +153,7 @@
   <!--project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="XOS" upstream="https://github.com/LineageOS/android_system_tools_dtbtool|lineage-18.1" /-->
   <!--project name="android_system_tools_mkbootimg" path="system/tools/mkbootimg" remote="XOS" upstream="https://github.com/LineageOS/android_system_tools_mkbootimg|lineage-18.1" /-->
   <!--project name="android_system_update_engine" path="system/update_engine" remote="XOS" /-->
-  <!--project name="android_system_vold" path="system/vold" remote="XOS" merge-aosp="true" /-->
+  <project name="android_system_vold" path="system/vold" remote="XOS" merge-aosp="true" upstream="https://github.com/ArrowOS/android_system_vold|arrow-12.0" />
 
   <!-- Tools -->
   <!--project name="android_tools_metalava" path="tools/metalava" remote="XOS" merge-aosp="true" /-->
