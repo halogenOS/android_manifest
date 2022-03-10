@@ -1,4 +1,4 @@
-<img src="https://git.halogenos.org/halogenOS/android_manifest/raw/branch/XOS-9.0/halogenos-logo.png">
+<img src="https://raw.githubusercontent.com/halogenOS/android_manifest/XOS-9.0-old/halogenos-logo.png">
 
 ___________________________________________________________________________________
 
