@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- External repos -->
+  <project path="external/bson" name="external_bson" remote="pixel" />
+  <project path="external/connectivity" name="external_connectivity" remote="pixel" />
+  <project path="external/exfatprogs" name="external_exfatprogs" remote="pixel" />
+  <project path="external/json-c" name="external_json-c" remote="pixel" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="pixel" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="pixel" />
+  <project path="external/tinyxml" name="external_tinyxml" remote="pixel" />
+
+  <!-- General repos -->
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" remote="pixel" />
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="pixel" />
+  <!--project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" /-->
+  <!--project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" /-->
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixel" />
+
+  <!-- Prebuilts repos -->
+  <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" remote="pixel" clone-depth="1" />
+
+  <!-- System Repos -->
+  <project path="system/qcom" name="system_qcom" remote="pixel" />
+  <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="pixel" />
+
+  <!-- Tools Repos -->
+  <project path="tools/extract-utils" name="tools_extract-utils" remote="pixel" />
+</manifest>

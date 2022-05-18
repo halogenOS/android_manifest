@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Define popular Git services for most dependencies -->
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org" />
+
+  <!-- Now several known self hosted Git instances just in case -->
+  <remote  name="pixel-selfhost"
+           fetch="https://gitlab.pixelexperience.org" />
+
+  <remote  name="polycule-selfhost"
+           fetch="https://git.polycule.co" />
+
+  <remote  name="e-selfhost"
+           fetch="https://gitlab.e.foundation" />
+
+</manifest>
