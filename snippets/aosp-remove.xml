@@ -9,8 +9,6 @@
   <remove-project path="device/generic/art" name="device/generic/art" groups="pdk" />
   <remove-project path="device/generic/car" name="device/generic/car" groups="pdk" />
   <remove-project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <remove-project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-  <remove-project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" />
   <remove-project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
   <remove-project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
   <remove-project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
