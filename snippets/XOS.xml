@@ -176,7 +176,7 @@
 
   <!-- Vendor -->
   <!--project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" /-->
-  <project name="android_vendor_halogenOS" path="vendor/halogenOS" remote="XOS" upstream="https://github.com/PotatoProject/vendor_potato|frico-mr1_release" />
+  <project name="android_vendor_halogenOS" path="vendor/halogenOS" remote="XOS" upstream="https://github.com/PixelExperience/vendor_aosp|twelve" />
   <!--project name="android_vendor_pixelstyle" path="vendor/pixelstyle" remote="XOS" /-->
   <!--project name="android_vendor_support" path="vendor/support" remote="XOS" /-->
   <!--project name="android_vendor_xos_themes" path="vendor/xos/themes" remote="XOS" /-->
