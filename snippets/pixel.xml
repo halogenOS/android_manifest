@@ -2,23 +2,23 @@
 <manifest>
 
   <!-- Hardware repos -->
-  <project path="hardware/qcom/msm8998" name="hardware_qcom_msm8998" remote="pixel" />
+  <project path="hardware/qcom/msm8998" name="android_hardware_qcom_msm8998" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom_msm8998|twelve" />
 
   <!-- Package repos -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixel" />
-  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixel" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Bluetooth|twelve" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="XOS" upstream="https://github.com/PixelExperience/packages_modules_Connectivity|twelve" />
+  <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="XOS" upstream="https://github.com/PixelExperience/packages_modules_Permission|twelve" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="pixel" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="pixel" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" remote="pixel" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="pixel" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="pixel" />
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_build-tools|twelve" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9|twelve" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9|twelve" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9|twelve" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9|twelve" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9|twelve" />
 
   <!-- System repos -->
-  <project path="system/core" name="system_core" remote="pixel" />
-  <project path="system/libhidl" name="system_libhidl" remote="pixel" />
+  <project path="system/core" name="android_system_core" remote="XOS" upstream="https://github.com/PixelExperience/system_core|twelve" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="XOS" upstream="https://github.com/PixelExperience/system_libhidl|twelve" />
 
 </manifest>
