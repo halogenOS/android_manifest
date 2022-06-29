@@ -18,7 +18,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9|twelve" />
 
   <!-- System repos -->
-  <project path="system/core" name="android_system_core" remote="XOS" upstream="https://github.com/PixelExperience/system_core|twelve" />
   <project path="system/libhidl" name="android_system_libhidl" remote="XOS" upstream="https://github.com/PixelExperience/system_libhidl|twelve" />
 
 </manifest>

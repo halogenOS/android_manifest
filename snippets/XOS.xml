@@ -158,7 +158,7 @@
   <!-- System -->
   <project name="android_system_bt" path="system/bt" remote="XOS" merge-aosp="true" />
   <project name="android_system_extras" path="system/extras" remote="XOS" merge-aosp="true" />
-  <!--project name="android_system_core" path="system/core" remote="XOS" merge-aosp="true" upstream="https://github.com/ArrowOS/android_system_core|arrow-12.0" /-->
+  <project name="android_system_core" path="system/core" remote="XOS" merge-aosp="true" />
   <!--project name="android_system_libufdt" path="system/libufdt" remote="XOS" merge-aosp="true" /-->
   <project name="android_system_libziparchive" path="system/libziparchive" remote="XOS" merge-aosp="true" />
   <project name="android_system_media" path="system/media" remote="XOS" merge-aosp="true" />
