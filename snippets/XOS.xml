@@ -126,14 +126,14 @@
   <!--project name="android_packages_apps_Etar" path="packages/apps/Etar" remote="XOS" /-->
   <!--project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="XOS" /-->
   <!--project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|lineage-18.1" /-->
-  <!--project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="XOS" /-->
+  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="XOS" upstream="https://github.com/LawnchairLauncher/Lawnchair|12.1-dev" />
   <!--project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="XOS" merge-aosp="true" /-->
   <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="XOS" merge-aosp="true" />
   <!--project name="android_packages_apps_PermissionController" path="packages/apps/PermissionController" remote="XOS" merge-aosp="true" /-->
   <project name="android_packages_apps_Settings"  path="packages/apps/Settings" remote="XOS" merge-aosp="true" />
   <!--project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="XOS" merge-aosp="true" /-->
   <project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="XOS" upstream="https://github.com/ArrowOS/android_packages_apps_ThemePicker|arrow-12.1" />
-  <!--project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="XOS" merge-aosp="true" /-->
+  <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="XOS" merge-aosp="true" />
   <project name="android_packages_modules_adb" path="packages/modules/adb" remote="XOS" merge-aosp="true" />
   <project name="android_packages_modules_Wifi" path="packages/modules/Wifi" remote="XOS" merge-aosp="true" />
   <!--project name="android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="XOS" merge-aosp="true" /-->
