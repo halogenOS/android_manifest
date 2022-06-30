@@ -1107,9 +1107,6 @@
 
   <!-- PE's Fixups -->
   <include name="snippets/remove.xml" />
-  <include name="snippets/pixel.xml" />
-  <include name="snippets/pixel-caf.xml" />
-  <include name="snippets/pixel-extras.xml" />
 
   <!-- XOS Additions -->
   <include name="snippets/XOS.xml" />
