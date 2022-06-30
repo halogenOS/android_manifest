@@ -120,13 +120,13 @@
   <!-- Packages -->
   <!--project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="XOS" merge-aosp="true" /-->
   <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="XOS" merge-aosp="true" />
-  <!--project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" merge-aosp="true" /-->
+  <project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="XOS" merge-aosp="true" />
+  <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" merge-aosp="true" />
   <project name="android_packages_apps_Etar" path="packages/apps/Etar" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_Etar|android12L" />
   <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_ExactCalculator|android12L" />
   <project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|lineage-19.1" />
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="XOS" upstream="https://github.com/ArrowOS/android_packages_apps_Launcher3|arrow-12.1" />
-  <!--project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="XOS" merge-aosp="true" /-->
+  <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="XOS" merge-aosp="true" />
   <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="XOS" merge-aosp="true" />
   <!--project name="android_packages_apps_PermissionController" path="packages/apps/PermissionController" remote="XOS" merge-aosp="true" /-->
   <project name="android_packages_apps_Settings"  path="packages/apps/Settings" remote="XOS" merge-aosp="true" />
