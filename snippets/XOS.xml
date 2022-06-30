@@ -128,6 +128,7 @@
   <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="XOS" merge-aosp="true" />
   <project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="XOS" merge-aosp="true" />
   <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" merge-aosp="true" />
+  <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="XOS" merge-aosp="true" />
   <project name="android_packages_apps_Etar" path="packages/apps/Etar" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_Etar|android12L" />
   <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_ExactCalculator|android12L" />
   <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_FMRadio|twelve" />
