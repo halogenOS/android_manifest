@@ -4,16 +4,31 @@
 
 #### __0. Preliminary Knowledge__
 
-Before beginning this entire process, please ensure you have sufficient storage space. To carry out a single device build an excess of over 60 GB will be required. If building for more than one device, this amount of required storage increases. For speedy builds it is highly recommended that you store the sources in a fast storage medium such as Solid State Drives (SSDs), with modern computers it often turns out to be a greater bottleneck than the processor itself when compiling Android. If you decide to build on a SSD with lower capacity (less than 500 GB), make sure that you use MLC or SLC SSDs only as the lifetime of TLC and QLC SSDs will be impacted as you build the OS. You can also build on a HDD but keep in mind that doing so
-without a read/write cache will harm build speed as random access to storage is inherently slow on HDDs compared to SSDs.
+Before beginning this entire process, please ensure you have sufficient storage space. To carry out a single device build an excess of over 100 GB will be required. If building for more than one device, this amount of required storage increases. For speedy builds it is highly recommended that you store the sources in a fast storage medium such as Solid State Drives (SSDs), with modern computers it often turns out to be a greater bottleneck than the processor itself when compiling Android. If you decide to build on a SSD with lower capacity (less than 500 GB), make sure that you use MLC or SLC SSDs only as the lifetime of TLC and QLC SSDs will be impacted as you build the OS. You can also build on a HDD but keep in mind that doing so
+without a read/write cache (`async` mount option) will harm build speed as random access to storage is inherently slow on HDDs compared to SSDs.
 
-It should also be noted that in order to build Android from source successfully, you will require GNU Make and Git as well as a few build and compiler centric packages, this will vary from distribution to distribution. If you read on, you'll find more information as to what is necessary. Note that the tools needed depend on quite a few factors, some being out of our control, so please make sure you look the necessary packages up in case any is missing before contacting us about issues with the build.
+It should also be noted that in order to build Android from source successfully, you will require a few build and compiler centric packages, this will vary from distribution to distribution. If you read on, you'll find more information as to what is necessary. Note that the tools needed depend on quite a few factors, some being out of our control, so please make sure you look the necessary packages up in case any is missing before contacting us about issues with the build.
 
 Before you continue, make sure you follow the [Setting up a Linux build environment](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment) guide as it contains a lot of useful and important information regarding building AOSP.
 
 #### Arch builders, ahoy!
 
-While most builders will probably use a Ubuntu-based distribution, you can also build on other distributions including Arch Linux and derivatives. In case you use Arch Linux you can follow [this guide](https://wiki.archlinux.org/index.php/Android#Building).
+We recommend building on Arch as that is what we use for daily building and development.
+You can install all necessary packages using following commands:
+
+```
+sudo pacman -Syu --needed --noconfirm \
+      base-devel bc ccache curl git gnupg \
+      inetutils iputils net-tools libxslt ncurses \
+      repo rsync python2 squashfs-tools unzip \
+      zip zlib ffmpeg lzop ninja pngcrush openssl \
+      gradle maven libxcrypt-compat xmlstarlet \
+      openssh gperf schedtool \
+      perl-switch ttf-dejavu imagemagick jq
+
+curl -L https://github.com/halogenOS/arch_ncurses5-compat-libs/releases/download/v6.3-abi5-1/ncurses5-compat-libs-6.3-1-x86_64.pkg.tar.zst > ncurses5-compat-libs.pkg.tar.zst
+sudo pacman --noconfirm -U ncurses5-compat-libs.pkg.tar.zst
+```
 
 #### CCache
 
@@ -81,8 +96,7 @@ Now initialize a repo source tree, to do this please use following command:
 repo init -u https://git.halogenos.org/halogenOS/android_manifest.git -b XOS-12.1
 ```
 
-Then synchronize the source tree using repo, which will fetch the source of XOS. You should be warned that this is a procedure which downloads huge amounts (about 25-40 GB in total) of
-data, it may take hours to complete. Be prepared with something fun to do as will be waiting for a while or just listen to EDM.
+Then synchronize the source tree using repo, which will fetch the source of XOS. You should be warned that this is a procedure which downloads huge amounts (about 30-60 GB in total) of data, it may take hours to complete. Be prepared with something fun to do as will be waiting for a while or just listen to EDM.
 
 ```bash
 repo sync -j4 -c --no-tags --no-clone-bundle -f build/make external/xos vendor/halogenOS
@@ -113,9 +127,9 @@ Additionally here's a list of build types for your target device that you will l
 
 | Build type	| Use |
 |:----------|:----------|
-| user	| The flavour usually for building final releases. We don't use this (at least not yet) because custom ROMs don't play very well with it. There are devices requiring this build type for certain features though. |
-| userdebug |	Same as "user" but more debuggable and a bit more developer friendly. This is the default. Don't be scared by the `debug` part. |
-| eng	| Engineering build, enables shell root access, debuggability, adb (USB debugging) is enabled by default for arbitrary access, install engineering modules and is fully JIT enabled. Only use this for initial bringup and extensive debugging and in case you need early logcat. |
+| user	| The flavour usually for building final releases. We don't use this (at least not yet) because custom ROMs don't play very well with it. |
+| userdebug |	Same as "user" but more debuggable and a bit more developer friendly. This is the default. Don't be scared of the `debug` part. |
+| eng	| Engineering build, enables shell root access, debuggability, adb (USB debugging) is enabled by default for arbitrary access. Only use this for initial bringup and extensive debugging and in case you need early logcat. |
 
 Before you start building, make sure that you have all necessary device-specific trees.
 Official trees, maintained by the team, can be retrieved using either:
@@ -135,6 +149,7 @@ Example:
 ```bash
 breakfast cheeseburger
 ```
+
 Or;
 
 ```bash
@@ -157,7 +172,7 @@ This `build` command is a specialty made by the XOS team. It does everything for
 
 In your terminal, the master chef that is 'Mr Compiler' (aka Ninja) will do the cooking of the ROM for you, this will take another while and depend on your storage speed and the capability of your CPU.
 
-Once done you should find a cute flashable zip either in your directory or within `out/target/product/<device>`, this is your creation, you compiled it, she's yours, your own adorable pet... just make sure to treat her very nicely :).
+Once done you should find a cute flashable zip within `out/target/product/<device>`, this is your creation, you compiled it, she's yours, your own adorable pet... just make sure to treat her very nicely :).
 
 _Additional build notes : If you're bringing up a new device, our [wiki](https://github.com/halogenOS/android_manifest/wiki) has some important info_
 
