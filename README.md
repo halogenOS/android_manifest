@@ -1,13 +1,8 @@
 ![](https://git.halogenos.org/halogenOS/android_manifest/-/raw/XOS-12.1/halogenos-logo.png)
 
-## **XOS 12 IS IN DEVELOPMENT AND NOT READY TO BE BUILT, BOOTED OR USED. PLEASE WAIT UNTIL THIS NOTICE IS REMOVED BEFORE YOU START WORKING WITH IT**
-
-## **THIS MANIFEST OF XOS 12.1 IS PROTOTYPE AND IS SUBJECT TO BE REBASED AFTER MAKING SURE EVERYTHING WORKS FULLY!**
-
 ### Getting Started with XOS
 
 #### __0. Preliminary Knowledge__
-
 
 Before beginning this entire process, please ensure you have sufficient storage space. To carry out a single device build an excess of over 60 GB will be required. If building for more than one device, this amount of required storage increases. For speedy builds it is highly recommended that you store the sources in a fast storage medium such as Solid State Drives (SSDs), with modern computers it often turns out to be a greater bottleneck than the processor itself when compiling Android. If you decide to build on a SSD with lower capacity (less than 500 GB), make sure that you use MLC or SLC SSDs only as the lifetime of TLC and QLC SSDs will be impacted as you build the OS. You can also build on a HDD but keep in mind that doing so
 without a read/write cache will harm build speed as random access to storage is inherently slow on HDDs compared to SSDs.
