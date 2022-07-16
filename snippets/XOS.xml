@@ -42,7 +42,7 @@
   <project name="android_development" path="development" remote="XOS" merge-aosp="true" />
 
   <!-- External -->
-  <!--project name="android_external_arm-optimized-routines" path="external/arm-optimized-routines" remote="XOS" upstream="https://github.com/AOSPA/android_external_arm-optimized-routines|ruby" /-->
+  <project name="android_external_arm-optimized-routines" path="external/arm-optimized-routines" remote="XOS" upstream="https://github.com/AOSPA/android_external_arm-optimized-routines|sapphire" />
   <!--project name="android_external_bash" path="external/bash" remote="XOS" upstream="https://github.com/LineageOS/android_external_bash|lineage-18.1" /-->
   <!--project name="android_external_boringssl" path="external/boringssl" remote="XOS" upstream="https://github.com/LineageOS/android_external_boringssl|lineage-18.1" /-->
   <project name="android_external_bson" path="external/bson" remote="XOS" upstream="https://github.com/PixelExperience/external_bson|twelve" />
@@ -118,7 +118,7 @@
   <project name="android_kernel_configs" path="kernel/configs" remote="XOS" merge-aosp="true" />
 
   <!-- Libcore -->
-  <!--project name="android_libcore" path="libcore" remote="XOS" merge-aosp="true" /-->
+  <project name="android_libcore" path="libcore" remote="XOS" merge-aosp="true" />
 
   <!-- Manifest -->
   <project name="android_manifest" path="manifest" remote="XOS" merge-aosp="true" />
