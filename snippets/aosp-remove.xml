@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project path="developers/demos" name="platform/developers/demos" groups="developers" />
+  <remove-project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
+  <remove-project path="device/amlogic/yukawa" name="device/amlogic/yukawa" groups="device,yukawa,pdk" />
+  <remove-project path="device/amlogic/yukawa-kernel" name="device/amlogic/yukawa-kernel" groups="device,yukawa,pdk" clone-depth="2" />
+  <remove-project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
+  <remove-project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
+  <remove-project path="device/generic/art" name="device/generic/art" groups="pdk" />
+  <remove-project path="device/generic/car" name="device/generic/car" groups="pdk" />
+  <remove-project path="device/generic/common" name="device/generic/common" groups="pdk" />
+  <remove-project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
+  <remove-project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
+  <remove-project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
+  <remove-project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" />
+  <remove-project path="device/generic/opengl-transport" name="device/generic/opengl-transport" groups="pdk" />
+  <remove-project path="device/generic/qemu" name="device/generic/qemu" groups="pdk" />
+  <remove-project path="device/generic/trusty" name="device/generic/trusty" groups="pdk" />
+  <remove-project path="device/generic/uml" name="device/generic/uml" groups="device,pdk" />
+  <remove-project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
+  <remove-project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
+  <remove-project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
+  <remove-project path="device/google/barbet" name="device/google/barbet" groups="device,barbet" />
+  <remove-project path="device/google/barbet-kernel" name="device/google/barbet-kernel" groups="device,barbet" clone-depth="1" />
+  <remove-project path="device/google/barbet-sepolicy" name="device/google/barbet-sepolicy" groups="device,barbet" />
+  <remove-project path="device/google/bonito" name="device/google/bonito" groups="device,bonito" />
+  <remove-project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" />
+  <remove-project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" />
+  <remove-project path="device/google/bramble" name="device/google/bramble" groups="device,bramble" />
+  <remove-project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
+  <remove-project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
+  <remove-project path="device/google/coral" name="device/google/coral" groups="device,coral,generic_fs" />
+  <remove-project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" />
+  <remove-project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
+  <remove-project path="device/google/crosshatch" name="device/google/crosshatch" groups="device,crosshatch,generic_fs" />
+  <remove-project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" />
+  <remove-project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" />
+  <remove-project path="device/google/redbull" name="device/google/redbull" groups="device,redbull" />
+  <remove-project path="device/google/redbull-kernel" name="device/google/redbull-kernel" groups="device,bramble,redfin" clone-depth="1" />
+  <remove-project path="device/google/redbull-sepolicy" name="device/google/redbull-sepolicy" groups="device,redbull" />
+  <remove-project path="device/google/redfin" name="device/google/redfin" groups="device,redfin" />
+  <remove-project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" />
+  <remove-project path="device/google/sunfish" name="device/google/sunfish" groups="device,sunfish" />
+  <remove-project path="device/google/sunfish-kernel" name="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" />
+  <remove-project path="device/google/sunfish-sepolicy" name="device/google/sunfish-sepolicy" groups="device,sunfish" />
+  <remove-project path="device/google/fuchsia" name="device/google/fuchsia" groups="device" />
+  <remove-project path="device/google/trout" name="device/google/trout" groups="device,trout,gull,pdk" />
+  <remove-project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" />
+  <remove-project path="device/google_car" name="device/google_car" groups="pdk" />
+  <remove-project path="device/linaro/dragonboard" name="device/linaro/dragonboard" groups="device,dragonboard,pdk" />
+  <remove-project path="device/linaro/dragonboard-kernel" name="device/linaro/dragonboard-kernel" groups="device,dragonboard,pdk" clone-depth="1" />
+  <remove-project path="device/linaro/hikey" name="device/linaro/hikey" groups="device,hikey,pdk" />
+  <remove-project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" groups="device,hikey,pdk" clone-depth="1" />
+  <remove-project path="device/linaro/poplar" name="device/linaro/poplar" groups="device,poplar,pdk" />
+  <remove-project path="device/linaro/poplar-kernel" name="device/linaro/poplar-kernel" groups="device,poplar,pdk" clone-depth="1" />
+  <remove-project name="device/mediatek/wembley-sepolicy" path="device/mediatek/wembley-sepolicy" groups="device"/>
+  <remove-project path="device/sample" name="device/sample" groups="pdk" />
+  <remove-project path="device/ti/beagle_x15" name="device/ti/beagle-x15" groups="device,beagle_x15,pdk" />
+  <remove-project path="device/ti/beagle_x15-kernel" name="device/ti/beagle-x15-kernel" groups="device,beagle_x15,pdk" clone-depth="1" />
+  <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
+  <remove-project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" />
+  <remove-project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" />
+  <remove-project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
+  <remove-project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" />
+  <remove-project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
+  <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
+  <remove-project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" groups="darwin,pdk" clone-depth="1" />
+  <remove-project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" clone-depth="1" />
+  <remove-project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" />
+  <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" />
+  <remove-project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" clone-depth="1" />
+  <remove-project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" clone-depth="1" />
+  <remove-project path="prebuilts/gdb/darwin-x86" name="platform/prebuilts/gdb/darwin-x86" groups="darwin,pdk" clone-depth="1" />
+  <remove-project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,pdk,tradefed" clone-depth="1" />
+  <remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
+</manifest>
