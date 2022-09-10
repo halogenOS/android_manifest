@@ -90,6 +90,8 @@ cd xossrc
 
 Of course, you can use any directory name you desire. It is recommended to avoid spaces.
 
+If you're a curious geek and want to know what happens if you try to initialize the repo on your home folder, [see this GitHub issue](https://github.com/halogenOS/android_manifest/issues/18). It doesn't mean that it will never work - It might work, but you better avoid doing so.
+
 Now initialize a repo source tree, to do this please use following command:
 
 ```bash
