@@ -134,6 +134,7 @@
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
