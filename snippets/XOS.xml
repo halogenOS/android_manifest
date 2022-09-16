@@ -51,6 +51,7 @@
   <!--project name="android_external_cpu_features" path="external/cpu_features" remote="XOS" upstream="https://github.com/crdroidandroid/android_external_cpu_features|11.0" /-->
   <project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" merge-aosp="true" />
   <project name="android_external_exfatprogs" path="external/exfatprogs" remote="XOS" upstream="https://github.com/PixelExperience/external_exfatprogs|twelve" />
+  <project name="android_external_expat" path="external/expat" remote="XOS" merge-aosp="true" />
   <project name="android_external_gptfdisk" path="external/gptfdisk" remote="XOS" merge-aosp="true" />
   <!--project name="android_external_htop"  path="external/htop" remote="XOS" upstream="https://github.com/LineageOS/android_external_htop|lineage-18.1" /-->
   <project name="android_external_json-c" path="external/json-c" remote="XOS" upstream="https://github.com/PixelExperience/external_json-c|twelve" />
