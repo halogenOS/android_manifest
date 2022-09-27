@@ -167,6 +167,9 @@
   <!--project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9|twelve" /-->
   <!--project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9|twelve" /-->
 
+  <!-- Product -->
+  <project name="android_product_halogenOS" path="product/halogenOS" remote="XOS" />
+
   <!-- System -->
   <!--project name="android_system_bt" path="system/bt" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_system_extras" path="system/extras" remote="XOS" merge-aosp="true" /-->
