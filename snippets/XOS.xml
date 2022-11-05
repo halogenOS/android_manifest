@@ -240,7 +240,7 @@
   <project name="android_hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_wlan|lineage-20.0-caf" />
 
   <!-- Hardware repos - HALS -->
-  <project name="android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_common|lineage-20.0-caf">
+  <project name="android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom-caf_common|lineage-20.0">
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845, we override os_pickup.mk -->
@@ -272,8 +272,6 @@
     <!--linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" /-->
     <!--linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" /-->
     <!--linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" /-->
-    <!-- add namespace for BT adv audio, as required for QTI BT stack -->
-    <linkfile src="os_pickup_qssi_bt.bp" dest="device/qcom/qssi/Android.bp" />
   </project>
   <!--project name="android_hardware_qcom-caf_msm8996_audio" path="hardware/qcom-caf/msm8996/audio" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_msm8996_audio|twelve" /-->
   <!--project name="android_hardware_qcom-caf_msm8996-LA.UM.9.6.2.r1-04100-89xx.0_audio" path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/audio" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_msm8996_audio|twelve-LA.UM.9.6.2.r1-04100-89xx.0" /-->
