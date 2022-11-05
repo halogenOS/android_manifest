@@ -227,10 +227,10 @@
   <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="XOS" upstream="https://github.com/PixelExperience/device_qcom_sepolicy_vndr|thirteen" />
 
   <!-- External repos -->
-  <!--project name="android_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" remote="XOS" upstream="https://github.com/PixelExperience/external_ant-wireless_ant_client|twelve" /-->
-  <!--project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" upstream="https://github.com/PixelExperience/external_ant-wireless_ant_native|twelve" /-->
-  <!--project name="android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="XOS" upstream="https://github.com/PixelExperience/external_ant-wireless_ant_service|twelve" /-->
-  <!--project name="android_external_ant-wireless_hidl" path="external/ant-wireless/hidl" remote="XOS" upstream="https://github.com/PixelExperience/external_ant-wireless_hidl|twelve" /-->
+  <project name="android_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_client|lineage-20.0" />
+  <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_native|lineage-20.0" />
+  <project name="android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_service|lineage-20.0" />
+  <project name="android_external_ant-wireless_hidl" path="external/ant-wireless/hidl" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_hidl|lineage-20.0" />
 
   <!-- Hardware repos -->
   <!--project name="android_hardware_qcom-caf_bootctrl" path="hardware/qcom-caf/bootctrl" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_bootctrl|twelve" /-->
