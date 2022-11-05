@@ -53,7 +53,7 @@
   <!--project name="android_external_exfatprogs" path="external/exfatprogs" remote="XOS" upstream="https://github.com/PixelExperience/external_exfatprogs|twelve" /-->
   <!--project name="android_external_gptfdisk" path="external/gptfdisk" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_external_htop"  path="external/htop" remote="XOS" upstream="https://github.com/LineageOS/android_external_htop|lineage-18.1" /-->
-  <project name="android_external_json-c" path="external/json-c" remote="XOS" upstream="https://github.com/LineageOS/external_json-c|lineage-20.0" />
+  <project name="android_external_json-c" path="external/json-c" remote="XOS" upstream="https://github.com/LineageOS/android_external_json-c|lineage-20.0" />
   <!--project name="android_external_libcxx" path="external/libcxx" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_external_libncurses" path="external/libncurses" remote="XOS" upstream="https://github.com/LineageOS/android_external_libncurses|lineage-18.1" /-->
   <!--project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="XOS" upstream="https://github.com/PixelExperience/external_libnfc-nxp|twelve" /-->
