@@ -222,11 +222,9 @@
 
   <!-- Device repos -->
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="XOS" upstream="https://github.com/PixelExperience/device_qcom_sepolicy|thirteen" />
-  <project name="android_device_qcom-LA.UM.10.3.r1-xxxxx-sdm845.0_sepolicy" path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy" remote="XOS" upstream="https://github.com/PixelExperience/device_qcom_sepolicy|thirteen-LA.UM.10.3.r1-xxxxx-sdm845.0" />
   <project name="android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="XOS" upstream="https://github.com/PixelExperience/device_qcom_sepolicy-legacy|thirteen" />
   <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="XOS" upstream="https://github.com/PixelExperience/device_qcom_sepolicy-legacy-um|thirteen" />
   <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="XOS" upstream="https://github.com/PixelExperience/device_qcom_sepolicy_vndr|thirteen" />
-  <project name="android_device_qcom-LA.UM.10.3.r1-xxxxx-sdm845.0_sepolicy_vndr" path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy_vndr" remote="XOS" upstream="https://github.com/PixelExperience/device_qcom_sepolicy_vndr|thirteen-LA.UM.10.3.r1-xxxxx-sdm845.0" />
 
   <!-- External repos -->
   <!--project name="android_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" remote="XOS" upstream="https://github.com/PixelExperience/external_ant-wireless_ant_client|twelve" /-->
