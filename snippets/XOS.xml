@@ -111,7 +111,7 @@
   <!--/project-->
   <!--project name="android_hardware_qcom_sm7250_display" path="hardware/qcom/sm7250/display" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_hardware_qcom_sm7250_media" path="hardware/qcom/sm7250/media" remote="XOS" merge-aosp="true" /-->
-  <project name="android_hardware_qcom-caf_wlan" path="hardware/qcom/wlan" remote="XOS" upstream="https://github.com/Lineage/android_hardware_qcom_wlan|lineage-20.0" />
+  <project name="android_hardware_qcom-caf_wlan" path="hardware/qcom/wlan" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_wlan|lineage-20.0" />
   <!--project name="android_hardware_ril" path="hardware/ril" remote="XOS" merge-aosp="true" /-->
 
   <!-- Kernel -->
@@ -239,7 +239,7 @@
   <!--project name="android_hardware_qcom-caf_bt" path="hardware/qcom-caf/bt" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_bt|twelve" /-->
   <!--project name="android_hardware_qcom-caf_thermal" path="hardware/qcom-caf/thermal" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_thermal|twelve" /-->
   <!--project name="android_hardware_qcom-caf_vr" path="hardware/qcom-caf/vr" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_vr|twelve" /-->
-  <project name="android_hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" remote="XOS" upstream="https://github.com/Lineage/android_hardware_qcom_wlan|lineage-20.0-caf" />
+  <project name="android_hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_wlan|lineage-20.0-caf" />
 
   <!-- Hardware repos - HALS -->
   <!--project name="android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_common|twelve"-->
