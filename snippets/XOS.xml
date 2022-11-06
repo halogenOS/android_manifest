@@ -157,9 +157,9 @@
   <!--project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="XOS" merge-aosp="true" /-->
 
   <!-- Prebuilts -->
-  <!--project name="android_prebuilts_build-tools" path="prebuilts/build-tools" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_build-tools|twelve" /-->
-  <!--project name="android_prebuilts_extract-tools" path="prebuilts/extract-tools" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_extract-tools|twelve" clone-depth="1" /-->
-  <!--project name="android_prebuilts_tools-custom" path="prebuilts/tools-custom" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_tools-custom|twelve" clone-depth="1" /-->
+  <project name="android_prebuilts_build-tools" path="prebuilts/build-tools" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_build-tools|lineage-20.0" clone-depth="1" />
+  <project name="android_prebuilts_extract-tools" path="prebuilts/extract-tools" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_extract-tools|lineage-20.0" clone-depth="1" />
+  <project name="android_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage|lineage-20.0" clone-depth="1" />
   <!--project name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9|twelve" /-->
   <!--project name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9|twelve" /-->
   <!--project name="android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9|twelve" /-->
@@ -188,7 +188,7 @@
 
   <!-- Tools -->
   <!--project name="android_tools_metalava" path="tools/metalava" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_tools_extract-utils" path="tools/extract-utils" remote="XOS" upstream="https://github.com/PixelExperience/tools_extract-utils|twelve" /-->
+  <project name="android_tools_extract-utils" path="tools/extract-utils" remote="XOS" upstream="https://github.com/LineageOS/android_tools_extract-utils|lineage-20.0" clone-depth="1" />
 
   <!-- Vendor -->
   <!--project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" /-->
