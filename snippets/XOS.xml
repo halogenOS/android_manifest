@@ -208,6 +208,13 @@
   <!--project name="android_vendor_nxp_opensource_sn100x_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" remote="XOS" upstream="https://github.com/ArrowOS/android_vendor_nxp_opensource_halimpl|arrow-12.0-sn100x" /-->
   <!--project name="android_vendor_nxp_opensource_sn100x_hidlimpl" path="vendor/nxp/opensource/sn100x/hidlimpl" remote="XOS" upstream="https://github.com/ArrowOS/android_vendor_nxp_opensource_hidlimpl|arrow-12.0-sn100x" /-->
 
+  <!-- Inline kernel build -->
+  <project name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" path="prebuilts/clang/kernel/linux-x86/clang-r416183b" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b|lineage-20.0" clone-depth="1" />
+  <project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" upstream="https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9|lineage-19.1" clone-depth="1" />
+  <project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" upstream="https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9|lineage-19.1" clone-depth="1" />
+  <project name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" upstream="https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9|lineage-19.1" clone-depth="1" />
+  <project name="android_prebuilts_kernel-build-tools" path="prebuilts/kernel-build-tools" upstream="https://android.googlesource.com/platform/kernel/prebuilts/build-tools|android-13.0.0_r0.20" clone-depth="1" />
+
   <!-- Official devices -->
   <!--project name="android_vendor_xos_officialdevices" path="vendor/xos/officialdevices" remote="XOS"/-->
 
