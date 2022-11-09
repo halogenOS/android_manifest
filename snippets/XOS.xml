@@ -256,30 +256,12 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
   </project>
-  <!--project name="android_hardware_qcom-caf_msm8996_audio" path="hardware/qcom-caf/msm8996/audio" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_msm8996_audio|twelve" /-->
-  <!--project name="android_hardware_qcom-caf_msm8996-LA.UM.9.6.2.r1-04100-89xx.0_audio" path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/audio" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_msm8996_audio|twelve-LA.UM.9.6.2.r1-04100-89xx.0" /-->
-  <!--project name="android_hardware_qcom-caf_msm8996_display" path="hardware/qcom-caf/msm8996/display" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_msm8996_display|twelve" /-->
-  <!--project name="android_hardware_qcom-caf_msm8996-LA.UM.9.6.2.r1-04100-89xx.0_display" path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/display" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_msm8996_display|twelve-LA.UM.9.6.2.r1-04100-89xx.0" /-->
-  <!--project name="android_hardware_qcom-caf_msm8996_media" path="hardware/qcom-caf/msm8996/media" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_msm8996_media|twelve" /-->
-  <!--project name="android_hardware_qcom-caf_msm8996-LA.UM.9.6.2.r1-04100-89xx.0_media" path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/media" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_msm8996_media|twelve-LA.UM.9.6.2.r1-04100-89xx.0" /-->
   <project name="android_hardware_qcom-caf_msm8998_audio" path="hardware/qcom-caf/msm8998/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-20.0-caf-msm8998" />
   <project name="android_hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-20.0-caf-msm8998" />
   <project name="android_hardware_qcom-caf_msm8998_media" path="hardware/qcom-caf/msm8998/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-20.0-caf-msm8998" />
-  <!--project name="android_hardware_qcom-caf_sdm845_audio" path="hardware/qcom-caf/sdm845/audio" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_sdm845_audio|twelve" /-->
-  <!--project name="android_hardware_qcom-caf_sdm845_display" path="hardware/qcom-caf/sdm845/display" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_sdm845_display|twelve" /-->
-  <!--project name="android_hardware_qcom-caf_sdm845_media" path="hardware/qcom-caf/sdm845/media" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_sdm845_media|twelve" /-->
   <project name="android_hardware_qcom-caf_sm8150_audio" path="hardware/qcom-caf/sm8150/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-20.0-caf-sm8150" />
   <project name="android_hardware_qcom-caf_sm8150_display" path="hardware/qcom-caf/sm8150/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-20.0-caf-sm8150" />
   <project name="android_hardware_qcom-caf_sm8150_media" path="hardware/qcom-caf/sm8150/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-20.0-caf-sm8150" />
-  <!--project name="android_hardware_qcom-caf_sm8150-common_audio" path="hardware/qcom-caf/sm8150-common/audio" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_sm8150-common_audio|twelve" /-->
-  <!--project name="android_hardware_qcom-caf_sm8150-common_display" path="hardware/qcom-caf/sm8150-common/display" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_sm8150-common_display|twelve" /-->
-  <!--project name="android_hardware_qcom-caf_sm8150-common_media" path="hardware/qcom-caf/sm8150-common/media" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_sm8150-common_media|twelve" /-->
-  <!--project name="android_hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_sm8250_audio|twelve" /-->
-  <!--project name="android_hardware_qcom-caf_sm8250_display" path="hardware/qcom-caf/sm8250/display" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_sm8250_display|twelve" /-->
-  <!--project name="android_hardware_qcom-caf_sm8250_media" path="hardware/qcom-caf/sm8250/media" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_sm8250_media|twelve" /-->
-  <!--project name="android_hardware_qcom-caf_sm8350_audio" path="hardware/qcom-caf/sm8350/audio" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_sm8350_audio|twelve" /-->
-  <!--project name="android_hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_sm8350_display|twelve" /-->
-  <!--project name="android_hardware_qcom-caf_sm8350_media" path="hardware/qcom-caf/sm8350/media" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_sm8350_media|twelve" /-->
 
   <!-- Vendor repos - NXP -->
   <!--project name="android_vendor_nxp_nfc" path="vendor/nxp/nfc" remote="XOS" upstream="https://github.com/PixelExperience/vendor_nxp_nfc|twelve" /-->
