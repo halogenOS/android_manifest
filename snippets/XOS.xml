@@ -240,7 +240,7 @@
   <project name="android_external_ant-wireless_hidl" path="external/ant-wireless/hidl" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_hidl|lineage-20.0" />
 
   <!-- Hardware repos -->
-  <!--project name="android_hardware_qcom-caf_bootctrl" path="hardware/qcom-caf/bootctrl" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_bootctrl|twelve" /-->
+  <project name="android_hardware_qcom-caf_bootctrl" path="hardware/qcom-caf/bootctrl" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bootctrl|lineage-20.0-caf" />
   <project name="android_hardware_qcom-caf_bt" path="hardware/qcom-caf/bt" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bt|lineage-20.0-caf" />
   <!--project name="android_hardware_qcom-caf_thermal" path="hardware/qcom-caf/thermal" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_thermal|twelve" /-->
   <project name="android_hardware_qcom-caf_vr" path="hardware/qcom-caf/vr" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_vr|lineage-20.0" />
