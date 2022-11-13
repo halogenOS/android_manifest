@@ -72,7 +72,7 @@
   <!--project name="android_external_unrar" path="external/unrar" remote="XOS" upstream="https://github.com/LineageOS/android_external_unrar|lineage-18.1" /-->
   <!--project name="android_external_vim" path="external/vim" remote="XOS" upstream="https://github.com/LineageOS/android_external_vim|lineage-18.1" /-->
   <!--project name="android_external_vixl" path="external/vixl" remote="XOS" upstream="https://github.com/crdroidandroid/android_external_vixl|11.0" /-->
-  <!--project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" merge-aosp="true" /-->
+  <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" merge-aosp="true" />
   <project name="android_external_xos" path="external/xos" remote="XOS" />
   <!--project name="android_external_zip" path="external/zip" remote="XOS" upstream="https://github.com/LineageOS/android_external_zip|lineage-18.1" /-->
 
