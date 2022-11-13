@@ -263,7 +263,7 @@
   <project name="android_hardware_qcom-caf_sm8150_audio" path="hardware/qcom-caf/sm8150/audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-20.0-caf-sm8150" />
   <project name="android_hardware_qcom-caf_sm8150_display" path="hardware/qcom-caf/sm8150/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-20.0-caf-sm8150" />
   <project name="android_hardware_qcom-caf_sm8150_media" path="hardware/qcom-caf/sm8150/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-20.0-caf-sm8150" />
-  <!--project name="android_hardware_qcom-caf_thermal" path="hardware/qcom-caf/thermal" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom-caf_thermal|twelve" /-->
+  <project name="android_hardware_qcom-caf_thermal" path="hardware/qcom-caf/thermal" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_thermal|lineage-20.0" />
   <project name="android_hardware_qcom-caf_vr" path="hardware/qcom-caf/vr" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_vr|lineage-20.0" />
   <project name="android_hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_wlan|lineage-20.0-caf" />
 
