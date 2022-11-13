@@ -111,7 +111,7 @@
   <!--/project-->
   <!--project name="android_hardware_qcom_sm7250_display" path="hardware/qcom/sm7250/display" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_hardware_qcom_sm7250_media" path="hardware/qcom/sm7250/media" remote="XOS" merge-aosp="true" /-->
-  <project name="android_hardware_qcom-caf_wlan" path="hardware/qcom/wlan" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_wlan|lineage-20.0" />
+  <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_wlan|lineage-20.0" />
   <!--project name="android_hardware_ril" path="hardware/ril" remote="XOS" merge-aosp="true" /-->
 
   <!-- Kernel -->
