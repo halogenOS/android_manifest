@@ -2,6 +2,7 @@
 <manifest>
   <remove-project path="build/make" name="platform/build" groups="pdk" />
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
+  <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <remove-project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <remove-project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk" clone-depth="1" />
