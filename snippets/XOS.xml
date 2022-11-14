@@ -189,8 +189,6 @@
   <project name="android_tools_extract-utils" path="tools/extract-utils" remote="XOS" upstream="https://github.com/LineageOS/android_tools_extract-utils|lineage-20.0" clone-depth="1" />
 
   <!-- Vendor -->
-  <!--project name="android_vendor_aosp" path="vendor/aosp" remote="XOS" /-->
-  <!--project name="android_vendor_halogenOS" path="vendor/halogenOS" remote="XOS" /-->
   <!--project name="android_vendor_pixelstyle" path="vendor/pixelstyle" remote="XOS" /-->
   <!--project name="android_vendor_support" path="vendor/support" remote="XOS" /-->
   <!--project name="android_vendor_xos_themes" path="vendor/xos/themes" remote="XOS" /-->
