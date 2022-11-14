@@ -173,7 +173,7 @@
   <!-- System -->
   <!--project name="android_system_bt" path="system/bt" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_system_extras" path="system/extras" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_system_core" path="system/core" remote="XOS" merge-aosp="true" /-->
+  <project name="android_system_core" path="system/core" remote="XOS" merge-aosp="true" />
   <!--project name="android_system_libufdt" path="system/libufdt" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_system_libhidl" path="system/libhidl" remote="XOS" upstream="https://github.com/PixelExperience/system_libhidl|twelve" /-->
   <!--project name="android_system_libziparchive" path="system/libziparchive" remote="XOS" merge-aosp="true" /-->
