@@ -161,9 +161,6 @@
   <project name="android_prebuilts_build-tools" path="prebuilts/build-tools" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_build-tools|lineage-20.0" clone-depth="1" />
   <project name="android_prebuilts_extract-tools" path="prebuilts/extract-tools" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_extract-tools|lineage-20.0" clone-depth="1" />
   <project name="android_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage|lineage-20.0" clone-depth="1" />
-  <!--project name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9|twelve" /-->
-  <!--project name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9|twelve" /-->
-  <!--project name="android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9|twelve" /-->
   <!--project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9|twelve" /-->
   <!--project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="XOS" upstream="https://github.com/PixelExperience/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9|twelve" /-->
 
