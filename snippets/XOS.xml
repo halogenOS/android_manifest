@@ -66,7 +66,7 @@
   <!--project name="android_external_rsync" path="external/rsync" remote="XOS" upstream="https://github.com/LineageOS/android_external_rsync|lineage-18.1" /-->
   <!--project name="android_external_selinux" path="external/selinux" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="XOS" upstream="https://github.com/LineageOS/android_external_sony_boringssl-compat|lineage-18.1" /-->
-  <project name="android_external_tinycompress" path="external/tinycompress" remote="XOS" merge-aosp="true" upstream="https://github.com/lineageOS/android_external_tinycompress|lineage-20" />
+  <project name="android_external_tinycompress" path="external/tinycompress" remote="XOS" merge-aosp="true" upstream="https://github.com/lineageOS/android_external_tinycompress|lineage-20.0" />
   <project name="android_external_tinyxml" path="external/tinyxml" remote="XOS" upstream="https://github.com/PixelExperience/external_tinyxml|thirteen" />
   <!--project name="android_external_toybox" path="external/toybox" remote="XOS" upstream="https://github.com/LineageOS/android_external_toybox|lineage-18.1" /-->
   <!--project name="android_external_unrar" path="external/unrar" remote="XOS" upstream="https://github.com/LineageOS/android_external_unrar|lineage-18.1" /-->
