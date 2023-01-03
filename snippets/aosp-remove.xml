@@ -83,6 +83,12 @@
   <remove-project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" />
   <remove-project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
   <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
+  <remove-project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
+  <remove-project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
+  <remove-project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" />
+  <remove-project path="packages/modules/TestModule" name="platform/packages/modules/TestModule" />
+  <remove-project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
+  <remove-project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <remove-project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" groups="darwin,pdk" clone-depth="1" />
   <remove-project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" clone-depth="1" />
   <remove-project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,pdk,tradefed" clone-depth="1" />
