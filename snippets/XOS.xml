@@ -87,7 +87,7 @@
 
   <!-- Hardware -->
   <!--project name="android_hardware_broadcom_nfc" path="hardware/broadcom/nfc" remote="XOS" upstream="https://github.com/PixelExperience/hardware_broadcom_nfc|twelve" /-->
-  <!--project name="android_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="XOS" upstream="https://github.com/PixelExperience/hardware_custom_interfaces|twelve" /-->
+  <project name="android_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_arrow_interfaces|arrow-13.0" />
   <!--project name="android_hardware_google_pixel" path="hardware/google/pixel" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_hardware_knowles_athletico_sound_trigger_hal" path="hardware/knowles/athletico/sound_trigger_hal" remote="XOS" merge-aosp="true" /-->
