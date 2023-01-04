@@ -45,7 +45,7 @@
   <!--project name="android_external_bash" path="external/bash" remote="XOS" upstream="https://github.com/LineageOS/android_external_bash|lineage-18.1" /-->
   <!--project name="android_external_boringssl" path="external/boringssl" remote="XOS" upstream="https://github.com/LineageOS/android_external_boringssl|lineage-18.1" /-->
   <!--project name="android_external_bson" path="external/bson" remote="XOS" upstream="https://github.com/PixelExperience/external_bson|twelve" /-->
-  <!--project name="android_external_chromium-webview" path="external/chromium-webview" remote="XOS" upstream="https://github.com/LineageOS/android_external_chromium-webview|master" /-->
+  <project name="android_external_chromium-webview" path="external/chromium-webview" remote="XOS" upstream="https://github.com/LineageOS/android_external_chromium-webview|master" />
   <!--project name="android_external_connectivity" path="external/connectivity" remote="XOS" upstream="https://github.com/PixelExperience/external_connectivity|twelve" /-->
   <!--project name="android_external_cpu_features" path="external/cpu_features" remote="XOS" upstream="https://github.com/crdroidandroid/android_external_cpu_features|11.0" /-->
   <project name="android_external_dwarves" path="external/dwarves" remote="XOS" upstream="https://github.com/PixelExperience/external_dwarves|thirteen" />
@@ -132,7 +132,7 @@
   <project name="android_packages_apps_Etar" path="packages/apps/Etar" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_Etar|android13" />
   <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_ExactCalculator|android13" />
   <!--project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_FMRadio|twelve" /-->
-  <!--project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|lineage-19.1" /-->
+  <project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|lineage-20.0" />
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_Launcher3|android13" />
   <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="XOS" merge-aosp="true" />
   <!--project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="XOS" merge-aosp="true" /-->

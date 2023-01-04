@@ -3,6 +3,7 @@
   <remove-project path="build/make" name="platform/build" groups="pdk" />
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
   <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <remove-project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
   <remove-project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
   <remove-project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
