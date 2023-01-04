@@ -134,7 +134,7 @@
   <!--project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_FMRadio|twelve" /-->
   <!--project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|lineage-19.1" /-->
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_Launcher3|android13" />
-  <!--project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="XOS" merge-aosp="true" /-->
+  <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="XOS" merge-aosp="true" />
   <!--project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_packages_apps_PermissionController" path="packages/apps/PermissionController" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_packages_apps_Settings"  path="packages/apps/Settings" remote="XOS" merge-aosp="true" /-->
