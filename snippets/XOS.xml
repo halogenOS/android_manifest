@@ -125,7 +125,7 @@
 
   <!-- Packages -->
   <!--project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Bluetooth|twelve" /-->
-  <!--project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="XOS" merge-aosp="true" /-->
+  <project name="android_packages_apps_Aperture" path="packages/apps/Aperture" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Aperture|lineage-20.0" />
   <!--project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" merge-aosp="true" /-->
   <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_DeskClock|android13" />
@@ -138,7 +138,6 @@
   <!--project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_packages_apps_PermissionController" path="packages/apps/PermissionController" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_packages_apps_Settings"  path="packages/apps/Settings" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_packages_apps_Snap" path="packages/apps/Snap" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Snap|twelve" /-->
   <!--project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_SimpleDeviceConfig|twelve" /-->
   <!--project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="XOS" upstream="https://github.com/ArrowOS/android_packages_apps_ThemePicker|arrow-12.1" /-->
