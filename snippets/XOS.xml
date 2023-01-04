@@ -126,8 +126,8 @@
   <!-- Packages -->
   <!--project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_Bluetooth|twelve" /-->
   <project name="android_packages_apps_Aperture" path="packages/apps/Aperture" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Aperture|lineage-20.0" />
-  <!--project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" merge-aosp="true" /-->
+  <project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="XOS" merge-aosp="true" />
+  <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="XOS" merge-aosp="true" />
   <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_DeskClock|android13" />
   <project name="android_packages_apps_Etar" path="packages/apps/Etar" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_Etar|android13" />
   <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_ExactCalculator|android13" />
