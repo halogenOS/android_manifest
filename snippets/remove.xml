@@ -21,6 +21,7 @@
   <remove-project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <remove-project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
+  <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <remove-project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk" clone-depth="1" />
