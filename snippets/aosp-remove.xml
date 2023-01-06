@@ -21,20 +21,21 @@
   <remove-project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <remove-project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <remove-project path="device/google/barbet" name="device/google/barbet" groups="device,barbet" />
-  <remove-project path="device/google/barbet-kernel" name="device/google/barbet-kernel" groups="device,barbet" clone-depth="1" />
   <remove-project path="device/google/barbet-sepolicy" name="device/google/barbet-sepolicy" groups="device,barbet" />
-  <remove-project path="device/google/bonito" name="device/google/bonito" groups="device,bonito" />
-  <remove-project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" />
-  <remove-project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" />
+  <remove-project path="device/google/bluejay" name="device/google/bluejay" groups="device,bluejay" />
+  <remove-project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" groups="device,bluejay" />
+  <remove-project path="device/google/bluejay-kernel" name="device/google/bluejay-kernel" groups="device,bluejay" clone-depth="1" />
   <remove-project path="device/google/bramble" name="device/google/bramble" groups="device,bramble" />
   <remove-project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
   <remove-project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <remove-project path="device/google/coral" name="device/google/coral" groups="device,coral,generic_fs" />
   <remove-project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" />
   <remove-project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
-  <remove-project path="device/google/crosshatch" name="device/google/crosshatch" groups="device,crosshatch,generic_fs" />
-  <remove-project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" />
-  <remove-project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" />
+  <remove-project path="device/google/pantah" name="device/google/pantah" groups="device,cloudripper" />
+  <remove-project path="device/google/pantah-sepolicy" name="device/google/pantah-sepolicy" groups="device,cloudripper" />
+  <remove-project path="device/google/pantah-kernel" name="device/google/pantah-kernel" groups="device,cloudripper" clone-depth="1" />
+  <remove-project path="device/google/raviole" name="device/google/raviole" groups="device,slider,pdk-gs-arm" />
+  <remove-project path="device/google/raviole-kernel" name="device/google/raviole-kernel" groups="device,slider,pdk-gs-arm" clone-depth="1" />
   <remove-project path="device/google/redbull" name="device/google/redbull" groups="device,redbull" />
   <remove-project path="device/google/redbull-kernel" name="device/google/redbull-kernel" groups="device,bramble,redfin" clone-depth="1" />
   <remove-project path="device/google/redbull-sepolicy" name="device/google/redbull-sepolicy" groups="device,redbull" />
@@ -43,7 +44,8 @@
   <remove-project path="device/google/sunfish" name="device/google/sunfish" groups="device,sunfish" />
   <remove-project path="device/google/sunfish-kernel" name="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" />
   <remove-project path="device/google/sunfish-sepolicy" name="device/google/sunfish-sepolicy" groups="device,sunfish" />
-  <remove-project path="device/google/fuchsia" name="device/google/fuchsia" groups="device" />
+  <remove-project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
+  <remove-project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" />
   <remove-project path="device/google/trout" name="device/google/trout" groups="device,trout,gull,pdk" />
   <remove-project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" />
   <remove-project path="device/google_car" name="device/google_car" groups="pdk" />
@@ -57,7 +59,6 @@
   <remove-project path="device/sample" name="device/sample" groups="pdk" />
   <remove-project path="device/ti/beagle_x15" name="device/ti/beagle-x15" groups="device,beagle_x15,pdk" />
   <remove-project path="device/ti/beagle_x15-kernel" name="device/ti/beagle-x15-kernel" groups="device,beagle_x15,pdk" clone-depth="1" />
-  <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <remove-project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" />
   <remove-project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" />
   <remove-project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
