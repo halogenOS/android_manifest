@@ -1184,6 +1184,7 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
 
+  <include name="snippets/aosp-remove.xml" />
   <include name="snippets/remove.xml" />
   <include name="snippets/XOS.xml" />
   <include name="snippets/git-srvs.xml" />
