@@ -36,6 +36,7 @@
   <!--project name="android_device_evolution_sepolicy" path="device/evolution/sepolicy" remote="XOS" revision="XOS-12.0" upstream="https://github.com/Evolution-X/device_evolution_sepolicy|snow" /-->
   <!--project name="android_device_arrow_sepolicy" path="device/arrow/sepolicy" remote="XOS" upstream="https://github.com/ArrowOS/android_device_arrow_sepolicy|arrow-12.1" /-->
   <!--project name="android_device_custom_sepolicy" path="device/custom/sepolicy" remote="XOS" upstream="https://github.com/PixelExperience/device_custom_sepolicy|twelve" /-->
+  <project name="android_device_generic_common" path="device/generic/common" remote="XOS" merge-aosp="true" />
 
   <!-- Development -->
   <!--project name="android_development" path="development" remote="XOS" merge-aosp="true" /-->
