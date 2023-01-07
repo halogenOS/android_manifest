@@ -99,8 +99,8 @@
   <!--project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_SimpleDeviceConfig|twelve" /-->
   <!--project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="XOS" upstream="https://github.com/ArrowOS/android_packages_apps_ThemePicker|arrow-12.1" /-->
-  <!--project name="android_packages_overlays_Custom" path="packages/overlays/Custom" remote="XOS" /-->
-  <!--project name="android_packages_overlays_accents" path="packages/overlays/accents" remote="XOS" /-->
+  <project name="android_packages_overlays_Custom" path="packages/overlays/Custom" remote="XOS" />
+  <project name="android_packages_overlays_accents" path="packages/overlays/accents" remote="XOS" />
   <!--project name="android_packages_apps_TouchGestures" path="packages/apps/TouchGestures" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_TouchGestures|twelve" /-->
   <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="XOS" merge-aosp="true" />
   <project name="android_packages_modules_Permission" path="packages/modules/Permission" remote="XOS" merge-aosp="true" />
