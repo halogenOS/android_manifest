@@ -33,46 +33,26 @@
 
   <!-- Device -->
   <project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-20.0" />
-  <!--project name="android_device_evolution_sepolicy" path="device/evolution/sepolicy" remote="XOS" revision="XOS-12.0" upstream="https://github.com/Evolution-X/device_evolution_sepolicy|snow" /-->
-  <!--project name="android_device_arrow_sepolicy" path="device/arrow/sepolicy" remote="XOS" upstream="https://github.com/ArrowOS/android_device_arrow_sepolicy|arrow-12.1" /-->
-  <!--project name="android_device_custom_sepolicy" path="device/custom/sepolicy" remote="XOS" upstream="https://github.com/PixelExperience/device_custom_sepolicy|twelve" /-->
   <project name="android_device_generic_common" path="device/generic/common" remote="XOS" merge-aosp="true" />
-
-  <!-- Development -->
-  <!--project name="android_development" path="development" remote="XOS" merge-aosp="true" /-->
 
   <!-- External -->
   <!--project name="android_external_arm-optimized-routines" path="external/arm-optimized-routines" remote="XOS" upstream="https://github.com/AOSPA/android_external_arm-optimized-routines|sapphire" /-->
   <!--project name="android_external_bash" path="external/bash" remote="XOS" upstream="https://github.com/LineageOS/android_external_bash|lineage-18.1" /-->
-  <!--project name="android_external_boringssl" path="external/boringssl" remote="XOS" upstream="https://github.com/LineageOS/android_external_boringssl|lineage-18.1" /-->
-  <!--project name="android_external_bson" path="external/bson" remote="XOS" upstream="https://github.com/PixelExperience/external_bson|twelve" /-->
-  <!--project name="android_external_chromium-webview" path="external/chromium-webview" remote="XOS" upstream="https://github.com/LineageOS/android_external_chromium-webview|master" /-->
-  <!--project name="android_external_connectivity" path="external/connectivity" remote="XOS" upstream="https://github.com/PixelExperience/external_connectivity|twelve" /-->
   <!--project name="android_external_cpu_features" path="external/cpu_features" remote="XOS" upstream="https://github.com/crdroidandroid/android_external_cpu_features|11.0" /-->
   <project name="android_external_dwarves" path="external/dwarves" remote="XOS" upstream="https://github.com/PixelExperience/external_dwarves|thirteen" />
-  <!--project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_external_exfatprogs" path="external/exfatprogs" remote="XOS" upstream="https://github.com/PixelExperience/external_exfatprogs|twelve" /-->
   <project name="android_external_gptfdisk" path="external/gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk|lineage-20.0" />
   <!--project name="android_external_htop"  path="external/htop" remote="XOS" upstream="https://github.com/LineageOS/android_external_htop|lineage-18.1" /-->
   <project name="android_external_json-c" path="external/json-c" remote="XOS" upstream="https://github.com/LineageOS/android_external_json-c|lineage-20.0" />
-  <!--project name="android_external_libcxx" path="external/libcxx" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_external_libncurses" path="external/libncurses" remote="XOS" upstream="https://github.com/LineageOS/android_external_libncurses|lineage-18.1" /-->
   <!--project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="XOS" upstream="https://github.com/PixelExperience/external_libnfc-nxp|twelve" /-->
   <!--project name="android_external_mimalloc" path="external/mimalloc" remote="XOS" upstream="https://github.com/ProtonAOSP/android_external_mimalloc|rvc" /-->
   <project name="android_external_mksh" path="external/mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh|lineage-20.0" />
   <!--project name="android_external_nano" path="external/nano" remote="XOS" upstream="https://github.com/LineageOS/android_external_nano|lineage-18.1" /-->
-  <!--project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="XOS" upstream="https://github.com/PixelExperience/external_ntfs-3g|twelve" /-->
   <!--project name="android_external_p7zip" path="external/p7zip" remote="XOS" upstream="https://github.com/LineageOS/android_external_p7zip|lineage-18.1" /-->
   <!--project name="android_external_pigz" path="external/pigz" remote="XOS" upstream="https://github.com/LineageOS/android_external_pigz|lineage-18.1" /-->
   <!--project name="android_external_rsync" path="external/rsync" remote="XOS" upstream="https://github.com/LineageOS/android_external_rsync|lineage-18.1" /-->
-  <!--project name="android_external_selinux" path="external/selinux" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="XOS" upstream="https://github.com/LineageOS/android_external_sony_boringssl-compat|lineage-18.1" /-->
   <project name="android_external_tinycompress" path="external/tinycompress" remote="XOS" merge-aosp="true" upstream="https://github.com/lineageOS/android_external_tinycompress|lineage-20.0" />
   <project name="android_external_tinyxml" path="external/tinyxml" remote="XOS" upstream="https://github.com/PixelExperience/external_tinyxml|thirteen" />
-  <!--project name="android_external_toybox" path="external/toybox" remote="XOS" upstream="https://github.com/LineageOS/android_external_toybox|lineage-18.1" /-->
-  <!--project name="android_external_unrar" path="external/unrar" remote="XOS" upstream="https://github.com/LineageOS/android_external_unrar|lineage-18.1" /-->
   <!--project name="android_external_vim" path="external/vim" remote="XOS" upstream="https://github.com/LineageOS/android_external_vim|lineage-18.1" /-->
-  <!--project name="android_external_vixl" path="external/vixl" remote="XOS" upstream="https://github.com/crdroidandroid/android_external_vixl|11.0" /-->
   <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="XOS" merge-aosp="true" />
   <project name="android_external_xos" path="external/xos" remote="XOS" />
   <!--project name="android_external_zip" path="external/zip" remote="XOS" upstream="https://github.com/LineageOS/android_external_zip|lineage-18.1" /-->
@@ -89,35 +69,10 @@
   <!-- Hardware -->
   <!--project name="android_hardware_broadcom_nfc" path="hardware/broadcom/nfc" remote="XOS" upstream="https://github.com/PixelExperience/hardware_broadcom_nfc|twelve" /-->
   <project name="android_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_arrow_interfaces|arrow-13.0" />
-  <!--project name="android_hardware_google_pixel" path="hardware/google/pixel" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_hardware_knowles_athletico_sound_trigger_hal" path="hardware/knowles/athletico/sound_trigger_hal" remote="XOS" merge-aosp="true" /-->
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" merge-aosp="true" />
   <project name="android_hardware_lineage_compat" path="hardware/lineage/compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat|lineage-20.0" />
-  <!--project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_libhardware_legacy|arrow-12.0" /-->
   <!--project name="android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_nxp_nfc|lineage-19.0" /-->
-  <!--project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_qcom_bootctrl|arrow-12.0" /-->
-  <!--project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bt|lineage-18.1" /-->
-  <!--project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_hardware_qcom_data_ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-18.1" /-->
-  <!--project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_gps|lineage-18.1" /-->
-  <!--project name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_keymaster|lineage-18.1" /-->
-  <!--project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-18.1" /-->
-  <!--project name="android_hardware_qcom_msm8998" path="hardware/qcom/msm8998" remote="XOS" upstream="https://github.com/PixelExperience/hardware_qcom_msm8998|twelve" /-->
-  <!--project name="android_hardware_qcom_sdm845_display" path="hardware/qcom/sdm845/display" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_hardware_qcom_sm8150_data_ipacfg-mgr" path="hardware/qcom/sm8150/data/ipacfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_data_ipacfg-mgr|lineage-18.1"-->
-    <!--linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" /-->
-    <!--linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" /-->
-  <!--/project-->
-  <!--project name="android_hardware_qcom_sm7250_display" path="hardware/qcom/sm7250/display" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_hardware_qcom_sm7250_media" path="hardware/qcom/sm7250/media" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_wlan|lineage-20.0" /-->
-  <!--project name="android_hardware_ril" path="hardware/ril" remote="XOS" merge-aosp="true" /-->
-
-  <!-- Kernel -->
-  <!--project name="android_kernel_configs" path="kernel/configs" remote="XOS" merge-aosp="true" /-->
 
   <!-- Libcore -->
   <!--project name="android_libcore" path="libcore" remote="XOS" merge-aosp="true" /-->
@@ -173,27 +128,13 @@
   <!--project name="android_system_bt" path="system/bt" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_system_extras" path="system/extras" remote="XOS" merge-aosp="true" /-->
   <project name="android_system_core" path="system/core" remote="XOS" merge-aosp="true" />
-  <!--project name="android_system_libufdt" path="system/libufdt" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_system_libhidl" path="system/libhidl" remote="XOS" upstream="https://github.com/PixelExperience/system_libhidl|twelve" /-->
-  <!--project name="android_system_libziparchive" path="system/libziparchive" remote="XOS" merge-aosp="true" /-->
   <!--project name="android_system_media" path="system/media" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_system_qcom" path="system/qcom" remote="XOS" upstream="https://github.com/PixelExperience/system_qcom|twelve" /-->
-  <!--project name="android_system_security" path="system/security" remote="XOS" merge-aosp="true" /-->
   <project name="android_system_sepolicy" path="system/sepolicy" remote="XOS" merge-aosp="true" />
   <!--project name="android_system_netd" path="system/netd" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="XOS" upstream="https://github.com/PixelExperience/system_tools_dtbtool|twelve" /-->
-  <!--project name="android_system_tools_mkbootimg" path="system/tools/mkbootimg" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_system_update_engine" path="system/update_engine" remote="XOS" merge-aosp="true" /-->
   <project name="android_system_vold" path="system/vold" remote="XOS" merge-aosp="true" />
 
   <!-- Tools -->
-  <!--project name="android_tools_metalava" path="tools/metalava" remote="XOS" merge-aosp="true" /-->
   <project name="android_tools_extract-utils" path="tools/extract-utils" remote="XOS" upstream="https://github.com/LineageOS/android_tools_extract-utils|lineage-20.0" clone-depth="1" />
-
-  <!-- Vendor -->
-  <!--project name="android_vendor_pixelstyle" path="vendor/pixelstyle" remote="XOS" /-->
-  <!--project name="android_vendor_support" path="vendor/support" remote="XOS" /-->
-  <!--project name="android_vendor_xos_themes" path="vendor/xos/themes" remote="XOS" /-->
 
   <!-- NXP vendor -->
   <!--project name="android_vendor_nxp_opensource_interfaces_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="XOS" upstream="https://github.com/ArrowOS/android_vendor_nxp_interfaces_opensource_nfc|arrow-12.0" /-->
@@ -301,22 +242,14 @@
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_codeaurora_telephony|lineage-20.0" />
   <project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio|lineage-20.0" />
   <project name="android_vendor_qcom_opensource_audio-hal_st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal|lineage-20.0" />
-  <!--project name="android_vendor_qcom_opensource_commonsys-intf_bluetooth" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_commonsys-intf_bluetooth|lineage-20.0" /-->
   <project name="android_vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf|lineage-20.0" />
-  <!--project name="android_vendor_qcom_opensource_commonsys_bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_commonsys_bluetooth_ext|lineage-20.0" /-->
   <project name="android_vendor_qcom_opensource_commonsys_display" path="vendor/qcom/opensource/commonsys/display" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys|lineage-20.0" />
-  <!--project name="android_vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_commonsys_packages_apps_Bluetooth|lineage-20.0" /-->
-  <!--project name="android_vendor_qcom_opensource_commonsys_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_commonsys_system_bt|lineage-20.0" /-->
-  <!--project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_cryptfs_hw|lineage-20.0" /-->
   <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr|lineage-20.0" />
   <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um" path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr|lineage-20.0-legacy-um" />
   <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_dataservices|lineage-20.0" />
   <project name="android_vendor_qcom_opensource_display" path="vendor/qcom/opensource/display" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display|lineage-20.0" />
-  <!--project name="android_vendor_qcom_opensource_commonsys_dpm" path="vendor/qcom/opensource/commonsys/dpm" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_commonsys_dpm|lineage-20.0" /-->
   <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys|lineage-20.0" />
-  <!--project name="android_vendor_qcom_opensource_healthd-ext" path="vendor/qcom/opensource/healthd-ext" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_healthd-ext|lineage-20.0" /-->
   <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces|lineage-20.0" />
-  <!--project name="android_vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_libfmjni|lineage-20.0" /-->
   <project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_power|lineage-20.0" />
   <project name="android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_thermal-engine|lineage-20.0" />
   <project name="android_vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_usb|lineage-20.0" />
