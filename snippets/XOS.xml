@@ -69,7 +69,7 @@
   <!-- Hardware -->
   <!--project name="android_hardware_broadcom_nfc" path="hardware/broadcom/nfc" remote="XOS" upstream="https://github.com/PixelExperience/hardware_broadcom_nfc|twelve" /-->
   <project name="android_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_arrow_interfaces|arrow-13.0" />
-  <!--project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" merge-aosp="true" /-->
+  <project name="android_hardware_interfaces" path="hardware/interfaces" remote="XOS" merge-aosp="true" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="XOS" merge-aosp="true" />
   <project name="android_hardware_lineage_compat" path="hardware/lineage/compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat|lineage-20.0" />
   <!--project name="android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_nxp_nfc|lineage-19.0" /-->

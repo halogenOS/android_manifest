@@ -13,6 +13,7 @@
   <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
+  <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <!-- Replaced by Etar -->
   <remove-project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
