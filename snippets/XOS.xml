@@ -126,7 +126,7 @@
 
   <!-- System -->
   <!--project name="android_system_bt" path="system/bt" remote="XOS" merge-aosp="true" /-->
-  <!--project name="android_system_extras" path="system/extras" remote="XOS" merge-aosp="true" /-->
+  <project name="android_system_extras" path="system/extras" remote="XOS" merge-aosp="true" />
   <project name="android_system_core" path="system/core" remote="XOS" merge-aosp="true" />
   <project name="android_system_media" path="system/media" remote="XOS" merge-aosp="true" />
   <project name="android_system_sepolicy" path="system/sepolicy" remote="XOS" merge-aosp="true" />
