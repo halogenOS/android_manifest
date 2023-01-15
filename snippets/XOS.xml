@@ -7,7 +7,7 @@
            revision="refs/heads/XOS-13.0" />
 
   <!-- ART -->
-  <!--project name="android_art" path="art" remote="XOS" merge-aosp="true" /-->
+  <project name="android_art" path="art" remote="XOS" merge-aosp="true" />
 
   <!-- Bionic -->
   <project name="android_bionic" path="bionic" remote="XOS" merge-aosp="true" />
@@ -36,7 +36,7 @@
   <project name="android_device_generic_common" path="device/generic/common" remote="XOS" merge-aosp="true" />
 
   <!-- External -->
-  <!--project name="android_external_arm-optimized-routines" path="external/arm-optimized-routines" remote="XOS" upstream="https://github.com/AOSPA/android_external_arm-optimized-routines|sapphire" /-->
+  <project name="android_external_arm-optimized-routines" path="external/arm-optimized-routines" remote="XOS" merge-aosp="true" />
   <!--project name="android_external_bash" path="external/bash" remote="XOS" upstream="https://github.com/LineageOS/android_external_bash|lineage-18.1" /-->
   <!--project name="android_external_cpu_features" path="external/cpu_features" remote="XOS" upstream="https://github.com/crdroidandroid/android_external_cpu_features|11.0" /-->
   <project name="android_external_dwarves" path="external/dwarves" remote="XOS" upstream="https://github.com/PixelExperience/external_dwarves|thirteen" />
