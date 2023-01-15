@@ -1,4 +1,4 @@
-![](https://git.halogenos.org/halogenOS/android_manifest/-/raw/XOS-12.1/halogenos-logo.png)
+![](https://git.halogenos.org/halogenOS/android_manifest/-/raw/XOS-13.0/halogenos-logo.png)
 
 ### Getting Started with XOS
 
