@@ -250,6 +250,7 @@
   <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_dataservices|lineage-20.0" />
   <project name="android_vendor_qcom_opensource_display" path="vendor/qcom/opensource/display" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display|lineage-20.0" />
   <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys|lineage-20.0" />
+  <project name="android_vendor_qcom_opensource_healthd-ext" path="vendor/qcom/opensource/healthd-ext" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_healthd-ext|lineage-20.0" />
   <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces|lineage-20.0" />
   <project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_power|lineage-20.0" />
   <project name="android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_thermal-engine|lineage-20.0" />
