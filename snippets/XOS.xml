@@ -47,6 +47,7 @@
   <!--project name="android_external_mimalloc" path="external/mimalloc" remote="XOS" upstream="https://github.com/ProtonAOSP/android_external_mimalloc|rvc" /-->
   <project name="android_external_mksh" path="external/mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh|lineage-20.0" />
   <!--project name="android_external_nano" path="external/nano" remote="XOS" upstream="https://github.com/LineageOS/android_external_nano|lineage-18.1" /-->
+  <project name="android_external_ninja" path="external/ninja" remote="XOS" upstream="https://android.googlesource.com/platform/external/ninja|master" />
   <!--project name="android_external_p7zip" path="external/p7zip" remote="XOS" upstream="https://github.com/LineageOS/android_external_p7zip|lineage-18.1" /-->
   <!--project name="android_external_pigz" path="external/pigz" remote="XOS" upstream="https://github.com/LineageOS/android_external_pigz|lineage-18.1" /-->
   <!--project name="android_external_rsync" path="external/rsync" remote="XOS" upstream="https://github.com/LineageOS/android_external_rsync|lineage-18.1" /-->
