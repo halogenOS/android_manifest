@@ -27,6 +27,7 @@
   <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <remove-project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
+  <remove-project path="packages/apps/Car/SettingsIntelligence" name="platform/packages/apps/Car/SettingsIntelligence" groups="pdk-fs" />
   <remove-project path="packages/apps/ThemePicker" name="platform/packages/apps/ThemePicker" groups="pdk-fs" />
   <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />

@@ -97,7 +97,7 @@
   <!--project name="android_packages_apps_PermissionController" path="packages/apps/PermissionController" remote="XOS" merge-aosp="true" /-->
   <project name="android_packages_apps_Seedvault" path="packages/apps/Seedvault" remote="XOS" upstream="https://github.com/seedvault-app/seedvault|android13" />
   <project name="android_packages_apps_Settings"  path="packages/apps/Settings" remote="XOS" merge-aosp="true" />
-  <!--project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="XOS" merge-aosp="true" /-->
+  <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="XOS" merge-aosp="true" />
   <!--project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="XOS" upstream="https://github.com/PixelExperience/packages_apps_SimpleDeviceConfig|twelve" /-->
   <project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="XOS" merge-aosp="true" />
   <project name="android_packages_overlays_Custom" path="packages/overlays/Custom" remote="XOS" />
