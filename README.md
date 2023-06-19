@@ -75,13 +75,13 @@ If you're a curious geek and want to know what happens if you try to initialize 
 Now initialize a repo source tree, to do this please use following command:
 
 ```bash
-repo init -u https://git.halogenos.org/halogenOS/android_manifest.git -b XOS-12.1
+repo init -u https://git.halogenos.org/halogenOS/android_manifest.git -b XOS-13.0
 ```
 
 Then synchronize the source tree using repo, which will fetch the source of XOS. You should be warned that this is a procedure which downloads huge amounts (about 30-60 GB in total) of data, it may take hours to complete. Be prepared with something fun to do as will be waiting for a while or just listen to EDM.
 
 ```bash
-repo sync -j4 -c --no-tags --no-clone-bundle -f build/make external/xos vendor/halogenOS
+repo sync -j4 -c --no-tags --no-clone-bundle -f build/make external/xos product/halogenOS
 source build/envsetup.sh
 reposync
 ```
