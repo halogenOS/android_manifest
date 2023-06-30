@@ -26,6 +26,8 @@ sudo pacman -Syu --needed --noconfirm \
       imagemagick jq
 ```
 
+Also you have to install `ncurses5-compat-libs` from AUR using your favorite package manager  (E.g. `yay`, `aura`).
+
 #### __1. Getting Started__
 
 To get started with XOS, you should first become familiar with the basics of the utilities named [Git](http://rogerdudler.github.io/git-guide/) and [repo](https://source.android.com/source/using-repo.html), if using a development oriented distro or are already an actual developer working with source based Android ROMs or other similar projects you should more likely than not already have these obtained, if not here's an idea of what one should do below.
