@@ -159,6 +159,9 @@
   <!-- Official devices -->
   <!--project name="android_vendor_xos_officialdevices" path="vendor/xos/officialdevices" remote="XOS"/-->
 
+  <!-- Vendor -->
+  <project name="android_vendor_support" path="vendor/support" remote="XOS" upstream="https://github.com/DerpFest-AOSP/vendor_support|13" />
+
   <!--===========================================================
       Codeaurora additions
 
