@@ -35,6 +35,7 @@
   <remove-project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
   <remove-project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth" groups="pdk" />
   <remove-project path="packages/modules/Connectivity" name="platform/packages/modules/Connectivity" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />

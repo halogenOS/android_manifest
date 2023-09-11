@@ -107,6 +107,7 @@
   <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="XOS" merge-aosp="true" />
   <project name="android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="XOS" merge-aosp="true" />
   <project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="XOS" merge-aosp="true" />
+  <project name="android_packages_modules_NeuralNetworks" path="packages/modules/NeuralNetworks" remote="XOS" merge-aosp="true" />
   <project name="android_packages_modules_Permission" path="packages/modules/Permission" remote="XOS" merge-aosp="true" />
   <!--project name="android_packages_modules_Wifi" path="packages/modules/Wifi" remote="XOS" merge-aosp="true" /-->
   <project name="android_packages_modules_adb" path="packages/modules/adb" remote="XOS" merge-aosp="true" />
