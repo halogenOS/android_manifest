@@ -17,6 +17,7 @@
   <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
+  <remove-project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <!-- Replaced by Etar -->
   <remove-project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <!-- Replaced by Aperture -->
