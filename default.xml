@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-15.0.0_r8"
            remote="aosp"
@@ -1411,4 +1411,7 @@
   </project>
   <!-- END open-source projects -->
 
+  <include name="snippets/remove.xml" />
+  <include name="snippets/XOS.xml" />
+  <include name="snippets/git-srvs.xml" />
 </manifest>

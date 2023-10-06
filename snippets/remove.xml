@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This is used to track removals.
+  Please copy the <project ... /> line from default.xml verbatim,
+  paste it below accordingly and change "project" to "remove-project"
+-->
+<manifest>
+
+  <!-- Removed from AOSP without replacement -->
+
+  <!-- Replaced by tracked repository (see XOS.xml) -->
+
+</manifest>
