@@ -8,4 +8,8 @@
     revision="refs/heads/XOS-14.0"
   />
 
+  <project path="external/xos" name="android_external_xos" remote="XOS" />
+  <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
+  <project path="product/halogenOS" name="android_product_halogenOS" remote="XOS" />
+
 </manifest>
