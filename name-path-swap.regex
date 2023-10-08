@@ -1,0 +1,2 @@
+<project (name="[^"]+?" )(path="[^"]+?" )
+<project $2 $1
