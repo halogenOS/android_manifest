@@ -1,2 +1,2 @@
 <project (name="[^"]+?" )(path="[^"]+?" )
-<project $2 $1
+<project $2$1
