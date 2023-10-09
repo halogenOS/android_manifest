@@ -32,6 +32,7 @@
   <project path="prebuilts/kernel-build-tools" name="android_prebuilts_kernel-build-tools" remote="XOS" upstream="https://android.googlesource.com/kernel/prebuilts/build-tools|tag|android-14.0.0_r0.7" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage|lineage-20.0" clone-depth="1" />
   <project path="product/halogenOS" name="android_product_halogenOS" remote="XOS" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" merge-aosp="true" />
 
   <!-- QCOM support -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="XOS" upstream="https://github.com/PixelExperience/device_qcom_sepolicy|thirteen" />
