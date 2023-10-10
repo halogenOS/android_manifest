@@ -23,6 +23,7 @@
   </project>
   <project path="device/google/cuttlefish" name="android_device_google_cuttlefish" remote="XOS" merge-aosp="true" />
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-20.0" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk|lineage-20.0" />
   <project path="external/xos" name="android_external_xos" remote="XOS" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="XOS" upstream="https://github.com/LineageOS/android_packages_resources_devicesettings|lineage-20.0" />

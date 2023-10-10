@@ -88,6 +88,7 @@
   <remove-project path="build/make" name="platform/build" groups="pdk" />
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
   <remove-project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
+  <remove-project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
   <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
 
 </manifest>
