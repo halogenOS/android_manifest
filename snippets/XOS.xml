@@ -38,6 +38,7 @@
   <project path="system/core" name="android_system_core" remote="XOS" merge-aosp="true" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" merge-aosp="true" />
   <project path="system/vold" name="android_system_vold" remote="XOS" merge-aosp="true" />
+  <project path="vendor/support" name="android_vendor_support" remote="XOS" upstream="https://github.com/DerpFest-AOSP/vendor_support|13" />
 
   <!-- QCOM support -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="XOS" upstream="https://github.com/PixelExperience/device_qcom_sepolicy|thirteen" />
