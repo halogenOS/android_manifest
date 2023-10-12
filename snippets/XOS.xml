@@ -32,6 +32,7 @@
   <project path="external/tinyxml" name="android_external_tinyxml" remote="XOS" upstream="https://github.com/PixelExperience/external_tinyxml|thirteen" />
   <project path="external/xos" name="android_external_xos" remote="XOS" />
   <project path="frameworks/av" name="android_frameworks_av" remote="XOS" merge-aosp="true" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
   <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="XOS" merge-aosp="true" />
   <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_arrow_interfaces|arrow-14.0" />
