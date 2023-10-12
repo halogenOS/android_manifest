@@ -2,7 +2,7 @@
 <manifest>
 
   <remote
-   name="XOS"
+    name="XOS"
     fetch="https://git.halogenos.org/halogenOS"
     pushurl="git@git.halogenos.org:halogenOS"
     revision="refs/heads/XOS-14.0"
