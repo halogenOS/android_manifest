@@ -34,6 +34,8 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="XOS" merge-aosp="true" />
   <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="XOS" merge-aosp="true" />
+  <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_arrow_interfaces|arrow-14.0" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" merge-aosp="true" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat|lineage-21.0" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="XOS" upstream="https://github.com/LineageOS/android_packages_resources_devicesettings|lineage-20.0" />
