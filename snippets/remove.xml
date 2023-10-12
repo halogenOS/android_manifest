@@ -84,6 +84,7 @@
   <remove-project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" clone-depth="1" />
 
   <!-- Replaced by tracked repository (see XOS.xml) -->
+  <remove-project path="bionic" name="platform/bionic" groups="pdk" />
   <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <remove-project path="build/make" name="platform/build" groups="pdk" />
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />

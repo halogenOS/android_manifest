@@ -8,6 +8,7 @@
     revision="refs/heads/XOS-14.0"
   />
 
+  <project path="bionic" name="android_bionic" remote="XOS" merge-aosp="true" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="XOS" merge-aosp="true" />
   <project path="build/make" name="android_build_make" remote="XOS" merge-aosp="true">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
