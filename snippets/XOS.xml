@@ -26,6 +26,7 @@
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-20.0" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk|lineage-20.0" />
   <project path="external/json-c" name="android_external_json-c" remote="XOS" upstream="https://github.com/LineageOS/android_external_json-c|lineage-20.0" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="XOS" merge-aosp="true" />
   <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh|lineage-20.0" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" merge-aosp="true" upstream="https://github.com/lineageOS/android_external_tinycompress|lineage-20.0" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="XOS" upstream="https://github.com/PixelExperience/external_tinyxml|thirteen" />
