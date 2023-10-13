@@ -53,7 +53,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9|lineage-19.1" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9|lineage-19.1" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="android_prebuilts_kernel-build-tools" remote="XOS" upstream="https://android.googlesource.com/kernel/prebuilts/build-tools|tag|android-14.0.0_r0.7" clone-depth="1" />
-  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="XOS" merge-aosp="true" />
+  <project path="prebuilts/misc" name="android_prebuilts_misc" clone-depth="1" remote="XOS" merge-aosp="true"/>
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage|lineage-20.0" clone-depth="1" />
   <project path="product/halogenOS" name="android_product_halogenOS" remote="XOS" />
   <project path="system/core" name="android_system_core" remote="XOS" merge-aosp="true" />
