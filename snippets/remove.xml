@@ -99,6 +99,7 @@
   <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
   <remove-project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <remove-project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <remove-project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" groups="pdk-fs" />
   <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
