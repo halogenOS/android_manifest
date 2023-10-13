@@ -98,6 +98,7 @@
   <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
+  <remove-project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <remove-project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
   <remove-project path="system/media" name="platform/system/media" groups="pdk" />
