@@ -41,9 +41,9 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="XOS" merge-aosp="true" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Aperture|lineage-21.0" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="XOS" upstream="https://git.halogenos.org/halogenOS/android_packages_apps_DeskClock|XOS-13.0" />
-  <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="XOS" upstream="https://git.halogenos.org/halogenOS/android_packages_apps_Etar|XOS-13.0" />
-  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="XOS" upstream="https://git.halogenos.org/halogenOS/android_packages_apps_ExactCalculator|XOS-13.0" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="XOS" />
+  <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="XOS" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="XOS" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|lineage-21.0" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="XOS" upstream="https://github.com/seedvault-app/seedvault|android14" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" merge-aosp="true" />
