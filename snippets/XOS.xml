@@ -40,6 +40,8 @@
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat|lineage-21.0" />
   <project path="hardware/ril" name="android_hardware_ril" remote="XOS" merge-aosp="true" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" merge-aosp="true" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="XOS" upstream="https://github.com/LineageOS/android_packages_resources_devicesettings|lineage-20.0" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="XOS" merge-aosp="true" />
   <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b|lineage-20.0" clone-depth="1" />
