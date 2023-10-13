@@ -66,6 +66,7 @@
   <project path="system/media" name="android_system_media" remote="XOS" merge-aosp="true" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" merge-aosp="true" />
   <project path="system/vold" name="android_system_vold" remote="XOS" merge-aosp="true" />
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="XOS" upstream="https://github.com/LineageOS/android_tools_extract-utils|lineage-21.0" clone-depth="1" />
   <project path="vendor/support" name="android_vendor_support" remote="XOS" upstream="https://github.com/DerpFest-AOSP/vendor_support|14" />
 
   <!-- QCOM support -->
