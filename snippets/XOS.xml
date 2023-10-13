@@ -42,6 +42,7 @@
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" merge-aosp="true" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="XOS" merge-aosp="true" />
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" />
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="XOS" upstream="https://github.com/LineageOS/android_packages_resources_devicesettings|lineage-20.0" />
