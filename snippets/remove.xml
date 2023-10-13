@@ -110,4 +110,6 @@
   <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
 
+  <!-- Replaced by alternative (see XOS.xml) -->
+  <remove-project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
 </manifest>
