@@ -102,6 +102,7 @@
   <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <remove-project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" groups="pdk-fs" />
   <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
+  <remove-project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
