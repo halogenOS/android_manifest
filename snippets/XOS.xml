@@ -54,7 +54,7 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="XOS" merge-aosp="true" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="XOS" merge-aosp="true" />
-  <project path="packages/modules/adb" name="android_packages_modules_adb" remote="XOS" merge-aosp="true" />
+  <project path="packages/modules/adb" name="android_packages_modules_adb" remote="XOS" revision="XOS-14.0.1" merge-aosp="true" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="XOS" merge-aosp="true" />
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" />
