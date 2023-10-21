@@ -28,7 +28,7 @@
   <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="XOS" clone-depth="1" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64|main" />
   <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" remote="XOS" clone-depth="1" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64|main" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk|lineage-20.0" />
-  <project path="external/json-c" name="android_external_json-c" remote="XOS" upstream="https://github.com/LineageOS/android_external_json-c|lineage-20.0" />
+  <project path="external/json-c" name="android_external_json-c" remote="XOS" upstream="https://github.com/LineageOS/android_external_json-c|lineage-21.0" />
   <project path="external/libcxx" name="android_external_libcxx" remote="XOS" merge-aosp="true" />
   <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh|lineage-20.0" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" merge-aosp="true" upstream="https://github.com/lineageOS/android_external_tinycompress|lineage-20.0" />
@@ -93,7 +93,7 @@
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_hidl|lineage-20.0" />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom-caf_bootctrl" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bootctrl|lineage-20.0-caf" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom-caf_bt" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bt|lineage-20.0-caf" />
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom-caf_common|lineage-20.0">
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom-caf_common|lineage-21.0">
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
@@ -144,7 +144,7 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr|lineage-20.0" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um" remote="XOS" upstream="https://github.com/Evolution-X/vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um|udc" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_dataservices|lineage-20.0" />
-  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display|lineage-20.0" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display|lineage-21.0" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys|lineage-20.0" />
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_healthd-ext|lineage-20.0" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces|lineage-20.0" />
