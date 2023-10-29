@@ -2,4 +2,10 @@
 <!-- Additional remotes (for use in local manifests etc.) -->
 <manifest>
 
+  <remote
+   name="github"
+   fetch="https://github.com"
+   pushurl="git@github.com:"
+  />
+
 </manifest>
