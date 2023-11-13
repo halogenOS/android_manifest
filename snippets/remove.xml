@@ -109,7 +109,6 @@
   <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <remove-project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" groups="pdk-fs" />
   <remove-project path="packages/apps/ThemePicker" name="platform/packages/apps/ThemePicker" groups="pdk-fs" />
-  <remove-project path="packages/apps/WallpaperPicker2" name ="platform/packages/apps/WallpaperPicker2" groups="pdk-fs" />
   <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <remove-project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
   <remove-project path="packages/modules/Connectivity" name="platform/packages/modules/Connectivity" groups="pdk-cw-fs,pdk-fs" />
