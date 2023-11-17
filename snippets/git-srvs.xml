@@ -8,4 +8,10 @@
    pushurl="git@github.com:"
   />
 
+  <remote
+   name="gitlab"
+   fetch="https://gitlab.com"
+   pushurl="git@gitlab.com:"
+  />
+
 </manifest>
