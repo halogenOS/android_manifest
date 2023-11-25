@@ -121,6 +121,7 @@
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
   <remove-project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />
   <remove-project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" />
+  <remove-project path="system/logging" name="platform/system/logging" groups="pdk" />
   <remove-project path="system/media" name="platform/system/media" groups="pdk" />
   <remove-project path="system/netd" name="platform/system/netd" groups="pdk" />
   <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
