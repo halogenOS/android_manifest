@@ -34,6 +34,7 @@
   <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" remote="XOS" clone-depth="1" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" revision="XOS-14.0.1" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk|lineage-21.0" />
   <project path="external/libcxx" name="android_external_libcxx" remote="XOS" merge-aosp="true" />
+  <project path="external/mesa3d" name="android_external_mesa3d" remote="XOS" merge-aosp="true" />
   <project path="external/mksh" name="android_external_mksh" remote="XOS" revision="XOS-14.0.1" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh|lineage-21.0" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" revision="XOS-14.0.1" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_tinycompress|lineage-21.0" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="XOS" upstream="https://github.com/PixelExperience/external_tinyxml|thirteen" />

@@ -90,6 +90,7 @@
   <remove-project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
   <remove-project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
   <remove-project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
+  <remove-project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
