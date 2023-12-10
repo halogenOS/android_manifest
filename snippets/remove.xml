@@ -45,9 +45,14 @@
   <remove-project path="device/google/tangorpro" name="device/google/tangorpro" groups="device,tangorpro" />
   <remove-project path="device/google/tangorpro-sepolicy" name="device/google/tangorpro-sepolicy" groups="device,tangorpro" />
   <remove-project path="device/google/tangorpro-kernel" name="device/google/tangorpro-kernel" groups="device,tangorpro" clone-depth="1" />
+  <remove-project path="device/google/shusky" name="device/google/shusky" groups="device,ripcurrent" />
+  <remove-project path="device/google/shusky-kernel" name="device/google/shusky-kernel" groups="device,ripcurrent" />
+  <remove-project path="device/google/shusky-sepolicy" name="device/google/shusky-sepolicy" groups="device,ripcurrent" />
   <remove-project path="device/google/sunfish" name="device/google/sunfish" groups="device,sunfish" />
   <remove-project path="device/google/sunfish-kernel" name="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" />
   <remove-project path="device/google/sunfish-sepolicy" name="device/google/sunfish-sepolicy" groups="device,sunfish" />
+  <remove-project path="device/google/zuma" name="device/google/zuma" groups="device,ripcurrent" />
+  <remove-project path="device/google/zuma-sepolicy" name="device/google/zuma-sepolicy" groups="device,ripcurrent" />
   <remove-project path="device/linaro/dragonboard" name="device/linaro/dragonboard" groups="device,dragonboard,pdk" />
   <remove-project path="device/linaro/dragonboard-kernel" name="device/linaro/dragonboard-kernel" groups="device,dragonboard,pdk" clone-depth="1" />
   <remove-project path="device/linaro/hikey" name="device/linaro/hikey" groups="device,hikey,pdk" />
@@ -118,6 +123,7 @@
   <remove-project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
   <remove-project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />

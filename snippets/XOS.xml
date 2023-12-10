@@ -10,7 +10,7 @@
 
   <project path="bionic" name="android_bionic" remote="XOS" merge-aosp="true" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="XOS" merge-aosp="true" />
-  <project path="build/make" name="android_build_make" remote="XOS" merge-aosp="true">
+  <project path="build/make" name="android_build_make" remote="XOS" merge-aosp="true" revision="XOS-14.0.1">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -39,11 +39,11 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" revision="XOS-14.0.1" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_tinycompress|lineage-21.0" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="XOS" upstream="https://github.com/PixelExperience/external_tinyxml|thirteen" />
   <project path="external/xos" name="android_external_xos" remote="XOS" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="XOS" merge-aosp="true" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="XOS" merge-aosp="true" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="XOS" merge-aosp="true" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
   <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="XOS" upstream="https://github.com/ArrowOS/android_hardware_arrow_interfaces|arrow-14.0" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" merge-aosp="true" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" merge-aosp="true" />
@@ -57,14 +57,14 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_ExactCalculator|lineage-21.0" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|lineage-21.0" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="XOS" upstream="https://github.com/seedvault-app/seedvault|android14" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" merge-aosp="true" />
-  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="XOS" merge-aosp="true" />
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="XOS" merge-aosp="true" revision="XOS-14.0.2" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="XOS" revision="XOS-14.0.1" merge-aosp="true" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="XOS" merge-aosp="true" />
@@ -74,6 +74,7 @@
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="XOS" revision="XOS-14.0.1" upstream="https://github.com/LineageOS/android_packages_resources_devicesettings|lineage-21.0" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="XOS" merge-aosp="true" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="XOS" merge-aosp="true" />
   <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b|lineage-20.0" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9|lineage-19.1" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9|lineage-19.1" clone-depth="1" />
