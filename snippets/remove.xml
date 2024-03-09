@@ -121,6 +121,7 @@
   <remove-project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
   <remove-project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth" groups="pdk" />
   <remove-project path="packages/modules/Connectivity" name="platform/packages/modules/Connectivity" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-fs" />
   <remove-project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
