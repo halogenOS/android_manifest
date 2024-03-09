@@ -67,6 +67,7 @@
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="XOS" revision="XOS-14.0.1" merge-aosp="true" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="XOS" merge-aosp="true" />
