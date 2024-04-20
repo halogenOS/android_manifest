@@ -56,11 +56,11 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_DeskClock|lineage-21.0" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="XOS" revision="XOS-14.0.1" upstream="https://github.com/LineageOS/android_packages_apps_ExactCalculator|lineage-21.0" />
-  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|2112a66c053ce17769ceb69e4c21a7bc22e567781" />
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|commit|2112a66c053ce17769ceb69e4c21a7bc22e567781" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="XOS" merge-aosp="true" />
-  <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="XOS" upstream="https://github.com/seedvault-app/seedvault|c6200106d1d250f0272ee9efbf8087de332a8c37" />
+  <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="XOS" upstream="https://github.com/seedvault-app/seedvault|commit|c6200106d1d250f0272ee9efbf8087de332a8c37" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="XOS" merge-aosp="true" revision="XOS-14.0.2" />
