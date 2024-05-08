@@ -97,6 +97,7 @@
   <remove-project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="external/mksh" name="platform/external/mksh" groups="pdk" />
+  <remove-project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
