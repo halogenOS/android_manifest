@@ -72,6 +72,7 @@
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/HealthFitness" name="android_packages_modules_HealthFitness" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="XOS" merge-aosp="true" />
+  <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="XOS" merge-aosp="true" />
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" />
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" />
@@ -84,12 +85,14 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9|lineage-19.1" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="android_prebuilts_kernel-build-tools" remote="XOS" upstream="https://android.googlesource.com/kernel/prebuilts/build-tools|tag|android-14.0.0_r0.76" clone-depth="1" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" clone-depth="1" remote="XOS" merge-aosp="true"/>
+  <project path="prebuilts/module_sdk/Wifi" name="android_prebuilts_module_sdk_Wifi" clone-depth="1" remote="XOS" merge-aosp="true" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage|lineage-21.0" clone-depth="1" />
   <project path="product/halogenOS" name="android_product_halogenOS" remote="XOS" />
   <project path="system/core" name="android_system_core" remote="XOS" merge-aosp="true" />
   <project path="system/libhidl" name="android_system_libhidl" remote="XOS" merge-aosp="true" />
   <project path="system/libsysprop" name="android_system_libsysprop" remote="XOS" merge-aosp="true" />
   <project path="system/logging" name="android_system_logging" remote="XOS" merge-aosp="true" />
+  <project path="system/libfmq" name="android_system_libfmq" remote="XOS" merge-aosp="true" />
   <project path="system/media" name="android_system_media" remote="XOS" merge-aosp="true" />
   <project path="system/netd" name="android_system_netd" remote="XOS" merge-aosp="true" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" merge-aosp="true" />

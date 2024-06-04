@@ -124,13 +124,16 @@
   <remove-project path="packages/modules/Connectivity" name="platform/packages/modules/Connectivity" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-fs" />
   <remove-project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" />
+  <remove-project path="prebuilts/module_sdk/Wifi" name="platform/prebuilts/module_sdk/Wifi" groups="pdk" clone-depth="1" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
   <remove-project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />
   <remove-project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" />
+  <remove-project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
   <remove-project path="system/logging" name="platform/system/logging" groups="pdk" />
   <remove-project path="system/media" name="platform/system/media" groups="pdk" />
   <remove-project path="system/netd" name="platform/system/netd" groups="pdk" />
