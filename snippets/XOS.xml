@@ -98,6 +98,7 @@
   <project path="system/libfmq" name="android_system_libfmq" remote="XOS" merge-aosp="true" />
   <project path="system/media" name="android_system_media" remote="XOS" merge-aosp="true" />
   <project path="system/netd" name="android_system_netd" remote="XOS" merge-aosp="true" />
+  <project path="system/nfc" name="android_system_nfc" remote="XOS" merge-aosp="true" />
   <project path="system/security" name="android_system_security" remote="XOS" merge-aosp="true" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" merge-aosp="true" />
   <project path="system/vold" name="android_system_vold" remote="XOS" merge-aosp="true" />

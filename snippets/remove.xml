@@ -140,6 +140,7 @@
   <remove-project path="system/logging" name="platform/system/logging" groups="pdk" />
   <remove-project path="system/media" name="platform/system/media" groups="pdk" />
   <remove-project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <remove-project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <remove-project path="system/security" name="platform/system/security" groups="pdk" />
   <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
