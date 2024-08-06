@@ -43,6 +43,7 @@
   <project path="external/xos" name="android_external_xos" remote="XOS" />
   <project path="frameworks/av" name="android_frameworks_av" remote="XOS" merge-aosp="true" revision="XOS-14.0.2" />
   <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" revision="XOS-14.0.2" />
+  <project path="frameworks/libs/modules-utils" name="android_frameworks_libs_modules-utils" remote="XOS" merge-aosp="true" revision="XOS-14.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="XOS" merge-aosp="true" revision="XOS-14.0.1" />
