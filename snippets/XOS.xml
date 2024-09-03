@@ -74,6 +74,7 @@
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/HealthFitness" name="android_packages_modules_HealthFitness" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="XOS" merge-aosp="true" />
+  <project path="packages/modules/RemoteKeyProvisioning" name="android_packages_modules_RemoteKeyProvisioning" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="XOS" merge-aosp="true" />
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" />

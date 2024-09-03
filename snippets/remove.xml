@@ -126,6 +126,7 @@
   <remove-project path="packages/modules/Connectivity" name="platform/packages/modules/Connectivity" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-fs" />
   <remove-project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/modules/RemoteKeyProvisioning" name="platform/packages/modules/RemoteKeyProvisioning" groups="pdk-cw-fs,pdk-fs"/>
   <remove-project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
