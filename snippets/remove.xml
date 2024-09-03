@@ -7,6 +7,86 @@
 <manifest>
 
   <!-- Removed from AOSP without replacement -->
+  <remove-project path="developers/demos" name="platform/developers/demos" groups="developers" />
+  <remove-project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
+  <remove-project path="device/google/akita" name="device/google/akita" groups="device,akita" />
+  <remove-project path="device/google/akita-sepolicy" name="device/google/akita-sepolicy" groups="device,akita" />
+  <remove-project path="device/google/akita-kernels/5.15" name="device/google/akita-kernels/5.15" groups="device,akita" clone-depth="1" />
+  <remove-project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
+  <remove-project path="device/google/barbet" name="device/google/barbet" groups="device,barbet" />
+  <remove-project path="device/google/barbet-sepolicy" name="device/google/barbet-sepolicy" groups="device,barbet" />
+  <remove-project path="device/google/bluejay" name="device/google/bluejay" groups="device,bluejay" />
+  <remove-project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" groups="device,bluejay" />
+  <remove-project path="device/google/bluejay-kernels/5.10" name="device/google/bluejay-kernels/5.10" groups="device,bluejay" clone-depth="1" />
+  <remove-project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
+  <remove-project path="device/google/caimito" name="device/google/caimito" groups="device,caimito" />
+  <remove-project path="device/google/caimito-kernels/6.1" name="device/google/caimito-kernels/6.1" groups="device,caimito" clone-depth="1" />
+  <remove-project path="device/google/caimito-sepolicy" name="device/google/caimito-sepolicy" groups="device,caimito" />
+  <remove-project path="device/google/comet" name="device/google/comet" groups="device,comet" />
+  <remove-project path="device/google/comet-kernels/6.1" name="device/google/comet-kernels/6.1" groups="device,comet" clone-depth="1" />
+  <remove-project path="device/google/comet-sepolicy" name="device/google/comet-sepolicy" groups="device,comet" />
+  <remove-project path="device/google/common/etm" name="device/google/common/etm" groups="device" clone-depth="1" />
+  <remove-project path="device/google/coral" name="device/google/coral" groups="device,coral,generic_fs" />
+  <remove-project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" />
+  <remove-project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
+  <remove-project path="device/google/felix" name="device/google/felix" groups="device,felix" />
+  <remove-project path="device/google/felix-sepolicy" name="device/google/felix-sepolicy" groups="device,felix" />
+  <remove-project path="device/google/felix-kernels/5.10" name="device/google/felix-kernels/5.10" groups="device,felix" clone-depth="1" />
+  <remove-project path="device/google/lynx" name="device/google/lynx" groups="device,lynx" />
+  <remove-project path="device/google/lynx-sepolicy" name="device/google/lynx-sepolicy" groups="device,lynx" />
+  <remove-project path="device/google/lynx-kernels/5.10" name="device/google/lynx-kernels/5.10" groups="device,lynx" clone-depth="1" />
+  <remove-project path="device/google/pantah" name="device/google/pantah" groups="device,cloudripper,pdk-gs-arm" />
+  <remove-project path="device/google/pantah-sepolicy" name="device/google/pantah-sepolicy" groups="device,cloudripper,pdk-gs-arm" />
+  <remove-project path="device/google/pantah-kernels/5.10" name="device/google/pantah-kernels/5.10" groups="device,cloudripper,pdk-gs-arm" clone-depth="1" />
+  <remove-project path="device/google/raviole" name="device/google/raviole" groups="device,slider,pdk-gs-arm" />
+  <remove-project path="device/google/raviole-kernels/5.10" name="device/google/raviole-kernels/5.10" groups="device,slider,pdk-gs-arm" clone-depth="1" />
+  <remove-project path="device/google/redbull" name="device/google/redbull" groups="device,redbull" />
+  <remove-project path="device/google/redbull-kernel" name="device/google/redbull-kernel" groups="device,bramble,redfin" clone-depth="1" />
+  <remove-project path="device/google/redbull-sepolicy" name="device/google/redbull-sepolicy" groups="device,redbull" />
+  <remove-project path="device/google/redfin" name="device/google/redfin" groups="device,redfin" />
+  <remove-project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" />
+  <remove-project path="device/google/tangorpro" name="device/google/tangorpro" groups="device,tangorpro" />
+  <remove-project path="device/google/tangorpro-sepolicy" name="device/google/tangorpro-sepolicy" groups="device,tangorpro" />
+  <remove-project path="device/google/tangorpro-kernels/5.10" name="device/google/tangorpro-kernels/5.10" groups="device,tangorpro" clone-depth="1" />
+  <remove-project path="device/google/shusky" name="device/google/shusky" groups="device,ripcurrent,pdk-gs-arm" />
+  <remove-project path="device/google/shusky-kernels/5.15" name="device/google/shusky-kernels/5.15" groups="device,ripcurrent,pdk-gs-arm" clone-depth="1" />
+  <remove-project path="device/google/shusky-sepolicy" name="device/google/shusky-sepolicy" groups="device,ripcurrent,pdk-gs-arm" />
+  <remove-project path="device/google/sunfish" name="device/google/sunfish" groups="device,sunfish" />
+  <remove-project path="device/google/sunfish-kernel" name="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" />
+  <remove-project path="device/google/sunfish-sepolicy" name="device/google/sunfish-sepolicy" groups="device,sunfish" />
+  <remove-project path="device/google/zuma" name="device/google/zuma" groups="device,ripcurrent,pdk-gs-arm" />
+  <remove-project path="device/google/zuma-sepolicy" name="device/google/zuma-sepolicy" groups="device,ripcurrent,pdk-gs-arm" />
+  <remove-project path="device/google/zumapro" name="device/google/zumapro" groups="device,ripcurrentpro" />
+  <remove-project path="device/google/zumapro-sepolicy" name="device/google/zumapro-sepolicy" groups="device,ripcurrentpro" />
+  <remove-project path="device/linaro/dragonboard" name="device/linaro/dragonboard" groups="device,dragonboard,pdk" />
+  <remove-project path="device/linaro/dragonboard-kernel" name="device/linaro/dragonboard-kernel" groups="device,dragonboard,pdk" clone-depth="1" />
+  <remove-project path="device/linaro/hikey" name="device/linaro/hikey" groups="device,hikey,pdk" />
+  <remove-project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" groups="device,hikey,pdk" clone-depth="1" />
+  <remove-project path="device/linaro/poplar" name="device/linaro/poplar" groups="device,poplar,pdk" />
+  <remove-project path="device/linaro/poplar-kernel" name="device/linaro/poplar-kernel" groups="device,poplar,pdk" clone-depth="1" />
+  <remove-project path="device/sample" name="device/sample" groups="pdk" />
+  <remove-project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/5.4/arm64" name="kernel/prebuilts/5.4/arm64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/5.4/x86_64" name="kernel/prebuilts/5.4/x86-64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/5.10/arm64" name="kernel/prebuilts/5.10/arm64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/5.10/x86_64" name="kernel/prebuilts/5.10/x86-64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/5.15/arm64" name="kernel/prebuilts/5.15/arm64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/5.15/x86_64" name="kernel/prebuilts/5.15/x86-64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/common-modules/virtual-device/4.19/arm64" name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64" name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/common-modules/virtual-device/5.4/arm64" name="kernel/prebuilts/common-modules/virtual-device/5.4/arm64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64" name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" name="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64" name="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/common-modules/virtual-device/5.15/arm64" name="kernel/prebuilts/common-modules/virtual-device/5.15/arm64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64" name="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" groups="pdk" clone-depth="1" />
+  <remove-project path="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" groups="pdk" clone-depth="1" />
+  <remove-project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" groups="darwin,pdk" clone-depth="1" />
+  <remove-project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="notdefault,platform-darwin,pdk,darwin,sysui-studio" clone-depth="1" />
+  <remove-project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="notdefault,platform-darwin,darwin,pdk,tradefed" clone-depth="1" />
 
   <!-- Replaced by tracked repository (see XOS.xml) -->
 
