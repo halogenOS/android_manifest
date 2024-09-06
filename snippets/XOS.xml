@@ -20,7 +20,9 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="external/xos" name="android_external_xos" remote="XOS" />
+  <project path="external/xos" name="android_external_xos" remote="XOS">
+    <linkfile src="shell.nix" dest="shell.nix" />
+  </project>
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
   <project path="product/halogenOS" name="android_product_halogenOS" remote="XOS" />
 
