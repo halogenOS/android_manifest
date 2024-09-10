@@ -20,6 +20,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/google/cuttlefish" name="android_device_google_cuttlefish" remote="XOS" merge-aosp="true" />
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="shell.nix" dest="shell.nix" />
   </project>
