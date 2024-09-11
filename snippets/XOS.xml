@@ -117,7 +117,7 @@
   <project path="vendor/qcom/opensource/commonsys/dpm" name="android_vendor_qcom_opensource_commonsys_dpm" remote="XOS" upstream="https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/dpm-commonsys|tag|LA.QSSI.14.0.r1-10000.04-qssi.0" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="android_vendor_qcom_opensource_commonsys_fm" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys|lineage-21.0" />
   <project path="vendor/qcom/opensource/commonsys/wfd" name="android_vendor_qcom_opensource_commonsys_wfd" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_wfd-commonsys|lineage-21.0" />
-  <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="XOS" upstream="https://github.com/yaap/vendor_qcom_opensource_core-utils|fifteen" />
+  <project path="vendor/qcom/opensource/core-utils" name="android_vendor_qcom_opensource_core-utils" remote="XOS" upstream="https://github.com/yaap/vendor_qcom_opensource_core-utils|fifteen" />
   <project path="vendor/qcom/opensource/core-utils-sys" name="android_vendor_qcom_opensource_core-utils-sys" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_core-utils-sys|lineage-21.0" />
   <project path="vendor/qcom/opensource/core-utils-vendor" name="android_vendor_qcom_opensource_core-utils-vendor" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_core-utils-vendor|lineage-21.0" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um" remote="XOS" upstream="https://github.com/yaap/vendor_qcom_opensource_data-ipa-cfg-mgr|fifteen" />
