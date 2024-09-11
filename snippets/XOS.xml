@@ -30,7 +30,7 @@
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="shell.nix" dest="shell.nix" />
   </project>
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" merge-aosp="true" upstream="https://github.com/yaap/ |fifteen" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" merge-aosp="true" upstream="https://github.com/yaap/hardware_interfaces|fifteen" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" merge-aosp="true" upstream="https://github.com/yaap/hardware_libhardware|fifteen" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat|lineage-21.0" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/yaap/hardware_lineage_interfaces|fifteen" />
