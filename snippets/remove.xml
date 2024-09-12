@@ -88,6 +88,7 @@
   <remove-project path="build/make" name="platform/build" groups="pdk,sysui-studio" />
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
   <remove-project path="external/dtc" name="platform/external/dtc" groups="pdk"/>
+  <remove-project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <remove-project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />

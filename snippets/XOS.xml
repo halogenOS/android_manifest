@@ -24,7 +24,7 @@
   <project path="device/google/cuttlefish" name="android_device_google_cuttlefish" remote="XOS" merge-aosp="true" />
   <project path="external/dtc" name="android_external_dtc" remote="XOS" merge-aosp="true" />
   <!--project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk|lineage-21.0" /-->
-  <!--project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh|lineage-21.0" /-->
+  <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh|lineage-21.0" />
   <!--project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_tinycompress|lineage-21.0" /-->
   <project path="external/tinyxml" name="android_external_tinyxml" remote="XOS" upstream="https://git.halogenos.org/halogenOS/android_external_tinyxml|XOS-14.0" />
   <project path="external/xos" name="android_external_xos" remote="XOS">
