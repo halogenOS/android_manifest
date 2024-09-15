@@ -109,6 +109,7 @@
   <remove-project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
   <remove-project path="packages/modules/common" name="platform/packages/modules/common" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="system/bpf" name="platform/system/bpf" groups="pdk" />
+  <remove-project path="system/core" name="platform/system/core" groups="pdk" />
   <remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
   <remove-project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <remove-project path="system/libhidl" name="platform/system/libhidl" groups="pdk,sysui-studio" />
