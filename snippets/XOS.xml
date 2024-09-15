@@ -8,6 +8,9 @@
     revision="refs/heads/XOS-15.0"
   />
 
+  <project path="bionic" name="android_bionic" remote="XOS" merge-aosp="true" />
+  <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" remote="XOS" merge-aosp="true" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="XOS" merge-aosp="true" />
   <project path="build/make" name="android_build_make" remote="XOS" merge-aosp="true">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -22,19 +25,30 @@
   </project>
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-21.0" />
   <project path="device/google/cuttlefish" name="android_device_google_cuttlefish" remote="XOS" merge-aosp="true" />
-  <project path="external/dtc" name="android_external_dtc" remote="XOS" merge-aosp="true" />
-  <!--project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk|lineage-21.0" /-->
-  <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh|lineage-21.0" />
-  <!--project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_tinycompress|lineage-21.0" /-->
+  <project path="development" name="android_development" remote="XOS" merge-aosp="true" />
+  <project path="external/avb" name="android_external_avb" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_avb|lineage-22.0" />
+  <project path="external/dtc" name="android_external_dtc" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_dtc|lineage-22.0" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_e2fsprogs|lineage-22.0" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk|lineage-22.0" />
+  <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" revision="XOS-15.0.1" upstream="https://github.com/LineageOS/android_external_mksh|refs/changes/56/401656/1" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_tinycompress|refs/changes/67/401667/1" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="XOS" upstream="https://git.halogenos.org/halogenOS/android_external_tinyxml|XOS-14.0" />
+  <project path="external/zstd" name="android_external_zstd" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_zstd|refs/changes/69/401669/1" />
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="shell.nix" dest="shell.nix" />
   </project>
+  <project path="frameworks/av" name="android_frameworks_av" remote="XOS" merge-aosp="true" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" />
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="XOS" merge-aosp="true" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" merge-aosp="true" upstream="https://github.com/yaap/hardware_interfaces|fifteen" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" merge-aosp="true" upstream="https://github.com/yaap/hardware_libhardware|fifteen" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" merge-aosp="true" revision="XOS-15.0.1" upstream="https://github.com/LineageOS/android_hardware_libhardware|refs/changes/23/401723/1" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat|lineage-21.0" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/yaap/hardware_lineage_interfaces|fifteen" />
+  <project path="kernel/configs" name="android_kernel_configs" remote="XOS" merge-aosp="true" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
+  <project path="packages/modules/adb" name="android_packages_modules_adb" remote="XOS" merge-aosp="true" />
+  <project path="packages/modules/common" name="android_packages_modules_common" remote="XOS" merge-aosp="true" />
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" upstream="https://git.halogenos.org/halogenOS/android_packages_overlays_Custom|XOS-14.0" />
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" upstream="https://git.halogenos.org/halogenOS/android_packages_overlays_accents|XOS-14.0" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="XOS" upstream="https://github.com/LineageOS/android_packages_resources_devicesettings|lineage-21.0" />
@@ -45,6 +59,18 @@
   <project path="prebuilts/kernel-build-tools" name="android_prebuilts_kernel-build-tools" remote="XOS" upstream="https://android.googlesource.com/kernel/prebuilts/build-tools|tag|android-14.0.0_r0.76" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage|lineage-21.0" clone-depth="1" />
   <project path="product/halogenOS" name="android_product_halogenOS" remote="XOS" />
+  <project path="system/bpf" name="android_system_bpf" remote="XOS" merge-aosp="true" />
+  <project path="system/core" name="android_system_core" remote="XOS" merge-aosp="true" />
+  <project path="system/extras" name="android_system_extras" remote="XOS" merge-aosp="true" />
+  <project path="system/keymaster" name="android_system_keymaster" remote="XOS" merge-aosp="true" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="XOS" merge-aosp="true" />
+  <project path="system/libziparchive" name="android_system_libziparchive" remote="XOS" merge-aosp="true" />
+  <project path="system/logging" name="android_system_logging" remote="XOS" merge-aosp="true" />
+  <project path="system/media" name="android_system_media" remote="XOS" merge-aosp="true" />
+  <project path="system/security" name="android_system_security" remote="XOS" merge-aosp="true" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" merge-aosp="true" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="XOS" merge-aosp="true" />
+  <project path="system/vold" name="android_system_vold" remote="XOS" merge-aosp="true" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="XOS" upstream="https://github.com/LineageOS/android_tools_extract-utils|lineage-21.0" clone-depth="1" />
   <project path="vendor/support" name="android_vendor_support" remote="XOS" upstream="https://github.com/DerpFest-AOSP/vendor_support|14" />
 

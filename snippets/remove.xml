@@ -85,12 +85,38 @@
   <remove-project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="notdefault,platform-darwin,darwin,pdk,tradefed" clone-depth="1" />
 
   <!-- Replaced by tracked repository (see XOS.xml) -->
+  <remove-project path="bionic" name="platform/bionic" groups="pdk" />
+  <remove-project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" />
+  <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <remove-project path="build/make" name="platform/build" groups="pdk,sysui-studio" />
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
+  <remove-project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
+  <remove-project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
+  <remove-project path="external/avb" name="platform/external/avb" groups="pdk" />
   <remove-project path="external/dtc" name="platform/external/dtc" groups="pdk"/>
+  <remove-project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <remove-project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
   <remove-project path="external/mksh" name="platform/external/mksh" groups="pdk" />
+  <remove-project path="external/zstd" name="platform/external/zstd" groups="pdk" />
+  <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <remove-project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel,pdk-gs-arm" />
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
-  <remove-project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
+  <remove-project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
+  <remove-project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
+  <remove-project path="packages/modules/common" name="platform/packages/modules/common" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="system/bpf" name="platform/system/bpf" groups="pdk" />
+  <remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <remove-project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
+  <remove-project path="system/libhidl" name="platform/system/libhidl" groups="pdk,sysui-studio" />
+  <remove-project path="system/libziparchive" name="platform/system/libziparchive" groups="pdk" />
+  <remove-project path="system/logging" name="platform/system/logging" groups="pdk" />
+  <remove-project path="system/media" name="platform/system/media" groups="pdk" />
+  <remove-project path="system/security" name="platform/system/security" groups="pdk" />
+  <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
+  <remove-project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="pdk" />
+  <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
 
 </manifest>
