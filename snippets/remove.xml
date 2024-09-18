@@ -96,6 +96,7 @@
   <remove-project path="external/dtc" name="platform/external/dtc" groups="pdk"/>
   <remove-project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <remove-project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
+  <remove-project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <remove-project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <remove-project path="external/zstd" name="platform/external/zstd" groups="pdk" />

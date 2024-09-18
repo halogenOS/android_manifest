@@ -30,6 +30,7 @@
   <project path="external/dtc" name="android_external_dtc" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_dtc|lineage-22.0" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_e2fsprogs|lineage-22.0" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk|lineage-22.0" />
+  <project path="external/libcxx" "android_external_libcxx" remote="XOS" merge-aosp="true" />
   <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" revision="XOS-15.0.1" upstream="https://github.com/LineageOS/android_external_mksh|refs/changes/56/401656/1" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_tinycompress|refs/changes/67/401667/1" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="XOS" upstream="https://git.halogenos.org/halogenOS/android_external_tinyxml|XOS-14.0" />
