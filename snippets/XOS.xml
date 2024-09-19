@@ -48,6 +48,18 @@
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/yaap/hardware_lineage_interfaces|fifteen" />
   <project path="kernel/configs" name="android_kernel_configs" remote="XOS" merge-aosp="true" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Aperture|lineage-21.0" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_packages_apps_DeskClock|lineage-21.0" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_packages_apps_ExactCalculator|lineage-21.0" />
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|lineage-21.0" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="XOS" merge-aosp="true" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="XOS" merge-aosp="true" upstream="https://git.halogenos.org/halogenOS/android_packages_inputmethods_LatinIME|XOS-14.0" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/common" name="android_packages_modules_common" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="XOS" merge-aosp="true" />
