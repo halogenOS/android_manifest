@@ -62,6 +62,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="XOS" merge-aosp="true" upstream="https://git.halogenos.org/halogenOS/android_packages_inputmethods_LatinIME|XOS-14.0" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/common" name="android_packages_modules_common" remote="XOS" merge-aosp="true" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="XOS" merge-aosp="true" />
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" upstream="https://git.halogenos.org/halogenOS/android_packages_overlays_Custom|XOS-14.0" />
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" upstream="https://git.halogenos.org/halogenOS/android_packages_overlays_accents|XOS-14.0" />
