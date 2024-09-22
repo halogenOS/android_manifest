@@ -55,6 +55,7 @@
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat|lineage-21.0" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/yaap/hardware_lineage_interfaces|fifteen" />
   <project path="kernel/configs" name="android_kernel_configs" remote="XOS" merge-aosp="true" />
+  <project path="lineage/scripts" name="android_lineage_scripts" remote="XOS" upstream="https://github.com/LineageOS/scripts|main" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Aperture|lineage-21.0" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="XOS" merge-aosp="true" />
