@@ -88,6 +88,7 @@
   <remove-project path="bionic" name="platform/bionic" groups="pdk" />
   <remove-project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" />
   <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <remove-project path="build/bazel" name="platform/build/bazel" groups="pdk" />
   <remove-project path="build/make" name="platform/build" groups="pdk,sysui-studio" />
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
   <remove-project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />

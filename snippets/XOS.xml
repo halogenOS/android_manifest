@@ -11,6 +11,10 @@
   <project path="bionic" name="android_bionic" remote="XOS" merge-aosp="true" />
   <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" remote="XOS" merge-aosp="true" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="XOS" merge-aosp="true" />
+  <project path="build/bazel" name="android_build_bazel" remote="XOS" merge-aosp="true">
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="bazel.BUILD" dest="BUILD" />
+  </project>
   <project path="build/make" name="android_build_make" remote="XOS" merge-aosp="true">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
