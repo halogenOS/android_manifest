@@ -57,7 +57,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" merge-aosp="true" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" merge-aosp="true" revision="XOS-15.0.1" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat|lineage-22.0" />
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces|lineage-22.0" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" revision="XOS-15.0.1" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces|lineage-22.0" />
   <project path="kernel/configs" name="android_kernel_configs" remote="XOS" merge-aosp="true" />
   <project path="lineage/scripts" name="android_lineage_scripts" remote="XOS" upstream="https://github.com/LineageOS/scripts|main" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
