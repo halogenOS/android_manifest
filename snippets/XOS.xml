@@ -27,7 +27,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-21.0" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-22.0" />
   <project path="device/google/cuttlefish" name="android_device_google_cuttlefish" remote="XOS" merge-aosp="true" />
   <project path="development" name="android_development" remote="XOS" merge-aosp="true" />
   <project path="external/avb" name="android_external_avb" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_avb|lineage-22.0" />
@@ -43,10 +43,10 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_e2fsprogs|lineage-22.0" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk|lineage-22.0" />
   <project path="external/libcxx" name="android_external_libcxx" remote="XOS" merge-aosp="true" />
-  <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" revision="XOS-15.0.1" upstream="https://github.com/LineageOS/android_external_mksh|refs/changes/56/401656/1" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_tinycompress|refs/changes/67/401667/1" />
+  <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" revision="XOS-15.0.1" upstream="https://github.com/LineageOS/android_external_mksh|lineage-22.0" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_tinycompress|lineage-22.0" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="XOS" />
-  <project path="external/zstd" name="android_external_zstd" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_zstd|refs/changes/69/401669/1" />
+  <project path="external/zstd" name="android_external_zstd" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_zstd|lineage-22.0" />
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="shell.nix" dest="shell.nix" />
   </project>
@@ -56,17 +56,17 @@
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="XOS" merge-aosp="true" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" merge-aosp="true" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" merge-aosp="true" revision="XOS-15.0.1" />
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat|lineage-21.0" />
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/yaap/hardware_lineage_interfaces|fifteen" />
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat|lineage-22.0" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces|lineage-22.0" />
   <project path="kernel/configs" name="android_kernel_configs" remote="XOS" merge-aosp="true" />
   <project path="lineage/scripts" name="android_lineage_scripts" remote="XOS" upstream="https://github.com/LineageOS/scripts|main" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
-  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Aperture|lineage-21.0" />
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Aperture|lineage-22.0" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="XOS" merge-aosp="true" upstream="https://github.com/yaap/packages_apps_Contacts|fifteen" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="XOS" revision="XOS-15.0.2" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_DeskClock|staging/android15" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="XOS" merge-aosp="true" revision="XOS-15.0.1" />
-  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_ExactCalculator|lineage-21.0" />
-  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|lineage-21.0" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_ExactCalculator|lineage-22.0" />
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|lineage-22.0" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="XOS" merge-aosp="true" revision="XOS-15.0.1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" merge-aosp="true" />
@@ -79,14 +79,14 @@
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="XOS" merge-aosp="true" />
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" />
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" />
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="XOS" upstream="https://github.com/LineageOS/android_packages_resources_devicesettings|lineage-21.0" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="XOS" upstream="https://github.com/LineageOS/android_packages_resources_devicesettings|lineage-22.0" />
   <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b|lineage-20.0" clone-depth="1" />
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="XOS" clone-depth="1" upstream="https://github.com/LineageOS/android_prebuilts_extract-tools|lineage-22.0" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9|lineage-19.1" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9|lineage-19.1" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9|lineage-19.1" clone-depth="1" />
-  <project path="prebuilts/kernel-build-tools" name="android_prebuilts_kernel-build-tools" remote="XOS" upstream="https://android.googlesource.com/kernel/prebuilts/build-tools|tag|android-14.0.0_r0.76" clone-depth="1" />
-  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage|lineage-21.0" clone-depth="1" />
+  <project path="prebuilts/kernel-build-tools" name="android_prebuilts_kernel-build-tools" remote="XOS" upstream="https://android.googlesource.com/kernel/prebuilts/build-tools|tag|android-15.0.0_r0.10" clone-depth="1" />
+  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage|lineage-22.0" clone-depth="1" />
   <project path="product/halogenOS" name="android_product_halogenOS" remote="XOS" />
   <project path="system/bpf" name="android_system_bpf" remote="XOS" merge-aosp="true" />
   <project path="system/core" name="android_system_core" remote="XOS" merge-aosp="true" />
@@ -100,7 +100,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" merge-aosp="true" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="XOS" merge-aosp="true" />
   <project path="system/vold" name="android_system_vold" remote="XOS" merge-aosp="true" />
-  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="XOS" upstream="https://github.com/LineageOS/android_tools_extract-utils|lineage-21.0" clone-depth="1" />
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="XOS" upstream="https://github.com/LineageOS/android_tools_extract-utils|lineage-22.0" clone-depth="1" />
   <project path="vendor/support" name="android_vendor_support" remote="XOS" upstream="https://github.com/DerpFest-AOSP/vendor_support|14" />
 
   <!-- QCOM support -->
