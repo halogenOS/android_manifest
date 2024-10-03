@@ -54,8 +54,8 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
   <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" />
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="XOS" merge-aosp="true" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" merge-aosp="true" upstream="https://github.com/yaap/hardware_interfaces|fifteen" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" merge-aosp="true" revision="XOS-15.0.1" upstream="https://github.com/LineageOS/android_hardware_libhardware|refs/changes/23/401723/1" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" merge-aosp="true" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" merge-aosp="true" revision="XOS-15.0.1" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat|lineage-21.0" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/yaap/hardware_lineage_interfaces|fifteen" />
   <project path="kernel/configs" name="android_kernel_configs" remote="XOS" merge-aosp="true" />
