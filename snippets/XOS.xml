@@ -23,6 +23,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/release" name="android_build_release" remote="XOS" merge-aosp="true" />
   <project path="build/soong" name="android_build_soong" remote="XOS" merge-aosp="true">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />

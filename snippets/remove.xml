@@ -90,6 +90,7 @@
   <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <remove-project path="build/bazel" name="platform/build/bazel" groups="pdk" />
   <remove-project path="build/make" name="platform/build" groups="pdk,sysui-studio" />
+  <remove-project path="build/release" name="platform/build/release" groups="pdk,tradefed" />
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
   <remove-project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
   <remove-project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
