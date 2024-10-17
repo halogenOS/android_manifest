@@ -94,6 +94,7 @@
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
   <remove-project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
   <remove-project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
+  <remove-project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" />
   <remove-project path="external/avb" name="platform/external/avb" groups="pdk" />
   <remove-project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
   <remove-project path="external/dtc" name="platform/external/dtc" groups="pdk"/>

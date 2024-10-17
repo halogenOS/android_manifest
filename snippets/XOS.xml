@@ -31,6 +31,7 @@
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-22.0" />
   <project path="device/google/cuttlefish" name="android_device_google_cuttlefish" remote="XOS" merge-aosp="true" />
   <project path="development" name="android_development" remote="XOS" merge-aosp="true" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="XOS" merge-aosp="true" upstream="https://github.com/ARM-software/optimzed-routines|master" />
   <project path="external/avb" name="android_external_avb" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_avb|lineage-22.0" />
   <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" remote="XOS" upstream="https://github.com/LineageOS/android_external_chromium-webview_patches|main">
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
