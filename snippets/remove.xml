@@ -69,66 +69,62 @@
 
   <!-- Replaced by tracked repository (see XOS.xml) -->
   <remove-project path="bionic" name="platform/bionic" groups="pdk" />
+  <remove-project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" />
   <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  <remove-project path="build/make" name="platform/build" groups="pdk" />
+  <remove-project path="build/bazel" name="platform/build/bazel" groups="pdk" />
+  <remove-project path="build/make" name="platform/build" groups="pdk,sysui-studio" />
+  <remove-project path="build/release" name="platform/build/release" groups="pdk,tradefed" />
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
+  <remove-project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
   <remove-project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
+  <remove-project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" />
+  <remove-project path="external/avb" name="platform/external/avb" groups="pdk" />
+  <remove-project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
   <remove-project path="external/dtc" name="platform/external/dtc" groups="pdk"/>
+  <remove-project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <remove-project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
   <remove-project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
-  <remove-project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="external/mksh" name="platform/external/mksh" groups="pdk" />
-  <remove-project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
+  <remove-project path="external/zstd" name="platform/external/zstd" groups="pdk" />
   <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="frameworks/libs/modules-utils" name="platform/frameworks/libs/modules-utils" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
-  <remove-project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
-  <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
+  <remove-project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel,pdk-gs-arm" />
+  <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
-  <remove-project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <remove-project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
+  <remove-project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <remove-project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
   <remove-project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <remove-project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
-  <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
+  <remove-project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
+  <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
   <remove-project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
-  <remove-project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <remove-project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" groups="pdk-fs" />
-  <remove-project path="packages/apps/ThemePicker" name="platform/packages/apps/ThemePicker" groups="pdk-fs" />
-  <remove-project path="packages/apps/WallpaperPicker2" name ="platform/packages/apps/WallpaperPicker2" groups="pdk-fs" />
+  <remove-project path="packages/apps/ThemePicker" name="platform/packages/apps/ThemePicker" groups="pdk-fs,sysui-studio" />
+  <remove-project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" groups="pdk-fs,sysui-studio" />
   <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <remove-project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
+  <remove-project path="packages/modules/common" name="platform/packages/modules/common" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth" groups="pdk" />
   <remove-project path="packages/modules/Connectivity" name="platform/packages/modules/Connectivity" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-fs" />
-  <remove-project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="packages/modules/RemoteKeyProvisioning" name="platform/packages/modules/RemoteKeyProvisioning" groups="pdk-cw-fs,pdk-fs"/>
-  <remove-project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" />
-  <remove-project path="prebuilts/module_sdk/Wifi" name="platform/prebuilts/module_sdk/Wifi" groups="pdk" clone-depth="1" />
+  <remove-project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <remove-project path="system/bpf" name="platform/system/bpf" groups="pdk" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
-  <remove-project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />
-  <remove-project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" />
-  <remove-project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
+  <remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <remove-project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
+  <remove-project path="system/libhidl" name="platform/system/libhidl" groups="pdk,sysui-studio" />
+  <remove-project path="system/libziparchive" name="platform/system/libziparchive" groups="pdk" />
   <remove-project path="system/logging" name="platform/system/logging" groups="pdk" />
   <remove-project path="system/media" name="platform/system/media" groups="pdk" />
-  <remove-project path="system/netd" name="platform/system/netd" groups="pdk" />
-  <remove-project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <remove-project path="system/security" name="platform/system/security" groups="pdk" />
   <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
+  <remove-project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="pdk" />
   <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
-
-  <!-- Replaced by alternative (see XOS.xml) -->
-  <remove-project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
-  <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
-  <remove-project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
 
 </manifest>
