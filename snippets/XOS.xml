@@ -51,6 +51,7 @@
   <project path="external/zstd" name="android_external_zstd" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_zstd|lineage-22.0" />
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="shell.nix" dest="shell.nix" />
+    <linkfile src="fhs.nix" dest="fhs.nix" />
   </project>
   <project path="frameworks/av" name="android_frameworks_av" remote="XOS" merge-aosp="true" />
   <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
