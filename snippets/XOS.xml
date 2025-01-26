@@ -85,10 +85,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
   </project>
   <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom-caf_msm8953_audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-22.2-caf-msm8953" />
   <project path="hardware/qcom-caf/msm8953/display" name="android_hardware_qcom-caf_msm8953_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-22.2-caf-msm8953" />
