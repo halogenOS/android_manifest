@@ -53,6 +53,7 @@
     <linkfile src="shell.nix" dest="shell.nix" />
     <linkfile src="fhs.nix" dest="fhs.nix" />
   </project>
+  <project path="external/xos-infra" name="android_external_xos-infra" remote="XOS" revision="main" />
   <project path="frameworks/av" name="android_frameworks_av" remote="XOS" merge-aosp="true" />
   <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
   <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" />
