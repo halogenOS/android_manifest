@@ -9,8 +9,6 @@
   />
 
   <project path="external/xos" name="android_external_xos" remote="XOS">
-    <linkfile src="shell.nix" dest="shell.nix" />
-    <linkfile src="fhs.nix" dest="fhs.nix" />
     <linkfile src="devshell/toplevel.envrc" dest=".envrc" />
   </project>
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
