@@ -56,6 +56,7 @@
   <remove-project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" groups="device,hikey,pdk" clone-depth="1" />
   <remove-project path="device/linaro/poplar" name="device/linaro/poplar" groups="device,poplar,pdk" />
   <remove-project path="device/linaro/poplar-kernel" name="device/linaro/poplar-kernel" groups="device,poplar,pdk" clone-depth="1" />
+  <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <remove-project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
   <remove-project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <remove-project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
