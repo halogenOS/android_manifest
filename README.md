@@ -8,59 +8,17 @@ Before beginning this entire process, please ensure you have sufficient storage 
 You should expect to need at least 200 GB of storage for sources and a full build, although a minimum of 500 GB of
 available space is recommended. Avoid using SSDs with short lifetime, such as TLC/QLC SSDs that have little capacity.
 
-Before you continue, make sure you follow the [Setting up a Linux build environment](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment) guide as it contains a lot of useful and important information regarding building AOSP.
+Before you continue, make sure you read the [Setting up a Linux build environment](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment) guide as it contains a lot of useful and important information regarding building AOSP.
 
-You should familiarize yourself with all the AOSP basics on the [Android OS Documentation](https://source.android.com/docs) page.
-
-#### Arch builders, ahoy!
-
-We recommend building on Arch as that is what we use for daily building and development.
-You can install all necessary packages using following commands (let us know if there's anything missing):
-
-```
-sudo pacman -Syu --needed --noconfirm \
-      base-devel bc ccache curl git gnupg \
-      inetutils iputils net-tools libxslt ncurses \
-      repo rsync squashfs-tools unzip \
-      zip zlib ffmpeg lzop ninja pngcrush openssl \
-      gradle maven libxcrypt-compat xmlstarlet \
-      openssh imagemagick jq
-```
-
-Also you have to install `ncurses5-compat-libs` from AUR using your favorite package manager  (E.g. `yay`, `aura`).
+You should familiarize yourself with all the AOSP basics on the [AOSP documentation](https://source.android.com/docs) page.
 
 #### __1. Getting Started__
 
-To get started with XOS, you should first become familiar with the basics of the utilities named [Git](http://rogerdudler.github.io/git-guide/) and [repo](https://source.android.com/source/using-repo.html), if using a development oriented distro or are already an actual developer working with source based Android ROMs or other similar projects you should more likely than not already have these obtained, if not here's an idea of what one should do below.
+Make sure you have an environment suitable for building AOSP. If you use NixOS or Nix, you can follow the guidance
+in step 3.
 
-__Installing repo__
-
-```bash
-mkdir -p ~/bin
-curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-chmod a+x ~/bin/repo
-```
-
-Now add the directory to your PATH variable in your environment (e. g. by appending it to your `~/.bashrc` and running the same command in your shell)
-
-```bash
-export PATH="$HOME/bin:$PATH"
-```
-
-On Arch, you can also use the `repo` package.
-
-__Installing git__
-
-If you followed the Arch Linux steps above, you can go right to step 2.
-Git would more likely than not probably be already installed in your distribution, if it is not then you should try one of the following terminal commands depending on your distribution:
-
-```bash
-Ubuntu, Debian (apt): apt-get install git
-OpenSUSE: zypper install git
-Fedora: yum install git-all
-Gentoo: emerge --ask --verbose dev-vcs/git
-Arch Linux: pacman -S git # this was listed above already, you can skip it
-```
+For the sake of brevity and avoiding outdated information, we will no longer include instructions on how to set up
+a build environment on distributions like Debian, Ubuntu, Fedora, Arch, etc.
 
 #### __2. Initiating Repository and Acquiring Sources__
 
@@ -111,6 +69,13 @@ It's recommended to place CCache on a separate SSD to take advantage of the full
 
 #### __3. Building__
 
+We use NixOS and Nix for setting up a development and build environment suitable for AOSP.
+To use this, you can run `nix develop path:external/xos/devshell` to enter said environment which will already
+have everything installed so you can get started right away, batteries included.
+
+In case you have `direnv` installed and set up in your shell, you can `direnv allow` our `.envrc` and then
+simply run `aosp-env` which will be equivalent to running the `nix` command mentioned previously.
+
 First, in order to build XOS, you should source the `build/envsetup.sh` script in your shell.
 This will set up your environment so that you can start building.
 
@@ -122,13 +87,13 @@ Use following command to start a full build. You can also use `m`, `make` and si
 If you use other commands make sure you have lunched before starting a build.
 
 ```bash
-build full aosp_<device>-userdebug
+build full aosp_<device>-bp1a-userdebug
 ```
 
 Example:
 
 ```bash
-build full aosp_cheeseburger-userdebug
+build full aosp_Pong-bp1a-userdebug
 ```
 
-This `build` command is a specialty made by the XOS team. It does everything for you, from lunching to initiating a new build, as well as finding out which amount of threads are optimal for your machine. Hence you must not specify a thread count using `-j` on this command, as that will be done automatically for you. **If you want to do a dirty build (i. e. skip `make clean`), simply add `noclean` to the end of your command like this:** `build full aosp_<device>-userdebug noclean`
+This `build` command is a specialty made by the XOS team. It does everything for you, from lunching to initiating a new build, as well as finding out which amount of threads are optimal for your machine. Hence you must not specify a thread count using `-j` on this command, as that will be done automatically for you. **If you want to do a dirty build (i. e. skip `make clean`), simply add `noclean` to the end of your command like this:** `build full aosp_<device>-bp1a-userdebug noclean`
