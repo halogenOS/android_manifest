@@ -73,6 +73,7 @@
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed,sysui-studio" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <remove-project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" />
+  <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
 
