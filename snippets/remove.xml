@@ -71,6 +71,7 @@
   <remove-project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <remove-project path="build/make" name="platform/build" groups="pdk,sysui-studio" />
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed,sysui-studio" />
+  <remove-project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
