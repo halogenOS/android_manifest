@@ -25,16 +25,40 @@
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="devshell/toplevel.envrc" dest=".envrc" />
   </project>
-    <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
+  <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" remote="XOS" upstream="https://github.com/LineageOS/android_external_chromium-webview_patches|main">
+    <linkfile src="os_pickup.mk" dest="external/chromium-webview/Android.mk" />
+    <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" remote="XOS" clone-depth="1" revision="XOS-15.2" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm|main" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="XOS" clone-depth="1" revision="XOS-15.2" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64|main" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" remote="XOS" clone-depth="1" revision="XOS-15.2" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64|main" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
   <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="XOS" merge-aosp="true" />
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="XOS" merge-aosp="true" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="XOS" merge-aosp="true" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" merge-aosp="true" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat|lineage-22.2" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces|lineage-22.2" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Aperture|lineage-22.2" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="XOS" merge-aosp="true" upstream="https://github.com/yaap/packages_apps_Contacts|fifteen" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_DeskClock|android15-qpr2" />
+  <!--project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="XOS" merge-aosp="true" /-->
+  <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Etar|lineage-22.2" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_ExactCalculator|lineage-22.2" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Gallery2|lineage-22.2" />
+  <project path="packages/apps/Glimpse" name="android_packages_apps_Glimpse" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Glimpse|lineage-22.2" />
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|lineage-22.2" />
+  <!--project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="XOS" merge-aosp="true" /-->
+  <!--project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="XOS" merge-aosp="true" /-->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Wallpapers" name="android_packages_apps_Wallpapers" remote="XOS" />
+  <!--project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="XOS" merge-aosp="true" /-->
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="XOS" merge-aosp="true" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="XOS" merge-aosp="true" />
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" />
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="XOS" upstream="https://github.com/LineageOS/android_packages_resources_devicesettings|lineage-22.2" />
