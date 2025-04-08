@@ -83,6 +83,7 @@
   <remove-project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" />
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
+  <remove-project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <remove-project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth" groups="pdk" />
   <remove-project path="packages/modules/Connectivity" name="platform/packages/modules/Connectivity" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
