@@ -84,6 +84,7 @@
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="android_device_qcom_sepolicy_vndr_legacy-um" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr|lineage-22.2-legacy-um" />
   <project path="device/qcom/sepolicy_vndr/sm8450" name="android_device_qcom_sepolicy_vndr_sm8450" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr|lineage-22.2-caf-sm8450" />
   <project path="device/qcom/sepolicy_vndr/sm8550" name="android_device_qcom_sepolicy_vndr_sm8550" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr|lineage-22.2-caf-sm8550" />
+  <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr_sm8650" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr|lineage-22.2-caf-sm8650" />
   <project path="device/qcom/qssi" name="android_device_qcom_qssi" remote="XOS" upstream="https://github.com/AOSPA/android_device_qcom_qssi|vauxite" />
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_client|lineage-22.2" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_native|lineage-22.2" />
@@ -117,6 +118,8 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8650/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
   </project>
   <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom-caf_msm8953_audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-22.2-caf-msm8953" />
   <project path="hardware/qcom-caf/msm8953/display" name="android_hardware_qcom-caf_msm8953_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-22.2-caf-msm8953" />
@@ -141,21 +144,24 @@
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom-caf_sm8250_media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-22.2-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom-caf_sm8350_audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio|lineage-22.2-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom-caf_sm8350_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-22.2-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom-caf_sm8350_media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-22.1-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8450/audio/agm" name="android_hardware_qcom-caf_sm8450_audio_agm" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_agm|lineage-22.2-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/audio/graphservices" name="android_hardware_qcom-caf_sm8450_audio_graphservices" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices|lineage-22.2-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/audio/pal" name="android_hardware_qcom-caf_sm8450_audio_pal" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx|lineage-22.2-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="android_hardware_qcom-caf_sm8450_audio_primary-hal" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio-ar|lineage-22.2-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="android_hardware_qcom-caf_sm8450_data-ipa-cfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr|lineage-22.2-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/display" name="android_hardware_qcom-caf_sm8450_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-22.2-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/media" name="android_hardware_qcom-caf_sm8450_media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-22.1-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8550/audio/agm" name="android_hardware_qcom-caf_sm8550_audio_agm" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_agm|lineage-22.2-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/audio/pal" name="android_hardware_qcom-caf_sm8550_audio_pal" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx|lineage-22.2-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="android_hardware_qcom-caf_sm8550_audio_primary-hal" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio-ar|lineage-22.2-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="android_hardware_qcom-caf_sm8550_data-ipa-cfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr|lineage-22.2-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/dataipa" name="android_hardware_qcom-caf_sm8550_dataipa" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa|lineage-22.2-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/display" name="android_hardware_qcom-caf_sm8550_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/media" name="android_hardware_qcom-caf_sm8550_media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media|lineage-22.1-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8650/audio/agm" name="android_hardware_qcom-caf_sm8550_audio_agm" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_agm|lineage-22.2-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/audio/pal" name="android_hardware_qcom-caf_sm8550_audio_pal" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx|lineage-22.2-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="android_hardware_qcom-caf_sm8550_audio_primary-hal" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio-ar|lineage-22.2-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="android_hardware_qcom-caf_sm8550_data-ipa-cfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr|lineage-22.2-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/dataipa" name="android_hardware_qcom-caf_sm8550_dataipa" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa|lineage-22.2-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/display" name="android_hardware_qcom-caf_sm8550_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display|lineage-22.2-caf-sm8650" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom-caf_thermal" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_thermal|lineage-22.2" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_wlan|lineage-22.2-caf" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_codeaurora_telephony|lineage-22.2" />
