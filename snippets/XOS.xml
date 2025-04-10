@@ -8,6 +8,8 @@
     revision="refs/heads/XOS-15.2"
   />
 
+  <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" remote="XOS" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="XOS" />
   <project path="build/blueprint" name="android_build_blueprint" remote="XOS" />
   <project path="build/make" name="android_build_make" remote="XOS" merge-aosp="true">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
