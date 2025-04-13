@@ -103,6 +103,7 @@
   <remove-project path="packages/apps/ThemePicker" name="platform/packages/apps/ThemePicker" groups="pdk-fs,sysui-studio" />
   <remove-project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" groups="pdk-fs,sysui-studio" />
   <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
+  <remove-project path="system/bpf" name="platform/system/bpf" groups="pdk" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
   <remove-project path="system/security" name="platform/system/security" groups="pdk" />
   <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
