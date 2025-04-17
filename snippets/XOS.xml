@@ -23,6 +23,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="build/release" name="android_build_release" remote="XOS" merge-aosp="true" />
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-22.2" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="XOS" merge-aosp="true" upstream="https://github.com/ARM-software/optimized-routines|master" />
   <project path="external/dtc" name="android_external_dtc" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_dtc|lineage-22.2" />
