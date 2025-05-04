@@ -8,7 +8,7 @@
     revision="refs/heads/XOS-15.2"
   />
 
-  <project path="bionic" name="bionic" remote="XOS" />
+  <project path="bionic" name="android_bionic" remote="XOS" />
   <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" remote="XOS" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="XOS" />
   <project path="build/blueprint" name="android_build_blueprint" remote="XOS" />
