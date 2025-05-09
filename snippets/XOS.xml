@@ -42,6 +42,7 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_e2fsprogs|lineage-22.2" />
   <project path="external/kotlinc" name="android_external_kotlinc" remote="XOS" merge-aosp="true" />
   <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh|lineage-22.2" />
+  <project path="external/seedvault-chunker" name="android_external_seedvault-chunker" remote="XOS" upstream="https://github.com/GrapheneOS/seedvault-chunker|main" />
   <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
   <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="XOS" merge-aosp="true" />
@@ -65,6 +66,7 @@
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly|lineage-22.2" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="XOS" upstream="https://github.com/GrapheneOS/platform_packages_apps_Seedvault|15-qpr2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="XOS" merge-aosp="true" />
