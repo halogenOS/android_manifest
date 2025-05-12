@@ -43,6 +43,7 @@
   <project path="external/kotlinc" name="android_external_kotlinc" remote="XOS" merge-aosp="true" />
   <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh|lineage-22.2" />
   <project path="external/seedvault-chunker" name="android_external_seedvault-chunker" remote="XOS" upstream="https://github.com/GrapheneOS/seedvault-chunker|main" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="XOS" merge-aosp="true" />
   <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
   <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="XOS" merge-aosp="true" />
