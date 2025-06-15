@@ -79,7 +79,7 @@
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" />
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="XOS" upstream="https://github.com/LineageOS/android_packages_resources_devicesettings|lineage-22.2" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="XOS" merge-aosp="true" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="XOS" merge-aosp="true" clone-depth="1" />
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="XOS" clone-depth="1" upstream="https://github.com/LineageOS/android_prebuilts_extract-tools|lineage-22.2" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9|lineage-19.1" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9|lineage-19.1" clone-depth="1" />
