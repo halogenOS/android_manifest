@@ -8,6 +8,7 @@
     revision="refs/heads/XOS-16.0"
   />
 
+  <project path="device/generic/common" name="android_device_generic_common" remote="XOS" merge-aosp="true" />
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="devshell/toplevel.envrc" dest=".envrc" />
   </project>
