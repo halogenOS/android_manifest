@@ -97,3 +97,11 @@ build full aosp_Pong-bp1a-userdebug
 ```
 
 This `build` command is a specialty made by the XOS team. It does everything for you, from lunching to initiating a new build, as well as finding out which amount of threads are optimal for your machine. Hence you must not specify a thread count using `-j` on this command, as that will be done automatically for you. **If you want to do a dirty build (i. e. skip `make clean`), simply add `noclean` to the end of your command like this:** `build full aosp_<device>-bp1a-userdebug noclean`
+
+If you'd like to build for the SDK emulator, you can use the following sequence of commands to build and launch the emulator:
+
+```
+lunch aosp_sdk_phone_x86_64 bp2a eng
+m
+emulator
+```
