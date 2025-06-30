@@ -26,6 +26,7 @@
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="devshell/toplevel.envrc" dest=".envrc" />
   </project>
+  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" />
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" />
