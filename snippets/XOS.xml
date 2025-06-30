@@ -20,6 +20,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/generic/common" name="android_device_generic_common" remote="XOS" merge-aosp="true" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy|lineage-23.0" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_e2fsprogs|lineage-23.0" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk|lineage-23.0" />
   <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh|lineage-23.0" />
@@ -27,12 +28,17 @@
     <linkfile src="devshell/toplevel.envrc" dest=".envrc" />
   </project>
   <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat|lineage-23.0" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces|ineage-23.0" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" />
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="XOS" upstream="https://github.com/LineageOS/android_packages_resources_devicesettings|lineage-23.0" />
+  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage|lineage-23.0" clone-depth="1" />
   <project path="product/halogenOS" name="android_product_halogenOS" remote="XOS" />
   <project path="platform_testing" name="android_platform_testing" remote="XOS" merge-aosp="true" />
   <project path="system/core" name="android_system_core" remote="XOS" merge-aosp="true" />
   <project path="system/vold" name="android_system_vold" remote="XOS" merge-aosp="true" />
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="XOS" upstream="https://github.com/LineageOS/android_tools_extract-utils|lineage-23.0" clone-depth="1" />
 
 </manifest>
