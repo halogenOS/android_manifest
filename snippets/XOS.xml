@@ -88,7 +88,7 @@
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_client#lineage-22.2" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_native#lineage-22.2" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_service#lineage-22.2" />
-  <project path="external/tinyxml" name="platform/external/tinyxml" remote="XOS" upstream="https://android.googlesource.com/platform/external/tinyxml#tag#android-11.0.0_r46" />
+  <project path="external/tinyxml" name="android_external_tinyxml" remote="XOS" upstream="https://android.googlesource.com/platform/external/tinyxml#tag#android-11.0.0_r46" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-22.2" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bt#lineage-22.2" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_camera#lineage-22.2" />
