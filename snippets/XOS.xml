@@ -25,10 +25,18 @@
   <project path="device/generic/common" name="android_device_generic_common" remote="XOS" merge-aosp="true" />
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy#lineage-23.0" />
   <project path="external/avb" name="android_external_avb" merge-aosp="true" remote="XOS" upstream="https://github.com/LineageOS/android_external_avb#lineage-23.0" />
+  <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" remote="XOS" upstream="https://github.com/LineageOS/android_external_chromium-webview_patches|main">
+    <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" remote="XOS" clone-depth="1" revision="XOS-16.0" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm|main" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="XOS" clone-depth="1" revision="XOS-16.0" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64|main" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" remote="XOS" clone-depth="1" revision="XOS-16.0" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64|main" />
   <project path="external/dtc" name="android_external_dtc" merge-aosp="true" remote="XOS" upstream="https://github.com/LineageOS/android_external_dtc#lineage-23.0" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_e2fsprogs#lineage-23.0" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk#lineage-23.0" />
   <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh#lineage-23.0" />
+  <project path="external/seedvault-chunker" name="android_external_seedvault-chunker" remote="XOS" upstream="https://github.com/GrapheneOS/seedvault-chunker|main" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_tinycompress#lineage-23.0" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="XOS" merge-aosp="true" />
   <project path="external/xos" name="android_external_xos" remote="XOS">
@@ -50,7 +58,19 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="XOS" merge-aosp="true" />
   <project path="kernel/configs" name="android_kernel_configs" remote="XOS" merge-aosp="true" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Aperture#lineage-23.0" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="XOS" merge-aosp="true" upstream="https://github.com/yaap/packages_apps_Contacts|sixteen" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_DeskClock|staging/android16" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="XOS" merge-aosp="true" upstream="XOS-15.2" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Etar#lineage-22.2" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_ExactCalculator#lineage-23.0" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="XOS" upstream="XOS-15.2" />
+  <project path="packages/apps/Glimpse" name="android_packages_apps_Glimpse" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Glimpse#lineage-23.0" />
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="XOS" upstream="XOS-15.2" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="XOS" upstream="https://github.com/GrapheneOS/platform_packages_apps_Seedvault#16" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="XOS" merge-aosp="true" />
