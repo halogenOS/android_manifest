@@ -101,7 +101,6 @@ This `build` command is a specialty made by the XOS team. It does everything for
 If you'd like to build for the SDK emulator, you can use the following sequence of commands to build and launch the emulator:
 
 ```
-lunch aosp_sdk_phone_x86_64 bp2a eng
-m
+build full aosp_sdk_phone_x86_64-bp2a-userdebug
 emulator
 ```
