@@ -88,6 +88,7 @@
   <project path="product/halogenOS" name="android_product_halogenOS" remote="XOS" />
   <project path="system/bpf" name="android_system_bpf" remote="XOS" merge-aosp="true" />
   <project path="system/core" name="android_system_core" remote="XOS" merge-aosp="true" />
+  <project path="system/nfc" name="android_system_nfc" remote="XOS" merge-aosp="true" />
   <project path="system/security" name="android_system_security" remote="XOS" merge-aosp="true" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" merge-aosp="true" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="XOS" merge-aosp="true" />
