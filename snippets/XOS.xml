@@ -32,9 +32,9 @@
     <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
     <linkfile src="README" dest="external/chromium-webview/README" />
   </project>
-  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" remote="XOS" clone-depth="1" revision="XOS-16.0" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm|main" />
-  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="XOS" clone-depth="1" revision="XOS-16.0" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64|main" />
-  <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" remote="XOS" clone-depth="1" revision="XOS-16.0" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64|main" />
+  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" remote="XOS" clone-depth="1" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm|main" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="XOS" clone-depth="1" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64|main" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" remote="XOS" clone-depth="1" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64|main" />
   <project path="external/custom-fonts" name="android_external_custom-fonts" remote="XOS" />
   <project path="external/dtc" name="android_external_dtc" merge-aosp="true" remote="XOS" upstream="https://github.com/LineageOS/android_external_dtc#lineage-23.0" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_e2fsprogs#lineage-23.0" />
