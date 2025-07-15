@@ -236,7 +236,7 @@
   <project path="hardware/qcom-caf/sm8750/display/intf" name="android_hardware_qcom-caf_sm8750_display_intf" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf#lineage-22.2-caf-sm8750" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom-caf_thermal" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_thermal#lineage-23.0" />
   <project path="hardware/qcom-caf/thermal-legacy-um" name="android_hardware_qcom-caf_thermal-legacy-um" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_thermal#lineage-23.0-legacy-um" />
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_wlan#lineage-22.2-caf" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_wlan#lineage-23.0-caf" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_codeaurora_telephony#lineage-22.2" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal#lineage-22.2" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar#lineage-22.2" />
