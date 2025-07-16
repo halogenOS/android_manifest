@@ -177,7 +177,6 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8750/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
   </project>
   <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom-caf_msm8953_audio" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-23.0-caf-msm8953" />
