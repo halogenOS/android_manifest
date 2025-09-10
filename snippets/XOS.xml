@@ -146,10 +146,7 @@
   <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_sm7250_display#lineage-23.0" />
   <project path="hardware/qcom/sm7250/gps" name="android_hardware_qcom_sm7250_gps" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_sm7250_gps#lineage-23.0" />
   <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_display#lineage-23.0" />
-  <project path="hardware/qcom/sm8150/gps" name="android_hardware_qcom_sm8150_gps" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_gps#lineage-23.0" >
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
-  </project>
+  <project path="hardware/qcom/sm8150/gps" name="android_hardware_qcom_sm8150_gps" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_gps#lineage-23.0" />
 
   <!-- CLO -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy#lineage-23.0" />
@@ -175,7 +172,6 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
