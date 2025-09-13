@@ -45,6 +45,7 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_e2fsprogs#lineage-23.0" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk#lineage-23.0" />
   <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh#lineage-23.0" />
+  <project path="external/rust/crabbyavif" name="android_external_rust_crabbyavif" remote="XOS" merge-aosp="true" />
   <project path="external/seedvault-chunker" name="android_external_seedvault-chunker" remote="XOS" upstream="https://github.com/GrapheneOS/seedvault-chunker|main" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_tinycompress#lineage-23.0" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="XOS" merge-aosp="true" />
