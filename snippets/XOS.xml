@@ -134,25 +134,25 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_native#lineage-22.2" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_ant_service#lineage-22.2" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="XOS" upstream="https://android.googlesource.com/platform/external/tinyxml#tag#android-11.0.0_r46" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-22.2" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bt#lineage-22.2" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-23.0" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_bt#lineage-23.0" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_camera#lineage-22.2" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_data_ipacfg-mgr#lineage-22.2" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_data_ipacfg-mgr#lineage-23.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-22.2" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_gps#lineage-22.2" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_gps#lineage-23.0" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media#lineage-22.2" />
-  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sdm845_display#lineage-22.2" />
-  <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sdm845_gps#lineage-22.2" >
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_sdm845_display#lineage-23.0" />
+  <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_sdm845_gps#lineage-23.0" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
   </project>
-  <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm7250_display#lineage-22.2" />
-  <project path="hardware/qcom/sm7250/gps" name="android_hardware_qcom_sm7250_gps" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm7250_gps#lineage-22.2" >
+  <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_sm7250_display#lineage-23.0" />
+  <project path="hardware/qcom/sm7250/gps" name="android_hardware_qcom_sm7250_gps" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_sm7250_gps#lineage-23.0" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
   </project>
-  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_display#lineage-22.2" />
-  <project path="hardware/qcom/sm8150/gps" name="android_hardware_qcom_sm8150_gps" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_gps#lineage-22.2" >
+  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_display#lineage-23.0" />
+  <project path="hardware/qcom/sm8150/gps" name="android_hardware_qcom_sm8150_gps" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_gps#lineage-23.0" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
   </project>
@@ -164,7 +164,7 @@
   <project path="device/qcom/sepolicy_vndr/sm8450" name="android_device_qcom_sepolicy_vndr_sm8450" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr#lineage-23.0-caf-sm8450" />
   <project path="device/qcom/sepolicy_vndr/sm8550" name="android_device_qcom_sepolicy_vndr_sm8550" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr#lineage-23.0-caf-sm8550" />
   <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr_sm8650" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr#lineage-23.0-caf-sm8650" />
-  <project path="device/qcom/sepolicy_vndr/sm8750" name="android_device_qcom_sepolicy_vndr_sm8750" remote="XOS" revision="XOS-16.0.2" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr#lineage-22.2-caf-sm8750" />
+  <project path="device/qcom/sepolicy_vndr/sm8750" name="android_device_qcom_sepolicy_vndr_sm8750" remote="XOS" revision="XOS-16.0.3" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr#lineage-23.0-caf-sm8750" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_external_ant-wireless_hidl#lineage-23.0" />
   <project path="external/json-c" name="android_external_json-c" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_external_json-c#lineage-23.0" />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom-caf_bootctrl" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_bootctrl#lineage-23.0-caf" />
@@ -199,21 +199,21 @@
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8750/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
   </project>
-  <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom-caf_msm8953_audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-22.2-caf-msm8953" />
-  <project path="hardware/qcom-caf/msm8953/display" name="android_hardware_qcom-caf_msm8953_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-22.2-caf-msm8953" />
-  <project path="hardware/qcom-caf/msm8953/media" name="android_hardware_qcom-caf_msm8953_media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media#lineage-22.2-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom-caf_msm8953_audio" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-23.0-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8953/display" name="android_hardware_qcom-caf_msm8953_display" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-23.0-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8953/media" name="android_hardware_qcom-caf_msm8953_media" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_media#lineage-23.0-caf-msm8953" />
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom-caf_msm8996_audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-22.2-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom-caf_msm8996_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-22.2-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom-caf_msm8996_media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media#lineage-22.2-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom-caf_msm8998_audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-22.2-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom-caf_msm8998_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-22.2-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom-caf_msm8998_media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media#lineage-22.2-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom-caf_msm8998_audio" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-23.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom-caf_msm8998_display" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-23.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom-caf_msm8998_media" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_media#lineage-23.0-caf-msm8998" />
   <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-23.0-caf-sdm660" />
   <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-23.0-caf-sdm660" />
   <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_sdm660_media" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_media#lineage-23.0-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom-caf_sdm845_audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-22.2-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom-caf_sdm845_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-22.2-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom-caf_sdm845_media" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_media#lineage-22.2-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom-caf_sdm845_audio" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-23.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom-caf_sdm845_display" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-23.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom-caf_sdm845_media" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_media#lineage-23.0-caf-sdm845" />
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom-caf_sm8150_audio" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-23.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom-caf_sm8150_display" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-23.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom-caf_sm8150_media" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_media#lineage-23.0-caf-sm8150" />
@@ -242,15 +242,15 @@
   <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="android_hardware_qcom-caf_sm8650_data-ipa-cfg-mgr" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr#lineage-23.0-caf-sm8650" />
   <project path="hardware/qcom-caf/sm8650/dataipa" name="android_hardware_qcom-caf_sm8650_dataipa" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa#lineage-23.0-caf-sm8650" />
   <project path="hardware/qcom-caf/sm8650/display" name="android_hardware_qcom-caf_sm8650_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-23.0-caf-sm8650" revision="XOS-16.0.1" />
-  <project path="hardware/qcom-caf/sm8750/audio/agm" name="android_hardware_qcom-caf_sm8750_audio_agm" remote="XOS" revision="XOS-16.0.2" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_agm#lineage-22.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/audio/graphservices" name="android_hardware_qcom-caf_sm8750_audio_graphservices" remote="XOS" revision="XOS-16.0.2" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices#lineage-22.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/audio/pal" name="android_hardware_qcom-caf_sm8750_audio_pal" remote="XOS" revision="XOS-16.0.2" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx#lineage-22.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/audio/primary-hal" name="android_hardware_qcom-caf_sm8750_audio_primary-hal" remote="XOS" revision="XOS-16.0.2" upstream="https://github.com/LineageOS/android_hardware_qcom_audio-ar#lineage-22.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/data-ipa-cfg-mgr" name="android_hardware_qcom-caf_sm8750_data-ipa-cfg-mgr" remote="XOS" revision="XOS-16.0.2" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr#lineage-22.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/dataipa" name="android_hardware_qcom-caf_sm8750_dataipa" remote="XOS" revision="XOS-16.0.2" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa#lineage-22.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/display/core" name="android_hardware_qcom-caf_sm8750_display_core" remote="XOS" revision="XOS-16.0.2" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display-core#lineage-22.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/display/hal" name="android_hardware_qcom-caf_sm8750_display_hal" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-22.2-caf-sm8750" revision="XOS-16.0.2" />
-  <project path="hardware/qcom-caf/sm8750/display/intf" name="android_hardware_qcom-caf_sm8750_display_intf" remote="XOS" revision="XOS-16.0.2" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf#lineage-22.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/audio/agm" name="android_hardware_qcom-caf_sm8750_audio_agm" remote="XOS" revision="XOS-16.0.3" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_agm#lineage-23.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/audio/graphservices" name="android_hardware_qcom-caf_sm8750_audio_graphservices" remote="XOS" revision="XOS-16.0.3" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices#lineage-23.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/audio/pal" name="android_hardware_qcom-caf_sm8750_audio_pal" remote="XOS" revision="XOS-16.0.3" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx#lineage-23.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/audio/primary-hal" name="android_hardware_qcom-caf_sm8750_audio_primary-hal" remote="XOS" revision="XOS-16.0.3" upstream="https://github.com/LineageOS/android_hardware_qcom_audio-ar#lineage-23.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/data-ipa-cfg-mgr" name="android_hardware_qcom-caf_sm8750_data-ipa-cfg-mgr" remote="XOS" revision="XOS-16.0.3" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr#lineage-23.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/dataipa" name="android_hardware_qcom-caf_sm8750_dataipa" remote="XOS" revision="XOS-16.0.3" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa#lineage-23.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/display/core" name="android_hardware_qcom-caf_sm8750_display_core" remote="XOS" revision="XOS-16.0.3" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display-core#lineage-23.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/display/hal" name="android_hardware_qcom-caf_sm8750_display_hal" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-23.0-caf-sm8750" revision="XOS-16.0.3" />
+  <project path="hardware/qcom-caf/sm8750/display/intf" name="android_hardware_qcom-caf_sm8750_display_intf" remote="XOS" revision="XOS-16.0.3" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf#lineage-23.0-caf-sm8750" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom-caf_thermal" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_thermal#lineage-23.0" />
   <project path="hardware/qcom-caf/thermal-legacy-um" name="android_hardware_qcom-caf_thermal-legacy-um" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_thermal#lineage-23.0-legacy-um" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="XOS" revision="XOS-16.0.1" upstream="https://github.com/LineageOS/android_hardware_qcom_wlan#lineage-23.0-caf" />
