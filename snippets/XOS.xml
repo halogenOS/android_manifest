@@ -125,6 +125,7 @@
   <project path="system/security" name="android_system_security" remote="XOS" merge-aosp="true" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" merge-aosp="true" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="XOS" merge-aosp="true" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="XOS" merge-aosp="true" />
   <project path="system/vold" name="android_system_vold" remote="XOS" merge-aosp="true" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="XOS" upstream="https://github.com/LineageOS/android_tools_extract-utils#lineage-23.0" clone-depth="1" />
   <project path="tools/metalava" name="android_tools_metalava" remote="XOS" merge-aosp="true" />
