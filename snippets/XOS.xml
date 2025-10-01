@@ -36,9 +36,9 @@
     <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
     <linkfile src="README" dest="external/chromium-webview/README" />
   </project>
-  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" remote="XOS" clone-depth="1" revision="XOS-16.0.2" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm|main" />
-  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="XOS" clone-depth="1" revision="XOS-16.0.2" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64|main" />
-  <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" remote="XOS" clone-depth="1" revision="XOS-16.0.2" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64|main" />
+  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" remote="XOS" clone-depth="1" revision="XOS-16.0.3" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm|main" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="XOS" clone-depth="1" revision="XOS-16.0.3" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64|main" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" remote="XOS" clone-depth="1" revision="XOS-16.0.3" upstream="https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64|main" />
   <project path="external/custom-fonts" name="android_external_custom-fonts" remote="XOS" />
   <project path="external/custom-preference" name="android_external_custom-preference" remote="XOS" />
   <project path="external/dtc" name="android_external_dtc" merge-aosp="true" remote="XOS" upstream="https://github.com/LineageOS/android_external_dtc#lineage-23.0" />
