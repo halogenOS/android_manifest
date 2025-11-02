@@ -74,6 +74,7 @@
   <remove-project path="system/media" name="platform/system/media" groups="pdk" />
   <remove-project path="system/security" name="platform/system/security" groups="pdk" />
   <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
+  <remove-project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
   <remove-project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="pdk" />
   <remove-project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
   <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
