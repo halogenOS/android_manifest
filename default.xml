@@ -1042,6 +1042,7 @@
   </project>
   <!-- END open-source projects -->
 
+  <include name="snippets/aosp-remove.xml" />
   <include name="snippets/remove.xml" />
   <include name="snippets/XOS.xml" />
 </manifest>
