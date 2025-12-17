@@ -8,6 +8,7 @@
     revision="refs/heads/XOS-16.2"
   />
 
+  <project path="external/custom-fonts" name="android_external_custom-fonts" remote="XOS" upstream="https://git.halogenos.org/halogenOS/android_external_custom-fonts#XOS-16.0" />
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="devshell/toplevel.envrc" dest=".envrc" />
   </project>
