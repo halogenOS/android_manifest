@@ -8,6 +8,7 @@
 
   <!-- Replaced by tracked repository (see XOS.xml) -->
   <remove-project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
+  <remove-project path="external/zstd" name="platform/external/zstd" groups="pdk" />
   <remove-project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
