@@ -8,12 +8,25 @@
     revision="refs/heads/XOS-16.2"
   />
 
+  <project path="build/make" name="android_build_make" remote="XOS" merge-aosp="true">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="XOS" merge-aosp="true">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="XOS" merge-aosp="true" />
   <project path="external/custom-fonts" name="android_external_custom-fonts" remote="XOS" />
   <project path="external/zstd" name="android_external_zstd" remote="XOS" upstream="https://github.com/LineageOS/android_external_zstd#lineage-23.2" />
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="devshell/toplevel.envrc" dest=".envrc" />
   </project>
+  <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="XOS" merge-aosp="true" />
