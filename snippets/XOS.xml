@@ -30,6 +30,7 @@
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="XOS" merge-aosp="true" />
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_google_pixel#lineage-23.2" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Aperture#lineage-23.2" />
