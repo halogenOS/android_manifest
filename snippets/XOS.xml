@@ -21,18 +21,20 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="XOS" merge-aosp="true" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy#lineage-23.2" />
   <project path="external/custom-fonts" name="android_external_custom-fonts" remote="XOS" />
-  <project path="external/zstd" name="android_external_zstd" remote="XOS" upstream="https://github.com/LineageOS/android_external_zstd#lineage-23.2" />
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="devshell/toplevel.envrc" dest=".envrc" />
   </project>
+  <project path="external/zstd" name="android_external_zstd" remote="XOS" upstream="https://github.com/LineageOS/android_external_zstd#lineage-23.2" />
   <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="XOS" merge-aosp="true" />
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_google_pixel#lineage-23.2" />
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat#lineage-23.2" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces#lineage-23.2" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Aperture#lineage-23.2" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="XOS" upstream="https://github.com/yaap/packages_apps_Contacts|staging/android16" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="XOS" upstream="https://gitlab.com/CalyxOS/platform_packages_apps_DeskClock|sixteen" />
@@ -45,26 +47,12 @@
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="XOS" upstream="https://github.com/GrapheneOS/platform_packages_apps_Seedvault#16-qpr2" />
   <project path="packages/apps/Wallpapers" name="android_packages_apps_Wallpapers" remote="XOS" />
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" />
-  <project path="platform_testing" name="android_platform_testing" remote="XOS" merge-aosp="true" />
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" />
+  <project path="platform_testing" name="android_platform_testing" remote="XOS" merge-aosp="true" />
   <project path="product/halogenOS" name="android_product_halogenOS" remote="XOS" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" merge-aosp="true" />
 
-  <!-- LineageOS hardware support -->
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy#lineage-23.2" />
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat#lineage-23.2" />
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces#lineage-23.2" />
-
-  <!-- QCOM support -->
-  <project path="external/tinyxml" name="android_external_tinyxml" remote="XOS" upstream="https://android.googlesource.com/platform/external/tinyxml#tag#android-11.0.0_r46" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-23.2" />
-  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sdm845_display#lineage-23.2" />
-  <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sdm845_gps#lineage-23.2" />
-  <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm7250_display#lineage-23.2" />
-  <project path="hardware/qcom/sm7250/gps" name="android_hardware_qcom_sm7250_gps" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm7250_gps#lineage-23.2" />
-  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_display#lineage-23.2" />
-  <project path="hardware/qcom/sm8150/gps" name="android_hardware_qcom_sm8150_gps" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_gps#lineage-23.2" />
-
-  <!-- CLO -->
+  <!-- QCOM/CLO -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy#lineage-23.2" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy#lineage-23.2-legacy-um" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="android_device_qcom_sepolicy_vndr_legacy-um" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr#lineage-23.2-legacy-um" />
@@ -74,6 +62,14 @@
   <project path="device/qcom/sepolicy_vndr/sm8750" name="android_device_qcom_sepolicy_vndr_sm8750" remote="XOS" upstream="https://github.com/LineageOS/android_device_qcom_sepolicy_vndr#lineage-23.2-caf-sm8750" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="XOS" upstream="https://github.com/LineageOS/android_external_ant-wireless_hidl#lineage-23.2" />
   <project path="external/json-c" name="android_external_json-c" remote="XOS" upstream="https://github.com/LineageOS/android_external_json-c#lineage-23.2" />
+  <project path="external/tinyxml" name="android_external_tinyxml" remote="XOS" upstream="https://android.googlesource.com/platform/external/tinyxml#tag#android-11.0.0_r46" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio#lineage-23.2" />
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sdm845_display#lineage-23.2" />
+  <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sdm845_gps#lineage-23.2" />
+  <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm7250_display#lineage-23.2" />
+  <project path="hardware/qcom/sm7250/gps" name="android_hardware_qcom_sm7250_gps" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm7250_gps#lineage-23.2" />
+  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_display#lineage-23.2" />
+  <project path="hardware/qcom/sm8150/gps" name="android_hardware_qcom_sm8150_gps" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_sm8150_gps#lineage-23.2" />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom-caf_bootctrl" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bootctrl#lineage-23.2-caf" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom-caf_bt" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_bt#lineage-23.2-caf" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom-caf_common#lineage-23.2">
@@ -149,12 +145,12 @@
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal#lineage-23.2" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar#lineage-23.2" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar-legacy" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar-legacy" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar#lineage-23.2-legacy" />
-  <project path="vendor/qcom/opensource/commonsys-intf/audio" name="android_vendor_qcom_opensource_commonsys-intf_audio" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf#lineage-23.2" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf#lineage-23.2" />
   <project path="vendor/qcom/opensource/commonsys/audio" name="android_vendor_qcom_opensource_commonsys_audio" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio#lineage-23.2" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_commonsys_display" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys#lineage-23.2" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="android_vendor_qcom_opensource_commonsys_fm" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys#lineage-23.2" />
   <project path="vendor/qcom/opensource/commonsys/wfd" name="android_vendor_qcom_opensource_commonsys_wfd" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_wfd-commonsys#lineage-23.2" />
+  <project path="vendor/qcom/opensource/commonsys-intf/audio" name="android_vendor_qcom_opensource_commonsys-intf_audio" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf#lineage-23.2" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf#lineage-23.2" />
   <project path="vendor/qcom/opensource/core-utils-sys" name="android_vendor_qcom_opensource_core-utils-sys" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_core-utils-sys#lineage-23.2" />
   <project path="vendor/qcom/opensource/core-utils-vendor" name="android_vendor_qcom_opensource_core-utils-vendor" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_core-utils-vendor#lineage-23.2" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr#lineage-23.2-legacy-um" />
