@@ -32,6 +32,7 @@
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="XOS" merge-aosp="true" />
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_google_pixel#lineage-23.2" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="XOS" merge-aosp="true" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat#lineage-23.2" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces#lineage-23.2" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
@@ -45,6 +46,7 @@
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="XOS" upstream="https://github.com/LineageOS/android_packages_apps_Jelly#lineage-23.2" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="XOS" upstream="https://github.com/GrapheneOS/platform_packages_apps_Seedvault#16-qpr2" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Wallpapers" name="android_packages_apps_Wallpapers" remote="XOS" />
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" />
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" />
@@ -163,5 +165,9 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_thermal-engine#lineage-23.2" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_usb#lineage-23.2" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator#lineage-23.2" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/kernel-build-tools" name="android_prebuilts_kernel-build-tools" remote="XOS" upstream="https://android.googlesource.com/kernel/prebuilts/build-tools#main-kernel-2025" clone-depth="1" />
+  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="XOS" upstream="https://github.com/LineageOS/android_prebuilts_tools-lineage#lineage-23.2" clone-depth="1" />
 
 </manifest>
