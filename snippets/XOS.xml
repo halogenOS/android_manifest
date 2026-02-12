@@ -8,6 +8,10 @@
     revision="refs/heads/XOS-16.2"
   />
 
+  <project path="art" name="android_art" remote="XOS" merge-aosp="true" />
+  <project path="bionic" name="android_bionic" remote="XOS" merge-aosp="true" />
+  <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" remote="XOS" merge-aosp="true" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="XOS" merge-aosp="true" />
   <project path="build/make" name="android_build_make" remote="XOS" merge-aosp="true">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -23,10 +27,14 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="XOS" merge-aosp="true" />
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="XOS" upstream="https://github.com/LineageOS/android_device_lineage_sepolicy#lineage-23.2" />
   <project path="external/custom-fonts" name="android_external_custom-fonts" remote="XOS" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_e2fsprogs#lineage-23.2" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk#lineage-23.2" />
+  <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh#lineage-23.2" />
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="devshell/toplevel.envrc" dest=".envrc" />
   </project>
   <project path="external/zstd" name="android_external_zstd" remote="XOS" upstream="https://github.com/LineageOS/android_external_zstd#lineage-23.2" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
   <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="XOS" merge-aosp="true" />
@@ -52,6 +60,7 @@
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" />
   <project path="platform_testing" name="android_platform_testing" remote="XOS" merge-aosp="true" />
   <project path="product/halogenOS" name="android_product_halogenOS" remote="XOS" />
+  <project path="system/core" name="android_system_core" remote="XOS" merge-aosp="true" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="XOS" merge-aosp="true" />
 
   <!-- QCOM/CLO -->

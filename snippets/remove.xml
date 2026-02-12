@@ -7,10 +7,18 @@
 <manifest>
 
   <!-- Replaced by tracked repository (see XOS.xml) -->
+  <remove-project path="art" name="platform/art" groups="pdk" />
+  <remove-project path="bionic" name="platform/bionic" groups="pdk" />
+  <remove-project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" />
+  <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <remove-project path="build/make" name="platform/build" groups="pdk,sysui-studio" />
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed,sysui-studio" />
   <remove-project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
+  <remove-project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <remove-project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
+  <remove-project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <remove-project path="external/zstd" name="platform/external/zstd" groups="pdk" />
+  <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <remove-project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" />
@@ -23,6 +31,7 @@
   <remove-project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <remove-project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
+  <remove-project path="system/core" name="platform/system/core" groups="pdk" />
   <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
 
 </manifest>
