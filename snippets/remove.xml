@@ -43,6 +43,7 @@
   <remove-project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <remove-project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
+  <remove-project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth" groups="pdk" />
   <remove-project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <remove-project path="libcore" name="platform/libcore" groups="pdk" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
