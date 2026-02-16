@@ -69,6 +69,9 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="XOS" upstream="https://github.com/GrapheneOS/platform_packages_apps_Seedvault#16-qpr2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/Wallpapers" name="android_packages_apps_Wallpapers" remote="XOS" />
   <project path="packages/overlays/Custom" name="android_packages_overlays_Custom" remote="XOS" />
   <project path="packages/overlays/accents" name="android_packages_overlays_accents" remote="XOS" />
