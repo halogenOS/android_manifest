@@ -49,6 +49,7 @@
   <remove-project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" groups="pdk-fs,sysui-studio" />
   <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <remove-project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth" groups="pdk" />
+  <remove-project path="packages/modules/Connectivity" name="platform/packages/modules/Connectivity" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <remove-project path="libcore" name="platform/libcore" groups="pdk" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
