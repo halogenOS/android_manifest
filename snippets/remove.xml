@@ -53,6 +53,7 @@
   <remove-project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <remove-project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <remove-project path="libcore" name="platform/libcore" groups="pdk" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
