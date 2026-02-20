@@ -57,7 +57,18 @@
   <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <remove-project path="libcore" name="platform/libcore" groups="pdk" />
+  <remove-project path="system/chre" name="platform/system/chre" groups="pdk" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
+  <remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <remove-project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
+  <remove-project path="system/libhidl" name="platform/system/libhidl" groups="pdk,sysui-studio" />
+  <remove-project path="system/media" name="platform/system/media" groups="pdk" />
+  <remove-project path="system/security" name="platform/system/security" groups="pdk" />
   <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
+  <remove-project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
+  <remove-project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="pdk" />
+  <remove-project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
+  <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <remove-project path="tools/metalava" name="platform/tools/metalava" groups="pdk,tools" />
 
 </manifest>
