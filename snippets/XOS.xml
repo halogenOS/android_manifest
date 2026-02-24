@@ -64,6 +64,7 @@
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="XOS" merge-aosp="true" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="XOS" merge-aosp="true" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="XOS" merge-aosp="true" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="XOS" merge-aosp="true" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="XOS" merge-aosp="true" />
   <project path="system/chre" name="android_system_chre" remote="XOS" merge-aosp="true" />
   <project path="system/extras" name="android_system_extras" remote="XOS" merge-aosp="true" />
