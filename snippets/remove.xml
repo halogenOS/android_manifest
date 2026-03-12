@@ -37,7 +37,8 @@
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <remove-project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
-  <remove-project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts,sysui-studio" />
+  <remove-project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
+  <remove-project path="libcore" name="platform/libcore" groups="pdk" />
   <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
   <remove-project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
   <remove-project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
@@ -60,8 +61,7 @@
   <remove-project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
-  <remove-project path="libcore" name="platform/libcore" groups="pdk" />
+  <remove-project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts,sysui-studio" />
   <remove-project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk,sysui-studio" />
   <remove-project path="system/chre" name="platform/system/chre" groups="pdk" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
