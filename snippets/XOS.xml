@@ -58,6 +58,7 @@
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_compat#lineage-23.2" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_lineage_interfaces#lineage-23.2" />
   <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="XOS" />
+  <project path="hardware/st/nfc" name="android_hardware_st_nfc" remote="XOS" merge-aosp="true" />
   <project path="kernel/configs" name="android_kernel_configs" remote="XOS" merge-aosp="true" />
   <project path="libcore" name="android_libcore" remote="XOS" merge-aosp="true" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />

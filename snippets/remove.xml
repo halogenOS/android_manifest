@@ -37,6 +37,7 @@
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <remove-project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
+  <remove-project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" />
   <remove-project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <remove-project path="libcore" name="platform/libcore" groups="pdk" />
   <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
