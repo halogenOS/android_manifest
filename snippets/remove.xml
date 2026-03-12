@@ -62,6 +62,7 @@
   <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <remove-project path="libcore" name="platform/libcore" groups="pdk" />
+  <remove-project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk,sysui-studio" />
   <remove-project path="system/chre" name="platform/system/chre" groups="pdk" />
   <remove-project path="system/core" name="platform/system/core" groups="pdk" />
   <remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
