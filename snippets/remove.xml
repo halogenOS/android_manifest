@@ -78,6 +78,7 @@
   <remove-project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="pdk" />
   <remove-project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
   <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <remove-project path="tools/asuite" name="platform/tools/asuite" groups="pdk,sysui-studio" />
   <remove-project path="tools/metalava" name="platform/tools/metalava" groups="pdk,tools" />
 
 </manifest>
