@@ -48,6 +48,7 @@
   <project path="external/zstd" name="android_external_zstd" remote="XOS" upstream="https://github.com/LineageOS/android_external_zstd#lineage-23.2" />
   <project path="frameworks/av" name="android_frameworks_av" remote="XOS" merge-aosp="true" />
   <project path="frameworks/base" name="android_frameworks_base" remote="XOS" merge-aosp="true" />
+  <project path="frameworks/custom/interfaces" name="android_frameworks_custom_interfaces" remote="XOS" />
   <project path="frameworks/native" name="android_frameworks_native" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="XOS" merge-aosp="true" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="XOS" merge-aosp="true" />
