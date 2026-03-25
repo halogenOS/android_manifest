@@ -29,6 +29,7 @@
   <remove-project path="external/zstd" name="platform/external/zstd" groups="pdk" />
   <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk,sysui-studio" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <remove-project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <remove-project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk,sysui-studio" />
