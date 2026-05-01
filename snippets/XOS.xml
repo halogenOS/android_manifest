@@ -155,6 +155,7 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450-6.6/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
@@ -185,6 +186,15 @@
   <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="android_hardware_qcom-caf_sm8450_audio_primary-hal" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio-ar#lineage-23.2-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="android_hardware_qcom-caf_sm8450_data-ipa-cfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr#lineage-23.2-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/display" name="android_hardware_qcom-caf_sm8450_display" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-23.2-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450-6.6/audio/agm" name="android_hardware_qcom-caf_sm8450-6.6_audio_agm" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_agm#lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/audio/graphservices" name="android_hardware_qcom-caf_sm8450-6.6_audio_graphservices" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices#lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/audio/pal" name="android_hardware_qcom-caf_sm8450-6.6_audio_pal" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx#lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/audio/primary-hal" name="android_hardware_qcom-caf_sm8450-6.6_audio_primary-hal" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_audio-ar#lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/data-ipa-cfg-mgr" name="android_hardware_qcom-caf_sm8450-6.6_data-ipa-cfg-mgr" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr#lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/dataipa" name="android_hardware_qcom-caf_sm8450-6.6_dataipa" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa#lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/display/core" name="android_hardware_qcom-caf_sm8450-6.6_display_core" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display-core#lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/display/hal" name="android_hardware_qcom-caf_sm8450-6.6_display_hal" remote="XOS" upstream="https://github.com/LineageOS/android_hardware_qcom_display#lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/display/intf" name="android_hardware_qcom-caf_sm8450-6.6_display_intf" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf#lineage-23.2-caf-sm8450-6.6" />
   <project path="hardware/qcom-caf/sm8550/audio/agm" name="android_hardware_qcom-caf_sm8550_audio_agm" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_agm#lineage-23.2-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/audio/graphservices" name="android_hardware_qcom-caf_sm8550_audio_graphservices" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices#lineage-23.2-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/audio/pal" name="android_hardware_qcom-caf_sm8550_audio_pal" remote="XOS" upstream="https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx#lineage-23.2-caf-sm8550" />
