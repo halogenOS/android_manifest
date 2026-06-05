@@ -12,6 +12,7 @@
   <remove-project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" />
   <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <remove-project path="build/make" name="platform/build" groups="pdk,sysui-studio" />
+  <remove-project path="build/release" name="platform/build/release" groups="pdk,tradefed,sysui-studio" />
   <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed,sysui-studio" />
   <remove-project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" />
   <remove-project path="device/generic/common" name="device/generic/common" groups="pdk" />
