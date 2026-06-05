@@ -70,6 +70,7 @@
   <project path="libcore" name="android_libcore" remote="XOS" merge-aosp="true" />
   <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="XOS" merge-aosp="true" />
+  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="XOS" merge-aosp="true" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/AppSearch" name="android_packages_modules_AppSearch" remote="XOS" merge-aosp="true" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="XOS" merge-aosp="true" />
