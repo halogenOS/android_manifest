@@ -42,6 +42,7 @@
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_gptfdisk#lineage-23.2" />
   <project path="external/libpng" name="android_external_libpng" remote="XOS" merge-aosp="true" />
   <project path="external/mksh" name="android_external_mksh" remote="XOS" merge-aosp="true" upstream="https://github.com/LineageOS/android_external_mksh#lineage-23.2" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="XOS" merge-aosp="true" />
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="devshell/toplevel.envrc" dest=".envrc" />
   </project>
