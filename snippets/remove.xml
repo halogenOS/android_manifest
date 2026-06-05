@@ -23,6 +23,7 @@
   <remove-project path="external/dtc" name="platform/external/dtc" groups="pdk" />
   <remove-project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <remove-project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
+  <remove-project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <remove-project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <remove-project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
