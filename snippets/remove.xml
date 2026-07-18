@@ -7,5 +7,6 @@
 <manifest>
 
   <!-- Replaced by tracked repository (see XOS.xml) -->
+  <remove-project path="build/make" name="platform/build" groups="pdk,sysui-studio" />
 
 </manifest>
