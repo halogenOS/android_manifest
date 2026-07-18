@@ -11,6 +11,9 @@
   <project path="external/xos" name="android_external_xos" remote="XOS">
     <linkfile src="devshell/toplevel.envrc" dest=".envrc" />
   </project>
-  <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
+  <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true">
+    <linkfile src="AGENTS.md" dest="AGENTS.md" />
+    <linkfile src="CLAUDE.md" dest="CLAUDE.md" />
+  </project>
 
 </manifest>
