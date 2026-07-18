@@ -8,4 +8,9 @@
     revision="refs/heads/XOS-17.0"
   />
 
+  <project path="external/xos" name="android_external_xos" remote="XOS">
+    <linkfile src="devshell/toplevel.envrc" dest=".envrc" />
+  </project>
+  <project path="manifest" name="android_manifest" remote="XOS" merge-aosp="true" />
+
 </manifest>
