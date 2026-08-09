@@ -3,8 +3,8 @@
 
   <remote
     name="XOS"
-    fetch="https://git.halogenos.org/halogenOS"
-    pushurl="git@git.halogenos.org:halogenOS"
+    fetch="https://github.com/halogenOS"
+    pushurl="git@github.com:halogenOS"
     revision="refs/heads/XOS-16.2"
   />
 
