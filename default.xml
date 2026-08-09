@@ -5,7 +5,8 @@
 <!-- Begin Remotes -->
 
   <remote name="XOS"
-	  fetch="https://github.com/halogenOS/"  
+	  fetch="https://github.com/halogenOS"
+	  pushurl="git@github.com:halogenOS"
  	  revision="refs/heads/XOS-6.0" />
 
   <remote name="TeamHalogen"
