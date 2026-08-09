@@ -2,8 +2,8 @@
 <manifest>
 
   <remote  name="XOS"
-           fetch="https://git.halogenos.org/halogenOS/"
-           review="https://review.halogenos.org/"
+           fetch="https://github.com/halogenOS"
+           pushurl="git@github.com:halogenOS"
            revision="XOS-9.0" />
 
   <!-- Bionic -->
