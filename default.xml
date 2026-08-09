@@ -6,8 +6,9 @@
 
   <remote name="XOS"
           revision="XOS-7.0"
-	  fetch="https://github.com/halogenOS/"  
-	  review="http://review.halogenos.org/" />
+	  fetch="https://github.com/halogenOS"
+	  pushurl="git@github.com:halogenOS"
+ />
 
   <remote name="caf" 
 	  fetch="https://source.codeaurora.org/quic/la/"
