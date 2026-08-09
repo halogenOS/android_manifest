@@ -13,7 +13,7 @@
 
   <remote  name="XOS"
            fetch="https://github.com/halogenOS"
-           review="https://review.halogenos.org"
+           pushurl="git@github.com:halogenOS"
            revision="XOS-8.0" />
 
   <default revision="refs/tags/android-8.0.0_r33"
