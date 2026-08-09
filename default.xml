@@ -5,8 +5,9 @@
 
   <remote name="XOS"
           revision="XOS-7.1"
-          fetch="https://github.com/halogenOS/"
-          review="https://review.halogenos.org/" />
+          fetch="https://github.com/halogenOS"
+          pushurl="git@github.com:halogenOS"
+ />
 
   <remote name="XOSgerrit"
           fetch="https://review.halogenos.org/" />
